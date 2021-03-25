@@ -1,0 +1,10 @@
+name: IDI-app
+title:
+username:
+account: tmelliott
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3849957
+bundleId: 4392734
+url: https://tmelliott.shinyapps.io/IDI-app/
+when: 1616661078.89902
