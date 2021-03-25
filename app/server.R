@@ -1,5 +1,5 @@
 library(DBI)
-con <- dbConnect(duckdb::duckdb(), "data/idi-info.db", read_only = TRUE)
+con <- dbConnect(duckdb::duckdb(), "idi-info.db", read_only = TRUE)
 
 get_table <- function(con, param) {
     dbGetQuery(con,
@@ -9,12 +9,7 @@ get_table <- function(con, param) {
 
 library(shiny)
 
-ui <- fluidPage(
-    textInput("param", "Search term:"),
-    tableOutput("table")
-)
-
-server <- function(input, output, session) {
+shinyServer(function(input, output, session) {
     dataset <- reactive({
         get_table(con, input$param)
     })
@@ -22,6 +17,4 @@ server <- function(input, output, session) {
     output$table <- renderTable({
         dataset()
     })
-}
-
-shinyApp(ui, server)
+})

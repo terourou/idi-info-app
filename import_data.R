@@ -23,7 +23,7 @@ table_data <- do.call(rbind, table_data)
 require("DBI")
 
 con <- dbConnect(duckdb::duckdb(),
-    "data/idi-info.db",
+    "app/idi-info.db",
     read_only = FALSE
 )
 dbWriteTable(con, "idi_vars", table_data)
