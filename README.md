@@ -7,3 +7,7 @@ The data is in a `duckdb` database. Simply run the app:
 # install.packages(c("shiny", "duckdb", "glue"))
 shiny::runApp('app')
 ```
+
+## To do:
+
+- [ ]
