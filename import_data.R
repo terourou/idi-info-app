@@ -28,3 +28,5 @@ con <- dbConnect(duckdb::duckdb(),
 )
 dbWriteTable(con, "idi_vars", table_data)
 dbDisconnect(con)
+
+write.csv(table_data, "data/clean.csv", quote = FALSE, row.names = FALSE)
