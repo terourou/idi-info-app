@@ -1,16 +1,28 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { useRouteMatch } from 'react-router'
 
-function Info() {
-  let match = useRouteMatch("/:table/:variable")
-  console.log(match)
+function Info({data}) {
 
-  let table = match.params.table
-  let variable = match.params.variable
+  const [info, setInfo] = useState({})
+
+  let match = useRouteMatch("/:table/:variable")
+
+
+  useEffect(() => {
+    let table = match.params.table
+    let variable = match.params.variable
+    const d = data.filter(d => d.table_name === table && d.variable_name === variable)
+    if (d.length) setInfo(d[0])
+  }, [data, match])
+
 
   return (
     <div>
-      <h1>{table}: {variable}</h1>
+      <ul>
+        <li>Table: {info?.table_name}</li>
+        <li>Variable: {info?.variable_name}</li>
+        <li>Vartype: {info?.variable_type}</li>
+      </ul>
     </div>
   )
 }
