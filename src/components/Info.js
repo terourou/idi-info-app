@@ -19,6 +19,9 @@ function Info({data}) {
   return (
     <div>
       <ul>
+        <li>Agency: {info?.agency}</li>
+        <li>Collection: {info?.collection}</li>
+        <li>Schema: {info?.schema}</li>
         <li>Table: {info?.table_name}</li>
         <li>Variable: {info?.variable_name}</li>
         <li>Vartype: {info?.variable_type}</li>

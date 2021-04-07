@@ -1,0 +1,32 @@
+Data collection,Agency,schema,from,to
+ACC Injury claims,ACC,acc_clean,claims,medical_codes
+Business Register,Multiple agencies,br_clean,enterprise,pbn_employee_count
+Childrens' Action Plan,Oranga Tamariki,cap_clean,assessment_review,service_outcome
+Census,Stats NZ,cen_clean,census_absentee_2013,census_unocc_dwelling_2013
+Sentencing and remand,Corrections,cor_clean,offender_aliases_all,ov_periods
+Border movements,Customs,cus_clean,journey,
+"Child, Youth and Family",Oranga Tamariki,cyf_clean,cyf_abuse_details,cyf_to_date
+Core Data,Stats NZ,data,address_notification,snz_res_pop
+Tenancy Bond,MBIE,dbh_clean,bond_lodgement,
+"Births, Deaths, Marriages, and Civil unions",DIA,dia_clean,births,marriages
+Immigration,MBIE,dol_clean,application_points,student_edprovider
+General Social Survey,Stats NZ,gss_clean,gss_household,gss_supp_2014
+Household Economic Survey,Stats NZ,hes_clean,hes_address,hes_relationship
+Household Labour Force Survey,Stats NZ,hlfs_clean,data,relationship
+Social housing,Kainga Ora,hnz_clean,houses_snapshot,transfer_applications_household
+Tax and income,IRD,ir_clean,ird_addresses,ird_tax_registrations
+Longitudinal immigration Survey of New Zealand,Stats NZ,lisnz_clean,addr_lived_at,srce_ctry_acty
+Metadata describing fields in other tables,Stats NZ,metadata,address_notification_date_exclusion,postshop
+Education and Training data,MOE,moe_clean,completion,tec_it_learner
+Health data,MOH,moh_clean,b4sc,pub_fund_hosp_dischareg_event
+Court charges,MOJ,moj_clean,charges,matching
+Benefits,MSD,msd_clean,msd_child,ref_msd_district_concordance
+NZ Crime and Victims Survey,MOJ,nzcvs_clean,core,module
+Drivers licence and motor vehicle registers,NZTA,nzta_clean,dlr_conditions,motor_vehicle_register
+Family Start Intervention programme,Oranga Tamariki,otfs_clean,otfs_client_identities,otfs_member_departure
+Recorded crime and investigations,NZ Police,pol_clean,nia_links,pre_court_victimisation
+Linkage and security tables,Stats NZ,security,concordance,spine_population
+Student loans and allowances,IRD,sla_clean,ird_amt_by_trn_type,slm_moe
+"Survey of Families, Income and Employment",Stats NZ,sofie_clean,amount_spells,wave_income
+Working for Families,IRD,wff_clean,fam_adjustments,spells
+Youth Services,Oranga Tamariki,yst_clean,yst_clients,yst_spells

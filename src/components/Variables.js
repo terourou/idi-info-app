@@ -68,9 +68,11 @@ function Variables({data}) {
   }, [term, data])
 
   const columns = [
-    { field: "table_name", title: "Table name" },
+    { field: "agency", title: "Agency" },
+    { field: "collection", title: "Collection" },
+    // { field: "table_name", title: "Table name" },
     { field: "variable_name", title: "Variable name" },
-    { field: "variable_type", title: "Variable type" },
+    // { field: "variable_type", title: "Variable type" },
   ]
   const tblactions = [
     {

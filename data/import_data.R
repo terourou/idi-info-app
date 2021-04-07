@@ -19,5 +19,41 @@ table_data <- lapply(seq_along(table_rows),
 )
 table_data <- do.call(rbind, table_data)
 
+## Remove some unwanted tables:
+delete_tables <- c("trace_xe_action_map", "trace_xe_event_map", "data_link", "dedup_mapping")
+table_data <- table_data[!table_data$table_name %in% delete_tables, ]
+
+## Additional data - will be merged with table_data
+data_collections <- read.csv("collection_info.csv")
+data_rows <- apply(data_collections, 1,
+    function(x) {
+        if (!x["from"] %in% table_data$table_name) return(c(NA, NA))
+        start <- min(which(table_data$table_name == x["from"]))
+        if (x["to"] == "" || !x["to"] %in% table_data$table_name)
+            x["to"] <- x["from"]
+        end <- max(which(table_data$table_name == x["to"]))
+        c(start, end)
+    }
+)
+data_collections[, c("from", "to")] <- t(data_rows)
+data_collections <- data_collections[!is.na(data_collections$from), ]
+
+table_data <- do.call(
+    rbind,
+    lapply(seq_len(nrow(data_collections)),
+        function(i) {
+            r <- data_collections[i, , drop = FALSE]
+            cbind(
+                agency = r$Agency,
+                collection = r$Data.collection,
+                schema = r$schema,
+                table_data[r$from:r$to, ]
+            )
+        }
+    )
+)
+
+
+## Write data to file:
 table_data <- cbind(id = seq_len(nrow(table_data)), table_data)
 write.csv(table_data, "../public/data.csv", quote = FALSE, row.names = FALSE)
