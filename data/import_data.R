@@ -1,4 +1,4 @@
-raw_file <- "data/IDI_vars.txt"
+raw_file <- "IDI_vars.txt"
 
 raw_data <- readLines(raw_file)
 
@@ -13,20 +13,11 @@ table_data <- lapply(seq_along(table_rows),
         name <- gsub(".*Table:[ ]+", "", data[name_row])
         results <- data[grepl("result:", data)]
         results <- stringr::str_match(results, "\\{result:(.+)\\}[ ]+([a-z]+)")[,2:3]
-        colnames(results) <- c("variable_name", "varable_type")
+        colnames(results) <- c("variable_name", "variable_type")
         as.data.frame(cbind(table_name = name, results))
     }
 )
 table_data <- do.call(rbind, table_data)
 
-# write tables to DB
-require("DBI")
-
-con <- dbConnect(duckdb::duckdb(),
-    "app/idi-info.db",
-    read_only = FALSE
-)
-dbWriteTable(con, "idi_vars", table_data)
-dbDisconnect(con)
-
-write.csv(table_data, "data/clean.csv", quote = FALSE, row.names = FALSE)
+table_data <- cbind(id = seq_len(nrow(table_data)), table_data)
+write.csv(table_data, "../public/data.csv", quote = FALSE, row.names = FALSE)
