@@ -70,7 +70,6 @@ const LeftPanel = styled.div`
   }
   @media (max-width: 800px) {
     width: 100%;
-    height: 50%;
   }
 `
 

@@ -120,7 +120,7 @@ const Container = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
-  @media(min-width: 600px) {
+  @media(min-width: 800px) {
     overflow-y: scroll;
   }
 `

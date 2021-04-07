@@ -39,10 +39,22 @@ function Info({data}) {
 
 export default Info
 
-const Container = styled.div``
+const Container = styled.div`
+  @media(max-width: 800px) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.2);
+    z-index: 10;
+    margin: 10px;
+  }
+`
 
 const Header = styled.div`
-  padding-bottom: 10px;
+  padding: 10px;
   margin-bottom: 10px;
   border-bottom: solid 1px lightgray;
   h4 > a {
