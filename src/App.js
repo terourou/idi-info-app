@@ -28,7 +28,10 @@ function App() {
     <Router>
       <Container>
         <LeftPanel>
-          <h1>What's in the IDI?</h1>
+          <Header>
+            <h1>What's in the IDI?</h1>
+            <p>Filter variables by searching below. Use commas for 'AND' matching.</p>
+          </Header>
           <Variables data={data} />
         </LeftPanel>
 
@@ -56,9 +59,16 @@ const Container = styled.div`
 
 const LeftPanel = styled.div`
   width: 40%;
+`
+
+const Header = styled.div`
+  padding: 10px;
 
   h1 {
-    margin: 10px;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 0.9em;
   }
 `
 

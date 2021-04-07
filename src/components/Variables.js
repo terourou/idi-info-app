@@ -1,5 +1,4 @@
 import React, { useState, useEffect, forwardRef } from 'react'
-// import { DataGrid } from '@material-ui/data-grid'
 import MaterialTable from 'material-table';
 import styled from 'styled-components'
 import { useHistory } from 'react-router'
@@ -46,31 +45,26 @@ function Variables({data}) {
   const history = useHistory()
 
   const [term, setTerm] = useState("")
-  // const [data, setData] = useState([])
   const [rows, setRows] = useState([])
 
-  // useEffect(() => {
-  //   readRemoteFile(
-  //     "/data.csv",
-  //     {
-  //       header: true,
-  //       complete: (results) => {
-  //         console.log("DATA LOADED")
-  //         setData(results.data.filter(row => row.variable_name))
-  //       }
-  //     }
-  //   )
-  // }, [])
-
-  // useEffect(() => {
-  //   setRows(data)
-  // }, [data])
-
   useEffect(() => {
-    const d = data.filter(row => {
-      return row.variable_name.match(term)
-    })
-    setRows(d)
+    if (term.length) {
+      const terms = term
+        .split(',')
+        .map((x) => x.trim())
+        .filter((x) => x.length)
+        .map((x) => "(?=.*" + x + ")")
+        .join("")
+
+      const reg = RegExp(terms)
+
+      const d = data
+        .filter(row => reg.test(row.variable_name))
+
+      setRows(d)
+    } else {
+      setRows(data)
+    }
   }, [term, data])
 
   const columns = [
@@ -86,7 +80,6 @@ function Variables({data}) {
     }
   ]
 
-
   function setVariable(row) {
     history.push(`/${row.table_name}/${row.variable_name}`)
   }
@@ -94,7 +87,6 @@ function Variables({data}) {
   const tabopts = {
     pageSize: 10,
     search: false,
-    // header: false,
     toolbar: false,
     actionsColumnIndex: -1,
   }
