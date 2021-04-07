@@ -117,10 +117,12 @@ function Variables({data}) {
 export default Variables
 
 const Container = styled.div`
+  flex: 1;
   display: flex;
   flex-direction: column;
-  height: 100%;
-  overflow: scroll;
+  @media(min-width: 600px) {
+    overflow-y: scroll;
+  }
 `
 
 const SearchContainer = styled.div`
@@ -146,8 +148,7 @@ const SearchContainer = styled.div`
 `
 
 const TableContainer = styled.div`
-  /* flex: 1;
-  display: flex; */
+  flex: 1;
   margin: 10px;
 `
 

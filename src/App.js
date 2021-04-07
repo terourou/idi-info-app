@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { readRemoteFile } from 'react-papaparse'
 
 import styled from 'styled-components';
-import './App.css'
 import Info from './components/Info';
 import Variables from './components/Variables';
 
@@ -41,7 +40,7 @@ function App() {
               <Info data={data} />
             </Route>
             <Route path="/">
-              <p>Search for terms on the left. Click the arrow to show details here.</p>
+              <p>Search for terms using the search box. Click the arrow to show details here.</p>
             </Route>
           </Switch>
         </RightPanel>
@@ -55,10 +54,24 @@ export default App;
 const Container = styled.div`
   display: flex;
   height: 100vh;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
 `
 
 const LeftPanel = styled.div`
   width: 40%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  @media (max-width: 1200px) {
+    width: 60%;
+  }
+  @media (max-width: 800px) {
+    width: 100%;
+    height: 50%;
+  }
 `
 
 const Header = styled.div`
@@ -75,5 +88,7 @@ const Header = styled.div`
 const RightPanel = styled.div`
   flex: 1;
   margin: 10px;
-  /* background: blue; */
+  @media (max-width: 800px) {
+    width: 100%;
+  }
 `
