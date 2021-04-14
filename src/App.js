@@ -37,8 +37,15 @@ function App() {
       {
         header: true,
         complete: (results) => {
-          console.log("DATA LOADED")
-          setData(results.data.filter(row => row.variable_name))
+
+          setData(
+            results.data
+              .filter(row => row.variable_name)
+              .map(row => ({
+                ...row,
+                agency_collection: row.agency + " / " + row.collection,
+              }))
+          )
         }
       }
     )

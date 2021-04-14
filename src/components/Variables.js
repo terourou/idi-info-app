@@ -19,6 +19,7 @@ import SaveAlt from '@material-ui/icons/SaveAlt';
 import Search from '@material-ui/icons/Search';
 import ViewColumn from '@material-ui/icons/ViewColumn';
 import { SearchOutlined } from '@material-ui/icons';
+import { Checkbox, FormControlLabel } from '@material-ui/core';
 
 const tableIcons = {
   Add: forwardRef((props, ref) => <AddBox {...props} ref={ref} />),
@@ -46,10 +47,13 @@ function Variables({data}) {
 
   const [term, setTerm] = useState("")
   const [rows, setRows] = useState([])
+  const [searchAgency, setSearchAgency] = useState(false)
+  const [searchVariable, setSearchVariable] = useState(true)
+  const [searchDescription, setSearchDescription] = useState(false)
 
   useEffect(() => {
     if (term.length) {
-      const terms = term
+      const terms = term.toLowerCase()
         .split(',')
         .map((x) => x.trim())
         .filter((x) => x.length)
@@ -59,17 +63,21 @@ function Variables({data}) {
       const reg = RegExp(terms)
 
       const d = data
-        .filter(row => reg.test(row.variable_name))
+        .filter(row => (
+          (searchAgency ? reg.test(row.agency.toLowerCase()) : false) ||
+          (searchVariable ? reg.test(row.variable_name.toLowerCase()) : false) ||
+          (searchDescription ? reg.test(row.description.toLowerCase()) : false)
+        ))
 
       setRows(d)
     } else {
       setRows(data)
     }
-  }, [term, data])
+  }, [term, data, searchAgency, searchVariable, searchDescription])
 
   const columns = [
-    { field: "agency", title: "Agency" },
-    { field: "collection", title: "Collection" },
+    { field: "agency_collection", title: "Agency / Collection" },
+    // { field: "collection", title: "Collection" },
     // { field: "table_name", title: "Table name" },
     { field: "variable_name", title: "Variable name" },
     // { field: "variable_type", title: "Variable type" },
@@ -97,14 +105,21 @@ function Variables({data}) {
     <Container>
       <SearchContainer>
         <SearchOutlined />
-        <input value={term} onChange={(e) => setTerm(e.target.value)}
+        <input value={term}
+          onChange={(e) => setTerm(e.target.value)}
           placeholder="Search ..."
          />
       </SearchContainer>
+      <SearchOptions>
+        <FormControlLabel control={<Checkbox checked={searchAgency} onChange={e => setSearchAgency(!searchAgency)} />} label="Agency / Collection" />
+        <FormControlLabel control={<Checkbox checked={searchVariable} onChange={e => setSearchVariable(!searchVariable)} />} label="Variable name" />
+        <FormControlLabel control={<Checkbox checked={searchDescription} onChange={e => setSearchDescription(!searchDescription)} />} label="Description" />
+      </SearchOptions>
 
       <TableContainer>
         <DataContainer>
           <MaterialTable title="" columns={columns} actions={tblactions}
+            onRowClick={(event, rowData) => setVariable(rowData)}
             data={rows} icons={tableIcons} options={tabopts}
             localization={{header:{actions:''}}}
             />
@@ -145,6 +160,10 @@ const SearchContainer = styled.div`
   input:focus {
     outline: none;
   }
+`
+
+const SearchOptions = styled.div`
+  padding: 0 1em;
 `
 
 const TableContainer = styled.div`
