@@ -28,6 +28,7 @@ function Info({data}) {
 
     setInfo({})
     setNotes([])
+    setNewNote("")
 
     let key = url_params.table + "_" + url_params.variable
     const unsubscribe = db.collection('details')
