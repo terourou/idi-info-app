@@ -30,7 +30,7 @@ function Info({data}) {
     setNotes([])
 
     let key = url_params.table + "_" + url_params.variable
-    db.collection('details')
+    const unsubscribe = db.collection('details')
       .doc(key)
       .collection('notes')
       .orderBy("timestamp", "desc")
@@ -48,6 +48,10 @@ function Info({data}) {
           )
         }
       )
+
+    return () => {
+      unsubscribe()
+    }
   }, [url_params, data])
 
   const addNewNote = (e) => {
