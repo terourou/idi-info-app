@@ -91,7 +91,7 @@ function Info({data}) {
             />
         ))}
 
-        { info.key &&
+        { info.key && false &&
           <NewNote>
             <InputContainer>
               <textarea type="text" placeholder="Add note (Markdown formatting supported) ..." value={newnote}
