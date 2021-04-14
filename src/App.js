@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { readRemoteFile } from 'react-papaparse';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import InfoOutlinedIcon from '@material-ui/icons/InfoOutlined'
 
 import styled from 'styled-components';
 import Info from './components/Info';
@@ -11,27 +12,10 @@ import Variables from './components/Variables';
 
 function App() {
 
+  const [first, setFirst] = useState(true)
   const [data, setData] = useState([])
 
   useEffect(() => {
-    // protobuf.load("/idi.proto", function(err, root) {
-    //   if (err)
-    //     throw err
-
-    //   const VariableList = root.lookupType("IDI.VariableList")
-    //   const Variable = root.lookupType("IDI.Variable")
-
-    //   // console.log(VariableList)
-    //   // const variables = VariableList.decode()
-    //   readFile("/data.pb", (err, data) => {
-    //     if (err) throw err
-    //     var reader = protobuf.Reader.create(data)
-    //     console.log(reader)
-    //   })
-
-    // })
-
-    // setData([])
 
     readRemoteFile(
       "/data.csv",
@@ -50,15 +34,24 @@ function App() {
         }
       }
     )
+
+    showInfo()
   }, [])
+
+  const showInfo = () => {
+    const el = document.getElementById("InstructionsContainer")
+    el.classList.add("visible")
+  }
 
   return (
     <Router>
       <Container>
         <LeftPanel>
           <Header>
-            <h1>What's in the IDI?</h1>
             <p>Filter variables by searching below. Use commas for 'AND' matching.</p>
+            <InfoOutlinedIcon
+              onClick={() => showInfo()}
+             />
           </Header>
           <Variables data={data} />
         </LeftPanel>
@@ -85,7 +78,7 @@ const Container = styled.div`
   height: 100vh;
 
   @media (max-width: 800px) {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 `
 
@@ -111,12 +104,28 @@ const Header = styled.div`
   p {
     font-size: 0.9em;
   }
+  .MuiSvgIcon-root {
+    display: none
+  }
+
+  @media (max-width: 800px) {
+    display: flex;
+    align-items: center;
+
+    p {
+      flex: 1;
+    }
+    .MuiSvgIcon-root {
+      display: inline;
+      padding-left: 10px;
+    }
+  }
 `
 
 const RightPanel = styled.div`
   flex: 1;
-  margin: 10px;
+
   @media (max-width: 800px) {
-    width: 100%;
+
   }
 `
