@@ -57,6 +57,7 @@ function Variables({data}) {
         .split(',')
         .map((x) => x.trim())
         .filter((x) => x.length)
+        // this is an AND search ... might need to allow for an OR search too
         .map((x) => "(?=.*" + x + ")")
         .join("")
 

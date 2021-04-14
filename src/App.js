@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import styled from 'styled-components';
 import Info from './components/Info';
+import Landing from './components/Landing';
 import Variables from './components/Variables';
 
 // var protobuf = require("protobufjs")
@@ -68,7 +69,7 @@ function App() {
               <Info data={data} />
             </Route>
             <Route path="/">
-              <p>Search for terms using the search box. Click the arrow to show details here.</p>
+              <Landing />
             </Route>
           </Switch>
         </RightPanel>
