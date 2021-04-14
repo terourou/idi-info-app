@@ -86,10 +86,10 @@ function Info({data}) {
             />
         ))}
 
-        { info.key && false &&
+        { info.key &&
           <NewNote>
             <InputContainer>
-              <textarea type="text" placeholder="Add note" value={newnote}
+              <textarea type="text" placeholder="Add note (Markdown formatting supported) ..." value={newnote}
                 onChange={e => setNewNote(e.target.value)} />
               <button type="submit" onClick={addNewNote}>Add note</button>
             </InputContainer>

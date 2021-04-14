@@ -1,6 +1,7 @@
 import PersonOutlineIcon from '@material-ui/icons/PersonOutline'
 import React from 'react'
 import styled from 'styled-components'
+import ReactMarkdown from 'react-markdown'
 
 function Note({text, timestamp, author}) {
   return (
@@ -13,7 +14,7 @@ function Note({text, timestamp, author}) {
         <Timestamp>{new Date(timestamp?.toDate()).toDateString()}</Timestamp>
       </Meta>
 
-      <Content>{text}</Content>
+      <Content><ReactMarkdown>{text}</ReactMarkdown></Content>
     </Container>
   )
 }

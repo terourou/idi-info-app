@@ -54,6 +54,30 @@ table_data <- do.call(
 )
 
 
-## Write data to file:
+## Read meta data and merge
+source("read_metadata.R") # returns `meta`
+
+table_data <- left_join(table_data, meta,
+    by = c("schema", "table_name", "variable_name")
+)
+
+## Add id column
 table_data <- cbind(id = seq_len(nrow(table_data)), table_data)
-write.csv(table_data, "../public/data.csv", quote = FALSE, row.names = FALSE)
+
+## Create Protobuf message:
+library(RProtoBuf)
+readProtoFiles("idi.proto")
+
+vars <- pbapply::pbapply(table_data, 1,
+    function(x) {
+        x <- as.list(x)
+        # x <- x[c("id", "schema", "table_name", "variable_name", "variable_type", "description")]
+        if (is.na(x$description)) x$description <- NULL
+        do.call(new, c(list(Class = IDI.Variable), x))
+    }
+)
+ididata <- new(IDI.VariableList, variables = vars)
+
+## Write data to file:
+write.csv(table_data, "../public/data.csv", quote = TRUE, row.names = FALSE)
+ididata$serialize("../public/data.pb")

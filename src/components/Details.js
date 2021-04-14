@@ -1,8 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import ReactMarkdown from 'react-markdown'
+
 function Details({info}) {
-  // console.log(info)
   return (
     <Container>
       <h1>{info.variable_name}</h1>
@@ -10,7 +11,9 @@ function Details({info}) {
       <p><strong>Agency:</strong> {info.agency}</p>
       <p><strong>Collection:</strong> {info.collection}</p>
 
-      <p>{info?.description}</p>
+      { info.description !== "NA" &&
+        <ReactMarkdown>{info.description}</ReactMarkdown>
+      }
 
       <h3>SQL Info</h3>
 

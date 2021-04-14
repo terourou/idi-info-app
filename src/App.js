@@ -1,16 +1,37 @@
 import { useEffect, useState } from 'react';
+import { readRemoteFile } from 'react-papaparse';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { readRemoteFile } from 'react-papaparse'
 
 import styled from 'styled-components';
 import Info from './components/Info';
 import Variables from './components/Variables';
+
+// var protobuf = require("protobufjs")
 
 function App() {
 
   const [data, setData] = useState([])
 
   useEffect(() => {
+    // protobuf.load("/idi.proto", function(err, root) {
+    //   if (err)
+    //     throw err
+
+    //   const VariableList = root.lookupType("IDI.VariableList")
+    //   const Variable = root.lookupType("IDI.Variable")
+
+    //   // console.log(VariableList)
+    //   // const variables = VariableList.decode()
+    //   readFile("/data.pb", (err, data) => {
+    //     if (err) throw err
+    //     var reader = protobuf.Reader.create(data)
+    //     console.log(reader)
+    //   })
+
+    // })
+
+    // setData([])
+
     readRemoteFile(
       "/data.csv",
       {

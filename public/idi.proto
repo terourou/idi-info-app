@@ -1,0 +1,17 @@
+syntax = "proto2";
+package IDI;
+
+message Variable {
+  required int32 id = 1;
+  required string agency = 2;
+  required string collection = 3;
+  required string schema = 4;
+  required string table_name = 5;
+  required string variable_name = 6;
+  required string variable_type = 7;
+  optional string description = 8;
+}
+
+message VariableList {
+  repeated Variable variables = 1;
+}
