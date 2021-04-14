@@ -12,7 +12,7 @@ import Variables from './components/Variables';
 
 function App() {
 
-  const [first, setFirst] = useState(true)
+  // const [first, setFirst] = useState(true)
   const [data, setData] = useState([])
 
   useEffect(() => {
