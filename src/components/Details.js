@@ -12,10 +12,13 @@ function Details({info}) {
       <p><strong>Collection:</strong> {info.collection}</p>
 
       { info.description !== "NA" &&
-        <ReactMarkdown>{info.description}</ReactMarkdown>
+        <Description>
+          <h4>Description:</h4>
+          <ReactMarkdown>{info.description}</ReactMarkdown>
+        </Description>
       }
 
-      <h3>SQL Info</h3>
+      <h4>SQL Info</h4>
 
       <p><strong>Schema:</strong> {info.schema}</p>
       <p><strong>Table:</strong> {info.table_name}</p>
@@ -33,11 +36,17 @@ const Container = styled.div`
   h1 {
     margin-bottom: 1em;
   }
-  h3 {
+  h4 {
     margin-top: 2em;
     margin-bottom: 0.6em;
   }
   p {
     margin-bottom: 0.5em;
+  }
+`
+
+const Description = styled.div`
+  p {
+    font-size: 0.9em;
   }
 `
