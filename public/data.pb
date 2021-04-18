@@ -3,8 +3,8 @@
 ?ACCACC Injury claims"	acc_clean*claims2snz_acc_uid:int
 HACCACC Injury claims"	acc_clean*claims2snz_employee_ird_uid:int
 JACCACC Injury claims"	acc_clean*claims2acc_cla_accident_date:date
-[ACCACC Injury claims"	acc_clean*claims2"acc_cla_accident_calendar_year_n..:smallint
-ZACCACC Injury claims"	acc_clean*claims2"acc_cla_claim_costs_to_date_ex_g..:decimal
+[ACCACC Injury claims"	acc_clean*claims2"acc_cla_accident_calendar_year_nbr:smallint
+^ACCACC Injury claims"	acc_clean*claims2&acc_cla_claim_costs_to_date_ex_gst_amt:decimal
 TACCACC Injury claims"	acc_clean*claims2acc_cla_tot_med_fee_paid_amt:decimal
 XACCACC Injury claims"	acc_clean*claims2 acc_cla_tot_weekly_comp_paid_amt:decimal
 U	ACCACC Injury claims"	acc_clean*claims2acc_cla_weekly_comp_days_nbr:smallint
@@ -14,22 +14,22 @@ SACCACC Injury claims"	acc_clean*claims2acc_cla_activity_prior_text:var
 JACCACC Injury claims"	acc_clean*claims2acc_cla_scene_text:varchar
 NACCACC Injury claims"	acc_clean*claims2acc_cla_road_accident_ind:char
 PACCACC Injury claims"	acc_clean*claims2acc_cla_road_agency_text:varchar
-ZACCACC Injury claims"	acc_clean*claims2"acc_cla_secondary_road_agency_te..:varchar
+ZACCACC Injury claims"	acc_clean*claims2"acc_cla_secondary_road_agency_text:varchar
 QACCACC Injury claims"	acc_clean*claims2acc_cla_injury_cause_text:varchar
 SACCACC Injury claims"	acc_clean*claims2acc_cla_injury_contact_text:varchar
 TACCACC Injury claims"	acc_clean*claims2acc_cla_external_agency_text:varchar
 VACCACC Injury claims"	acc_clean*claims2acc_cla_occupation_level1_text:varchar
 VACCACC Injury claims"	acc_clean*claims2acc_cla_occupation_level5_text:varchar
 NACCACC Injury claims"	acc_clean*claims2acc_cla_work_type_text:varchar
-ZACCACC Injury claims"	acc_clean*claims2"acc_cla_client_earner_status_tex..:varchar
+YACCACC Injury claims"	acc_clean*claims2!acc_cla_client_earner_status_text:varchar
 MACCACC Injury claims"	acc_clean*claims2snz_acc_claim_form_45_uid:int
 TACCACC Injury claims"	acc_clean*claims2acc_cla_accredited_employer_ind:char
-ZACCACC Injury claims"	acc_clean*claims2"acc_cla_wilful_self_inflicted_st..:varchar
+aACCACC Injury claims"	acc_clean*claims2)acc_cla_wilful_self_inflicted_status_text:varchar
 EACCACC Injury claims"	acc_clean*claims2snz_acc_claim_uid:int
 MACCACC Injury claims"	acc_clean*claims2acc_cla_decision_text:varchar
 QACCACC Injury claims"	acc_clean*claims2acc_cla_fund_account_text:varchar
 TACCACC Injury claims"	acc_clean*claims2acc_cla_age_at_accident_nbr:smallint
-WACCACC Injury claims"	acc_clean*claims2"acc_cla_wilful_self_inflicted_in..:date
+[ACCACC Injury claims"	acc_clean*claims2&acc_cla_wilful_self_inflicted_ind_date:date
 IACCACC Injury claims"	acc_clean*claims2acc_cla_fatal_ind:varchar
 S ACCACC Injury claims"	acc_clean*claims2acc_cla_gradual_process_ind:varchar
 K!ACCACC Injury claims"	acc_clean*claims2acc_cla_at_work_ind:varchar
@@ -40,14 +40,14 @@ L%ACCACC Injury claims"	acc_clean*claims2acc_cla_ethnic3_text:varchar
 W&ACCACC Injury claims"	acc_clean*claims2acc_cla_prioritised_ethnic_text:varchar
 K'ACCACC Injury claims"	acc_clean*claims2acc_cla_lodgement_date:date
 N(ACCACC Injury claims"	acc_clean*claims2acc_cla_registration_date:date
-Z)ACCACC Injury claims"	acc_clean*claims2"acc_cla_primary_injury_body_side..:varchar
+])ACCACC Injury claims"	acc_clean*claims2%acc_cla_primary_injury_body_side_text:varchar
 I*ACCACC Injury claims"	acc_clean*claims2acc_cla_read_code:varchar
 N+ACCACC Injury claims"	acc_clean*claims2acc_cla_read_code_text:varchar
 I,ACCACC Injury claims"	acc_clean*claims2acc_cla_ICD9_code:varchar
 J-ACCACC Injury claims"	acc_clean*claims2acc_cla_ICD10_code:varchar
 X.ACCACC Injury claims"	acc_clean*claims2 acc_cla_primary_injury_site_text:varchar
 V/ACCACC Injury claims"	acc_clean*claims2acc_cla_primary_diagnosis_text:varchar
-Z0ACCACC Injury claims"	acc_clean*claims2"acc_cla_primary_diagnosis_group_..:varchar
+\0ACCACC Injury claims"	acc_clean*claims2$acc_cla_primary_diagnosis_group_text:varchar
 O1ACCACC Injury claims"	acc_clean*claims2acc_cla_birth_month_nbr:tinyint
 O2ACCACC Injury claims"	acc_clean*claims2acc_cla_birth_year_nbr:smallint
 L3ACCACC Injury claims"	acc_clean*claims2acc_cla_sex_snz_code:varchar
@@ -63,7 +63,7 @@ M<ACCACC Injury claims"	acc_clean*claims2acc_cla_work_related_ind:char
 P=ACCACC Injury claims"	acc_clean*claims2acc_cla_ethnic1_snz_code:varchar
 P>ACCACC Injury claims"	acc_clean*claims2acc_cla_ethnic2_snz_code:varchar
 P?ACCACC Injury claims"	acc_clean*claims2acc_cla_ethnic3_snz_code:varchar
-Z@ACCACC Injury claims"	acc_clean*claims2"acc_cla_prioritised_ethnic_snz_c..:varchar
+[@ACCACC Injury claims"	acc_clean*claims2#acc_cla_prioritised_ethnic_snz_code:varchar
 OAACCACC Injury claims"	acc_clean*claims2acc_cla_ethnic_grp1_snz_ind:bit
 OBACCACC Injury claims"	acc_clean*claims2acc_cla_ethnic_grp2_snz_ind:bit
 OCACCACC Injury claims"	acc_clean*claims2acc_cla_ethnic_grp3_snz_ind:bit
@@ -86,7 +86,7 @@ QSACCACC Injury claims"	acc_clean*medical_codes2acc_med_ICD10_code:varch
 QTACCACC Injury claims"	acc_clean*medical_codes2acc_med_ICD10_text:varchar
 YUACCACC Injury claims"	acc_clean*medical_codes2acc_med_injury_diagnosis_code:char
 \VACCACC Injury claims"	acc_clean*medical_codes2acc_med_injury_diagnosis_text:varchar
-aWACCACC Injury claims"	acc_clean*medical_codes2"acc_med_injury_diagnosis_group_t..:varchar
+bWACCACC Injury claims"	acc_clean*medical_codes2#acc_med_injury_diagnosis_group_text:varchar
 VXACCACC Injury claims"	acc_clean*medical_codes2acc_med_primary_injury_ind:char
 QYACCACC Injury claims"	acc_clean*medical_codes2acc_med_accident_date:date
 [ZMultiple agenciesBusiness Register"br_clean*
@@ -1082,7 +1082,7 @@ d†CorrectionsSentencing and remand"	cor_clean*ov_major_mgmt_periods2cor_
 i°CorrectionsSentencing and remand"	cor_clean*ov_major_mgmt_periods2cor_mmp_prev_mmc_code:varchar
 i¢CorrectionsSentencing and remand"	cor_clean*ov_major_mgmt_periods2cor_mmp_next_mmc_code:varchar
 n£CorrectionsSentencing and remand"	cor_clean*ov_major_mgmt_periods2cor_mmp_index_offence_code:varchar
-r§CorrectionsSentencing and remand"	cor_clean*ov_major_mgmt_periods2"cor_mmp_imposed_sentence_length_..:int
+s§CorrectionsSentencing and remand"	cor_clean*ov_major_mgmt_periods2#cor_mmp_imposed_sentence_length_nbr:int
 f•CorrectionsSentencing and remand"	cor_clean*ov_major_mgmt_periods2cor_mmp_modified_date:date
 r¶CorrectionsSentencing and remand"	cor_clean*ov_major_mgmt_periods2cor_mmp_sentence_location_text:varchar
 RßCorrectionsSentencing and remand"	cor_clean*ov_major_periods2snz_uid:int
@@ -1101,7 +1101,7 @@ _≥CorrectionsSentencing and remand"	cor_clean*ov_major_periods2cor_mpe_m
 d¥CorrectionsSentencing and remand"	cor_clean*ov_major_periods2cor_mpe_prev_mmc_code:varchar
 dµCorrectionsSentencing and remand"	cor_clean*ov_major_periods2cor_mpe_next_mmc_code:varchar
 i∂CorrectionsSentencing and remand"	cor_clean*ov_major_periods2cor_mpe_index_offence_code:varchar
-m∑CorrectionsSentencing and remand"	cor_clean*ov_major_periods2"cor_mpe_imposed_sentence_length_..:int
+n∑CorrectionsSentencing and remand"	cor_clean*ov_major_periods2#cor_mpe_imposed_sentence_length_nbr:int
 a∏CorrectionsSentencing and remand"	cor_clean*ov_major_periods2cor_mpe_modified_date:date
 LπCorrectionsSentencing and remand"	cor_clean*
 ov_periods2snz_uid:int
@@ -2262,11 +2262,11 @@ r≠DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_b
 rÆDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_parent1_birth_month_nbr:tinyint
 rØDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_parent1_birth_year_nbr:smallint
 s∞DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2 dia_bir_parent1_birth_place_text:varchar
-q±DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2"dia_bir_parent1_snz_idi_address_..:int
+{±DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2,dia_bir_parent1_snz_idi_address_register_uid:int
 k≤DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_parent1_region_code:char
 g≥DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_parent1_ta_code:char
 n¥DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_parent1_meshblock_code:char
-uµDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2"dia_bir_parent1_meshblock_impute..:varchar
+xµDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2%dia_bir_parent1_meshblock_imputed_uid:varchar
 r∂DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_parent1_ethnicity1_code:varchar
 r∑DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_parent1_ethnicity2_code:varchar
 r∏DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_parent1_ethnicity3_code:varchar
@@ -2288,11 +2288,11 @@ r«DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_b
 r»DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_parent2_birth_month_nbr:tinyint
 r…DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_parent2_birth_year_nbr:smallint
 s DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2 dia_bir_parent2_birth_place_text:varchar
-qÀDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2"dia_bir_parent2_snz_idi_address_..:int
+{ÀDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2,dia_bir_parent2_snz_idi_address_register_uid:int
 kÃDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_parent2_region_code:char
 gÕDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_parent2_ta_code:char
 nŒDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_parent2_meshblock_code:char
-uœDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2"dia_bir_parent2_meshblock_impute..:varchar
+xœDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2%dia_bir_parent2_meshblock_imputed_uid:varchar
 r–DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_parent2_ethnicity1_code:varchar
 r—DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_parent2_ethnicity2_code:varchar
 r“DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_parent2_ethnicity3_code:varchar
@@ -2346,31 +2346,31 @@ sÅDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2 dia_b
 sÇDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_sibling9_birth_year_nbr:smallint
 qÉDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_sibling10_sex_snz_code:varchar
 kÑDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_sibling10_died_code:char
-uÖDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2"dia_bir_sibling10_birth_month_nb..:tinyint
+tÖDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2!dia_bir_sibling10_birth_month_nbr:tinyint
 tÜDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2 dia_bir_sibling10_birth_year_nbr:smallint
 qáDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_sibling11_sex_snz_code:varchar
 kàDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_sibling11_died_code:char
-uâDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2"dia_bir_sibling11_birth_month_nb..:tinyint
+tâDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2!dia_bir_sibling11_birth_month_nbr:tinyint
 täDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2 dia_bir_sibling11_birth_year_nbr:smallint
 qãDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_sibling12_sex_snz_code:varchar
 kåDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_sibling12_died_code:char
-uçDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2"dia_bir_sibling12_birth_month_nb..:tinyint
+tçDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2!dia_bir_sibling12_birth_month_nbr:tinyint
 téDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2 dia_bir_sibling12_birth_year_nbr:smallint
 qèDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_sibling13_sex_snz_code:varchar
 kêDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_sibling13_died_code:char
-uëDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2"dia_bir_sibling13_birth_month_nb..:tinyint
+tëDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2!dia_bir_sibling13_birth_month_nbr:tinyint
 tíDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2 dia_bir_sibling13_birth_year_nbr:smallint
 qìDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_sibling14_sex_snz_code:varchar
 kîDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_sibling14_died_code:char
-uïDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2"dia_bir_sibling14_birth_month_nb..:tinyint
+tïDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2!dia_bir_sibling14_birth_month_nbr:tinyint
 tñDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2 dia_bir_sibling14_birth_year_nbr:smallint
 qóDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_sibling15_sex_snz_code:varchar
 kòDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_sibling15_died_code:char
-uôDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2"dia_bir_sibling15_birth_month_nb..:tinyint
+tôDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2!dia_bir_sibling15_birth_month_nbr:tinyint
 töDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2 dia_bir_sibling15_birth_year_nbr:smallint
 qõDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_sibling16_sex_snz_code:varchar
 kúDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_sibling16_died_code:char
-uùDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2"dia_bir_sibling16_birth_month_nb..:tinyint
+tùDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2!dia_bir_sibling16_birth_month_nbr:tinyint
 tûDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2 dia_bir_sibling16_birth_year_nbr:smallint
 küDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_parents_rel_code:varchar
 i†DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2dia_bir_relationship_date:date
@@ -2405,13 +2405,13 @@ sºDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2 dia_b
 sΩDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2 dia_bir_parent1_ethnic7_snz_code:varchar
 sæDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2 dia_bir_parent1_ethnic8_snz_code:varchar
 søDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2 dia_bir_parent1_ethnic9_snz_code:varchar
-u¿DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2"dia_bir_parent1_ethnic10_snz_cod..:varchar
-q¡DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2"dia_bir_parent1_ethnic_grp1_snz_..:bit
-q¬DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2"dia_bir_parent1_ethnic_grp2_snz_..:bit
-q√DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2"dia_bir_parent1_ethnic_grp3_snz_..:bit
-qƒDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2"dia_bir_parent1_ethnic_grp4_snz_..:bit
-q≈DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2"dia_bir_parent1_ethnic_grp5_snz_..:bit
-q∆DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2"dia_bir_parent1_ethnic_grp6_snz_..:bit
+t¿DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2!dia_bir_parent1_ethnic10_snz_code:varchar
+r¡DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2#dia_bir_parent1_ethnic_grp1_snz_ind:bit
+r¬DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2#dia_bir_parent1_ethnic_grp2_snz_ind:bit
+r√DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2#dia_bir_parent1_ethnic_grp3_snz_ind:bit
+rƒDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2#dia_bir_parent1_ethnic_grp4_snz_ind:bit
+r≈DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2#dia_bir_parent1_ethnic_grp5_snz_ind:bit
+r∆DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2#dia_bir_parent1_ethnic_grp6_snz_ind:bit
 s«DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2 dia_bir_parent2_ethnic1_snz_code:varchar
 s»DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2 dia_bir_parent2_ethnic2_snz_code:varchar
 s…DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2 dia_bir_parent2_ethnic3_snz_code:varchar
@@ -2421,13 +2421,13 @@ sÃDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2 dia_b
 sÕDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2 dia_bir_parent2_ethnic7_snz_code:varchar
 sŒDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2 dia_bir_parent2_ethnic8_snz_code:varchar
 sœDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2 dia_bir_parent2_ethnic9_snz_code:varchar
-u–DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2"dia_bir_parent2_ethnic10_snz_cod..:varchar
-q—DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2"dia_bir_parent2_ethnic_grp1_snz_..:bit
-q“DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2"dia_bir_parent2_ethnic_grp2_snz_..:bit
-q”DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2"dia_bir_parent2_ethnic_grp3_snz_..:bit
-q‘DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2"dia_bir_parent2_ethnic_grp4_snz_..:bit
-q’DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2"dia_bir_parent2_ethnic_grp5_snz_..:bit
-q÷DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2"dia_bir_parent2_ethnic_grp6_snz_..:bit
+t–DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2!dia_bir_parent2_ethnic10_snz_code:varchar
+r—DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2#dia_bir_parent2_ethnic_grp1_snz_ind:bit
+r“DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2#dia_bir_parent2_ethnic_grp2_snz_ind:bit
+r”DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2#dia_bir_parent2_ethnic_grp3_snz_ind:bit
+r‘DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2#dia_bir_parent2_ethnic_grp4_snz_ind:bit
+r’DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2#dia_bir_parent2_ethnic_grp5_snz_ind:bit
+r÷DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*births2#dia_bir_parent2_ethnic_grp6_snz_ind:bit
 d◊DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2partnr1_snz_uid:int
 hÿDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2partnr1_snz_dia_uid:int
 xŸDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2dia_civ_partnr1_birth_month_nbr:tinyint
@@ -2435,11 +2435,11 @@ x⁄DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2
 u€DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2dia_civ_partnr1_sex_snz_code:varchar
 x‹DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2dia_civ_partnr1_occupation_text:varchar
 y›DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2 dia_civ_partnr1_birth_place_text:varchar
-wﬁDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2"dia_civ_partnr1_snz_idi_address_..:int
+ÅﬁDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2,dia_civ_partnr1_snz_idi_address_register_uid:int
 qﬂDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2dia_civ_partnr1_region_code:char
 m‡DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2dia_civ_partnr1_ta_code:char
 t·DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2dia_civ_partnr1_meshblock_code:char
-{‚DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2"dia_civ_partnr1_meshblock_impute..:varchar
+~‚DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2%dia_civ_partnr1_meshblock_imputed_ind:varchar
 x„DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2dia_civ_partnr1_rel_status_code:varchar
 y‰DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2 dia_civ_partnr1_prev_disolv_text:varchar
 vÂDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2 dia_civ_partnr1_prev_disolv_date:date
@@ -2458,11 +2458,11 @@ xÒDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2
 uÚDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2dia_civ_partnr2_sex_snz_code:varchar
 xÛDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2dia_civ_partnr2_occupation_text:varchar
 yÙDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2 dia_civ_partnr2_birth_place_text:varchar
-wıDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2"dia_civ_partnr2_snz_idi_address_..:int
+ÅıDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2,dia_civ_partnr2_snz_idi_address_register_uid:int
 qˆDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2dia_civ_partnr2_region_code:char
 m˜DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2dia_civ_partnr2_ta_code:char
 t¯DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2dia_civ_partnr2_meshblock_code:char
-{˘DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2"dia_civ_partnr2_meshblock_impute..:varchar
+~˘DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2%dia_civ_partnr2_meshblock_imputed_ind:varchar
 x˙DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2dia_civ_partnr2_rel_status_code:varchar
 y˚DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2 dia_civ_partnr2_prev_disolv_text:varchar
 v¸DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*civil_unions2 dia_civ_partnr2_prev_disolv_date:date
@@ -2494,11 +2494,11 @@ jïDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*deaths2dia_d
 pñDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*deaths2 dia_dth_birth_date_type_snz_code:char
 kóDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*deaths2dia_dth_birth_place_text:varchar
 qòDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*deaths2dia_dth_years_lived_in_NZ_text:varchar
-qôDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*deaths2"dia_dth_hme_address_snz_idi_addr..:int
+ôDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*deaths20dia_dth_hme_address_snz_idi_address_register_uid:int
 oöDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*deaths2dia_dth_hme_address_region_code:char
 kõDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*deaths2dia_dth_hme_address_ta_code:char
-rúDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*deaths2"dia_dth_hme_address_meshblock_co..:char
-uùDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*deaths2"dia_dth_hme_address_meshblock_im..:varchar
+rúDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*deaths2"dia_dth_hme_address_meshblock_code:char
+|ùDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*deaths2)dia_dth_hme_address_meshblock_imputed_ind:varchar
 jûDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*deaths2dia_dth_occupation_text:varchar
 jüDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*deaths2dia_dth_ethnicity1_code:varchar
 j†DIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*deaths2dia_dth_ethnicity2_code:varchar
@@ -2580,11 +2580,11 @@ uÎDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2di
 rÏDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2dia_mar_partnr1_sex_snz_code:varchar
 uÌDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2dia_mar_partnr1_occupation_text:varchar
 vÓDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2 dia_mar_partnr1_birth_place_text:varchar
-tÔDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2"dia_mar_partnr1_snz_idi_address_..:int
+~ÔDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2,dia_mar_partnr1_snz_idi_address_register_uid:int
 nDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2dia_mar_partnr1_region_code:char
 jÒDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2dia_mar_partnr1_ta_code:char
 qÚDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2dia_mar_partnr1_meshblock_code:char
-xÛDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2"dia_mar_partnr1_meshblock_impute..:varchar
+{ÛDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2%dia_mar_partnr1_meshblock_imputed_ind:varchar
 uÙDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2dia_mar_partnr1_rel_status_code:varchar
 vıDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2 dia_mar_partnr1_prev_disolv_text:varchar
 sˆDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2 dia_mar_partnr1_prev_disolv_date:date
@@ -2605,11 +2605,11 @@ uÑDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2di
 rÖDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2dia_mar_partnr2_sex_snz_code:varchar
 uÜDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2dia_mar_partnr2_occupation_text:varchar
 váDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2 dia_mar_partnr2_birth_place_text:varchar
-tàDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2"dia_mar_partnr2_snz_idi_address_..:int
+~àDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2,dia_mar_partnr2_snz_idi_address_register_uid:int
 nâDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2dia_mar_partnr2_region_code:char
 jäDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2dia_mar_partnr2_ta_code:char
 qãDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2dia_mar_partnr2_meshblock_code:char
-xåDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2"dia_mar_partnr2_meshblock_impute..:varchar
+{åDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2%dia_mar_partnr2_meshblock_imputed_ind:varchar
 uçDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2dia_mar_partnr2_rel_status_code:varchar
 véDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2 dia_mar_partnr2_prev_disolv_text:varchar
 sèDIA+Births, Deaths, Marriages, and Civil unions"	dia_clean*	marriages2 dia_mar_partnr2_prev_disolv_date:date
@@ -2649,9 +2649,9 @@ I∞MBIEImmigration"	dol_clean*	decisions2dol_dec_decision_date:date
 N±MBIEImmigration"	dol_clean*	decisions2dol_dec_decision_type_code:char
 P≤MBIEImmigration"	dol_clean*	decisions2dol_dec_application_cat_code:char
 Q≥MBIEImmigration"	dol_clean*	decisions2dol_dec_application_type_code:char
-Y¥MBIEImmigration"	dol_clean*	decisions2"dol_dec_application_criteria_tex..:varchar
+X¥MBIEImmigration"	dol_clean*	decisions2!dol_dec_application_criteria_text:varchar
 VµMBIEImmigration"	dol_clean*	decisions2dol_dec_application_stream_text:varchar
-Y∂MBIEImmigration"	dol_clean*	decisions2"dol_dec_application_substream_te..:varchar
+Y∂MBIEImmigration"	dol_clean*	decisions2"dol_dec_application_substream_text:varchar
 J∑MBIEImmigration"	dol_clean*	decisions2dol_dec_completed_date:date
 Q∏MBIEImmigration"	dol_clean*	decisions2dol_dec_nbr_applicants_nbr:tinyint
 OπMBIEImmigration"	dol_clean*	decisions2dol_dec_applicant_type_code:char
@@ -12402,1287 +12402,3540 @@ l≤PStats NZ.Longitudinal immigration Survey of New Zealand"lisnz_clean*src
 u≥PStats NZ.Longitudinal immigration Survey of New Zealand"lisnz_clean*srce_ctry_acty2lisnz_person_ref_nbr:int
 q¥PStats NZ.Longitudinal immigration Survey of New Zealand"lisnz_clean*srce_ctry_acty2lisnz_acty_code:char
 uµPStats NZ.Longitudinal immigration Survey of New Zealand"lisnz_clean*srce_ctry_acty2lisnz_main_acty_ind:char
-F∂PMOJNZ Crime and Victims Survey"nzcvs_clean*core2snz_uid:int
-V∑PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_snz_unique_nbr:bigint
-L∏PMOJNZ Crime and Victims Survey"nzcvs_clean*core2snz_nzcvs_uid:int
-RπPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_qtr:smallint
-Q∫PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_psu2015:int
-XªPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DATE_TIME:datetime
-VºPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_PARTNERP_OPS:int
-VΩPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_PARTNERP_SAM:int
-UæPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_PARTNERP_NO:int
-YøPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_EVERPARTNER_OPS:int
-Y¿PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_EVERPARTNER_SAM:int
-X¡PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_EVERPARTNER_NO:int
-[¬PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_SATISFACTION:smallint
-W√PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_SAFEFEEL:smallint
-YƒPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_VEHICLEUSE:smallint
-Y≈PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_BICYCLEUSE:smallint
-S∆PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_GETINHOME:int
-V«PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSGETINHOME:int
-Y»PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_MVTHEFT_GETINHM:int
-\…PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSMVTHEFT_GETINHM:int
-T PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TRDGETINHM:int
-WÀPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTRDGETINHM:int
-\ÃPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_MVTHFT_TRDSGETINHM:int
-_ÕPMOJNZ Crime and Victims Survey"nzcvs_clean*core2 nzcvs_core_TMSMVTHFT_TRDSGETINHM:int
-QŒPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_MVTHEFT:int
-TœPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSMVTHEFT:int
-S–PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDMVTHFT:int
-V—PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSYRDMVTHFT:int
-X“PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDMVTHFT_ALOW:int
-[”PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSYRDMVTHFT_ALOW:int
-T‘PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_STOLENOFMV:int
-W’PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSSTOLENOFMV:int
-U÷PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDSTOLOFMV:int
-X◊PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSYRDSTOLOFMV:int
-YÿPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDSTOLOFMV_SMN:int
-\ŸPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSYRDSTOLOFMV_SMN:int
-P⁄PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_MVTAMP:int
-S€PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSMVTAMP:int
-R‹PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDMVTMP:int
-U›PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSYRDMVTMP:int
-VﬁPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDMVTMP_SMN:int
-YﬂPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSYRDMVTMP_SMN:int
-R‡PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_MVDAMAGE:int
-U·PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSMVDAMAGE:int
-S‚PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDMVDAMA:int
-V„PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSYRDMVDAMA:int
-W‰PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDMVDAMA_SMN:int
-ZÂPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSYRDMVDAMA_SMN:int
-VÊPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_BICYCLETHEFT:int
-YÁPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSBICYCLETHEFT:int
-VËPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDBCYCLTHFT:int
-YÈPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSYRDBCYCLTHFT:int
-ZÍPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDBCYCLTHFT_SMN:int
-]ÎPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSYRDBCYCLTHFT_SMN:int
-WÏPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_BICYCLEDAMAGE:int
-ZÌPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSBICYCLEDAMAGE:int
-VÓPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDBCYCLDAMA:int
-YÔPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSYRDBCYCLDAMA:int
-ZPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDBCYCLDAMA_SMN:int
-]ÒPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSYRDBCYCLDAMA_SMN:int
-TÚPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DAMAGEHOME:int
-WÛPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSDAMAGEHOME:int
-UÙPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DAMAPRSNALY:int
-XıPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSDAMAPRSNALY:int
-UˆPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_STOLOUTSDHM:int
-X˜PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSSTOLOUTSDHM:int
-X¯PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDSTOLOUTSDHM:int
-[˘PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSYRDSTOLOUTSDHM:int
-\˙PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDSTOLOUTSDHM_SMN:int
-_˚PMOJNZ Crime and Victims Survey"nzcvs_clean*core2 nzcvs_core_TMSYRDSTOLOUTSDHM_SMN:int
-Z¸PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_PROPSTOLINHM_SMN:int
-]˝PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSPROPSTOLINHM_SMN:int
-S˛PMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_HOUSEGRDS:int
-VˇPMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSHOUSEGRDS:int
-TÄQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_STOLCARYNG:int
-WÅQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSSTOLCARYNG:int
-ZÇQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_USEFORTHRT_STOLC:int
-]ÉQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSUSEFORTHRT_STOLC:int
-UÑQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_STOLPRSNALY:int
-XÖQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSSTOLPRSNALY:int
-UÜQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TRCKMONYGDS:int
-XáQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTRCKMONYGDS:int
-TàQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_ATMPCREDIT:int
-WâQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSATMPCREDIT:int
-RäQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_CMPUTVRS:int
-UãQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSCMPUTVRS:int
-WåQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_FORCESEX:smallint
-YçQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSFORCESEX_REF:int
-UéQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSFORCESEX:int
-ZèQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_FORCESEXACT:smallint
-\êQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSFORCESEXACT_REF:int
-XëQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSFORCESEXACT:int
-UíQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TOUSEX:smallint
-WìQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTOUSEX_REF:int
-SîQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTOUSEX:int
-VïQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_THRTSEX:smallint
-XñQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTHRTSEX_REF:int
-TóQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTHRTSEX:int
-UòQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_FORVIO:smallint
-WôQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSFORVIO_REF:int
-SöQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSFORVIO:int
-XõQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TRDFORVIO:smallint
-ZúQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTRDFORVIO_REF:int
-VùQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTRDFORVIO:int
-YûQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_THRTFORVIO:smallint
-[üQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTHRTFORVIO_REF:int
-W†QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTHRTFORVIO:int
-W°QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_THRTDAMA:smallint
-Y¢QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTHRTDAMA_REF:int
-U£QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTHRTDAMA:int
-Z§QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_THRTINJRFAM:smallint
-\•QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTHRTINJRFAM_REF:int
-X¶QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTHRTINJRFAM:int
-YßQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_CAUSEDFEAR:smallint
-[®QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSCAUSEDFEAR_REF:int
-W©QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSCAUSEDFEAR:int
-X™QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_PSYFRIEND:smallint
-X´QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_PSYFOLLOW:smallint
-X¨QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_PSYACCESS:smallint
-X≠QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_PSYHLCARE:smallint
-XÆQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_PSYPRESWK:smallint
-XØQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_PSYSTOPWK:smallint
-W∞QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_EVSEXFOR:smallint
-W±QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_EVSEXTOU:smallint
-W≤QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_EVPARTAS:smallint
-W≥QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_EVPARTTH:smallint
-Q¥QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OTHCRMS:int
-TµQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSOTHCRMS:int
-X∂QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_CURADDRES:smallint
-W∑QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_FINSTRMO:smallint
-W∏QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_FINSTRMU:smallint
-[πQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DurationTotal:varchar
-[∫QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_SubSampleType:varchar
-SªQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSEX:varchar
-VºQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVGENDER:varchar
-YΩQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSEXORIENT:varchar
-OæQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVAGE:int
-YøQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV5YRAGEGRP:varchar
-V¿QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVAGEGRP:varchar
-U¡QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVETHN_EURO:bit
-V¬QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVETHN_MAORI:bit
-X√QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVETHN_PACIFIC:bit
-VƒQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVETHN_ASIAN:bit
-X≈QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVETHN_CHINESE:bit
-W∆QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVETHN_INDIAN:bit
-[«QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVETHN_OTHERASIAN:bit
-V»QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVETHN_OTHER:bit
-S…QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVETHN_NS:bit
-T QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVNUMUSRES:int
-TÀQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVNUMCHILD:int
-VÃQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVTENURE:varchar
-XÕQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVLANDLORD:varchar
-XŒQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVTENLLORD:varchar
-XœQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVPARTNERC:varchar
-X–QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVPARTNERP:varchar
-[—QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVEVERPARTNER:varchar
-X“QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVRELASTAT:varchar
-]”QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVPARTNERSTATUS:varchar
-^‘QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVRELATIONSTATUS:varchar
-Y’QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVEMPSTATUS:varchar
-[÷QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVPERSINCGRP1:varchar
-[◊QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVPERSINCGRP2:varchar
-\ÿQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVHHOLDINCGRP1:varchar
-\ŸQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVHHOLDINCGRP2:varchar
-\⁄QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSATISFACTION:varchar
-X€QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSAFEFEEL:varchar
-S‹QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_MESHBLOCK:int
-U›QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVURBAN:varchar
-ZﬁQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVREGCOUNCIL:varchar
-ZﬂQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVREGIONGRP5:varchar
-T‡QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_NZDEPSCORE:int
-Y·QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_NZDEPDECILE:varchar
-[‚QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_NZDEPQUINTILE:varchar
-^„QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVEVERSEXASSAULT:varchar
-^‰QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVEVEROTHASSAULT:varchar
-ZÂQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L1_VISION:varchar
-ZÊQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L2_VISION:varchar
-ZÁQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L3_VISION:varchar
-XËQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L1_HEAR:varchar
-XÈQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L2_HEAR:varchar
-XÍQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L3_HEAR:varchar
-ZÎQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L1_MOBILE:varchar
-ZÏQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L2_MOBILE:varchar
-ZÌQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L3_MOBILE:varchar
-ZÓQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L1_MEMORY:varchar
-ZÔQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L2_MEMORY:varchar
-ZQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L3_MEMORY:varchar
-\ÒQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L1_SELFCARE:varchar
-\ÚQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L2_SELFCARE:varchar
-\ÛQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L3_SELFCARE:varchar
-YÙQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L1_COMMS:varchar
-YıQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L2_COMMS:varchar
-YˆQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L3_COMMS:varchar
-W˜QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_WGSS_COUNT:int
-V¯QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_WGSS1:varchar
-V˘QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_WGSS2:varchar
-V˙QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_WGSS3:varchar
-V˚QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_WGSS4:varchar
-Y¸QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVMENTALSCORE:float
-]˝QMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVMENTALSCORELV:varchar
-a˛QMOJNZ Crime and Victims Survey"nzcvs_clean*core2"nzcvs_core_DVSCREEN_INCIDENTCOUN..:int
-_ˇQMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSCREEN_BURGLARY:varchar
-eÄRMOJNZ Crime and Victims Survey"nzcvs_clean*core2"nzcvs_core_DVSCREEN_VEHICLEBICYC..:varchar
-eÅRMOJNZ Crime and Victims Survey"nzcvs_clean*core2"nzcvs_core_DVSCREEN_PROPERTYDAMA..:varchar
-\ÇRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSCREEN_THEFT:varchar
-_ÉRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSCREEN_TRESPASS:varchar
-^ÑRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSCREEN_ROBBERY:varchar
-\ÖRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSCREEN_FRAUD:varchar
-aÜRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSCREEN_CYBERCRIME:varchar
-]áRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSCREEN_SEXUAL:varchar
-^àRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSCREEN_ASSAULT:varchar
-]âRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSCREEN_THREAT:varchar
-\äRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSCREEN_OTHER:varchar
-`ãRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVCONTROLBEHAVIOUR:varchar
-[åRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSERIESCHECK:varchar
-XçRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVPERSONINCOME:int
-WéRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVHHOLDINCOME:int
-\èRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVPERSONINCOME_imp:int
-[êRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVHHOLDINCOME_imp:int
-VëRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVHHCOMP:varchar
-\íRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep1:float
-\ìRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep2:float
-\îRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep3:float
-\ïRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep4:float
-\ñRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep5:float
-\óRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep6:float
-\òRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep7:float
-\ôRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep8:float
-\öRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep9:float
-]õRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep10:float
-]úRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep11:float
-]ùRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep12:float
-]ûRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep13:float
-]üRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep14:float
-]†RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep15:float
-]°RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep16:float
-]¢RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep17:float
-]£RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep18:float
-]§RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep19:float
-]•RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep20:float
-]¶RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep21:float
-]ßRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep22:float
-]®RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep23:float
-]©RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep24:float
-]™RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep25:float
-]´RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep26:float
-]¨RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep27:float
-]≠RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep28:float
-]ÆRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep29:float
-]ØRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep30:float
-]∞RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep31:float
-]±RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep32:float
-]≤RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep33:float
-]≥RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep34:float
-]¥RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep35:float
-]µRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep36:float
-]∂RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep37:float
-]∑RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep38:float
-]∏RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep39:float
-]πRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep40:float
-]∫RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep41:float
-]ªRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep42:float
-]ºRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep43:float
-]ΩRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep44:float
-]æRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep45:float
-]øRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep46:float
-]¿RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep47:float
-]¡RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep48:float
-]¬RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep49:float
-]√RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep50:float
-]ƒRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep51:float
-]≈RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep52:float
-]∆RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep53:float
-]«RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep54:float
-]»RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep55:float
-]…RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep56:float
-] RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep57:float
-]ÀRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep58:float
-]ÃRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep59:float
-]ÕRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep60:float
-]ŒRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep61:float
-]œRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep62:float
-]–RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep63:float
-]—RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep64:float
-]“RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep65:float
-]”RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep66:float
-]‘RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep67:float
-]’RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep68:float
-]÷RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep69:float
-]◊RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep70:float
-]ÿRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep71:float
-]ŸRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep72:float
-]⁄RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep73:float
-]€RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep74:float
-]‹RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep75:float
-]›RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep76:float
-]ﬁRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep77:float
-]ﬂRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep78:float
-]‡RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep79:float
-]·RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep80:float
-]‚RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep81:float
-]„RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep82:float
-]‰RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep83:float
-]ÂRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep84:float
-]ÊRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep85:float
-]ÁRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep86:float
-]ËRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep87:float
-]ÈRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep88:float
-]ÍRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep89:float
-]ÎRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep90:float
-]ÏRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep91:float
-]ÌRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep92:float
-]ÓRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep93:float
-]ÔRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep94:float
-]RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep95:float
-]ÒRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep96:float
-]ÚRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep97:float
-]ÛRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep98:float
-]ÙRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep99:float
-^ıRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep100:float
-WˆRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight:float
-]˜RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep1:float
-]¯RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep2:float
-]˘RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep3:float
-]˙RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep4:float
-]˚RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep5:float
-]¸RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep6:float
-]˝RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep7:float
-]˛RMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep8:float
-]ˇRMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep9:float
-^ÄSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep10:float
-^ÅSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep11:float
-^ÇSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep12:float
-^ÉSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep13:float
-^ÑSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep14:float
-^ÖSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep15:float
-^ÜSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep16:float
-^áSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep17:float
-^àSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep18:float
-^âSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep19:float
-^äSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep20:float
-^ãSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep21:float
-^åSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep22:float
-^çSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep23:float
-^éSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep24:float
-^èSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep25:float
-^êSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep26:float
-^ëSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep27:float
-^íSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep28:float
-^ìSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep29:float
-^îSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep30:float
-^ïSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep31:float
-^ñSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep32:float
-^óSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep33:float
-^òSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep34:float
-^ôSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep35:float
-^öSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep36:float
-^õSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep37:float
-^úSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep38:float
-^ùSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep39:float
-^ûSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep40:float
-^üSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep41:float
-^†SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep42:float
-^°SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep43:float
-^¢SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep44:float
-^£SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep45:float
-^§SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep46:float
-^•SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep47:float
-^¶SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep48:float
-^ßSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep49:float
-^®SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep50:float
-^©SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep51:float
-^™SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep52:float
-^´SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep53:float
-^¨SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep54:float
-^≠SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep55:float
-^ÆSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep56:float
-^ØSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep57:float
-^∞SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep58:float
-^±SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep59:float
-^≤SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep60:float
-^≥SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep61:float
-^¥SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep62:float
-^µSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep63:float
-^∂SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep64:float
-^∑SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep65:float
-^∏SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep66:float
-^πSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep67:float
-^∫SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep68:float
-^ªSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep69:float
-^ºSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep70:float
-^ΩSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep71:float
-^æSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep72:float
-^øSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep73:float
-^¿SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep74:float
-^¡SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep75:float
-^¬SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep76:float
-^√SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep77:float
-^ƒSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep78:float
-^≈SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep79:float
-^∆SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep80:float
-^«SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep81:float
-^»SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep82:float
-^…SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep83:float
-^ SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep84:float
-^ÀSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep85:float
-^ÃSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep86:float
-^ÕSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep87:float
-^ŒSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep88:float
-^œSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep89:float
-^–SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep90:float
-^—SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep91:float
-^“SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep92:float
-^”SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep93:float
-^‘SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep94:float
-^’SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep95:float
-^÷SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep96:float
-^◊SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep97:float
-^ÿSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep98:float
-^ŸSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep99:float
-_⁄SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep100:float
-X€SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight:float
-V‹SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD01_INC:int
-V›SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD02_INC:int
-VﬁSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD03_INC:int
-VﬂSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD04_INC:int
-V‡SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD05_INC:int
-V·SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD06_INC:int
-V‚SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD07_INC:int
-V„SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD08_INC:int
-V‰SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD09_INC:int
-VÂSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD10_INC:int
-VÊSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD11_INC:int
-VÁSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD12_INC:int
-VËSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD13_INC:int
-VÈSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD14_INC:int
-VÍSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD15_INC:int
-VÎSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD16_INC:int
-VÏSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD17_INC:int
-VÌSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD18_INC:int
-VÓSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD98_INC:int
-VÔSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD99_INC:int
-ZSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCODFV_ALL_INC:int
-[ÒSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCODFV_PART_INC:int
-[ÚSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCODFV_EXPA_INC:int
-[ÛSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCODFV_FAMI_INC:int
-WÙSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD01_PREV:int
-WıSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD02_PREV:int
-WˆSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD03_PREV:int
-W˜SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD04_PREV:int
-W¯SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD05_PREV:int
-W˘SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD06_PREV:int
-W˙SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD07_PREV:int
-W˚SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD08_PREV:int
-W¸SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD09_PREV:int
-W˝SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD10_PREV:int
-W˛SMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD11_PREV:int
-WˇSMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD12_PREV:int
-WÄTMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD13_PREV:int
-WÅTMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD14_PREV:int
-WÇTMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD15_PREV:int
-WÉTMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD16_PREV:int
-WÑTMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD17_PREV:int
-WÖTMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD18_PREV:int
-WÜTMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD98_PREV:int
-WáTMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD99_PREV:int
-[àTMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCODFV_ALL_PREV:int
-\âTMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCODFV_PART_PREV:int
-\äTMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCODFV_EXPA_PREV:int
-\ãTMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCODFV_FAMI_PREV:int
-]åTMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_ethnic_grp1_snz_ind:bit
-]çTMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_ethnic_grp2_snz_ind:bit
-]éTMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_ethnic_grp3_snz_ind:bit
-]èTMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_ethnic_grp4_snz_ind:bit
-]êTMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_ethnic_grp5_snz_ind:bit
-]ëTMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_ethnic_grp6_snz_ind:bit
-JíTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2snz_uid:int
-ZìTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_snz_unique_nbr:bigint
-PîTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2snz_nzcvs_uid:int
-ZïTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_qtr:smallint
-YñTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_psu2015:int
-bóTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_FinalOffenceCode:int
-eòTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2"nzcvs_incident_FinalOffenceCodeN..:int
-]ôTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_VFTYPE:smallint
-\öTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_APLY_NOTNZ:int
-aõTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_APLY_NOT12MNTHS:int
-aúTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_APLY_NOTPRSNALY:int
-aùTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_APLY_NOTPROPRTY:int
-eûTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2"nzcvs_incident_APLY_NOTHRTPRSNAL..:int
-düTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_WHENINCIDHAPN:smallint
-\†TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_WHEREINCID:int
-_°TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_OFFENNUM:smallint
-_¢TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DISCRACE:smallint
-a£TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DISCSEXLTY:smallint
-^§TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DISCAGE:smallint
-^•TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DISCSEX:smallint
-`¶TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DISCRELIG:smallint
-_ßTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DISCDISA:smallint
-\®TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_MVWRTHSTOL:int
-`©TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_MVWRTHSTOL_DKR:int
-X™TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_MVBACK:int
-a´TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_STOLMNYGDS:smallint
-a¨TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_TOTSTOLVAL:smallint
-a≠TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_TOTDAMAVAL:smallint
-ZÆTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_INSCOVER:int
-ZØTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_INSCLAIM:int
-a∞TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_TIMEOFFHRS:smallint
-a±TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_TIMEOFFDYS:smallint
-d≤TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_SGINCID_COMPO:smallint
-^≥TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLIHOW:smallint
-]¥TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLINF_TRIV:int
-]µTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLINF_ATMP:int
-^∂TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_EVID:int
-^∑TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_ANYT:int
-^∏TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_BOTH:int
-^πTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_CONT:int
-^∫TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_BUSY:int
-`ªTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_BADEXP:int
-^ºTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_PRIV:int
-^ΩTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_SHAM:int
-_æTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_DEALT:int
-^øTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_FEAR:int
-^¿TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_TROU:int
-^¡TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_INCO:int
-]¬TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_JOB:int
-^√TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_AUTH:int
-^ƒTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_NORE:int
-]≈TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_OTH:int
-X∆TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_WEAPON:int
-Z«TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_SERINCID:int
-_»TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_VIEINCID:smallint
-Z…TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_ALCOOFFE:int
-Z TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DRUGOFFE:int
-\ÀTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_AFF_YSALCO:int
-\ÃTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_AFF_YSDRUG:int
-XÕTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_AFF_NO:int
-ZŒTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_FAC_ARGU:int
-ZœTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_FAC_FINA:int
-Z–TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_FAC_FIGH:int
-Z—TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_FAC_CARE:int
-Z“TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_FAC_JEAL:int
-Z”TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_FAC_SEPA:int
-[‘TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_FAC_NOTHP:int
-Y’TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_FAC_OTH:int
-Z÷TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_FAC_NONE:int
-Z◊TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_INJ_BRUI:int
-ZÿTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_INJ_BONE:int
-ZŸTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_INJ_INTE:int
-Y⁄TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_INJ_OTH:int
-Z€TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_SEVERINJ:int
-Y‹TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_MEDPROF:int
-\›TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_NOMED_NEED:int
-]ﬁTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_NOMED_AFORD:int
-\ﬂTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_NOMED_PREV:int
-]‡TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_NOMED_SCARD:int
-[·TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_NOMED_OTH:int
-Z‚TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_EMO_ANGE:int
-Z„TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_EMO_SHOC:int
-Z‰TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_EMO_FEAR:int
-ZÂTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_EMO_DEPR:int
-ZÊTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_EMO_ANXI:int
-ZÁTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_EMO_SLEE:int
-ZËTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_EMO_CRYI:int
-ZÈTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_EMO_CONF:int
-ZÍTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_EMO_SHAM:int
-ZÎTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_EMO_ALCO:int
-ZÏTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_EMO_CAUT:int
-YÌTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_EMO_OTH:int
-ZÓTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_EMO_NONE:int
-ZÔTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_AFFINCID:int
-[TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_CHILDAWAR:int
-[ÒTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVSEX:varchar
-aÚTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVSEXORIENT:varchar
-WÛTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVAGE:int
-aÙTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DV5YRAGEGRP:varchar
-^ıTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVAGEGRP:varchar
-]ˆTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVETHN_EURO:bit
-^˜TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVETHN_MAORI:bit
-`¯TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVETHN_PACIFIC:bit
-^˘TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVETHN_ASIAN:bit
-`˙TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVETHN_CHINESE:bit
-_˚TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVETHN_INDIAN:bit
-c¸TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2 nzcvs_incident_DVETHN_OTHERASIAN:bit
-^˝TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVETHN_OTHER:bit
-[˛TMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVETHN_NS:bit
-`ˇTMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVPERSONINCOME:int
-_ÄUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVHHOLDINCOME:int
-eÅUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2"nzcvs_incident_DVPERSONINCOME_im..:int
-cÇUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2 nzcvs_incident_DVHHOLDINCOME_imp:int
-cÉUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVPERSINCGRP1:varchar
-cÑUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVPERSINCGRP2:varchar
-dÖUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVHHOLDINCGRP1:varchar
-dÜUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVHHOLDINCGRP2:varchar
-]áUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVURBAN:varchar
-bàUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVREGCOUNCIL:varchar
-\âUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_NZDEPSCORE:int
-aäUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_NZDEPDECILE:varchar
-cãUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_NZDEPQUINTILE:varchar
-fåUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVEVERSEXASSAULT:varchar
-fçUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVEVEROTHASSAULT:varchar
-_éUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVOFFENCONTCT:int
-^èUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVKNOW_OFFEN:int
-XêUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVMALE:int
-ZëUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVFEMALE:int
-\íUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVTIMEOFFW:int
-[ìUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVINJURED:int
-\îUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVPOLIFOUN:int
-cïUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVPLACEHAPPEN:varchar
-añUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVRELA_PART:varchar
-aóUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVRELA_EXPA:varchar
-aòUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVRELA_FAMI:varchar
-aôUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVRELA_FRIE:varchar
-aöUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVRELA_CARE:varchar
-aõUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVRELA_OTHS:varchar
-aúUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVRELA_STRG:varchar
-_ùUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVRELA_NS:varchar
-gûUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2 nzcvs_incident_DVANYBREACHORDERS:varchar
-iüUMOJNZ Crime and Victims Survey"nzcvs_clean*incident2"nzcvs_incident_DVANYDISCRIMINATI..:varchar
-\†UMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_Imputation:int
-e°UMOJNZ Crime and Victims Survey"nzcvs_clean*incident2"nzcvs_incident_ethnic_grp1_snz_i..:bit
-e¢UMOJNZ Crime and Victims Survey"nzcvs_clean*incident2"nzcvs_incident_ethnic_grp2_snz_i..:bit
-e£UMOJNZ Crime and Victims Survey"nzcvs_clean*incident2"nzcvs_incident_ethnic_grp3_snz_i..:bit
-e§UMOJNZ Crime and Victims Survey"nzcvs_clean*incident2"nzcvs_incident_ethnic_grp4_snz_i..:bit
-e•UMOJNZ Crime and Victims Survey"nzcvs_clean*incident2"nzcvs_incident_ethnic_grp5_snz_i..:bit
-e¶UMOJNZ Crime and Victims Survey"nzcvs_clean*incident2"nzcvs_incident_ethnic_grp6_snz_i..:bit
-JßUMOJNZ Crime and Victims Survey"nzcvs_clean*matching2snz_uid:int
-N®UMOJNZ Crime and Victims Survey"nzcvs_clean*matching2snz_jus_uid:int
-^©UMOJNZ Crime and Victims Survey"nzcvs_clean*matching2moj_mat_birth_month_nbr:tinyint
-^™UMOJNZ Crime and Victims Survey"nzcvs_clean*matching2moj_mat_birth_year_nbr:smallint
-[´UMOJNZ Crime and Victims Survey"nzcvs_clean*matching2moj_mat_sex_snz_code:varchar
-Q¨UMOJNZ Crime and Victims Survey"nzcvs_clean*matching2snz_person_ind:bit
-J≠UMOJNZ Crime and Victims Survey"nzcvs_clean*matching2snz_uid:int
-ZÆUMOJNZ Crime and Victims Survey"nzcvs_clean*matching2nzcvs_snz_unique_nbr:bigint
-PØUMOJNZ Crime and Victims Survey"nzcvs_clean*matching2snz_nzcvs_uid:int
-Z∞UMOJNZ Crime and Victims Survey"nzcvs_clean*matching2nzcvs_matching_qtr:smallint
-Y±UMOJNZ Crime and Victims Survey"nzcvs_clean*matching2nzcvs_matching_psu2015:int
-`≤UMOJNZ Crime and Victims Survey"nzcvs_clean*matching2nzcvs_matching_OutcomeMOJ:varchar
-\≥UMOJNZ Crime and Victims Survey"nzcvs_clean*matching2nzcvs_matching_ER1_06:tinyint
-\¥UMOJNZ Crime and Victims Survey"nzcvs_clean*matching2nzcvs_matching_ER1_08:tinyint
-\µUMOJNZ Crime and Victims Survey"nzcvs_clean*matching2nzcvs_birth_month_nbr:tinyint
-\∂UMOJNZ Crime and Victims Survey"nzcvs_clean*matching2nzcvs_birth_year_nbr:smallint
-Y∑UMOJNZ Crime and Victims Survey"nzcvs_clean*matching2nzcvs_snz_sex_code:varchar
-_∏UMOJNZ Crime and Victims Survey"nzcvs_clean*matching2snz_idi_address_register_uid:int
-UπUMOJNZ Crime and Victims Survey"nzcvs_clean*matching2nzcvs_region_code:char
-Q∫UMOJNZ Crime and Victims Survey"nzcvs_clean*matching2nzcvs_ta_code:char
-XªUMOJNZ Crime and Victims Survey"nzcvs_clean*matching2nzcvs_meshblock_code:char
-bºUMOJNZ Crime and Victims Survey"nzcvs_clean*matching2nzcvs_meshblock_imputed_ind:varchar
-HΩUMOJNZ Crime and Victims Survey"nzcvs_clean*module2snz_uid:int
-XæUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_snz_unique_nbr:bigint
-NøUMOJNZ Crime and Victims Survey"nzcvs_clean*module2snz_nzcvs_uid:int
-V¿UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_qtr:smallint
-U¡UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_Psu2015:int
-W¬UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AWAR_VICT:int
-W√UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AWAR_WREF:int
-WƒUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AWAR_RAPE:int
-V≈UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AWAR_CAB:int
-X∆UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AWAR_LIFEL:int
-U«UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AWAR_FV:int
-W»UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AWAR_VCIL:int
-W…UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AWAR_NONE:int
-\ UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AGAP_VICT:smallint
-\ÀUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AGAP_WREF:smallint
-\ÃUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AGAP_RAPE:smallint
-[ÕUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AGAP_CAB:smallint
-]ŒUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AGAP_LIFEL:smallint
-ZœUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AGAP_FV:smallint
-\–UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AGAP_VCIL:smallint
-\—UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AGAP_SALV:smallint
-[“UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AGAP_IWI:smallint
-\”UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AGAP_WORK:smallint
-\‘UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AGAP_COUR:smallint
-[’UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AGAP_GOV:smallint
-W÷UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VICT_INFO:int
-W◊UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VICT_TALK:int
-WÿUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VICT_COUN:int
-WŸUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VICT_LEGA:int
-W⁄UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VICT_SAFE:int
-X€UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VICT_OTHAD:int
-W‹UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VICT_DEPE:int
-W›UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VICT_FINA:int
-WﬁUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VICT_TRAN:int
-WﬂUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VICT_LANG:int
-X‡UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VICT_SHELT:int
-V·UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VICT_OTH:int
-W‚UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VICT_NONE:int
-W„UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_VICT:int
-W‰UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WREF_INFO:int
-WÂUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WREF_TALK:int
-WÊUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WREF_COUN:int
-WÁUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WREF_LEGA:int
-WËUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WREF_SAFE:int
-XÈUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WREF_OTHAD:int
-WÍUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WREF_DEPE:int
-WÎUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WREF_FINA:int
-WÏUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WREF_TRAN:int
-WÌUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WREF_LANG:int
-XÓUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WREF_SHELT:int
-VÔUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WREF_OTH:int
-WUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WREF_NONE:int
-WÒUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_WREF:int
-WÚUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RAPE_INFO:int
-WÛUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RAPE_TALK:int
-WÙUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RAPE_COUN:int
-WıUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RAPE_LEGA:int
-WˆUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RAPE_SAFE:int
-X˜UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RAPE_OTHAD:int
-W¯UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RAPE_DEPE:int
-W˘UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RAPE_FINA:int
-W˙UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RAPE_TRAN:int
-W˚UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RAPE_LANG:int
-X¸UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RAPE_SHELT:int
-V˝UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RAPE_OTH:int
-W˛UMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RAPE_NONE:int
-WˇUMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_RAPE:int
-VÄVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_CAB_INFO:int
-VÅVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_CAB_TALK:int
-VÇVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_CAB_COUN:int
-VÉVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_CAB_LEGA:int
-VÑVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_CAB_SAFE:int
-WÖVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_CAB_OTHAD:int
-VÜVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_CAB_DEPE:int
-VáVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_CAB_FINA:int
-VàVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_CAB_TRAN:int
-VâVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_CAB_LANG:int
-WäVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_CAB_SHELT:int
-UãVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_CAB_OTH:int
-VåVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_CAB_NONE:int
-VçVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_CAB:int
-XéVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_LIFEL_INFO:int
-XèVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_LIFEL_TALK:int
-XêVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_LIFEL_COUN:int
-XëVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_LIFEL_LEGA:int
-XíVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_LIFEL_SAFE:int
-YìVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_LIFEL_OTHAD:int
-XîVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_LIFEL_DEPE:int
-XïVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_LIFEL_FINA:int
-XñVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_LIFEL_TRAN:int
-XóVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_LIFEL_LANG:int
-YòVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_LIFEL_SHELT:int
-WôVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_LIFEL_OTH:int
-XöVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_LIFEL_NONE:int
-XõVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_LIFEL:int
-UúVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_FV_INFO:int
-UùVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_FV_TALK:int
-UûVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_FV_COUN:int
-UüVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_FV_LEGA:int
-U†VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_FV_SAFE:int
-V°VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_FV_OTHAD:int
-U¢VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_FV_DEPE:int
-U£VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_FV_FINA:int
-U§VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_FV_TRAN:int
-U•VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_FV_LANG:int
-V¶VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_FV_SHELT:int
-TßVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_FV_OTH:int
-U®VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_FV_NONE:int
-U©VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_FV:int
-W™VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VCIL_INFO:int
-W´VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VCIL_TALK:int
-W¨VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VCIL_COUN:int
-W≠VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VCIL_LEGA:int
-WÆVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VCIL_SAFE:int
-XØVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VCIL_OTHAD:int
-W∞VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VCIL_DEPE:int
-W±VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VCIL_FINA:int
-W≤VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VCIL_TRAN:int
-W≥VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VCIL_LANG:int
-X¥VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VCIL_SHELT:int
-VµVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VCIL_OTH:int
-W∂VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VCIL_NONE:int
-W∑VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_VCIL:int
-W∏VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_SALV_INFO:int
-WπVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_SALV_TALK:int
-W∫VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_SALV_COUN:int
-WªVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_SALV_LEGA:int
-WºVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_SALV_SAFE:int
-XΩVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_SALV_OTHAD:int
-WæVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_SALV_DEPE:int
-WøVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_SALV_FINA:int
-W¿VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_SALV_TRAN:int
-W¡VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_SALV_LANG:int
-X¬VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_SALV_SHELT:int
-V√VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_SALV_OTH:int
-WƒVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_SALV_NONE:int
-W≈VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_SALV:int
-V∆VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_IWI_INFO:int
-V«VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_IWI_TALK:int
-V»VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_IWI_COUN:int
-V…VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_IWI_LEGA:int
-V VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_IWI_SAFE:int
-WÀVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_IWI_OTHAD:int
-VÃVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_IWI_DEPE:int
-VÕVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_IWI_FINA:int
-VŒVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_IWI_TRAN:int
-VœVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_IWI_LANG:int
-W–VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_IWI_SHELT:int
-U—VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_IWI_OTH:int
-V“VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_IWI_NONE:int
-V”VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_IWI:int
-W‘VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WORK_INFO:int
-W’VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WORK_TALK:int
-W÷VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WORK_COUN:int
-W◊VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WORK_LEGA:int
-WÿVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WORK_SAFE:int
-XŸVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WORK_OTHAD:int
-W⁄VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WORK_DEPE:int
-W€VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WORK_FINA:int
-W‹VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WORK_TRAN:int
-W›VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WORK_LANG:int
-XﬁVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WORK_SHELT:int
-VﬂVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WORK_OTH:int
-W‡VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WORK_NONE:int
-W·VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_WORK:int
-W‚VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_COUR_INFO:int
-W„VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_COUR_TALK:int
-W‰VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_COUR_COUN:int
-WÂVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_COUR_LEGA:int
-WÊVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_COUR_SAFE:int
-XÁVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_COUR_OTHAD:int
-WËVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_COUR_DEPE:int
-WÈVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_COUR_FINA:int
-WÍVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_COUR_TRAN:int
-WÎVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_COUR_LANG:int
-XÏVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_COUR_SHELT:int
-VÌVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_COUR_OTH:int
-WÓVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_COUR_NONE:int
-WÔVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_COUR:int
-VVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_GOV_INFO:int
-VÒVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_GOV_TALK:int
-VÚVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_GOV_COUN:int
-VÛVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_GOV_LEGA:int
-VÙVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_GOV_SAFE:int
-WıVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_GOV_OTHAD:int
-VˆVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_GOV_DEPE:int
-V˜VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_GOV_FINA:int
-V¯VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_GOV_TRAN:int
-V˘VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_GOV_LANG:int
-W˙VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_GOV_SHELT:int
-U˚VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_GOV_OTH:int
-V¸VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_GOV_NONE:int
-V˝VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_GOV:int
-X˛VMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKS_WHO:int
-YˇVMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKS_FEAR:int
-YÄWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKS_EMBA:int
-YÅWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKS_PRIV:int
-YÇWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKS_HELP:int
-YÉWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKS_NORM:int
-ZÑWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKS_BELIE:int
-YÖWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKS_NEED:int
-YÜWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKS_SELF:int
-ZáWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKS_ACCES:int
-YàWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKS_NORE:int
-XâWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKS_OTH:int
-YäWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_ASKFAM:smallint
-XãWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKF_ASK:int
-YåWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKF_FEAR:int
-YçWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKF_EMBA:int
-YéWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKF_PRIV:int
-YèWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKF_HELP:int
-YêWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKF_NORM:int
-ZëWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKF_BELIE:int
-YíWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKF_NEED:int
-YìWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKF_SELF:int
-YîWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKF_NORE:int
-XïWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKF_OTH:int
-]ñWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RECEIVEHLP:smallint
-YóWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HLPFAM_TALK:int
-YòWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HLPFAM_SAFE:int
-ZôWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HLPFAM_OTHAD:int
-YöWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HLPFAM_FINA:int
-YõWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HLPFAM_TRAN:int
-YúWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HLPFAM_DEPE:int
-ZùWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HLPFAM_SHELT:int
-ZûWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HLPFAM_OFFEN:int
-XüWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HLPFAM_OTH:int
-V†WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_FAM:int
-X°WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NOHLP_INVO:int
-X¢WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NOHLP_FEAR:int
-W£WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NOHLP_HOW:int
-X§WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NOHLP_NORM:int
-Y•WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NOHLP_BELIE:int
-X¶WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NOHLP_SIDE:int
-YßWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NOHLP_NTSUR:int
-W®WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NOHLP_OTH:int
-`©WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HLP_NOTRECVED:smallint
-W™WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_TALK:int
-W´WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_COUN:int
-W¨WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_LEGA:int
-V≠WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_MED:int
-XÆWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_OTHAD:int
-WØWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_DEPE:int
-W∞WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_FINA:int
-W±WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_TRAN:int
-W≤WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_LANG:int
-X≥WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_SHELT:int
-V¥WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_OTH:int
-WµWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_TALK_KNOW:int
-W∂WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_TALK_CULT:int
-X∑WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_TALK_RELIG:int
-W∏WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_TALK_ANON:int
-WπWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_TALK_ELSE:int
-W∫WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVSEX:varchar
-ZªWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVGender:varchar
-]ºWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVSEXORIENT:varchar
-SΩWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVAGE:int
-]æWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DV5YRAGEGRP:varchar
-ZøWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVAGEGRP:varchar
-Y¿WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVETHN_EURO:bit
-Z¡WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVETHN_MAORI:bit
-\¬WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVETHN_PACIFIC:bit
-Z√WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVETHN_ASIAN:bit
-\ƒWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVETHN_CHINESE:bit
-[≈WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVETHN_INDIAN:bit
-_∆WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVETHN_OTHERASIAN:bit
-Z«WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVETHN_OTHER:bit
-W»WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVETHN_NS:bit
-_…WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVPERSINCGRP1:varchar
-_ WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVPERSINCGRP2:varchar
-`ÀWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVHHOLDINCGRP1:varchar
-`ÃWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVHHOLDINCGRP2:varchar
-YÕWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVURBAN:varchar
-^ŒWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVREGCOUNCIL:varchar
-XœWMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NZDEPSCORE:int
-]–WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NZDEPDECILE:varchar
-_—WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NZDEPQUINTILE:varchar
-b“WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVEVERSEXASSAULT:varchar
-b”WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVEVEROTHASSAULT:varchar
-\‘WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVPERSONINCOME:int
-[’WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVHHOLDINCOME:int
-`÷WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVPERSONINCOME_imp:int
-_◊WMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVHHOLDINCOME_imp:int
-aÿWMOJNZ Crime and Victims Survey"nzcvs_clean*module2 nzcvs_module_ethnic_grp1_snz_ind:bit
-aŸWMOJNZ Crime and Victims Survey"nzcvs_clean*module2 nzcvs_module_ethnic_grp2_snz_ind:bit
-a⁄WMOJNZ Crime and Victims Survey"nzcvs_clean*module2 nzcvs_module_ethnic_grp3_snz_ind:bit
-a€WMOJNZ Crime and Victims Survey"nzcvs_clean*module2 nzcvs_module_ethnic_grp4_snz_ind:bit
-a‹WMOJNZ Crime and Victims Survey"nzcvs_clean*module2 nzcvs_module_ethnic_grp5_snz_ind:bit
-a›WMOJNZ Crime and Victims Survey"nzcvs_clean*module2 nzcvs_module_ethnic_grp6_snz_ind:bit
-`ﬁWNZTA+Drivers licence and motor vehicle registers"
+Ñ∂PStats NZ*Metadata describing fields in other tables"metadata*#address_notification_date_exclusion2address_type_code:varchar
+Ä∑PStats NZ*Metadata describing fields in other tables"metadata*#address_notification_date_exclusion2exclude_date:datetime
+z∏PStats NZ*Metadata describing fields in other tables"metadata*#address_notification_date_exclusion2
+active_ind:char
+|πPStats NZ*Metadata describing fields in other tables"metadata*address_notification_outlier2address_source_code:char
+t∫PStats NZ*Metadata describing fields in other tables"metadata*address_notification_outlier2date_seq_nbr:int
+uªPStats NZ*Metadata describing fields in other tables"metadata*address_notification_outlier2applied_date:date
+uºPStats NZ*Metadata describing fields in other tables"metadata*address_notification_outlier2address_count:int
+zΩPStats NZ*Metadata describing fields in other tables"metadata*address_notification_outlier2rolling_mean_nbr:float
+xæPStats NZ*Metadata describing fields in other tables"metadata*address_notification_outlier2rolling_sd_nbr:float
+yøPStats NZ*Metadata describing fields in other tables"metadata*address_notification_outlier2upper_bound_nbr:float
+{¿PStats NZ*Metadata describing fields in other tables"metadata*address_notification_outlier2outlier_score_nbr:float
+|¡PStats NZ*Metadata describing fields in other tables"metadata*address_notification_outlier2outlier_rank_nbr:tinyint
+{¬PStats NZ*Metadata describing fields in other tables"metadata*address_notification_source2address_source_code:char
+y√PStats NZ*Metadata describing fields in other tables"metadata*address_notification_source2address_type_code:char
+{ƒPStats NZ*Metadata describing fields in other tables"metadata*address_notification_source2address_tier_nbr:tinyint
+{≈PStats NZ*Metadata describing fields in other tables"metadata*address_notification_source2address_rank_nbr:tinyint
+r∆PStats NZ*Metadata describing fields in other tables"metadata*address_notification_source2
+active_ind:char
+h«PStats NZ*Metadata describing fields in other tables"metadata*collection_year2year_nbr:smallint
+o»PStats NZ*Metadata describing fields in other tables"metadata*collection_year2year_start_date:datetime
+m…PStats NZ*Metadata describing fields in other tables"metadata*collection_year2year_mid_date:datetime
+m PStats NZ*Metadata describing fields in other tables"metadata*collection_year2year_end_date:datetime
+sÀPStats NZ*Metadata describing fields in other tables"metadata*collection_year2tax_year_start_date:datetime
+qÃPStats NZ*Metadata describing fields in other tables"metadata*collection_year2tax_year_end_date:datetime
+vÕPStats NZ*Metadata describing fields in other tables"metadata*collection_year2repayment_threshold_amt:decimal
+hŒPStats NZ*Metadata describing fields in other tables"metadata*collection_year2	desc_text:varchar
+fœPStats NZ*Metadata describing fields in other tables"metadata*collection_year2
+active_ind:char
+f–PStats NZ*Metadata describing fields in other tables"metadata*indexes2table_name_text:varchar
+f—PStats NZ*Metadata describing fields in other tables"metadata*indexes2index_name_text:varchar
+b“PStats NZ*Metadata describing fields in other tables"metadata*indexes2action_text:varchar
+d”PStats NZ*Metadata describing fields in other tables"metadata*indexes2col_list_text:varchar
+`‘PStats NZ*Metadata describing fields in other tables"metadata*indexes2	index_sql:varchar
+^’PStats NZ*Metadata describing fields in other tables"metadata*indexes2
+active_ind:char
+h÷PStats NZ*Metadata describing fields in other tables"metadata*indexes2when_applied_code:varchar
+\◊PStats NZ*Metadata describing fields in other tables"metadata*indexes2	object_id:int
+[ÿPStats NZ*Metadata describing fields in other tables"metadata*indexes2name:sysname
+[ŸPStats NZ*Metadata describing fields in other tables"metadata*indexes2index_id:int
+[⁄PStats NZ*Metadata describing fields in other tables"metadata*indexes2type:tinyint
+a€PStats NZ*Metadata describing fields in other tables"metadata*indexes2	type_desc:nvarchar
+\‹PStats NZ*Metadata describing fields in other tables"metadata*indexes2	is_unique:bit
+`›PStats NZ*Metadata describing fields in other tables"metadata*indexes2data_space_id:int
+aﬁPStats NZ*Metadata describing fields in other tables"metadata*indexes2ignore_dup_key:bit
+aﬂPStats NZ*Metadata describing fields in other tables"metadata*indexes2is_primary_key:bit
+g‡PStats NZ*Metadata describing fields in other tables"metadata*indexes2is_unique_constraint:bit
+b·PStats NZ*Metadata describing fields in other tables"metadata*indexes2fill_factor:tinyint
+\‚PStats NZ*Metadata describing fields in other tables"metadata*indexes2	is_padded:bit
+^„PStats NZ*Metadata describing fields in other tables"metadata*indexes2is_disabled:bit
+b‰PStats NZ*Metadata describing fields in other tables"metadata*indexes2is_hypothetical:bit
+mÂPStats NZ*Metadata describing fields in other tables"metadata*indexes2is_ignored_in_optimization:bit
+bÊPStats NZ*Metadata describing fields in other tables"metadata*indexes2allow_row_locks:bit
+cÁPStats NZ*Metadata describing fields in other tables"metadata*indexes2allow_page_locks:bit
+]ËPStats NZ*Metadata describing fields in other tables"metadata*indexes2
+has_filter:bit
+fÈPStats NZ*Metadata describing fields in other tables"metadata*indexes2filter_definition:ntext
+dÍPStats NZ*Metadata describing fields in other tables"metadata*indexes2compression_delay:int
+lÎPStats NZ*Metadata describing fields in other tables"metadata*indexes2suppress_dup_key_messages:bit
+_ÏPStats NZ*Metadata describing fields in other tables"metadata*indexes2auto_created:bit
+nÌPStats NZ*Metadata describing fields in other tables"metadata*indexes2optimize_for_sequential_key:bit
+fÓPStats NZ*Metadata describing fields in other tables"metadata*ird_cross_reference2snz_uid:int
+vÔPStats NZ*Metadata describing fields in other tables"metadata*ird_cross_reference2ir_xrf_from_snz_ird_uid:int
+tPStats NZ*Metadata describing fields in other tables"metadata*ird_cross_reference2ir_xrf_to_snz_ird_uid:int
+sÒPStats NZ*Metadata describing fields in other tables"metadata*ird_cross_reference2ir_xrf_applied_date:date
+rÚPStats NZ*Metadata describing fields in other tables"metadata*ird_cross_reference2ir_xrf_ceased_date:date
+}ÛPStats NZ*Metadata describing fields in other tables"metadata*ird_cross_reference2ir_xrf_reference_type_code:varchar
+tÙPStats NZ*Metadata describing fields in other tables"metadata*ird_cross_reference2ir_xrf_first_year_nbr:int
+uıPStats NZ*Metadata describing fields in other tables"metadata*ird_cross_reference2ir_xrf_latest_year_nbr:int
+yˆPStats NZ*Metadata describing fields in other tables"metadata*ird_cross_reference2ir_xrf_ird_timestamp_date:date
+o˜PStats NZ*Metadata describing fields in other tables"metadata*ird_cross_reference2from_snz_ird_uid:int
+m¯PStats NZ*Metadata describing fields in other tables"metadata*ird_cross_reference2to_snz_ird_uid:int
+p˘PStats NZ*Metadata describing fields in other tables"metadata*ird_cross_reference2ref_type_code:varchar
+i˙PStats NZ*Metadata describing fields in other tables"metadata*link_set_run2link_set_key:smallint
+k˚PStats NZ*Metadata describing fields in other tables"metadata*link_set_run2link_subset_key:tinyint
+_¸PStats NZ*Metadata describing fields in other tables"metadata*link_set_run2run_key:int
+o˝PStats NZ*Metadata describing fields in other tables"metadata*link_set_run2link_datetime:smalldatetime
+j˛PStats NZ*Metadata describing fields in other tables"metadata*link_subset2link_subset_key:tinyint
+kˇPStats NZ*Metadata describing fields in other tables"metadata*link_subset2link_subset_code:varchar
+nÄQStats NZ*Metadata describing fields in other tables"metadata*link_subset2lhs_identifier_text:varchar
+nÅQStats NZ*Metadata describing fields in other tables"metadata*link_subset2rhs_identifier_text:varchar
+eÇQStats NZ*Metadata describing fields in other tables"metadata*link_subset2
+phase_code:varchar
+cÉQStats NZ*Metadata describing fields in other tables"metadata*link_subset2is_spine_ind:bit
+nÑQStats NZ*Metadata describing fields in other tables"metadata*link_subset2cleaning_order_nbr:smallint
+jÖQStats NZ*Metadata describing fields in other tables"metadata*link_subset2reverse_lhs_rhs_ind:bit
+eÜQStats NZ*Metadata describing fields in other tables"metadata*link_subset2
+dedup_code:varchar
+máQStats NZ*Metadata describing fields in other tables"metadata*link_subset2max_dedup_grp_size_nbr:int
+dàQStats NZ*Metadata describing fields in other tables"metadata*link_subset2is_active_ind:bit
+pâQStats NZ*Metadata describing fields in other tables"metadata*meshblock_all2meshblock_year_code:varchar
+oäQStats NZ*Metadata describing fields in other tables"metadata*meshblock_all2meshblock_ver_code:varchar
+sãQStats NZ*Metadata describing fields in other tables"metadata*meshblock_all2gis_meshblock_ver_code:varchar
+håQStats NZ*Metadata describing fields in other tables"metadata*meshblock_all2meshblock_code:char
+açQStats NZ*Metadata describing fields in other tables"metadata*meshblock_all2au_code:char
+iéQStats NZ*Metadata describing fields in other tables"metadata*meshblock_all2au_name_text:varchar
+aèQStats NZ*Metadata describing fields in other tables"metadata*meshblock_all2ta_code:char
+iêQStats NZ*Metadata describing fields in other tables"metadata*meshblock_all2ta_name_text:varchar
+eëQStats NZ*Metadata describing fields in other tables"metadata*meshblock_all2region_code:char
+míQStats NZ*Metadata describing fields in other tables"metadata*meshblock_all2region_name_text:varchar
+mìQStats NZ*Metadata describing fields in other tables"metadata*meshblock_all2meshblock_shape:geometry
+dîQStats NZ*Metadata describing fields in other tables"metadata*meshblock_all2x_coord:numeric
+dïQStats NZ*Metadata describing fields in other tables"metadata*meshblock_all2y_coord:numeric
+pñQStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2meshblock_code:char
+móQStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB2019_code:char
+mòQStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB2018_code:char
+môQStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB2017_code:char
+möQStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB2016_code:char
+mõQStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB2015_code:char
+múQStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB2014_code:char
+mùQStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB2013_code:char
+mûQStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB2012_code:char
+müQStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB2011_code:char
+m†QStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB2010_code:char
+m°QStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB2009_code:char
+m¢QStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB2008_code:char
+m£QStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB2007_code:char
+m§QStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB2006_code:char
+m•QStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB2005_code:char
+m¶QStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB2004_code:char
+mßQStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB2003_code:char
+m®QStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB2002_code:char
+m©QStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB2001_code:char
+m™QStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB2000_code:char
+m´QStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB1999_code:char
+m¨QStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB1998_code:char
+m≠QStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB1996_code:char
+mÆQStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB1995_code:char
+mØQStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB1993_code:char
+m∞QStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB1991_code:char
+m±QStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB1990_code:char
+m≤QStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2MB1986_code:char
+|≥QStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2census_meshblock_year_code:char
+w¥QStats NZ*Metadata describing fields in other tables"metadata*meshblock_concordance2census_meshblock_code:char
+tµQStats NZ*Metadata describing fields in other tables"metadata*meshblock_current2meshblock_year_code:varchar
+s∂QStats NZ*Metadata describing fields in other tables"metadata*meshblock_current2meshblock_ver_code:varchar
+w∑QStats NZ*Metadata describing fields in other tables"metadata*meshblock_current2gis_meshblock_ver_code:varchar
+l∏QStats NZ*Metadata describing fields in other tables"metadata*meshblock_current2meshblock_code:char
+eπQStats NZ*Metadata describing fields in other tables"metadata*meshblock_current2au_code:char
+m∫QStats NZ*Metadata describing fields in other tables"metadata*meshblock_current2au_name_text:varchar
+eªQStats NZ*Metadata describing fields in other tables"metadata*meshblock_current2ta_code:char
+mºQStats NZ*Metadata describing fields in other tables"metadata*meshblock_current2ta_name_text:varchar
+iΩQStats NZ*Metadata describing fields in other tables"metadata*meshblock_current2region_code:char
+qæQStats NZ*Metadata describing fields in other tables"metadata*meshblock_current2region_name_text:varchar
+qøQStats NZ*Metadata describing fields in other tables"metadata*meshblock_current2meshblock_shape:geometry
+h¿QStats NZ*Metadata describing fields in other tables"metadata*meshblock_current2x_coord:numeric
+h¡QStats NZ*Metadata describing fields in other tables"metadata*meshblock_current2y_coord:numeric
+l¬QStats NZ*Metadata describing fields in other tables"metadata*postcode_meshblock_map2	post_code:char
+t√QStats NZ*Metadata describing fields in other tables"metadata*postcode_meshblock_map2meshblock_code:varchar
+sƒQStats NZ*Metadata describing fields in other tables"metadata*postcode_meshblock_map2meshblock_x_coord:int
+s≈QStats NZ*Metadata describing fields in other tables"metadata*postcode_meshblock_map2meshblock_y_coord:int
+x∆QStats NZ*Metadata describing fields in other tables"metadata*postcode_meshblock_map2meshblock_seq_nbr:smallint
+z«QStats NZ*Metadata describing fields in other tables"metadata*postcode_meshblock_map2meshblock_count_nbr:smallint
+w»QStats NZ*Metadata describing fields in other tables"metadata*postcode_meshblock_map2random_start_nbr:smallint
+u…QStats NZ*Metadata describing fields in other tables"metadata*postcode_meshblock_map2random_end_nbr:smallint
+v QStats NZ*Metadata describing fields in other tables"metadata*postcode_meshblock_map2post_code_type_code:char
+sÀQStats NZ*Metadata describing fields in other tables"metadata*postcode_meshblock_map2source_post_code:char
+bÃQStats NZ*Metadata describing fields in other tables"metadata*postshop2postshop_code:char
+^ÕQStats NZ*Metadata describing fields in other tables"metadata*postshop2	post_code:char
+gŒQStats NZ*Metadata describing fields in other tables"metadata*postshop2lobby_name_text:varchar
+fœQStats NZ*Metadata describing fields in other tables"metadata*postshop2town_name_text:varchar
+g–QStats NZ*Metadata describing fields in other tables"metadata*postshop2round_name_text:varchar
+f—QStats NZ*Metadata describing fields in other tables"metadata*postshop2mail_town_text:varchar
+X“QMOEEducation and Training data"	moe_clean*
+completion2moe_com_year_nbr:smallint
+J”QMOEEducation and Training data"	moe_clean*
+completion2snz_uid:int
+N‘QMOEEducation and Training data"	moe_clean*
+completion2snz_moe_uid:int
+Y’QMOEEducation and Training data"	moe_clean*
+completion2moe_com_provider_code:char
+\÷QMOEEducation and Training data"	moe_clean*
+completion2moe_com_snz_unique_nbr:bigint
+U◊QMOEEducation and Training data"	moe_clean*
+completion2snz_student_id_uid:int
+UÿQMOEEducation and Training data"	moe_clean*
+completion2moe_com_qual_code:char
+YŸQMOEEducation and Training data"	moe_clean*
+completion2moe_com_subject1_code:char
+Y⁄QMOEEducation and Training data"	moe_clean*
+completion2moe_com_subject2_code:char
+Y€QMOEEducation and Training data"	moe_clean*
+completion2moe_com_subject3_code:char
+Y‹QMOEEducation and Training data"	moe_clean*
+completion2moe_com_demf1_code:varchar
+Y›QMOEEducation and Training data"	moe_clean*
+completion2moe_com_demf2_code:varchar
+[ﬁQMOEEducation and Training data"	moe_clean*
+completion2moe_com_qual_level_code:char
+\ﬂQMOEEducation and Training data"	moe_clean*
+completion2moe_com_qual_nzsced_code:char
+X‡QMOEEducation and Training data"	moe_clean*
+completion2moe_com_qacc_code:varchar
+b·QMOEEducation and Training data"	moe_clean*
+completion2moe_com_slf_rprtd_qacc_code:varchar
+T‚QMOEEducation and Training data"	moe_clean*course2moe_crs_year_nbr:smallint
+F„QMOEEducation and Training data"	moe_clean*course2snz_uid:int
+J‰QMOEEducation and Training data"	moe_clean*course2snz_moe_uid:int
+UÂQMOEEducation and Training data"	moe_clean*course2moe_crs_provider_code:char
+XÊQMOEEducation and Training data"	moe_clean*course2moe_crs_snz_unique_nbr:bigint
+QÁQMOEEducation and Training data"	moe_clean*course2moe_crs_qual_code:char
+VËQMOEEducation and Training data"	moe_clean*course2moe_crs_course_code:varchar
+RÈQMOEEducation and Training data"	moe_clean*course2moe_crs_start_date:date
+QÍQMOEEducation and Training data"	moe_clean*course2snz_student_id_uid:int
+PÎQMOEEducation and Training data"	moe_clean*course2moe_crs_end_date:date
+WÏQMOEEducation and Training data"	moe_clean*course2moe_crs_withdrawal_date:date
+VÌQMOEEducation and Training data"	moe_clean*course2moe_crs_qual_type_code:char
+RÓQMOEEducation and Training data"	moe_clean*course2moe_crs_age_nbr:tinyint
+WÔQMOEEducation and Training data"	moe_clean*course2moe_crs_assistance_code:char
+\QMOEEducation and Training data"	moe_clean*course2moe_crs_attendance_type_code:char
+UÒQMOEEducation and Training data"	moe_clean*course2moe_crs_category_code:char
+TÚQMOEEducation and Training data"	moe_clean*course2moe_crs_country_code:char
+WÛQMOEEducation and Training data"	moe_clean*course2moe_crs_sr_country_code:char
+YÙQMOEEducation and Training data"	moe_clean*course2moe_crs_course_class_code:char
+UıQMOEEducation and Training data"	moe_clean*course2moe_crs_complete_code:char
+\ˆQMOEEducation and Training data"	moe_clean*course2moe_crs_complete_applies_ind:char
+[˜QMOEEducation and Training data"	moe_clean*course2moe_crs_credit_value_nbr:decimal
+_¯QMOEEducation and Training data"	moe_clean*course2moe_crs_last_school_decile_code:char
+W˘QMOEEducation and Training data"	moe_clean*course2moe_crs_disability_code:char
+^˙QMOEEducation and Training data"	moe_clean*course2moe_crs_disability_access_code:char
+Z˚QMOEEducation and Training data"	moe_clean*course2moe_crs_birth_month_nbr:tinyint
+Z¸QMOEEducation and Training data"	moe_clean*course2moe_crs_birth_year_nbr:smallint
+]˝QMOEEducation and Training data"	moe_clean*course2moe_crs_sr_birth_month_nbr:tinyint
+]˛QMOEEducation and Training data"	moe_clean*course2moe_crs_sr_birth_year_nbr:smallint
+\ˇQMOEEducation and Training data"	moe_clean*course2moe_crs_efts_consumed_nbr:decimal
+aÄRMOEEducation and Training data"	moe_clean*course2moe_crs_efts_course_factor_nbr:decimal
+XÅRMOEEducation and Training data"	moe_clean*course2moe_crs_efts_prog_nbr:decimal
+^ÇRMOEEducation and Training data"	moe_clean*course2moe_crs_efts_prog_years_nbr:decimal
+WÉRMOEEducation and Training data"	moe_clean*course2moe_crs_ethnic1_code:varchar
+WÑRMOEEducation and Training data"	moe_clean*course2moe_crs_ethnic2_code:varchar
+WÖRMOEEducation and Training data"	moe_clean*course2moe_crs_ethnic3_code:varchar
+YÜRMOEEducation and Training data"	moe_clean*course2moe_crs_exempt_ind_nbr:tinyint
+YáRMOEEducation and Training data"	moe_clean*course2moe_crs_course_fee_amt:decimal
+jàRMOEEducation and Training data"	moe_clean*course2'moe_crs_compulsory_course_costs_fee_amt:decimal
+aâRMOEEducation and Training data"	moe_clean*course2moe_crs_foreign_fee_course_amt:decimal
+bäRMOEEducation and Training data"	moe_clean*course2moe_crs_foreign_fee_student_amt:decimal
+]ãRMOEEducation and Training data"	moe_clean*course2moe_crs_max_exempt_fee_amt:decimal
+]åRMOEEducation and Training data"	moe_clean*course2moe_crs_completion_finish_ind:char
+cçRMOEEducation and Training data"	moe_clean*course2moe_crs_first_tertiary_year_nbr:smallint
+YéRMOEEducation and Training data"	moe_clean*course2moe_crs_funding_srce_code:char
+WèRMOEEducation and Training data"	moe_clean*course2moe_crs_sex_snz_code:varchar
+ZêRMOEEducation and Training data"	moe_clean*course2moe_crs_sr_sex_snz_code:varchar
+WëRMOEEducation and Training data"	moe_clean*course2moe_crs_internet_nbr:tinyint
+WíRMOEEducation and Training data"	moe_clean*course2moe_crs_is_domestic_ind:char
+WìRMOEEducation and Training data"	moe_clean*course2moe_crs_sr_domestic_ind:char
+XîRMOEEducation and Training data"	moe_clean*course2moe_crs_isced_level_code:char
+QïRMOEEducation and Training data"	moe_clean*course2moe_crs_iwi1_code:char
+QñRMOEEducation and Training data"	moe_clean*course2moe_crs_iwi2_code:char
+QóRMOEEducation and Training data"	moe_clean*course2moe_crs_iwi3_code:char
+SòRMOEEducation and Training data"	moe_clean*course2moe_crs_nature_code:char
+YôRMOEEducation and Training data"	moe_clean*course2moe_crs_lln_indicator_ind:char
+^öRMOEEducation and Training data"	moe_clean*course2moe_crs_provider_location_code:char
+[õRMOEEducation and Training data"	moe_clean*course2moe_crs_nzqf_levelc_nbr:smallint
+[úRMOEEducation and Training data"	moe_clean*course2moe_crs_nzqf_levelq_nbr:smallint
+ZùRMOEEducation and Training data"	moe_clean*course2moe_crs_course_nzsced_code:char
+XûRMOEEducation and Training data"	moe_clean*course2moe_crs_qual_nzsced_code:char
+iüRMOEEducation and Training data"	moe_clean*course2%moe_crs_pbrf_course_complete_year_nbr:smallint
+\†RMOEEducation and Training data"	moe_clean*course2moe_crs_pbrf_eligibility_ind:char
+U°RMOEEducation and Training data"	moe_clean*course2moe_crs_pbrf_vrf_nbr:float
+X¢RMOEEducation and Training data"	moe_clean*course2moe_crs_postal_post_code:char
+W£RMOEEducation and Training data"	moe_clean*course2moe_crs_study_post_code:char
+[§RMOEEducation and Training data"	moe_clean*course2moe_crs_prior_activity_code:char
+Q•RMOEEducation and Training data"	moe_clean*course2moe_crs_qacc_code:char
+]¶RMOEEducation and Training data"	moe_clean*course2moe_crs_residency_status_code:char
+YßRMOEEducation and Training data"	moe_clean*course2moe_crs_sr_residency_code:char
+[®RMOEEducation and Training data"	moe_clean*course2moe_crs_last_school_nbr:smallint
+]©RMOEEducation and Training data"	moe_clean*course2moe_crs_highest_sec_qual_code:char
+Y™RMOEEducation and Training data"	moe_clean*course2moe_crs_study_region_code:char
+U´RMOEEducation and Training data"	moe_clean*course2moe_crs_study_ta_code:char
+W¨RMOEEducation and Training data"	moe_clean*course2moe_crs_study_type_code:char
+Z≠RMOEEducation and Training data"	moe_clean*course2moe_crs_sr_study_type_code:char
+`ÆRMOEEducation and Training data"	moe_clean*course2moe_crs_last_school_year_nbr:smallint
+`ØRMOEEducation and Training data"	moe_clean*course2moe_crs_deliverysitemeshblock:varchar
+b∞RMOEEducation and Training data"	moe_clean*course2moe_crs_deliverysiteregion_code:varchar
+b±RMOEEducation and Training data"	moe_clean*course2moe_crs_deliverysitestatus_code:varchar
+^≤RMOEEducation and Training data"	moe_clean*course2moe_crs_deliverysiteTA_code:varchar
+^≥RMOEEducation and Training data"	moe_clean*course2moe_crs_slf_rprtd_qacc_code:varchar
+[¥RMOEEducation and Training data"	moe_clean*course2moe_crs_ethnic1_snz_code:varchar
+[µRMOEEducation and Training data"	moe_clean*course2moe_crs_ethnic2_snz_code:varchar
+[∂RMOEEducation and Training data"	moe_clean*course2moe_crs_ethnic3_snz_code:varchar
+Z∑RMOEEducation and Training data"	moe_clean*course2moe_crs_ethnic_grp1_snz_ind:bit
+Z∏RMOEEducation and Training data"	moe_clean*course2moe_crs_ethnic_grp2_snz_ind:bit
+ZπRMOEEducation and Training data"	moe_clean*course2moe_crs_ethnic_grp3_snz_ind:bit
+Z∫RMOEEducation and Training data"	moe_clean*course2moe_crs_ethnic_grp4_snz_ind:bit
+ZªRMOEEducation and Training data"	moe_clean*course2moe_crs_ethnic_grp5_snz_ind:bit
+ZºRMOEEducation and Training data"	moe_clean*course2moe_crs_ethnic_grp6_snz_ind:bit
+LΩRMOEEducation and Training data"	moe_clean*ece_duration2snz_uid:int
+PæRMOEEducation and Training data"	moe_clean*ece_duration2snz_moe_uid:int
+^øRMOEEducation and Training data"	moe_clean*ece_duration2moe_sed_snz_unique_nbr:bigint
+h¿RMOEEducation and Training data"	moe_clean*ece_duration2moe_sed_ece_classification_code:varchar
+b¡RMOEEducation and Training data"	moe_clean*ece_duration2moe_sed_ece_duration_code:varchar
+Z¬RMOEEducation and Training data"	moe_clean*ece_duration2moe_sed_hours_nbr:decimal
+Y√RMOEEducation and Training data"	moe_clean*ece_duration2moe_sed_extrtn_date:date
+WƒRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_year_nbr:smallint
+I≈RMOEEducation and Training data"	moe_clean*	enrolment2snz_uid:int
+M∆RMOEEducation and Training data"	moe_clean*	enrolment2snz_moe_uid:int
+X«RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_provider_code:char
+[»RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_snz_unique_nbr:bigint
+T…RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_qual_code:char
+T RMOEEducation and Training data"	moe_clean*	enrolment2snz_student_id_uid:int
+YÀRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_qual_type_code:char
+_ÃRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_attendance_type_code:char
+WÕRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_country_code:char
+ZŒRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_sr_country_code:char
+bœRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_last_school_decile_code:char
+Z–RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_disability_code:char
+a—RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_disability_access_code:char
+]“RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_birth_month_nbr:tinyint
+]”RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_birth_year_nbr:smallint
+`‘RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_sr_birth_month_nbr:tinyint
+`’RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_sr_birth_year_nbr:smallint
+_÷RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_efts_consumed_nbr:decimal
+d◊RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_efts_course_factor_nbr:decimal
+[ÿRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_efts_prog_nbr:decimal
+aŸRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_efts_prog_years_nbr:decimal
+Z⁄RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_ethnic1_code:varchar
+Z€RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_ethnic2_code:varchar
+Z‹RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_ethnic3_code:varchar
+W›RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_iwi1_code:varchar
+WﬁRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_iwi2_code:varchar
+WﬂRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_iwi3_code:varchar
+Z‡RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_prog_start_date:date
+f·RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_first_tertiary_year_nbr:smallint
+\‚RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_funding_srce_code:char
+Z„RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_sex_snz_code:varchar
+]‰RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_sr_sex_snz_code:varchar
+ZÂRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_is_domestic_ind:char
+ZÊRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_sr_domestic_ind:char
+[ÁRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_isced_level_code:char
+XËRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_prog_end_date:date
+cÈRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_last_school_year_nbr:smallint
+VÍRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_nature_code:char
+[ÎRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_prog_nzsced_code:char
+[ÏRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_demf_year_counter:int
+YÌRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_demf_start_year:int
+SÓRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_demf1:varchar
+SÔRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_demf2:varchar
+^RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_prior_activity_code:char
+TÒRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_qacc_code:char
+`ÚRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_residency_status_code:char
+\ÛRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_sr_residency_code:char
+\ÙRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_study_region_code:char
+XıRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_study_ta_code:char
+ZˆRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_study_type_code:char
+]˜RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_sr_study_type_code:char
+Y¯RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_subsector_code:char
+b˘RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_last_school_region_code:char
+^˙RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_last_school_nbr:smallint
+Y˚RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_ird_invalid_ind:bit
+`¸RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_highest_sec_qual_code:char
+`˝RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_completion_finish_ind:char
+Z˛RMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_qual_level_code:char
+RˇRMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_manappr:char
+eÄSMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_deliverysiteregion_code:varchar
+eÅSMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_deliverysitestatus_code:varchar
+aÇSMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_deliverysiteTA_code:varchar
+aÉSMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_slf_rprtd_qacc_code:varchar
+bÑSMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_fees_free_eligible_code:char
+bÖSMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_total_fee_domestic_nbr:float
+^ÜSMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_ethnic1_snz_code:varchar
+^áSMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_ethnic2_snz_code:varchar
+^àSMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_ethnic3_snz_code:varchar
+]âSMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_ethnic_grp1_snz_ind:bit
+]äSMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_ethnic_grp2_snz_ind:bit
+]ãSMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_ethnic_grp3_snz_ind:bit
+]åSMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_ethnic_grp4_snz_ind:bit
+]çSMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_ethnic_grp5_snz_ind:bit
+]éSMOEEducation and Training data"	moe_clean*	enrolment2moe_enr_ethnic_grp6_snz_ind:bit
+CèSMOEEducation and Training data"	moe_clean*nsi2snz_uid:int
+GêSMOEEducation and Training data"	moe_clean*nsi2snz_moe_uid:int
+UëSMOEEducation and Training data"	moe_clean*nsi2moe_nsi_snz_unique_nbr:bigint
+TíSMOEEducation and Training data"	moe_clean*nsi2moe_nsi_sex_snz_code:varchar
+WìSMOEEducation and Training data"	moe_clean*nsi2moe_nsi_birth_month_nbr:tinyint
+WîSMOEEducation and Training data"	moe_clean*nsi2moe_nsi_birth_year_nbr:smallint
+RïSMOEEducation and Training data"	moe_clean*nsi2moe_nsi_verified_code:char
+WñSMOEEducation and Training data"	moe_clean*secondary_tertiary_prog2snz_uid:int
+[óSMOEEducation and Training data"	moe_clean*secondary_tertiary_prog2snz_moe_uid:int
+iòSMOEEducation and Training data"	moe_clean*secondary_tertiary_prog2moe_stp_snz_unique_nbr:bigint
+môSMOEEducation and Training data"	moe_clean*secondary_tertiary_prog2moe_stp_enrolment_yr_nbr:smallint
+eöSMOEEducation and Training data"	moe_clean*secondary_tertiary_prog2moe_stp_stp_code:smallint
+gõSMOEEducation and Training data"	moe_clean*secondary_tertiary_prog2moe_stp_school_code:varchar
+dúSMOEEducation and Training data"	moe_clean*secondary_tertiary_prog2moe_stp_extrtn_date:date
+MùSMOEEducation and Training data"	moe_clean*student_enrol2snz_uid:int
+QûSMOEEducation and Training data"	moe_clean*student_enrol2snz_moe_uid:int
+_üSMOEEducation and Training data"	moe_clean*student_enrol2moe_esi_snz_unique_nbr:bigint
+e†SMOEEducation and Training data"	moe_clean*student_enrol2moe_esi_entry_year_lvl_nbr:smallint
+_°SMOEEducation and Training data"	moe_clean*student_enrol2moe_esi_provider_code:varchar
+Y¢SMOEEducation and Training data"	moe_clean*student_enrol2moe_esi_start_date:date
+W£SMOEEducation and Training data"	moe_clean*student_enrol2moe_esi_end_date:date
+`§SMOEEducation and Training data"	moe_clean*student_enrol2moe_esi_leave_rsn_code:varchar
+c•SMOEEducation and Training data"	moe_clean*student_enrol2moe_esi_post_sch_act_code:varchar
+Z¶SMOEEducation and Training data"	moe_clean*student_enrol2moe_esi_extrtn_date:date
+UßSMOEEducation and Training data"	moe_clean*student_interventions2snz_uid:int
+Y®SMOEEducation and Training data"	moe_clean*student_interventions2snz_moe_uid:int
+g©SMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_snz_unique_nbr:bigint
+g™SMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_inst_num_code:varchar
+f´SMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_intrvtn_code:varchar
+a¨SMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_start_date:date
+_≠SMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_end_date:date
+qÆSMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_grnds_standwn_susp_code:varchar
+qØSMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_student_year_level_nbr:smallint
+i∞SMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_student_age_nbr:tinyint
+p±SMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_standwn_susp_type_code:varchar
+m≤SMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_number_of_days_nbr:smallint
+i≥SMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_school_term_nbr:tinyint
+m¥SMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_nets_ua_status_code:varchar
+jµSMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_nets_ua_status_date:date
+p∂SMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_nets_outcome_type_code:varchar
+p∑SMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_nets_leave_reason_code:varchar
+o∏SMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_nets_ua_provider_code:varchar
+kπSMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_esol_country_code:varchar
+l∫SMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_esol_language_code:varchar
+jªSMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_esol_status_code:varchar
+qºSMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_esol_reason_ceased_code:varchar
+fΩSMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_ae_type_code:varchar
+oæSMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_ae_provider_name_code:varchar
+løSMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_ae_verification_id:varchar
+q¿SMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_early_leaving_dest_code:varchar
+q¡SMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_early_leaving_type_code:varchar
+p¬SMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_rtlit_read_before_code:varchar
+o√SMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_rtlit_read_after_code:varchar
+qƒSMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_rtlit_write_before_code:varchar
+p≈SMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_rtlit_write_after_code:varchar
+r∆SMOEEducation and Training data"	moe_clean*student_interventions2 moe_inv_rtlit_ovral_outcome_code:varchar
+r«SMOEEducation and Training data"	moe_clean*student_interventions2 moe_inv_health_request_type_code:varchar
+n»SMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_health_left_ear_code:varchar
+o…SMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_health_right_ear_code:varchar
+o SMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_health_hear_test_code:varchar
+nÀSMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_health_left_eye_code:varchar
+oÃSMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_health_right_eye_code:varchar
+rÕSMOEEducation and Training data"	moe_clean*student_interventions2 moe_inv_health_overall_rslt_code:varchar
+jŒSMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_health_entered_date:date
+oœSMOEEducation and Training data"	moe_clean*student_interventions2 moe_inv_health_b4_schl_test_date:date
+m–SMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_irf_claim_type_code:varchar
+k—SMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_irf_severity_code:varchar
+l“SMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_se_job_status_code:varchar
+o”SMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_se_service_group_code:varchar
+r‘SMOEEducation and Training data"	moe_clean*student_interventions2 moe_inv_se_service_category_code:varchar
+b’SMOEEducation and Training data"	moe_clean*student_interventions2moe_inv_extrtn_date:date
+O÷SMOEEducation and Training data"	moe_clean*student_leavers2snz_uid:int
+S◊SMOEEducation and Training data"	moe_clean*student_leavers2snz_moe_uid:int
+`ÿSMOEEducation and Training data"	moe_clean*student_leavers2moe_sl_snz_unique_nbr:bigint
+ZŸSMOEEducation and Training data"	moe_clean*student_leavers2moe_sl_leaver_year:int
+_⁄SMOEEducation and Training data"	moe_clean*student_leavers2moe_sl_sex_snz_code:varchar
+Y€SMOEEducation and Training data"	moe_clean*student_leavers2moe_sl_leaver_age:int
+d‹SMOEEducation and Training data"	moe_clean*student_leavers2moe_sl_student_type_code:varchar
+c›SMOEEducation and Training data"	moe_clean*student_leavers2moe_sl_eligibility_code:varchar
+]ﬁSMOEEducation and Training data"	moe_clean*student_leavers2moe_sl_leaving_yr_lvl:int
+fﬂSMOEEducation and Training data"	moe_clean*student_leavers2moe_sl_leaving_reason_code:varchar
+\‡SMOEEducation and Training data"	moe_clean*student_leavers2moe_sl_time_in_enrol:int
+\·SMOEEducation and Training data"	moe_clean*student_leavers2moe_sl_provider_code:int
+l‚SMOEEducation and Training data"	moe_clean*student_leavers2 moe_sl_leaver_count_options_code:varchar
+a„SMOEEducation and Training data"	moe_clean*student_leavers2moe_sl_refugee_status:varchar
+c‰SMOEEducation and Training data"	moe_clean*student_leavers2moe_sl_ue_entrance_code:varchar
+bÂSMOEEducation and Training data"	moe_clean*student_leavers2moe_sl_highest_attain_code:int
+`ÊSMOEEducation and Training data"	moe_clean*student_leavers2moe_sl_first_day_attend:date
+_ÁSMOEEducation and Training data"	moe_clean*student_leavers2moe_sl_last_day_attend:date
+\ËSMOEEducation and Training data"	moe_clean*student_leavers2moe_sl_extract_date:date
+KÈSMOEEducation and Training data"	moe_clean*student_per2snz_uid:int
+OÍSMOEEducation and Training data"	moe_clean*student_per2snz_moe_uid:int
+]ÎSMOEEducation and Training data"	moe_clean*student_per2moe_spi_snz_unique_nbr:bigint
+_ÏSMOEEducation and Training data"	moe_clean*student_per2moe_spi_birth_month_nbr:tinyint
+_ÌSMOEEducation and Training data"	moe_clean*student_per2moe_spi_birth_year_nbr:smallint
+XÓSMOEEducation and Training data"	moe_clean*student_per2moe_spi_sex_text:varchar
+\ÔSMOEEducation and Training data"	moe_clean*student_per2moe_spi_sex_snz_code:varchar
+]SMOEEducation and Training data"	moe_clean*student_per2moe_spi_mod_address_date:date
+YÒSMOEEducation and Training data"	moe_clean*student_per2moe_spi_iwi1_text:varchar
+YÚSMOEEducation and Training data"	moe_clean*student_per2moe_spi_iwi2_text:varchar
+YÛSMOEEducation and Training data"	moe_clean*student_per2moe_spi_iwi3_text:varchar
+YÙSMOEEducation and Training data"	moe_clean*student_per2moe_spi_eth1_text:varchar
+YıSMOEEducation and Training data"	moe_clean*student_per2moe_spi_eth2_text:varchar
+YˆSMOEEducation and Training data"	moe_clean*student_per2moe_spi_eth3_text:varchar
+`˜SMOEEducation and Training data"	moe_clean*student_per2moe_spi_ethnic1_snz_code:varchar
+`¯SMOEEducation and Training data"	moe_clean*student_per2moe_spi_ethnic2_snz_code:varchar
+`˘SMOEEducation and Training data"	moe_clean*student_per2moe_spi_ethnic3_snz_code:varchar
+_˙SMOEEducation and Training data"	moe_clean*student_per2moe_spi_ethnic_grp1_snz_ind:bit
+_˚SMOEEducation and Training data"	moe_clean*student_per2moe_spi_ethnic_grp2_snz_ind:bit
+_¸SMOEEducation and Training data"	moe_clean*student_per2moe_spi_ethnic_grp3_snz_ind:bit
+_˝SMOEEducation and Training data"	moe_clean*student_per2moe_spi_ethnic_grp4_snz_ind:bit
+_˛SMOEEducation and Training data"	moe_clean*student_per2moe_spi_ethnic_grp5_snz_ind:bit
+_ˇSMOEEducation and Training data"	moe_clean*student_per2moe_spi_ethnic_grp6_snz_ind:bit
+`ÄTMOEEducation and Training data"	moe_clean*student_per2snz_idi_address_register_uid:int
+XÅTMOEEducation and Training data"	moe_clean*student_per2moe_spi_region_code:char
+TÇTMOEEducation and Training data"	moe_clean*student_per2moe_spi_ta_code:char
+[ÉTMOEEducation and Training data"	moe_clean*student_per2moe_spi_meshblock_code:char
+eÑTMOEEducation and Training data"	moe_clean*student_per2moe_spi_meshblock_imputed_ind:varchar
+dÖTMOEEducation and Training data"	moe_clean*student_per2moe_spi_domestic_status_code:varchar
+XÜTMOEEducation and Training data"	moe_clean*student_per2moe_spi_extrtn_date:date
+XáTMOEEducation and Training data"	moe_clean*student_percentile_score2snz_uid:int
+\àTMOEEducation and Training data"	moe_clean*student_percentile_score2snz_moe_uid:int
+jâTMOEEducation and Training data"	moe_clean*student_percentile_score2moe_sps_snz_unique_nbr:bigint
+oäTMOEEducation and Training data"	moe_clean*student_percentile_score2moe_sps_year_of_score_nbr:smallint
+sãTMOEEducation and Training data"	moe_clean*student_percentile_score2 moe_sps_expected_percentile1_nbr:float
+såTMOEEducation and Training data"	moe_clean*student_percentile_score2 moe_sps_expected_percentile2_nbr:float
+sçTMOEEducation and Training data"	moe_clean*student_percentile_score2 moe_sps_expected_percentile3_nbr:float
+uéTMOEEducation and Training data"	moe_clean*student_percentile_score2moe_sps_last_year_at_school_nbr:smallint
+eèTMOEEducation and Training data"	moe_clean*student_percentile_score2moe_sps_extrtn_date:date
+UêTMOEEducation and Training data"	moe_clean*student_qualification2snz_uid:int
+YëTMOEEducation and Training data"	moe_clean*student_qualification2snz_moe_uid:int
+gíTMOEEducation and Training data"	moe_clean*student_qualification2moe_sql_snz_unique_nbr:bigint
+kìTMOEEducation and Training data"	moe_clean*student_qualification2moe_sql_iss_provider_code:varchar
+mîTMOEEducation and Training data"	moe_clean*student_qualification2moe_sql_award_provider_code:varchar
+_ïTMOEEducation and Training data"	moe_clean*student_qualification2moe_sql_qual_code:int
+gñTMOEEducation and Training data"	moe_clean*student_qualification2moe_sql_exam_result_code:char
+hóTMOEEducation and Training data"	moe_clean*student_qualification2moe_sql_nqf_level_code:tinyint
+lòTMOEEducation and Training data"	moe_clean*student_qualification2moe_sql_attained_year_nbr:smallint
+lôTMOEEducation and Training data"	moe_clean*student_qualification2moe_sql_endorsed_year_nbr:smallint
+eöTMOEEducation and Training data"	moe_clean*student_qualification2moe_sql_nzqa_load_date:date
+eõTMOEEducation and Training data"	moe_clean*student_qualification2moe_sql_nzqa_comp_date:date
+iúTMOEEducation and Training data"	moe_clean*student_qualification2moe_sql_electivt_strand_nbr:int
+iùTMOEEducation and Training data"	moe_clean*student_qualification2moe_sql_optional_strand_nbr:int
+bûTMOEEducation and Training data"	moe_clean*student_qualification2moe_sql_extrtn_date:date
+PüTMOEEducation and Training data"	moe_clean*student_standard2snz_uid:int
+T†TMOEEducation and Training data"	moe_clean*student_standard2snz_moe_uid:int
+b°TMOEEducation and Training data"	moe_clean*student_standard2moe_sst_snz_unique_nbr:bigint
+b¢TMOEEducation and Training data"	moe_clean*student_standard2moe_sst_standard_code:varchar
+g£TMOEEducation and Training data"	moe_clean*student_standard2moe_sst_attained_year_nbr:smallint
+h§TMOEEducation and Training data"	moe_clean*student_standard2moe_sst_study_provider_code:varchar
+l•TMOEEducation and Training data"	moe_clean*student_standard2moe_sst_reporting_provider_code:varchar
+f¶TMOEEducation and Training data"	moe_clean*student_standard2moe_sst_ans_in_te_reo_ind:tinyint
+hßTMOEEducation and Training data"	moe_clean*student_standard2moe_sst_trans_in_te_reo_ind:tinyint
+e®TMOEEducation and Training data"	moe_clean*student_standard2moe_sst_exam_result_code:varchar
+`©TMOEEducation and Training data"	moe_clean*student_standard2moe_sst_nzqa_load_date:date
+`™TMOEEducation and Training data"	moe_clean*student_standard2moe_sst_nzqa_comp_date:date
+]´TMOEEducation and Training data"	moe_clean*student_standard2moe_sst_extrtn_date:date
+J¨TMOEEducation and Training data"	moe_clean*
+student_ue2snz_uid:int
+N≠TMOEEducation and Training data"	moe_clean*
+student_ue2snz_moe_uid:int
+\ÆTMOEEducation and Training data"	moe_clean*
+student_ue2moe_sue_snz_unique_nbr:bigint
+aØTMOEEducation and Training data"	moe_clean*
+student_ue2moe_sue_attained_year_nbr:smallint
+X∞TMOEEducation and Training data"	moe_clean*
+student_ue2moe_sue_ue_type_code:char
+W±TMOEEducation and Training data"	moe_clean*
+student_ue2moe_sue_extrtn_date:date
+Q≤TMOEEducation and Training data"	moe_clean*targeted_training2snz_uid:int
+U≥TMOEEducation and Training data"	moe_clean*targeted_training2snz_moe_uid:int
+Z¥TMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_year_nbr:int
+cµTMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_snz_unique_nbr:bigint
+_∂TMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_course_id_nbr:int
+g∑TMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_placement_start_date:date
+b∏TMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_course_level_nbr:int
+dπTMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_sum_of_credits_nbr:int
+e∫TMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_placement_end_date:date
+eªTMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_birth_month_nbr:tinyint
+eºTMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_birth_year_nbr:smallint
+bΩTMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_sex_snz_code:varchar
+[æTMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_asian_ind:int
+^øTMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_european_ind:int
+[¿TMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_maori_ind:int
+^¡TMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_pasifika_ind:int
+[¬TMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_melaa_ind:int
+e√TMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_other_ethnicity_ind:int
+jƒTMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_employment_hist_code:varchar
+i≈TMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_education_hist_code:varchar
+e∆TMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_training_prog_code:char
+f«TMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_region_name_text:varchar
+f»TMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_course_name_text:varchar
+m…TMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_eligibility_reason_code:varchar
+r TMOEEducation and Training data"	moe_clean*targeted_training2$moe_ttr_orig_eligibility_reason_code:varchar
+jÀTMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_referral_agency_code:varchar
+aÃTMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_trn_prov_id_nbr:int
+`ÕTMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_moe_prov_code:char
+eŒTMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_trn_prov_type_code:char
+cœTMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_outcome_cat_code:char
+f–TMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_outcome_res_code:varchar
+e—TMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_ethnic_grp1_snz_ind:bit
+e“TMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_ethnic_grp2_snz_ind:bit
+e”TMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_ethnic_grp3_snz_ind:bit
+e‘TMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_ethnic_grp4_snz_ind:bit
+e’TMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_ethnic_grp5_snz_ind:bit
+e÷TMOEEducation and Training data"	moe_clean*targeted_training2moe_ttr_ethnic_grp6_snz_ind:bit
+N◊TMOEEducation and Training data"	moe_clean*tec_it_learner2snz_uid:int
+RÿTMOEEducation and Training data"	moe_clean*tec_it_learner2snz_moe_uid:int
+\ŸTMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_year_nbr:smallint
+`⁄TMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_snz_unique_nbr:bigint
+\€TMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_fund_code:varchar
+S‹TMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_APPR:int
+^›TMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_cmplx_APPR_flag:int
+cﬁTMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_edumis_2016_code:varchar
+eﬂTMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_ito_edumis_id_code:varchar
+]‡TMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_pms_course_nbr:int
+]·TMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_itr_course_nbr:int
+f‚TMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_programme_type_code:varchar
+^„TMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_nqf_level_code:char
+[‰TMOEEducation and Training data"	moe_clean*tec_it_learner2moe_credit_value_nbr:int
+^ÂTMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_nzsced_code:varchar
+dÊTMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_nzsced_broad_text:varchar
+eÁTMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_nzsced_narrow_text:varchar
+eËTMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_nzsced_detail_text:varchar
+^ÈTMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_anzsic_code:varchar
+eÍTMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_anzsic_level1_text:varchar
+eÎTMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_anzsic_level2_text:varchar
+eÏTMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_anzsic_level3_text:varchar
+eÌTMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_anzsic_level4_text:varchar
+`ÓTMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_occup_derived:varchar
+gÔTMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_duration_months_nbr:smallint
+bTMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_birth_month_nbr:tinyint
+bÒTMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_birth_year_nbr:smallint
+_ÚTMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_european_ind:tinyint
+\ÛTMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_maori_ind:tinyint
+\ÙTMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_asian_ind:tinyint
+_ıTMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_pasifika_ind:tinyint
+\ˆTMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_MELAA_ind:tinyint
+f˜TMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_other_ethnicity_ind:tinyint
+X¯TMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_sex_code:char
+_˘TMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_sex_snz_code:varchar
+a˙TMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_prev_qual_text:varchar
+Z˚TMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_ta_text:varchar
+h¸TMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_regional_council_text:varchar
+Z˝TMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_start_date:date
+X˛TMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_end_date:date
+iˇTMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_sum_units_consumed_nbr:decimal
+jÄUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_level1_qual_awarded_nbr:tinyint
+jÅUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_level2_qual_awarded_nbr:tinyint
+jÇUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_level3_qual_awarded_nbr:tinyint
+jÉUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_level4_qual_awarded_nbr:tinyint
+jÑUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_level5_qual_awarded_nbr:tinyint
+jÖUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_level6_qual_awarded_nbr:tinyint
+jÜUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_level7_qual_awarded_nbr:tinyint
+jáUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_level8_qual_awarded_nbr:tinyint
+càUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_qual_awarded_nbr:tinyint
+eâUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_equal_qual_gained_ind:char
+eäUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_lower_qual_gained_ind:char
+eãUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_upper_qual_gained_ind:char
+kåUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_tot_credits_awarded_nbr:smallint
+fçUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_level1_credits_nbr:smallint
+féUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_level2_credits_nbr:smallint
+fèUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_level3_credits_nbr:smallint
+fêUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_level4_credits_nbr:smallint
+fëUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_level5_credits_nbr:smallint
+fíUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_level6_credits_nbr:smallint
+fìUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_level7_credits_nbr:smallint
+fîUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_level8_credits_nbr:smallint
+gïUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_programme_completed_ind:char
+TñUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_pappr:int
+bóUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_ethnic_grp1_snz_ind:bit
+bòUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_ethnic_grp2_snz_ind:bit
+bôUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_ethnic_grp3_snz_ind:bit
+böUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_ethnic_grp4_snz_ind:bit
+bõUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_ethnic_grp5_snz_ind:bit
+búUMOEEducation and Training data"	moe_clean*tec_it_learner2moe_itl_ethnic_grp6_snz_ind:bit
+4ùUMOHHealth data"	moh_clean*b4sc2snz_uid:int
+8ûUMOHHealth data"	moh_clean*b4sc2snz_moh_uid:int
+HüUMOHHealth data"	moh_clean*b4sc2moh_bsc_birth_month_nbr:tinyint
+H†UMOHHealth data"	moh_clean*b4sc2moh_bsc_birth_year_nbr:smallint
+A°UMOHHealth data"	moh_clean*b4sc2moh_bsc_sex_code:varchar
+J¢UMOHHealth data"	moh_clean*b4sc2moh_bsc_check_status_text:varchar
+K£UMOHHealth data"	moh_clean*b4sc2moh_bsc_check_consent_text:varchar
+@§UMOHHealth data"	moh_clean*b4sc2moh_bsc_check_date:date
+G•UMOHHealth data"	moh_clean*b4sc2moh_bsc_check_dhb_text:varchar
+M¶UMOHHealth data"	moh_clean*b4sc2moh_bsc_general_outcome_text:varchar
+BßUMOHHealth data"	moh_clean*b4sc2moh_bsc_general_date:date
+N®UMOHHealth data"	moh_clean*b4sc2moh_bsc_general_grommets_text:varchar
+M©UMOHHealth data"	moh_clean*b4sc2moh_bsc_general_glasses_text:varchar
+L™UMOHHealth data"	moh_clean*b4sc2moh_bsc_vision_outcome_text:varchar
+A´UMOHHealth data"	moh_clean*b4sc2moh_bsc_vision_date:date
+L¨UMOHHealth data"	moh_clean*b4sc2moh_bsc_vision_score_l_text:varchar
+L≠UMOHHealth data"	moh_clean*b4sc2moh_bsc_vision_score_r_text:varchar
+MÆUMOHHealth data"	moh_clean*b4sc2moh_bsc_hearing_outcome_text:varchar
+BØUMOHHealth data"	moh_clean*b4sc2moh_bsc_hearing_date:date
+Q∞UMOHHealth data"	moh_clean*b4sc2 moh_bsc_hearing_audiomtry_l_text:varchar
+Q±UMOHHealth data"	moh_clean*b4sc2 moh_bsc_hearing_audiomtry_r_text:varchar
+Q≤UMOHHealth data"	moh_clean*b4sc2 moh_bsc_hearing_tympnmtry_l_text:varchar
+Q≥UMOHHealth data"	moh_clean*b4sc2 moh_bsc_hearing_tympnmtry_r_text:varchar
+L¥UMOHHealth data"	moh_clean*b4sc2moh_bsc_growth_outcome_text:varchar
+AµUMOHHealth data"	moh_clean*b4sc2moh_bsc_growth_date:date
+J∂UMOHHealth data"	moh_clean*b4sc2moh_bsc_growth_height_nbr:decimal
+J∑UMOHHealth data"	moh_clean*b4sc2moh_bsc_growth_weight_nbr:decimal
+L∏UMOHHealth data"	moh_clean*b4sc2moh_bsc_dental_outcome_text:varchar
+AπUMOHHealth data"	moh_clean*b4sc2moh_bsc_dental_date:date
+E∫UMOHHealth data"	moh_clean*b4sc2moh_bsc_dental_decay_nbr:int
+JªUMOHHealth data"	moh_clean*b4sc2moh_bsc_imms_outcome_text:varchar
+?ºUMOHHealth data"	moh_clean*b4sc2moh_bsc_imms_date:date
+JΩUMOHHealth data"	moh_clean*b4sc2moh_bsc_peds_outcome_text:varchar
+?æUMOHHealth data"	moh_clean*b4sc2moh_bsc_peds_date:date
+GøUMOHHealth data"	moh_clean*b4sc2moh_bsc_peds_pathway_code:char
+D¿UMOHHealth data"	moh_clean*b4sc2moh_bsc_peds_shaded_nbr:int
+F¡UMOHHealth data"	moh_clean*b4sc2moh_bsc_peds_unshaded_nbr:int
+J¬UMOHHealth data"	moh_clean*b4sc2moh_bsc_sdqp_outcome_text:varchar
+?√UMOHHealth data"	moh_clean*b4sc2moh_bsc_sdqp_date:date
+GƒUMOHHealth data"	moh_clean*b4sc2moh_bsc_sdqp_behaviour_nbr:int
+E≈UMOHHealth data"	moh_clean*b4sc2moh_bsc_sdqp_conduct_nbr:int
+G∆UMOHHealth data"	moh_clean*b4sc2moh_bsc_sdqp_emotional_nbr:int
+I«UMOHHealth data"	moh_clean*b4sc2moh_bsc_sdqp_hyperactive_nbr:int
+G»UMOHHealth data"	moh_clean*b4sc2moh_bsc_sdqp_peer_prob_nbr:int
+J…UMOHHealth data"	moh_clean*b4sc2moh_bsc_sdqt_outcome_text:varchar
+? UMOHHealth data"	moh_clean*b4sc2moh_bsc_sdqt_date:date
+GÀUMOHHealth data"	moh_clean*b4sc2moh_bsc_sdqt_behaviour_nbr:int
+EÃUMOHHealth data"	moh_clean*b4sc2moh_bsc_sdqt_conduct_nbr:int
+GÕUMOHHealth data"	moh_clean*b4sc2moh_bsc_sdqt_emotional_nbr:int
+IŒUMOHHealth data"	moh_clean*b4sc2moh_bsc_sdqt_hyperactive_nbr:int
+GœUMOHHealth data"	moh_clean*b4sc2moh_bsc_sdqt_peer_prob_nbr:int
+‚–UMOJCourt charges"	moj_clean*charges2snz_uid:intB¶A global unique identifier created by Statistics NZ. There is a snz_uid for each distinct identity in the IDI. This identifier is changed and reassigned each refresh.
+Â—UMOJCourt charges"	moj_clean*charges2snz_jus_uid:intB•An encrypted/transformed Justice sector unique identifier. Justice sector refers to data from New Zealand Police, Ministry of Justice, and Department of corrections.
+å“UMOJCourt charges"	moj_clean*charges2snz_moj_charge_uid:intBFUnique record number for each charge. Stats NZ encrypts this variable.
+	”UMOJCourt charges"	moj_clean*charges2 moj_chg_charge_outcome_type_code:varcharBó	Shows the outcome of the charge (eg convicted or acquitted). 
+Use the charge_outcome metadata table to categorise charge outcomes. This provides a label/classification describing each code and links each code to broader categories: 
+ÔÇ∑ outcome_name ‚Äì name description of outcome ÔÇ∑ outcome_4cat - used most often, as it is the simplest categorisation to determine convicted charges, or those with proved outcomes (by grouping together 1Convicted and 2Other proved) ÔÇ∑ outcome_6cat ‚Äì used when specific outcome types are required (eg Youth Court proved or Discharge without conviction) ÔÇ∑ outcome_11cat - used when specific outcome types are required (eg Youth Court proved or Discharge without conviction)  
+ÔÇ∑ outcome_youth ‚Äì used when using data relating specially to children and young people ÔÇ∑ outcome_rank ‚Äì ranks outcome type codes by seriousness ‚Äì is used in the calculation of moj_chg_serious_year_rank_nbr ÔÇ∑ outcome_notes ‚Äì provides information on when the outcome type was in use, based on changes in legislation or case management systems (for example, prior to the introduction of CMS in 2004, or since the Criminal Procedure Act in 2013).
+˙‘UMOJCourt charges"	moj_clean*charges2moj_chg_offence_code:varcharB≠Code for each type of offence under New Zealand law. More detailed than the Australian and New Zealand Standard Offence Classification (ANZSOC) coding scheme, which is used for most statistical analysis (this categorises offences into 16 divisions, then subdivisions and groups (the ANZSOC code is the group code) ‚Äì more information is available from: http://abs.gov.au/ausstats/abs@.nsf/mf/1234.0)). ÔÇ∑ Use the offence_code metadata table to identify and categorise offences: ÔÇ∑ offencedescription (name of each offence) ÔÇ∑ effectivedate (date offence was introduced ‚Äì if known) ÔÇ∑ obsoletedate (date offence became obsolete ‚Äì as required and if known) ÔÇ∑ LegReference (section of legislation related to the offence and penalties) ÔÇ∑ ANZSOC (ANZSOC group code) ÔÇ∑ IndividualMaxFine (maximum $ amount of fine that can be imposed) ÔÇ∑ CorporateMaxFine (maximum $ amount of fine that can be imposed) ÔÇ∑ MaxMonths (maximum prison days that can be imposed) ÔÇ∑ MaxYears (maximum prison years that can be imposed) ÔÇ∑ Max_is_range (maximum sentence is a range ‚Äì for these the lowest value is included eg methamphetamine/amphetamine offences list the maximum sentence for amphetamine rather than the higher sentence for methamphetamine) ÔÇ∑ SeriousnessScore (way of quantifying the relative seriousness of offences based on the sentences imposed for each offence ‚Äì for more information refer to: https://justice.govt.nz/assets/Documents/Publications/2016-FAQs-Seriousness-Scores2.pdf) ÔÇ∑ is_imprisonable (indicator of whether the offence is imprisonable or not) ÔÇ∑ ANZSOC_div_code_name (combination of division code and name) ÔÇ∑ ANZSOC_subdiv_code_name (combination of subdivision code and name) ÔÇ∑ ANZSOC_group_code_name (combination of group code and name) ÔÇ∑ ANZSOC_div_code (division code) ÔÇ∑ ANZSOC_subdiv_code (subdivision code) ÔÇ∑ ANZSOC_div_name (division name) ÔÇ∑ ANZSOC_subdiv_name (subdivision name) ÔÇ∑ ANZSOC_group_name (group name)
+X’UMOJCourt charges"	moj_clean*charges2"moj_chg_prosecuting_agency_id_co..:varchar
+ ÷UMOJCourt charges"	moj_clean*charges2moj_chg_plea_type_code:varcharB˚Shows the final plea made by the defendant in relation to the charge (eg guilty, not guilty, or no plea). 
+Use the plea_type metadata  table to identify these types, including: 
+ÔÇ∑ plea_name ÔÇ∑ plea_type (Guilty, Not guilty, Not recorded/No plea).
+⁄◊UMOJCourt charges"	moj_clean*charges2moj_chg_sex_code:charBîprovides gender information, including whether the record is for an organisation, which otherwise only available for records linked to the IDI spine
+ºÿUMOJCourt charges"	moj_clean*charges2moj_chg_age_nbr:tinyintBÙAge of the defendant in years at the time of the alleged offence where possible (or a proxy date, for example, charge laid date or first court hearing date, where offence date is unavailable). 
+Values below 10 are invalid. In some instances where the defendant‚Äôs date of birth and the offence date exist calculated age is invalid, and populated as missing. This occurs when: 
+ÔÇ∑ age has been calculated to be less than 10 years ÔÇ∑ calculated ages and criteria for Youth Court eligibility do not correspond. Because of this, care should be taken if age is recalculated for age at a different reference date (eg charge outcome date) using date of birth. 
+Whilst 5 or 10 year age bands are generally used for analysis, modification is required for children and young people. Generally, categories of 10 ‚Äì 16 years (or 10 ‚Äì 13 and 14 ‚Äì 16 years) and 17 ‚Äì 19 years are used.
+æŸUMOJCourt charges"	moj_clean*charges2 moj_chg_charge_outcome_cyear_nbr:varcharBÂShows the year in which the charge was disposed, based on the charge outcome date. 
+This variable is used as the basis for most analysis. Where charge_outcome_date is missing, but an outcome has been recorded, the year from last_court_hearing_date is used instead. Doing this results in no missing values in charge_outcome_year (despite missing values in charge_outcome_date). 
+Charge_outcome_year differs between calendar year releases and mid-year data releases (eg having values like 2010 for calendar year releases of data, but values like 2008/2009 for financial year releases of data). 
+Users can create their own calendar year values for mid-year data releases. But they must then be aware of misusing the serious_year_rank_nbr variable with their new calendar year values. This is because serious_year_rank_nbr (which ranks charges by seriousness for each person within a year) uses the 12 months covered by charge_outcome_year (ie years ending June for financial year - data releases).
+æ⁄UMOJCourt charges"	moj_clean*charges2 moj_chg_charge_outcome_fyear_nbr:varcharBÂShows the year in which the charge was disposed, based on the charge outcome date. 
+This variable is used as the basis for most analysis. Where charge_outcome_date is missing, but an outcome has been recorded, the year from last_court_hearing_date is used instead. Doing this results in no missing values in charge_outcome_year (despite missing values in charge_outcome_date). 
+Charge_outcome_year differs between calendar year releases and mid-year data releases (eg having values like 2010 for calendar year releases of data, but values like 2008/2009 for financial year releases of data). 
+Users can create their own calendar year values for mid-year data releases. But they must then be aware of misusing the serious_year_rank_nbr variable with their new calendar year values. This is because serious_year_rank_nbr (which ranks charges by seriousness for each person within a year) uses the 12 months covered by charge_outcome_year (ie years ending June for financial year - data releases).
+á
+€UMOJCourt charges"	moj_clean*charges2moj_chg_first_court_id_code:varcharB≥	Identifies the court where the first hearing was held ‚Äì usually closest to where the crime took place. 
+Use the court metadata table to identify and categorise courts: 
+ÔÇ∑ court_name (eg Palmerston North District Court) ÔÇ∑ court_location ‚Äì includes all court types at each location (eg Palmerston North, includes Palmerston North Youth Court, District Court and High Court) ÔÇ∑ court_type (eg District Court) ÔÇ∑ court_JSA ‚Äì the Justice Service Area is an administrative grouping of courts (eg Taitokerau, Manawatu/Wairarapa). There are 16 JSAs. Up until June 2017 courts were grouped into 14 Service delivery areas (JSAs differ from SDAs by changes to some of their names, Wellington SDA being split into two JSAs and the addition of a Central Registry JSA). Prior to Service delivery areas slightly different groupings called ‚Äòcourt clusters‚Äô were used. JSAs are ordered geographically from north to south. ÔÇ∑ police_district - mapping of court location to Police District (eg Central). Police Districts are ordered geographically from north to south. ÔÇ∑ date_closed - date the court closed (Note that Upper Hutt and Lower Hutt were combined into Hutt Valley when they closed in 2013).
+…‹UMOJCourt charges"	moj_clean*charges2moj_chg_last_court_id_code:varcharBwIdentifies the court where the last hearing was held. 
+Use the court metadata table to identify and categorise courts.
+é	›UMOJCourt charges"	moj_clean*charges2moj_chg_rank_all_cyear_nbr:smallintB∫Ranks the charges, by seriousness, for each person in a given year (based on charge outcome date). 
+A value of ‚Äô1‚Äô indicates this was the most serious charge for that person in that year. A range of information is used to determine which charge is an offender's most serious in a year. This includes information such as charge outcome, sentence type, sentence length/amount, remands in custody and bail and maximum offence penalties. For further information on rank all, see Coverage (most serious charge per person per year). 
+moj_chg_serious_year_rank_nbr is calculated at MOJ prior to transfer to Stats NZ. This is based on a defendant‚Äôs PRN (the justice sector unique identifier). However, the linking process can combine several PRN identities into a single snz_jus_uid, which would mean that an individual could then have duplicate moj_chg_serious_year_rank_nbr values. The number of such duplicates in the June 2017 refresh will be determined. MOJ and Stats NZ aim to produce an alternative version of this variable for future refreshes that ranks charges by snz_uid.
+é	ﬁUMOJCourt charges"	moj_clean*charges2moj_chg_rank_all_fyear_nbr:smallintB∫Ranks the charges, by seriousness, for each person in a given year (based on charge outcome date). 
+A value of ‚Äô1‚Äô indicates this was the most serious charge for that person in that year. A range of information is used to determine which charge is an offender's most serious in a year. This includes information such as charge outcome, sentence type, sentence length/amount, remands in custody and bail and maximum offence penalties. For further information on rank all, see Coverage (most serious charge per person per year). 
+moj_chg_serious_year_rank_nbr is calculated at MOJ prior to transfer to Stats NZ. This is based on a defendant‚Äôs PRN (the justice sector unique identifier). However, the linking process can combine several PRN identities into a single snz_jus_uid, which would mean that an individual could then have duplicate moj_chg_serious_year_rank_nbr values. The number of such duplicates in the June 2017 refresh will be determined. MOJ and Stats NZ aim to produce an alternative version of this variable for future refreshes that ranks charges by snz_uid.
+VﬂUMOJCourt charges"	moj_clean*charges2moj_chg_rank_cyp_cyear_nbr:smallintBN/A
+V‡UMOJCourt charges"	moj_clean*charges2moj_chg_rank_cyp_fyear_nbr:smallintBN/A
+û·UMOJCourt charges"	moj_clean*charges2moj_chg_cyp_ind:charBZIndicates whether the charge was for a child or young person or for an adult/organisation.
+±‚UMOJCourt charges"	moj_clean*charges2moj_chg_YC_ind:charBÌIndicator of whether the charge was heard in the Youth Court. See Children and young people: they are usually handled very differently for more about Youth Court.
+A charge is determined to have been heard in the Youth Court if the person is aged 10 - 16 years and the charge outcome court is a Youth Court. This allows charges transferred to the District Court for sentencing (which can occur for more serious types of offending) to be counted in the Youth Court where the charges were heard.
+π„UMOJCourt charges"	moj_clean*charges2moj_chg_serious_sentence1_code:varcharB‚Most serious sentence imposed for that charge. 
+A convicted charge may have more than one sentence imposed. As such, up to 5 sentences per charge are included in the dataset. These are ranked in order of seriousness, from moj_chg_serious_sentence1_code to moj_chg_serious_sentence5_code. 
+Use the sentence metadata table to identify and categorise these. Any analysis of sentences needs to first limit the data to CONVICTED charges. This is because charge outcome types other than convicted can receive sentences and orders. For example, a person discharged without conviction, although not convicted, may be ordered to pay reparation, be disqualified from driving, or receive a Sentencing Act Final Protection Order. Failure to exclude non-convicted charges from sentence analysis will produce potentially misleadingly results with a large number of charges with ‚ÄòNo sentence recorded‚Äô. 
+The hierarchy used to rank sent1‚Äìsent5 is shown (broadly) by the alphabetical order of sent_10cat (the 10 categories included in the metadata sentence table). These are:  a. imprisonment b. home detention, (including ‚Äòother custodial‚Äô for pre 2004 data) c. community detention d. intensive supervision e. community work f. supervision g. monetary (within the monetary category, ‚Äòreparation‚Äô is ranked as more serious than ‚Äòfine‚Äô) h. deferment i. other j. no sentence recorded. The sent_10cat is the preferred categorisation for sentence analysis. An alternative is to use sent_6cat where less differentiation of community or other sentence types is required. However, note that in sent_6cat imprisonment includes ‚Äòother custodial‚Äô pre-2004 sentences grouped together with Home detention in sent_10cat. 
+1. Imprisonment (including ‚Äòother custodial‚Äô for pre-2004) 2. home detention 3. other community 4. monetary 5. other 6. no sentence recorded. There is also a youth specific categorisation ‚Äì sent_youth. This orders penalties based on the section 283 Children, Young Persons, and Their Families Act 1989 hierarchy of responses: ÔÇ∑ s283(a)-(b) discharge, admonish ÔÇ∑ s283(c)-(j) monetary, confiscation, disqualification ÔÇ∑ s283(ja)-(jc) education, rehab programmes ÔÇ∑ s283(k)-(l) youth supervision, community work ÔÇ∑ s283(m) supervision with activity, intensive supervision ÔÇ∑ s283(n) supervision with residence ÔÇ∑ s283(o) adult sentences A combination of sent_youth and sent_10cat can be used, for example, to detail the types of adult sentence (eg imprisonment) received. Care should also be taken when applying the sentence categorisation to the 2nd, 3rd, 4th and 5th most serious sentences. The categorisation should not be applied to charges with no values for each of these variables eg  
+case when sent2 = ' ' then ' '   else sentence_10cat end as sentence2 
+ 
+Note the hierarchy of sentence types used by MOJ differs in two ways from the hierarchy of sentence types used by Corrections:  ÔÇ∑ MOJ ranks community detention as more serious than intensive supervision. ÔÇ∑ MOJ ranks community work as more serious than supervision.  These differences mean analyses of most serious sentence using MOJ data may show higher counts of community work relative to supervision, and higher counts of community detention relative to intensive supervision, than parallel analysis using Corrections data. No legislative guidance advises which ranking is ‚Äòcorrect‚Äô (nor clear operational priority) and so this inconsistency between agencies is being allowed to continue rather than either agency needing to change. Changing either sentence hierarchy now would create inconsistency with previously published output dependent on the hierarchy of sentences.
+∫‰UMOJCourt charges"	moj_clean*charges2moj_chg_serious_sentence2_code:varcharBdIdentifies the second-most serious sentence for the charge if there was one, and is otherwise blank.
+πÂUMOJCourt charges"	moj_clean*charges2moj_chg_serious_sentence3_code:varcharBcIdentifies the third-most serious sentence for the charge if there was one, and is otherwise blank.
+∫ÊUMOJCourt charges"	moj_clean*charges2moj_chg_serious_sentence4_code:varcharBdIdentifies the fourth-most serious sentence for the charge if there was one, and is otherwise blank.
+πÁUMOJCourt charges"	moj_clean*charges2moj_chg_serious_sentence5_code:varcharBcIdentifies the fifth-most serious sentence for the charge if there was one, and is otherwise blank.
+ËUMOJCourt charges"	moj_clean*charges2moj_chg_sentence1_weight_nbr:floatBùShows the weight (length/amount) of the sentence in the sent1 variable. 
+The unit varies by sentence type: Sentence type Unit Imprisonment days Home detention days Community detention days Intensive supervision days Community work hours Supervision days Monetary (fine, reparation) $ Deferment days Other - No sentence recorded - 
+ 
+Note that some sentence types have no weight recorded (eg ‚ÄòOther‚Äô sentence types including Final Protection Order and Order for forfeiture). Care should also be taken with the obsolete sentence type Community service (CS) which has no sentence weight (and so averages should not be calculated for Community work sentences prior to 2003 when this sentence type was replaced in the Sentencing Act 2002). 
+Care should be taken for indeterminate prison sentences, which have no (or a value of ‚Äò0‚Äô) sentence weight. These are life imprisonment (‚ÄòIML‚Äô and ‚ÄòL‚Äô) and preventive detention ('PREV' and 'Z'). To estimate the weight of indeterminate sentences any minimum non-parole period imposed needs to be taken into account. However, this information is not currently included in the IDI dataset. Whilst not ideal, in its absence the minimum nonparole period can be estimated: 
+ÔÇ∑ Life imprisonment = 10*365*1.5 (where 10 years is the minimum non-parole period * 365 days * a factor of 1.5) ÔÇ∑ Preventive detention = 5 years is the minimum non-parole period * 365 days * a factor of 1.5).
+∫ÈUMOJCourt charges"	moj_clean*charges2moj_chg_sentence2_weight_nbr:floatBhShows the weight of the sentence in the sent2 variable. The unit varies by sentence type (as for sent1).
+∫ÍUMOJCourt charges"	moj_clean*charges2moj_chg_sentence3_weight_nbr:floatBhShows the weight of the sentence in the sent3 variable. The unit varies by sentence type (as for sent1).
+∫ÎUMOJCourt charges"	moj_clean*charges2moj_chg_sentence4_weight_nbr:floatBhShows the weight of the sentence in the sent4 variable. The unit varies by sentence type (as for sent1).
+∫ÏUMOJCourt charges"	moj_clean*charges2moj_chg_sentence5_weight_nbr:floatBhShows the weight of the sentence in the sent5 variable. The unit varies by sentence type (as for sent1).
+yÌUMOJCourt charges"	moj_clean*charges2moj_chg_offence_from_date:dateB+Date on which the alleged offence occurred.
+†ÓUMOJCourt charges"	moj_clean*charges2moj_chg_charge_laid_date:dateBSDate on which the charge was filed by the prosecuting authority (or closest proxy).
+êÔUMOJCourt charges"	moj_clean*charges2 moj_chg_first_court_hearing_date:dateB;Date of the first court hearing associated with the charge.
+çUMOJCourt charges"	moj_clean*charges2moj_chg_last_court_hearing_date:dateB9Date of the last court hearing associated with the charge
+~ÒUMOJCourt charges"	moj_clean*charges2moj_chg_charge_outcome_date:dateB.Date of the charge outcome (or closest proxy).
+®ÚUMOJCourt charges"	moj_clean*charges2moj_chg_remand_bail_code:varcharBXprovides information on whether the person had been remanded on bail (including EM bail)
+öÛUMOJCourt charges"	moj_clean*charges2moj_chg_remand_custody_code:varcharBGprovides information on whether the person had been remanded in custody
+ÊÙUMOJCourt charges"	moj_clean*charges2moj_chg_suppressed_charge_code:charBíprovides an indicator of whether the charge had suppressed information, which would explain why the identity could not be linked to the IDI spine.
+„ıUMOJCourt charges"	moj_clean*matching2snz_uid:intB¶A global unique identifier created by Statistics NZ. There is a snz_uid for each distinct identity in the IDI. This identifier is changed and reassigned each refresh.
+ÊˆUMOJCourt charges"	moj_clean*matching2snz_jus_uid:intB•An encrypted/transformed Justice sector unique identifier. Justice sector refers to data from New Zealand Police, Ministry of Justice, and Department of corrections.
+[˜UMOJCourt charges"	moj_clean*matching2moj_mat_birth_month_nbr:tinyintBBirth month
+Z¯UMOJCourt charges"	moj_clean*matching2moj_mat_birth_year_nbr:smallintB
+Birth year
+™˘UMOJCourt charges"	moj_clean*matching2moj_mat_sex_snz_code:varcharB]Sex variable concorded to the Statistics NZ standard.
+Note: Organisations have a value of 3.
+z˙UMOJCourt charges"	moj_clean*matching2snz_person_ind:bitB7This indicates whether or not this relates to a person.
+„˚UMOJCourt charges"	moj_clean*matching2snz_uid:intB¶A global unique identifier created by Statistics NZ. There is a snz_uid for each distinct identity in the IDI. This identifier is changed and reassigned each refresh.
+J¸UMOJCourt charges"	moj_clean*matching2nzcvs_snz_unique_nbr:bigint
+@˝UMOJCourt charges"	moj_clean*matching2snz_nzcvs_uid:int
+J˛UMOJCourt charges"	moj_clean*matching2nzcvs_matching_qtr:smallint
+IˇUMOJCourt charges"	moj_clean*matching2nzcvs_matching_psu2015:int
+PÄVMOJCourt charges"	moj_clean*matching2nzcvs_matching_OutcomeMOJ:varchar
+LÅVMOJCourt charges"	moj_clean*matching2nzcvs_matching_ER1_06:tinyint
+LÇVMOJCourt charges"	moj_clean*matching2nzcvs_matching_ER1_08:tinyint
+LÉVMOJCourt charges"	moj_clean*matching2nzcvs_birth_month_nbr:tinyint
+LÑVMOJCourt charges"	moj_clean*matching2nzcvs_birth_year_nbr:smallint
+IÖVMOJCourt charges"	moj_clean*matching2nzcvs_snz_sex_code:varchar
+OÜVMOJCourt charges"	moj_clean*matching2snz_idi_address_register_uid:int
+EáVMOJCourt charges"	moj_clean*matching2nzcvs_region_code:char
+AàVMOJCourt charges"	moj_clean*matching2nzcvs_ta_code:char
+HâVMOJCourt charges"	moj_clean*matching2nzcvs_meshblock_code:char
+RäVMOJCourt charges"	moj_clean*matching2nzcvs_meshblock_imputed_ind:varchar
+@ãVMOJCourt charges"	moj_clean*migrant_survey2snz_uid:int
+DåVMOJCourt charges"	moj_clean*migrant_survey2snz_dol_uid:int
+PçVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_survey_year:smallint
+LéVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_method_code:char
+OèVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_age_group_code:char
+RêVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_child_less18_code:char
+TëVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_partner_spouse_code:char
+JíVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_visa_code:char
+OìVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_reside_nz_code:char
+RîVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_reside_other_code:char
+QïVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_region_live_code:char
+NñVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_empnz_01_code:char
+NóVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_empnz_02_code:char
+NòVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_empnz_03_code:char
+NôVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_empnz_04_code:char
+NöVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_empnz_05_code:char
+NõVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_empnz_06_code:char
+NúVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_empnz_07_code:char
+NùVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_empnz_08_code:char
+NûVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_empnz_09_code:char
+NüVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_empnz_10_code:char
+N†VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_empnz_96_code:char
+N°VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_empnz_98_code:char
+N¢VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_empnz_99_code:char
+S£VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_empnz_verbal1_code:char
+S§VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_empnz_verbal2_code:char
+N•VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_employer_code:char
+Q¶VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_sought_work_code:char
+SßVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_diff_get_work_code:char
+V®VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_diff_get_work_01_code:char
+V©VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_diff_get_work_02_code:char
+V™VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_diff_get_work_03_code:char
+V´VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_diff_get_work_04_code:char
+V¨VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_diff_get_work_05_code:char
+V≠VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_diff_get_work_06_code:char
+VÆVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_diff_get_work_07_code:char
+VØVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_diff_get_work_08_code:char
+V∞VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_diff_get_work_09_code:char
+V±VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_diff_get_work_10_code:char
+V≤VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_diff_get_work_11_code:char
+V≥VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_diff_get_work_12_code:char
+V¥VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_diff_get_work_13_code:char
+VµVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_diff_get_work_14_code:char
+V∂VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_diff_get_work_15_code:char
+V∑VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_diff_get_work_16_code:char
+V∏VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_diff_get_work_96_code:char
+VπVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_diff_get_work_98_code:char
+V∫VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_diff_get_work_99_code:char
+[ªVMOJCourt charges"	moj_clean*migrant_survey2!ms_mig_diff_get_work_verbal1_code:char
+[ºVMOJCourt charges"	moj_clean*migrant_survey2!ms_mig_diff_get_work_verbal2_code:char
+[ΩVMOJCourt charges"	moj_clean*migrant_survey2!ms_mig_diff_get_work_verbal3_code:char
+WæVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_answer_occupation_code:char
+PøVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_occupation_code:char
+X¿VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_occupation_verbal1_code:char
+V¡VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_occupation_anzco_code:char
+M¬VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_sat_job_code:char
+U√VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_dissatisfied_01_code:char
+UƒVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_dissatisfied_02_code:char
+U≈VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_dissatisfied_03_code:char
+U∆VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_dissatisfied_04_code:char
+U«VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_dissatisfied_05_code:char
+U»VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_dissatisfied_06_code:char
+U…VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_dissatisfied_07_code:char
+U VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_dissatisfied_08_code:char
+UÀVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_dissatisfied_09_code:char
+UÃVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_dissatisfied_10_code:char
+UÕVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_dissatisfied_11_code:char
+UŒVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_dissatisfied_12_code:char
+UœVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_dissatisfied_96_code:char
+U–VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_dissatisfied_97_code:char
+U—VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_dissatisfied_98_code:char
+U“VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_dissatisfied_99_code:char
+Z”VMOJCourt charges"	moj_clean*migrant_survey2 ms_mig_dissatisfied_verbal1_code:char
+Z‘VMOJCourt charges"	moj_clean*migrant_survey2 ms_mig_dissatisfied_verbal2_code:char
+Q’VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_empcontract_code:char
+Y÷VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_empcontract_verbal1_code:char
+S◊VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_pay_frequency_code:char
+[ÿVMOJCourt charges"	moj_clean*migrant_survey2!ms_mig_pay_frequency_verbal1_code:char
+NŸVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_earnings_code:char
+P⁄VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_earnings_amt:decimal
+V€VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_earnings_confirm_code:char
+P‹VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_hours_work_code:char
+P›VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_hours_work_nbr:float
+QﬁVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_industry_01_code:char
+QﬂVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_industry_02_code:char
+Q‡VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_industry_03_code:char
+Q·VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_industry_04_code:char
+Q‚VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_industry_05_code:char
+Q„VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_industry_06_code:char
+Q‰VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_industry_07_code:char
+QÂVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_industry_08_code:char
+QÊVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_industry_09_code:char
+QÁVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_industry_10_code:char
+QËVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_industry_11_code:char
+QÈVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_industry_12_code:char
+QÍVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_industry_13_code:char
+QÎVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_industry_14_code:char
+QÏVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_industry_15_code:char
+QÌVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_industry_16_code:char
+QÓVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_industry_17_code:char
+QÔVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_industry_96_code:char
+QVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_industry_98_code:char
+QÒVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_industry_99_code:char
+VÚVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_industry_verbal1_code:char
+VÛVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_industry_verbal2_code:char
+TÙVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_01_code:char
+TıVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_02_code:char
+TˆVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_03_code:char
+T˜VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_04_code:char
+T¯VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_05_code:char
+T˘VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_06_code:char
+T˙VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_07_code:char
+T˚VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_08_code:char
+T¸VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_09_code:char
+T˝VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_10_code:char
+T˛VMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_11_code:char
+TˇVMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_12_code:char
+TÄWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_13_code:char
+TÅWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_14_code:char
+TÇWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_15_code:char
+TÉWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_16_code:char
+TÑWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_17_code:char
+TÖWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_18_code:char
+TÜWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_19_code:char
+TáWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_20_code:char
+TàWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_21_code:char
+TâWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_22_code:char
+TäWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_96_code:char
+TãWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_97_code:char
+TåWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_98_code:char
+TçWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_99_code:char
+YéWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_verbal1_code:char
+YèWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_verbal2_code:char
+YêWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_info_source_verbal3_code:char
+NëWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_edu_qual_code:char
+VíWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_edu_qual_verbal1_code:char
+MìWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_qual_nz_code:char
+PîWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_qual_match_code:char
+VïWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_qual_mismatch_01_code:char
+VñWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_qual_mismatch_02_code:char
+VóWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_qual_mismatch_03_code:char
+VòWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_qual_mismatch_04_code:char
+VôWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_qual_mismatch_05_code:char
+VöWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_qual_mismatch_96_code:char
+VõWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_qual_mismatch_98_code:char
+VúWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_qual_mismatch_99_code:char
+[ùWMOJCourt charges"	moj_clean*migrant_survey2!ms_mig_qual_mismatch_verbal1_code:char
+[ûWMOJCourt charges"	moj_clean*migrant_survey2!ms_mig_qual_mismatch_verbal2_code:char
+PüWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_friends_nz_code:char
+P†WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_friends_hc_code:char
+P°WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_friends_oc_code:char
+R¢WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_socialise_nz_code:char
+R£WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_socialise_hc_code:char
+R§WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_socialise_oc_code:char
+N•WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_language_code:char
+R¶WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_english_prof_code:char
+TßWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_english_course_code:char
+S®WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_vote_eligible_code:char
+S©WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_vote_election_code:char
+P™WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_renew_visa_code:char
+T´WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_apply_perm_res_code:char
+Q¨WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_citizenship_code:char
+T≠WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_sponsor_family_code:char
+TÆWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_sponsor_intend_code:char
+TØWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_sponsor_factor_code:char
+L∞WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_staynz_code:char
+V±WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_planned_duration_code:char
+U≤WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_reason_leave_01_code:char
+U≥WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_reason_leave_02_code:char
+U¥WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_reason_leave_03_code:char
+UµWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_reason_leave_04_code:char
+U∂WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_reason_leave_05_code:char
+U∑WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_reason_leave_06_code:char
+U∏WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_reason_leave_07_code:char
+UπWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_reason_leave_08_code:char
+U∫WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_reason_leave_09_code:char
+UªWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_reason_leave_10_code:char
+UºWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_reason_leave_11_code:char
+UΩWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_reason_leave_12_code:char
+UæWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_reason_leave_13_code:char
+UøWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_reason_leave_14_code:char
+U¿WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_reason_leave_15_code:char
+U¡WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_reason_leave_16_code:char
+U¬WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_reason_leave_17_code:char
+U√WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_reason_leave_18_code:char
+UƒWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_reason_leave_96_code:char
+U≈WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_reason_leave_97_code:char
+U∆WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_reason_leave_98_code:char
+U«WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_reason_leave_99_code:char
+Z»WMOJCourt charges"	moj_clean*migrant_survey2 ms_mig_reason_leave_verbal1_code:char
+Z…WMOJCourt charges"	moj_clean*migrant_survey2 ms_mig_reason_leave_verbal2_code:char
+U WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_country_migrate_code:char
+LÀWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_timenz_code:char
+MÃWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_satisnz_code:char
+QÕWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_recommendnz_code:char
+VŒWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_expectationnz_01_code:char
+VœWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_expectationnz_02_code:char
+V–WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_expectationnz_03_code:char
+V—WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_expectationnz_04_code:char
+V“WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_expectationnz_05_code:char
+V”WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_expectationnz_06_code:char
+V‘WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_expectationnz_07_code:char
+V’WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_expectationnz_08_code:char
+T÷WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_treated_unfair_code:char
+W◊WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_treated_unfair_01_code:char
+WÿWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_treated_unfair_02_code:char
+WŸWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_treated_unfair_03_code:char
+W⁄WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_treated_unfair_04_code:char
+W€WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_treated_unfair_05_code:char
+W‹WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_treated_unfair_06_code:char
+W›WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_treated_unfair_07_code:char
+WﬁWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_treated_unfair_08_code:char
+WﬂWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_treated_unfair_09_code:char
+W‡WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_treated_unfair_10_code:char
+W·WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_treated_unfair_11_code:char
+W‚WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_treated_unfair_12_code:char
+W„WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_treated_unfair_13_code:char
+W‰WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_treated_unfair_96_code:char
+WÂWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_treated_unfair_98_code:char
+WÊWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_treated_unfair_99_code:char
+\ÁWMOJCourt charges"	moj_clean*migrant_survey2"ms_mig_treated_unfair_verbal1_code:char
+\ËWMOJCourt charges"	moj_clean*migrant_survey2"ms_mig_treated_unfair_verbal2_code:char
+MÈWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_crimenz_code:char
+WÍWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_income_sufficient_code:char
+ZÎWMOJCourt charges"	moj_clean*migrant_survey2 ms_mig_income_supplement_01_code:char
+ZÏWMOJCourt charges"	moj_clean*migrant_survey2 ms_mig_income_supplement_02_code:char
+ZÌWMOJCourt charges"	moj_clean*migrant_survey2 ms_mig_income_supplement_03_code:char
+ZÓWMOJCourt charges"	moj_clean*migrant_survey2 ms_mig_income_supplement_04_code:char
+ZÔWMOJCourt charges"	moj_clean*migrant_survey2 ms_mig_income_supplement_05_code:char
+ZWMOJCourt charges"	moj_clean*migrant_survey2 ms_mig_income_supplement_06_code:char
+ZÒWMOJCourt charges"	moj_clean*migrant_survey2 ms_mig_income_supplement_07_code:char
+ZÚWMOJCourt charges"	moj_clean*migrant_survey2 ms_mig_income_supplement_08_code:char
+ZÛWMOJCourt charges"	moj_clean*migrant_survey2 ms_mig_income_supplement_09_code:char
+ZÙWMOJCourt charges"	moj_clean*migrant_survey2 ms_mig_income_supplement_10_code:char
+ZıWMOJCourt charges"	moj_clean*migrant_survey2 ms_mig_income_supplement_11_code:char
+ZˆWMOJCourt charges"	moj_clean*migrant_survey2 ms_mig_income_supplement_12_code:char
+Z˜WMOJCourt charges"	moj_clean*migrant_survey2 ms_mig_income_supplement_13_code:char
+Z¯WMOJCourt charges"	moj_clean*migrant_survey2 ms_mig_income_supplement_96_code:char
+Z˘WMOJCourt charges"	moj_clean*migrant_survey2 ms_mig_income_supplement_97_code:char
+Z˙WMOJCourt charges"	moj_clean*migrant_survey2 ms_mig_income_supplement_98_code:char
+Z˚WMOJCourt charges"	moj_clean*migrant_survey2 ms_mig_income_supplement_99_code:char
+Y¸WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_income_supp_verbal1_code:char
+Y˝WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_income_supp_verbal2_code:char
+V˛WMOJCourt charges"	moj_clean*migrant_survey2ms_mig_household_income_code:char
+QˇWMOJCourt charges"	moj_clean*migrant_survey2ms_mig_remittances_code:char
+VÄXMOJCourt charges"	moj_clean*migrant_survey2ms_mig_remittances_paid_code:char
+XÅXMOJCourt charges"	moj_clean*migrant_survey2ms_mig_remittances_paid_amt:decimal
+NÇXMOJCourt charges"	moj_clean*migrant_survey2ms_mig_religion_code:char
+VÉXMOJCourt charges"	moj_clean*migrant_survey2ms_mig_religion_verbal1_code:char
+IÑXMOJCourt charges"	moj_clean*migrant_survey2ms_mig_sex_code:char
+OÖXMOJCourt charges"	moj_clean*migrant_survey2ms_mig_visa_type_code:char
+[ÜXMOJCourt charges"	moj_clean*migrant_survey2ms_mig_ams_applicant_type_code:varchar
+]áXMOJCourt charges"	moj_clean*migrant_survey2 ms_mig_ams_application_type_code:varchar
+aàXMOJCourt charges"	moj_clean*migrant_survey2$ms_mig_ams_application_criteria_text:varchar
+PâXMOJCourt charges"	moj_clean*migrant_survey2ms_mig_ams_sex_code:varchar
+XäXMOJCourt charges"	moj_clean*migrant_survey2ms_mig_ams_nationality_text:varchar
+WãXMOJCourt charges"	moj_clean*migrant_survey2ms_mig_ams_birth_month_nbr:tinyint
+WåXMOJCourt charges"	moj_clean*migrant_survey2ms_mig_ams_birth_year_nbr:smallint
+QçXMOJCourt charges"	moj_clean*migrant_survey2ms_mig_ams_decided_date:date
+\éXMOJCourt charges"	moj_clean*migrant_survey2ms_mig_ams_occ_description_text:varchar
+]èXMOJCourt charges"	moj_clean*migrant_survey2 ms_mig_ams_onshore_offshore_text:varchar
+OêXMOJCourt charges"	moj_clean*migrant_survey2ms_mig_ams_start_date:date
+[ëXMOJCourt charges"	moj_clean*migrant_survey2ms_mig_ams_first_stu_year_nbr:smallint
+[íXMOJCourt charges"	moj_clean*migrant_survey2ms_mig_ams_first_stu_crit_text:varchar
+ZìXMOJCourt charges"	moj_clean*migrant_survey2ms_mig_ams_last_stu_year_nbr:smallint
+ZîXMOJCourt charges"	moj_clean*migrant_survey2ms_mig_ams_last_stu_crit_text:varchar
+ZïXMOJCourt charges"	moj_clean*migrant_survey2ms_mig_ams_first_wk_crit_text:varchar
+ZñXMOJCourt charges"	moj_clean*migrant_survey2ms_mig_ams_first_wk_year_nbr:smallint
+YóXMOJCourt charges"	moj_clean*migrant_survey2ms_mig_ams_last_wk_crit_text:varchar
+YòXMOJCourt charges"	moj_clean*migrant_survey2ms_mig_ams_last_wk_year_nbr:smallint
+[ôXMOJCourt charges"	moj_clean*migrant_survey2ms_mig_ams_student_permit_code:varchar
+XöXMOJCourt charges"	moj_clean*migrant_survey2ms_mig_ams_work_permit_code:varchar
+OõXMOJCourt charges"	moj_clean*migrant_survey2ms_mig_stream_text:varchar
+VúXMOJCourt charges"	moj_clean*migrant_survey2ms_mig_region_origin_text:varchar
+OùXMOJCourt charges"	moj_clean*migrant_survey2ms_mig_final_wgt_nbr:float
+;ûXMOJCourt charges"	moj_clean*	msd_child2snz_uid:int
+?üXMOJCourt charges"	moj_clean*	msd_child2snz_msd_uid:int
+F†XMOJCourt charges"	moj_clean*	msd_child2msd_chld_spell_nbr:int
+N°XMOJCourt charges"	moj_clean*	msd_child2msd_chld_snz_unique_nbr:bigint
+A¢XMOJCourt charges"	moj_clean*	msd_child2child_snz_uid:int
+E£XMOJCourt charges"	moj_clean*	msd_child2child_snz_msd_uid:int
+M§XMOJCourt charges"	moj_clean*	msd_child2msd_chld_child_from_date:date
+K•XMOJCourt charges"	moj_clean*	msd_child2msd_chld_child_to_date:date
+R¶XMOJCourt charges"	moj_clean*	msd_child2msd_chld_child_birth_month_nbr:int
+QßXMOJCourt charges"	moj_clean*	msd_child2msd_chld_child_birth_year_nbr:int
+?®XMOJCourt charges"	moj_clean*	msd_child2snz_swn_nbr:int
+E©XMOJCourt charges"	moj_clean*	msd_child2child_snz_swn_nbr:int
+@™XMOJCourt charges"	moj_clean*msd_child_full2snz_uid:int
+D´XMOJCourt charges"	moj_clean*msd_child_full2snz_msd_uid:int
+R¨XMOJCourt charges"	moj_clean*msd_child_full2msd_chf_snz_unique_nbr:bigint
+M≠XMOJCourt charges"	moj_clean*msd_child_full2msd_chf_cod_code:varchar
+PÆXMOJCourt charges"	moj_clean*msd_child_full2msd_chf_locked_rcd_ind:char
+JØXMOJCourt charges"	moj_clean*msd_child_full2snz_msd_party_uid:int
+T∞XMOJCourt charges"	moj_clean*msd_child_full2msd_chf_birth_month_nbr:tinyint
+T±XMOJCourt charges"	moj_clean*msd_child_full2msd_chf_birth_year_nbr:smallint
+T≤XMOJCourt charges"	moj_clean*msd_child_full2msd_chf_death_month_nbr:tinyint
+T≥XMOJCourt charges"	moj_clean*msd_child_full2msd_chf_death_year_nbr:smallint
+P¥XMOJCourt charges"	moj_clean*msd_child_full2msd_snz_gender_code:varchar
+KµXMOJCourt charges"	moj_clean*msd_child_full2msd_chf_file_date:date
+I∂XMOJCourt charges"	moj_clean*msd_child_full2snz_msd_role_uid:int
+S∑XMOJCourt charges"	moj_clean*msd_child_full2msd_chf_role_type_code:varchar
+D∏XMOJCourt charges"	moj_clean*msd_child_full2snz_swn_nbr:int
+DπXMOJCourt charges"	moj_clean*msd_client_varchar2snz_uid:int
+H∫XMOJCourt charges"	moj_clean*msd_client_varchar2snz_msd_uid:int
+VªXMOJCourt charges"	moj_clean*msd_client_varchar2msd_cvc_snz_unique_nbr:bigint
+HºXMOJCourt charges"	moj_clean*msd_client_varchar2snz_swn_nbr:int
+LΩXMOJCourt charges"	moj_clean*msd_client_varchar2snz_msd_int_uid:int
+\æXMOJCourt charges"	moj_clean*msd_client_varchar2msd_cvc_client_id_type_text:varchar
+TøXMOJCourt charges"	moj_clean*msd_client_varchar2msd_cvc_pc_grp_code:varchar
+R¿XMOJCourt charges"	moj_clean*msd_client_varchar2msd_cvc_profile_date:date
+W¡XMOJCourt charges"	moj_clean*msd_client_varchar2msd_cvc_prfl_name_text:varchar
+X¬XMOJCourt charges"	moj_clean*msd_client_varchar2msd_cvc_prfl_value_text:varchar
+C√XMOJCourt charges"	moj_clean*msd_client_varnum2snz_uid:int
+GƒXMOJCourt charges"	moj_clean*msd_client_varnum2snz_msd_uid:int
+U≈XMOJCourt charges"	moj_clean*msd_client_varnum2msd_cvn_snz_unique_nbr:bigint
+G∆XMOJCourt charges"	moj_clean*msd_client_varnum2snz_swn_nbr:int
+K«XMOJCourt charges"	moj_clean*msd_client_varnum2snz_msd_int_uid:int
+[»XMOJCourt charges"	moj_clean*msd_client_varnum2msd_cvn_client_id_type_text:varchar
+S…XMOJCourt charges"	moj_clean*msd_client_varnum2msd_cvn_pc_grp_code:varchar
+Q XMOJCourt charges"	moj_clean*msd_client_varnum2msd_cvn_profile_date:date
+VÀXMOJCourt charges"	moj_clean*msd_client_varnum2msd_cvn_prfl_name_text:varchar
+VÃXMOJCourt charges"	moj_clean*msd_client_varnum2msd_cvn_prfl_value_nbr:decimal
+>ÕXMOJCourt charges"	moj_clean*msd_customer2snz_uid:int
+BŒXMOJCourt charges"	moj_clean*msd_customer2snz_msd_uid:int
+PœXMOJCourt charges"	moj_clean*msd_customer2msd_cus_snz_unique_nbr:bigint
+K–XMOJCourt charges"	moj_clean*msd_customer2msd_cus_cod_code:varchar
+N—XMOJCourt charges"	moj_clean*msd_customer2msd_cus_locked_rcd_ind:char
+P“XMOJCourt charges"	moj_clean*msd_customer2msd_cus_notfn_id_text:varchar
+H”XMOJCourt charges"	moj_clean*msd_customer2snz_msd_party_uid:int
+R‘XMOJCourt charges"	moj_clean*msd_customer2msd_cus_birth_month_nbr:tinyint
+R’XMOJCourt charges"	moj_clean*msd_customer2msd_cus_birth_year_nbr:smallint
+R÷XMOJCourt charges"	moj_clean*msd_customer2msd_cus_death_month_nbr:tinyint
+R◊XMOJCourt charges"	moj_clean*msd_customer2msd_cus_death_year_nbr:smallint
+NÿXMOJCourt charges"	moj_clean*msd_customer2msd_snz_gender_code:varchar
+GŸXMOJCourt charges"	moj_clean*msd_customer2snz_msd_role_uid:int
+Q⁄XMOJCourt charges"	moj_clean*msd_customer2msd_cus_role_type_code:varchar
+N€XMOJCourt charges"	moj_clean*msd_customer2snz_msd_assoc_child_uid:int
+I‹XMOJCourt charges"	moj_clean*msd_customer2msd_cus_file_date:date
+B›XMOJCourt charges"	moj_clean*msd_customer2snz_swn_nbr:int
+DﬁXMOJCourt charges"	moj_clean*msd_customer_alias2snz_uid:int
+HﬂXMOJCourt charges"	moj_clean*msd_customer_alias2snz_msd_uid:int
+V‡XMOJCourt charges"	moj_clean*msd_customer_alias2msd_ali_snz_unique_nbr:bigint
+Q·XMOJCourt charges"	moj_clean*msd_customer_alias2msd_ali_cod_code:varchar
+T‚XMOJCourt charges"	moj_clean*msd_customer_alias2msd_ali_locked_rcd_ind:char
+V„XMOJCourt charges"	moj_clean*msd_customer_alias2msd_ali_notfn_id_text:varchar
+N‰XMOJCourt charges"	moj_clean*msd_customer_alias2snz_msd_party_uid:int
+XÂXMOJCourt charges"	moj_clean*msd_customer_alias2msd_ali_birth_month_nbr:tinyint
+XÊXMOJCourt charges"	moj_clean*msd_customer_alias2msd_ali_birth_year_nbr:smallint
+XÁXMOJCourt charges"	moj_clean*msd_customer_alias2msd_ali_death_month_nbr:tinyint
+XËXMOJCourt charges"	moj_clean*msd_customer_alias2msd_ali_death_year_nbr:smallint
+TÈXMOJCourt charges"	moj_clean*msd_customer_alias2msd_snz_gender_code:varchar
+MÍXMOJCourt charges"	moj_clean*msd_customer_alias2snz_msd_role_uid:int
+WÎXMOJCourt charges"	moj_clean*msd_customer_alias2msd_ali_role_type_code:varchar
+TÏXMOJCourt charges"	moj_clean*msd_customer_alias2snz_msd_assoc_child_uid:int
+OÌXMOJCourt charges"	moj_clean*msd_customer_alias2msd_ali_file_date:date
+HÓXMOJCourt charges"	moj_clean*msd_customer_alias2snz_swn_nbr:int
+>ÔXMOJCourt charges"	moj_clean*msd_district2snz_uid:int
+BXMOJCourt charges"	moj_clean*msd_district2snz_msd_uid:int
+MÒXMOJCourt charges"	moj_clean*msd_district2msd_dist_spell_nbr:tinyint
+QÚXMOJCourt charges"	moj_clean*msd_district2msd_dist_snz_unique_nbr:bigint
+JÛXMOJCourt charges"	moj_clean*msd_district2msd_dist_dist_code:char
+PÙXMOJCourt charges"	moj_clean*msd_district2msd_dist_dist_start_date:date
+NıXMOJCourt charges"	moj_clean*msd_district2msd_dist_dist_end_date:date
+BˆXMOJCourt charges"	moj_clean*msd_district2snz_swn_nbr:int
+G˜XMOJCourt charges"	moj_clean*msd_education_history2snz_uid:int
+K¯XMOJCourt charges"	moj_clean*msd_education_history2snz_msd_uid:int
+\˘XMOJCourt charges"	moj_clean*msd_education_history2msd_edh_educ_lvl_start_date:date
+Y˙XMOJCourt charges"	moj_clean*msd_education_history2msd_edh_snz_unique_nbr:bigint
+Z˚XMOJCourt charges"	moj_clean*msd_education_history2msd_edh_educ_lvl_end_date:date
+_¸XMOJCourt charges"	moj_clean*msd_education_history2msd_edh_education_desc_text:varchar
+W˝XMOJCourt charges"	moj_clean*msd_education_history2msd_edh_education_code:char
+[˛XMOJCourt charges"	moj_clean*msd_education_history2msd_edh_educ_score_nbr:smallint
+KˇXMOJCourt charges"	moj_clean*msd_education_history2snz_swn_nbr:int
+KÄYMOJCourt charges"	moj_clean*msd_employment_assistance2snz_uid:int
+OÅYMOJCourt charges"	moj_clean*msd_employment_assistance2snz_msd_uid:int
+ZÇYMOJCourt charges"	moj_clean*msd_employment_assistance2msd_empa_prog_code:varchar
+gÉYMOJCourt charges"	moj_clean*msd_employment_assistance2"msd_empa_participation_start_dat..:date
+^ÑYMOJCourt charges"	moj_clean*msd_employment_assistance2msd_empa_snz_unique_nbr:bigint
+dÖYMOJCourt charges"	moj_clean*msd_employment_assistance2msd_empa_participation_end_date:date
+_ÜYMOJCourt charges"	moj_clean*msd_employment_assistance2msd_empa_prog_name_text:varchar
+_áYMOJCourt charges"	moj_clean*msd_employment_assistance2msd_empa_assistance_amt:decimal
+YàYMOJCourt charges"	moj_clean*msd_employment_assistance2msd_empa_provider_uid:int
+[âYMOJCourt charges"	moj_clean*msd_employment_assistance2msd_empa_referral_date:date
+OäYMOJCourt charges"	moj_clean*msd_employment_assistance2snz_swn_nbr:int
+[ãYMOJCourt charges"	moj_clean*msd_employment_assistance2msd_empa_opportunity_id:int
+YåYMOJCourt charges"	moj_clean*msd_employment_assistance2msd_empa_contract_id:char
+LçYMOJCourt charges"	moj_clean*msd_first_tier_expenditure2snz_uid:int
+PéYMOJCourt charges"	moj_clean*msd_first_tier_expenditure2snz_msd_uid:int
+^èYMOJCourt charges"	moj_clean*msd_first_tier_expenditure2msd_fte_snz_unique_nbr:bigint
+PêYMOJCourt charges"	moj_clean*msd_first_tier_expenditure2snz_swn_nbr:int
+WëYMOJCourt charges"	moj_clean*msd_first_tier_expenditure2msd_fte_serv_code:char
+XíYMOJCourt charges"	moj_clean*msd_first_tier_expenditure2msd_fte_srvst_code:char
+XìYMOJCourt charges"	moj_clean*msd_first_tier_expenditure2msd_fte_servf_code:char
+XîYMOJCourt charges"	moj_clean*msd_first_tier_expenditure2msd_fte_start_date:date
+VïYMOJCourt charges"	moj_clean*msd_first_tier_expenditure2msd_fte_end_date:date
+`ñYMOJCourt charges"	moj_clean*msd_first_tier_expenditure2msd_fte_daily_gross_amt:decimal
+_óYMOJCourt charges"	moj_clean*msd_first_tier_expenditure2msd_fte_daily_nett_amt:decimal
+\òYMOJCourt charges"	moj_clean*msd_first_tier_expenditure2msd_fte_period_nbr:smallint
+@ôYMOJCourt charges"	moj_clean*msd_incapacity2snz_uid:int
+DöYMOJCourt charges"	moj_clean*msd_incapacity2snz_msd_uid:int
+OõYMOJCourt charges"	moj_clean*msd_incapacity2msd_incp_spell_nbr:tinyint
+SúYMOJCourt charges"	moj_clean*msd_incapacity2msd_incp_snz_unique_nbr:bigint
+QùYMOJCourt charges"	moj_clean*msd_incapacity2msd_incp_incp_from_date:date
+OûYMOJCourt charges"	moj_clean*msd_incapacity2msd_incp_incp_to_date:date
+NüYMOJCourt charges"	moj_clean*msd_incapacity2msd_incp_incrsn_code:char
+R†YMOJCourt charges"	moj_clean*msd_incapacity2msd_incp_incrsn95_1_code:char
+R°YMOJCourt charges"	moj_clean*msd_incapacity2msd_incp_incrsn95_2_code:char
+R¢YMOJCourt charges"	moj_clean*msd_incapacity2msd_incp_incrsn95_3_code:char
+R£YMOJCourt charges"	moj_clean*msd_incapacity2msd_incp_incrsn95_4_code:char
+R§YMOJCourt charges"	moj_clean*msd_incapacity2msd_incp_incapacity_code:char
+D•YMOJCourt charges"	moj_clean*msd_incapacity2snz_swn_nbr:int
+M¶YMOJCourt charges"	moj_clean*msd_int_description2snz_msd_int_uid:int
+RßYMOJCourt charges"	moj_clean*msd_int_description2msd_int_var_text:varchar
+T®YMOJCourt charges"	moj_clean*msd_int_description2msd_int_label_text:varchar
+P©YMOJCourt charges"	moj_clean*msd_int_description2msd_int_type_code:char
+S™YMOJCourt charges"	moj_clean*msd_int_description2msd_int_char_text:varchar
+Q´YMOJCourt charges"	moj_clean*msd_int_description2msd_int_num_nbr:decimal
+H¨YMOJCourt charges"	moj_clean*msd_par_counter_events2snz_uid:int
+L≠YMOJCourt charges"	moj_clean*msd_par_counter_events2snz_msd_uid:int
+ZÆYMOJCourt charges"	moj_clean*msd_par_counter_events2msd_pce_snz_unique_nbr:bigint
+LØYMOJCourt charges"	moj_clean*msd_par_counter_events2snz_swn_nbr:int
+P∞YMOJCourt charges"	moj_clean*msd_par_counter_events2snz_msd_int_uid:int
+`±YMOJCourt charges"	moj_clean*msd_par_counter_events2msd_pce_client_id_type_text:varchar
+X≤YMOJCourt charges"	moj_clean*msd_par_counter_events2msd_pce_pc_grp_code:varchar
+X≥YMOJCourt charges"	moj_clean*msd_par_counter_events2msd_pce_grp_start_date:date
+V¥YMOJCourt charges"	moj_clean*msd_par_counter_events2msd_pce_grp_end_date:date
+VµYMOJCourt charges"	moj_clean*msd_par_counter_events2msd_pce_profile_date:date
+=∂YMOJCourt charges"	moj_clean*msd_partner2snz_uid:int
+A∑YMOJCourt charges"	moj_clean*msd_partner2snz_msd_uid:int
+E∏YMOJCourt charges"	moj_clean*msd_partner2partner_snz_uid:int
+IπYMOJCourt charges"	moj_clean*msd_partner2partner_snz_msd_uid:int
+L∫YMOJCourt charges"	moj_clean*msd_partner2msd_ptnr_spell_nbr:tinyint
+PªYMOJCourt charges"	moj_clean*msd_partner2msd_ptnr_snz_unique_nbr:bigint
+NºYMOJCourt charges"	moj_clean*msd_partner2msd_ptnr_ptnr_from_date:date
+LΩYMOJCourt charges"	moj_clean*msd_partner2msd_ptnr_ptnr_to_date:date
+AæYMOJCourt charges"	moj_clean*msd_partner2snz_swn_nbr:int
+IøYMOJCourt charges"	moj_clean*msd_partner2partner_snz_swn_nbr:int
+E¿YMOJCourt charges"	moj_clean*msd_postal_location2snz_uid:int
+I¡YMOJCourt charges"	moj_clean*msd_postal_location2snz_msd_uid:int
+W¬YMOJCourt charges"	moj_clean*msd_postal_location2msd_pst_snz_unique_nbr:bigint
+I√YMOJCourt charges"	moj_clean*msd_postal_location2snz_swn_nbr:int
+MƒYMOJCourt charges"	moj_clean*msd_postal_location2snz_msd_cad_uid:int
+Q≈YMOJCourt charges"	moj_clean*msd_postal_location2msd_pst_start_date:date
+O∆YMOJCourt charges"	moj_clean*msd_postal_location2msd_pst_end_date:date
+Z«YMOJCourt charges"	moj_clean*msd_postal_location2snz_idi_address_register_uid:int
+R»YMOJCourt charges"	moj_clean*msd_postal_location2msd_pst_region_code:char
+N…YMOJCourt charges"	moj_clean*msd_postal_location2msd_pst_ta_code:char
+U YMOJCourt charges"	moj_clean*msd_postal_location2msd_pst_meshblock_code:char
+_ÀYMOJCourt charges"	moj_clean*msd_postal_location2msd_pst_meshblock_imputed_ind:varchar
+JÃYMOJCourt charges"	moj_clean*msd_residential_location2snz_uid:int
+NÕYMOJCourt charges"	moj_clean*msd_residential_location2snz_msd_uid:int
+\ŒYMOJCourt charges"	moj_clean*msd_residential_location2msd_rsd_snz_unique_nbr:bigint
+NœYMOJCourt charges"	moj_clean*msd_residential_location2snz_swn_nbr:int
+R–YMOJCourt charges"	moj_clean*msd_residential_location2snz_msd_cad_uid:int
+V—YMOJCourt charges"	moj_clean*msd_residential_location2msd_rsd_start_date:date
+T“YMOJCourt charges"	moj_clean*msd_residential_location2msd_rsd_end_date:date
+_”YMOJCourt charges"	moj_clean*msd_residential_location2snz_idi_address_register_uid:int
+W‘YMOJCourt charges"	moj_clean*msd_residential_location2msd_rsd_region_code:char
+S’YMOJCourt charges"	moj_clean*msd_residential_location2msd_rsd_ta_code:char
+Z÷YMOJCourt charges"	moj_clean*msd_residential_location2msd_rsd_meshblock_code:char
+d◊YMOJCourt charges"	moj_clean*msd_residential_location2msd_rsd_meshblock_imputed_ind:varchar
+MÿYMOJCourt charges"	moj_clean*msd_second_tier_expenditure2snz_uid:int
+QŸYMOJCourt charges"	moj_clean*msd_second_tier_expenditure2snz_msd_uid:int
+_⁄YMOJCourt charges"	moj_clean*msd_second_tier_expenditure2msd_ste_snz_unique_nbr:bigint
+Q€YMOJCourt charges"	moj_clean*msd_second_tier_expenditure2snz_swn_nbr:int
+Y‹YMOJCourt charges"	moj_clean*msd_second_tier_expenditure2msd_ste_start_date:date
+W›YMOJCourt charges"	moj_clean*msd_second_tier_expenditure2msd_ste_end_date:date
+YﬁYMOJCourt charges"	moj_clean*msd_second_tier_expenditure2msd_ste_srvst_code:char
+_ﬂYMOJCourt charges"	moj_clean*msd_second_tier_expenditure2msd_ste_parent_serv_code:char
+Y‡YMOJCourt charges"	moj_clean*msd_second_tier_expenditure2msd_ste_servf_code:char
+]·YMOJCourt charges"	moj_clean*msd_second_tier_expenditure2msd_ste_supp_serv_code:char
+a‚YMOJCourt charges"	moj_clean*msd_second_tier_expenditure2msd_ste_daily_gross_amt:decimal
+`„YMOJCourt charges"	moj_clean*msd_second_tier_expenditure2msd_ste_daily_nett_amt:decimal
+]‰YMOJCourt charges"	moj_clean*msd_second_tier_expenditure2msd_ste_period_nbr:smallint
+bÂYMOJCourt charges"	moj_clean*msd_second_tier_expenditure2msd_ste_supp_source_text:varchar
+;ÊYMOJCourt charges"	moj_clean*	msd_spell2snz_uid:int
+?ÁYMOJCourt charges"	moj_clean*	msd_spell2snz_msd_uid:int
+JËYMOJCourt charges"	moj_clean*	msd_spell2msd_spel_spell_nbr:tinyint
+NÈYMOJCourt charges"	moj_clean*	msd_spell2msd_spel_snz_unique_nbr:bigint
+FÍYMOJCourt charges"	moj_clean*	msd_spell2msd_spel_com_date:date
+FÎYMOJCourt charges"	moj_clean*	msd_spell2msd_spel_rsn_code:char
+HÏYMOJCourt charges"	moj_clean*	msd_spell2msd_spel_servf_code:char
+HÌYMOJCourt charges"	moj_clean*	msd_spell2msd_spel_srvst_code:char
+JÓYMOJCourt charges"	moj_clean*	msd_spell2msd_spel_old_com_date:date
+FÔYMOJCourt charges"	moj_clean*	msd_spell2msd_spel_chg_date:date
+HYMOJCourt charges"	moj_clean*	msd_spell2msd_spel_srtet_code:char
+HÒYMOJCourt charges"	moj_clean*	msd_spell2msd_spel_event_code:char
+FÚYMOJCourt charges"	moj_clean*	msd_spell2msd_spel_job_code:char
+KÛYMOJCourt charges"	moj_clean*	msd_spell2msd_spel_ernlst_amt:decimal
+HÙYMOJCourt charges"	moj_clean*	msd_spell2msd_spel_lstwk_date:date
+JıYMOJCourt charges"	moj_clean*	msd_spell2msd_spel_prevpart_ind:char
+NˆYMOJCourt charges"	moj_clean*	msd_spell2msd_spel_spell_start_date:date
+L˜YMOJCourt charges"	moj_clean*	msd_spell2msd_spel_spell_end_date:date
+F¯YMOJCourt charges"	moj_clean*	msd_spell2msd_spel_reg_date:date
+O˘YMOJCourt charges"	moj_clean*	msd_spell2msd_spel_add_servf_code:varchar
+R˙YMOJCourt charges"	moj_clean*	msd_spell2msd_spel_prewr3_servf_code:varchar
+?˚YMOJCourt charges"	moj_clean*	msd_spell2snz_swn_nbr:int
+9¸YMOJCourt charges"	moj_clean*msd_swn2snz_uid:int
+=˝YMOJCourt charges"	moj_clean*msd_swn2snz_msd_uid:int
+K˛YMOJCourt charges"	moj_clean*msd_swn2msd_swn_snz_unique_nbr:bigint
+MˇYMOJCourt charges"	moj_clean*msd_swn2msd_swn_birth_month_nbr:tinyint
+MÄZMOJCourt charges"	moj_clean*msd_swn2msd_swn_birth_year_nbr:smallint
+MÅZMOJCourt charges"	moj_clean*msd_swn2msd_swn_gender_snz_code:varchar
+IÇZMOJCourt charges"	moj_clean*msd_swn2msd_swn_edu_level_code:char
+IÉZMOJCourt charges"	moj_clean*msd_swn2msd_swn_sgi_adj_nbr:tinyint
+FÑZMOJCourt charges"	moj_clean*msd_swn2msd_swn_ethnic_code:char
+MÖZMOJCourt charges"	moj_clean*msd_swn2msd_swn_ucvii_ethnic1_code:char
+MÜZMOJCourt charges"	moj_clean*msd_swn2msd_swn_ucvii_ethnic2_code:char
+MáZMOJCourt charges"	moj_clean*msd_swn2msd_swn_ucvii_ethnic3_code:char
+MàZMOJCourt charges"	moj_clean*msd_swn2msd_swn_ethnic_snz_code:varchar
+TâZMOJCourt charges"	moj_clean*msd_swn2msd_swn_ucvii_ethnic1_snz_code:varchar
+TäZMOJCourt charges"	moj_clean*msd_swn2msd_swn_ucvii_ethnic2_snz_code:varchar
+TãZMOJCourt charges"	moj_clean*msd_swn2msd_swn_ucvii_ethnic3_snz_code:varchar
+MåZMOJCourt charges"	moj_clean*msd_swn2msd_swn_ethnic_grp1_snz_ind:bit
+MçZMOJCourt charges"	moj_clean*msd_swn2msd_swn_ethnic_grp2_snz_ind:bit
+MéZMOJCourt charges"	moj_clean*msd_swn2msd_swn_ethnic_grp3_snz_ind:bit
+MèZMOJCourt charges"	moj_clean*msd_swn2msd_swn_ethnic_grp4_snz_ind:bit
+MêZMOJCourt charges"	moj_clean*msd_swn2msd_swn_ethnic_grp5_snz_ind:bit
+MëZMOJCourt charges"	moj_clean*msd_swn2msd_swn_ethnic_grp6_snz_ind:bit
+=íZMOJCourt charges"	moj_clean*msd_swn2snz_ird_uid:int
+=ìZMOJCourt charges"	moj_clean*msd_swn2snz_swn_nbr:int
+LîZMOJCourt charges"	moj_clean*msd_third_tier_expenditure2snz_uid:int
+PïZMOJCourt charges"	moj_clean*msd_third_tier_expenditure2snz_msd_uid:int
+^ñZMOJCourt charges"	moj_clean*msd_third_tier_expenditure2msd_tte_snz_unique_nbr:bigint
+PóZMOJCourt charges"	moj_clean*msd_third_tier_expenditure2snz_swn_nbr:int
+XòZMOJCourt charges"	moj_clean*msd_third_tier_expenditure2msd_tte_ttp_grp_nbr:int
+ZôZMOJCourt charges"	moj_clean*msd_third_tier_expenditure2msd_tte_tt_pmt_nbr:bigint
+[öZMOJCourt charges"	moj_clean*msd_third_tier_expenditure2msd_tte_decision_date:date
+VõZMOJCourt charges"	moj_clean*msd_third_tier_expenditure2msd_tte_app_date:date
+VúZMOJCourt charges"	moj_clean*msd_third_tier_expenditure2msd_tte_ref_date:date
+]ùZMOJCourt charges"	moj_clean*msd_third_tier_expenditure2msd_tte_parent_svc_code:char
+_ûZMOJCourt charges"	moj_clean*msd_third_tier_expenditure2msd_tte_lump_sum_svc_code:char
+_üZMOJCourt charges"	moj_clean*msd_third_tier_expenditure2msd_tte_pmt_rsn_type_code:char
+X†ZMOJCourt charges"	moj_clean*msd_third_tier_expenditure2msd_tte_pmt_amt:decimal
+]°ZMOJCourt charges"	moj_clean*msd_third_tier_expenditure2msd_tte_recoverable_ind:char
+_¢ZMOJCourt charges"	moj_clean*msd_third_tier_expenditure2msd_tte_rcmd_dist_code:varchar
+_£ZMOJCourt charges"	moj_clean*ref_msd_district_concordance2district_office_code:varchar
+d§ZMOJCourt charges"	moj_clean*ref_msd_district_concordance2district_office_desc_text:varchar
+c•ZMOJCourt charges"	moj_clean*ref_msd_district_concordance2district_office_tla_text:varchar
+f¶ZMOJCourt charges"	moj_clean*ref_msd_district_concordance2district_office_region_text:varchar
+RßZMOJCourt charges"	moj_clean*ref_msd_district_concordance2ta_code:varchar
+W®ZMOJCourt charges"	moj_clean*ref_msd_district_concordance2ta_name_text:varchar
+R©ZMOJCourt charges"	moj_clean*ref_msd_district_concordance2rc_code:varchar
+R™ZMOJCourt charges"	moj_clean*ref_msd_district_concordance2rc_text:varchar
+6´ZMOJCourt charges"	moj_clean*core2snz_uid:int
+F¨ZMOJCourt charges"	moj_clean*core2nzcvs_snz_unique_nbr:bigint
+<≠ZMOJCourt charges"	moj_clean*core2snz_nzcvs_uid:int
+BÆZMOJCourt charges"	moj_clean*core2nzcvs_core_qtr:smallint
+AØZMOJCourt charges"	moj_clean*core2nzcvs_core_psu2015:int
+H∞ZMOJCourt charges"	moj_clean*core2nzcvs_core_DATE_TIME:datetime
+F±ZMOJCourt charges"	moj_clean*core2nzcvs_core_PARTNERP_OPS:int
+F≤ZMOJCourt charges"	moj_clean*core2nzcvs_core_PARTNERP_SAM:int
+E≥ZMOJCourt charges"	moj_clean*core2nzcvs_core_PARTNERP_NO:int
+I¥ZMOJCourt charges"	moj_clean*core2nzcvs_core_EVERPARTNER_OPS:int
+IµZMOJCourt charges"	moj_clean*core2nzcvs_core_EVERPARTNER_SAM:int
+H∂ZMOJCourt charges"	moj_clean*core2nzcvs_core_EVERPARTNER_NO:int
+K∑ZMOJCourt charges"	moj_clean*core2nzcvs_core_SATISFACTION:smallint
+G∏ZMOJCourt charges"	moj_clean*core2nzcvs_core_SAFEFEEL:smallint
+IπZMOJCourt charges"	moj_clean*core2nzcvs_core_VEHICLEUSE:smallint
+I∫ZMOJCourt charges"	moj_clean*core2nzcvs_core_BICYCLEUSE:smallint
+CªZMOJCourt charges"	moj_clean*core2nzcvs_core_GETINHOME:int
+FºZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSGETINHOME:int
+IΩZMOJCourt charges"	moj_clean*core2nzcvs_core_MVTHEFT_GETINHM:int
+LæZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSMVTHEFT_GETINHM:int
+DøZMOJCourt charges"	moj_clean*core2nzcvs_core_TRDGETINHM:int
+G¿ZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSTRDGETINHM:int
+L¡ZMOJCourt charges"	moj_clean*core2nzcvs_core_MVTHFT_TRDSGETINHM:int
+O¬ZMOJCourt charges"	moj_clean*core2 nzcvs_core_TMSMVTHFT_TRDSGETINHM:int
+A√ZMOJCourt charges"	moj_clean*core2nzcvs_core_MVTHEFT:int
+DƒZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSMVTHEFT:int
+C≈ZMOJCourt charges"	moj_clean*core2nzcvs_core_YRDMVTHFT:int
+F∆ZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSYRDMVTHFT:int
+H«ZMOJCourt charges"	moj_clean*core2nzcvs_core_YRDMVTHFT_ALOW:int
+K»ZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSYRDMVTHFT_ALOW:int
+D…ZMOJCourt charges"	moj_clean*core2nzcvs_core_STOLENOFMV:int
+G ZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSSTOLENOFMV:int
+EÀZMOJCourt charges"	moj_clean*core2nzcvs_core_YRDSTOLOFMV:int
+HÃZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSYRDSTOLOFMV:int
+IÕZMOJCourt charges"	moj_clean*core2nzcvs_core_YRDSTOLOFMV_SMN:int
+LŒZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSYRDSTOLOFMV_SMN:int
+@œZMOJCourt charges"	moj_clean*core2nzcvs_core_MVTAMP:int
+C–ZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSMVTAMP:int
+B—ZMOJCourt charges"	moj_clean*core2nzcvs_core_YRDMVTMP:int
+E“ZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSYRDMVTMP:int
+F”ZMOJCourt charges"	moj_clean*core2nzcvs_core_YRDMVTMP_SMN:int
+I‘ZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSYRDMVTMP_SMN:int
+B’ZMOJCourt charges"	moj_clean*core2nzcvs_core_MVDAMAGE:int
+E÷ZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSMVDAMAGE:int
+C◊ZMOJCourt charges"	moj_clean*core2nzcvs_core_YRDMVDAMA:int
+FÿZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSYRDMVDAMA:int
+GŸZMOJCourt charges"	moj_clean*core2nzcvs_core_YRDMVDAMA_SMN:int
+J⁄ZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSYRDMVDAMA_SMN:int
+F€ZMOJCourt charges"	moj_clean*core2nzcvs_core_BICYCLETHEFT:int
+I‹ZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSBICYCLETHEFT:int
+F›ZMOJCourt charges"	moj_clean*core2nzcvs_core_YRDBCYCLTHFT:int
+IﬁZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSYRDBCYCLTHFT:int
+JﬂZMOJCourt charges"	moj_clean*core2nzcvs_core_YRDBCYCLTHFT_SMN:int
+M‡ZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSYRDBCYCLTHFT_SMN:int
+G·ZMOJCourt charges"	moj_clean*core2nzcvs_core_BICYCLEDAMAGE:int
+J‚ZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSBICYCLEDAMAGE:int
+F„ZMOJCourt charges"	moj_clean*core2nzcvs_core_YRDBCYCLDAMA:int
+I‰ZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSYRDBCYCLDAMA:int
+JÂZMOJCourt charges"	moj_clean*core2nzcvs_core_YRDBCYCLDAMA_SMN:int
+MÊZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSYRDBCYCLDAMA_SMN:int
+DÁZMOJCourt charges"	moj_clean*core2nzcvs_core_DAMAGEHOME:int
+GËZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSDAMAGEHOME:int
+EÈZMOJCourt charges"	moj_clean*core2nzcvs_core_DAMAPRSNALY:int
+HÍZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSDAMAPRSNALY:int
+EÎZMOJCourt charges"	moj_clean*core2nzcvs_core_STOLOUTSDHM:int
+HÏZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSSTOLOUTSDHM:int
+HÌZMOJCourt charges"	moj_clean*core2nzcvs_core_YRDSTOLOUTSDHM:int
+KÓZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSYRDSTOLOUTSDHM:int
+LÔZMOJCourt charges"	moj_clean*core2nzcvs_core_YRDSTOLOUTSDHM_SMN:int
+OZMOJCourt charges"	moj_clean*core2 nzcvs_core_TMSYRDSTOLOUTSDHM_SMN:int
+JÒZMOJCourt charges"	moj_clean*core2nzcvs_core_PROPSTOLINHM_SMN:int
+MÚZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSPROPSTOLINHM_SMN:int
+CÛZMOJCourt charges"	moj_clean*core2nzcvs_core_HOUSEGRDS:int
+FÙZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSHOUSEGRDS:int
+DıZMOJCourt charges"	moj_clean*core2nzcvs_core_STOLCARYNG:int
+GˆZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSSTOLCARYNG:int
+J˜ZMOJCourt charges"	moj_clean*core2nzcvs_core_USEFORTHRT_STOLC:int
+M¯ZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSUSEFORTHRT_STOLC:int
+E˘ZMOJCourt charges"	moj_clean*core2nzcvs_core_STOLPRSNALY:int
+H˙ZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSSTOLPRSNALY:int
+E˚ZMOJCourt charges"	moj_clean*core2nzcvs_core_TRCKMONYGDS:int
+H¸ZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSTRCKMONYGDS:int
+D˝ZMOJCourt charges"	moj_clean*core2nzcvs_core_ATMPCREDIT:int
+G˛ZMOJCourt charges"	moj_clean*core2nzcvs_core_TMSATMPCREDIT:int
+BˇZMOJCourt charges"	moj_clean*core2nzcvs_core_CMPUTVRS:int
+EÄ[MOJCourt charges"	moj_clean*core2nzcvs_core_TMSCMPUTVRS:int
+GÅ[MOJCourt charges"	moj_clean*core2nzcvs_core_FORCESEX:smallint
+IÇ[MOJCourt charges"	moj_clean*core2nzcvs_core_TMSFORCESEX_REF:int
+EÉ[MOJCourt charges"	moj_clean*core2nzcvs_core_TMSFORCESEX:int
+JÑ[MOJCourt charges"	moj_clean*core2nzcvs_core_FORCESEXACT:smallint
+LÖ[MOJCourt charges"	moj_clean*core2nzcvs_core_TMSFORCESEXACT_REF:int
+HÜ[MOJCourt charges"	moj_clean*core2nzcvs_core_TMSFORCESEXACT:int
+Eá[MOJCourt charges"	moj_clean*core2nzcvs_core_TOUSEX:smallint
+Gà[MOJCourt charges"	moj_clean*core2nzcvs_core_TMSTOUSEX_REF:int
+Câ[MOJCourt charges"	moj_clean*core2nzcvs_core_TMSTOUSEX:int
+Fä[MOJCourt charges"	moj_clean*core2nzcvs_core_THRTSEX:smallint
+Hã[MOJCourt charges"	moj_clean*core2nzcvs_core_TMSTHRTSEX_REF:int
+Då[MOJCourt charges"	moj_clean*core2nzcvs_core_TMSTHRTSEX:int
+Eç[MOJCourt charges"	moj_clean*core2nzcvs_core_FORVIO:smallint
+Gé[MOJCourt charges"	moj_clean*core2nzcvs_core_TMSFORVIO_REF:int
+Cè[MOJCourt charges"	moj_clean*core2nzcvs_core_TMSFORVIO:int
+Hê[MOJCourt charges"	moj_clean*core2nzcvs_core_TRDFORVIO:smallint
+Jë[MOJCourt charges"	moj_clean*core2nzcvs_core_TMSTRDFORVIO_REF:int
+Fí[MOJCourt charges"	moj_clean*core2nzcvs_core_TMSTRDFORVIO:int
+Iì[MOJCourt charges"	moj_clean*core2nzcvs_core_THRTFORVIO:smallint
+Kî[MOJCourt charges"	moj_clean*core2nzcvs_core_TMSTHRTFORVIO_REF:int
+Gï[MOJCourt charges"	moj_clean*core2nzcvs_core_TMSTHRTFORVIO:int
+Gñ[MOJCourt charges"	moj_clean*core2nzcvs_core_THRTDAMA:smallint
+Ió[MOJCourt charges"	moj_clean*core2nzcvs_core_TMSTHRTDAMA_REF:int
+Eò[MOJCourt charges"	moj_clean*core2nzcvs_core_TMSTHRTDAMA:int
+Jô[MOJCourt charges"	moj_clean*core2nzcvs_core_THRTINJRFAM:smallint
+Lö[MOJCourt charges"	moj_clean*core2nzcvs_core_TMSTHRTINJRFAM_REF:int
+Hõ[MOJCourt charges"	moj_clean*core2nzcvs_core_TMSTHRTINJRFAM:int
+Iú[MOJCourt charges"	moj_clean*core2nzcvs_core_CAUSEDFEAR:smallint
+Kù[MOJCourt charges"	moj_clean*core2nzcvs_core_TMSCAUSEDFEAR_REF:int
+Gû[MOJCourt charges"	moj_clean*core2nzcvs_core_TMSCAUSEDFEAR:int
+Hü[MOJCourt charges"	moj_clean*core2nzcvs_core_PSYFRIEND:smallint
+H†[MOJCourt charges"	moj_clean*core2nzcvs_core_PSYFOLLOW:smallint
+H°[MOJCourt charges"	moj_clean*core2nzcvs_core_PSYACCESS:smallint
+H¢[MOJCourt charges"	moj_clean*core2nzcvs_core_PSYHLCARE:smallint
+H£[MOJCourt charges"	moj_clean*core2nzcvs_core_PSYPRESWK:smallint
+H§[MOJCourt charges"	moj_clean*core2nzcvs_core_PSYSTOPWK:smallint
+G•[MOJCourt charges"	moj_clean*core2nzcvs_core_EVSEXFOR:smallint
+G¶[MOJCourt charges"	moj_clean*core2nzcvs_core_EVSEXTOU:smallint
+Gß[MOJCourt charges"	moj_clean*core2nzcvs_core_EVPARTAS:smallint
+G®[MOJCourt charges"	moj_clean*core2nzcvs_core_EVPARTTH:smallint
+A©[MOJCourt charges"	moj_clean*core2nzcvs_core_OTHCRMS:int
+D™[MOJCourt charges"	moj_clean*core2nzcvs_core_TMSOTHCRMS:int
+H´[MOJCourt charges"	moj_clean*core2nzcvs_core_CURADDRES:smallint
+G¨[MOJCourt charges"	moj_clean*core2nzcvs_core_FINSTRMO:smallint
+G≠[MOJCourt charges"	moj_clean*core2nzcvs_core_FINSTRMU:smallint
+KÆ[MOJCourt charges"	moj_clean*core2nzcvs_core_DurationTotal:varchar
+KØ[MOJCourt charges"	moj_clean*core2nzcvs_core_SubSampleType:varchar
+C∞[MOJCourt charges"	moj_clean*core2nzcvs_core_DVSEX:varchar
+F±[MOJCourt charges"	moj_clean*core2nzcvs_core_DVGENDER:varchar
+I≤[MOJCourt charges"	moj_clean*core2nzcvs_core_DVSEXORIENT:varchar
+?≥[MOJCourt charges"	moj_clean*core2nzcvs_core_DVAGE:int
+I¥[MOJCourt charges"	moj_clean*core2nzcvs_core_DV5YRAGEGRP:varchar
+Fµ[MOJCourt charges"	moj_clean*core2nzcvs_core_DVAGEGRP:varchar
+E∂[MOJCourt charges"	moj_clean*core2nzcvs_core_DVETHN_EURO:bit
+F∑[MOJCourt charges"	moj_clean*core2nzcvs_core_DVETHN_MAORI:bit
+H∏[MOJCourt charges"	moj_clean*core2nzcvs_core_DVETHN_PACIFIC:bit
+Fπ[MOJCourt charges"	moj_clean*core2nzcvs_core_DVETHN_ASIAN:bit
+H∫[MOJCourt charges"	moj_clean*core2nzcvs_core_DVETHN_CHINESE:bit
+Gª[MOJCourt charges"	moj_clean*core2nzcvs_core_DVETHN_INDIAN:bit
+Kº[MOJCourt charges"	moj_clean*core2nzcvs_core_DVETHN_OTHERASIAN:bit
+FΩ[MOJCourt charges"	moj_clean*core2nzcvs_core_DVETHN_OTHER:bit
+Cæ[MOJCourt charges"	moj_clean*core2nzcvs_core_DVETHN_NS:bit
+Dø[MOJCourt charges"	moj_clean*core2nzcvs_core_DVNUMUSRES:int
+D¿[MOJCourt charges"	moj_clean*core2nzcvs_core_DVNUMCHILD:int
+F¡[MOJCourt charges"	moj_clean*core2nzcvs_core_DVTENURE:varchar
+H¬[MOJCourt charges"	moj_clean*core2nzcvs_core_DVLANDLORD:varchar
+H√[MOJCourt charges"	moj_clean*core2nzcvs_core_DVTENLLORD:varchar
+Hƒ[MOJCourt charges"	moj_clean*core2nzcvs_core_DVPARTNERC:varchar
+H≈[MOJCourt charges"	moj_clean*core2nzcvs_core_DVPARTNERP:varchar
+K∆[MOJCourt charges"	moj_clean*core2nzcvs_core_DVEVERPARTNER:varchar
+H«[MOJCourt charges"	moj_clean*core2nzcvs_core_DVRELASTAT:varchar
+M»[MOJCourt charges"	moj_clean*core2nzcvs_core_DVPARTNERSTATUS:varchar
+N…[MOJCourt charges"	moj_clean*core2nzcvs_core_DVRELATIONSTATUS:varchar
+I [MOJCourt charges"	moj_clean*core2nzcvs_core_DVEMPSTATUS:varchar
+KÀ[MOJCourt charges"	moj_clean*core2nzcvs_core_DVPERSINCGRP1:varchar
+KÃ[MOJCourt charges"	moj_clean*core2nzcvs_core_DVPERSINCGRP2:varchar
+LÕ[MOJCourt charges"	moj_clean*core2nzcvs_core_DVHHOLDINCGRP1:varchar
+LŒ[MOJCourt charges"	moj_clean*core2nzcvs_core_DVHHOLDINCGRP2:varchar
+Lœ[MOJCourt charges"	moj_clean*core2nzcvs_core_DVSATISFACTION:varchar
+H–[MOJCourt charges"	moj_clean*core2nzcvs_core_DVSAFEFEEL:varchar
+C—[MOJCourt charges"	moj_clean*core2nzcvs_core_MESHBLOCK:int
+E“[MOJCourt charges"	moj_clean*core2nzcvs_core_DVURBAN:varchar
+J”[MOJCourt charges"	moj_clean*core2nzcvs_core_DVREGCOUNCIL:varchar
+J‘[MOJCourt charges"	moj_clean*core2nzcvs_core_DVREGIONGRP5:varchar
+D’[MOJCourt charges"	moj_clean*core2nzcvs_core_NZDEPSCORE:int
+I÷[MOJCourt charges"	moj_clean*core2nzcvs_core_NZDEPDECILE:varchar
+K◊[MOJCourt charges"	moj_clean*core2nzcvs_core_NZDEPQUINTILE:varchar
+Nÿ[MOJCourt charges"	moj_clean*core2nzcvs_core_DVEVERSEXASSAULT:varchar
+NŸ[MOJCourt charges"	moj_clean*core2nzcvs_core_DVEVEROTHASSAULT:varchar
+J⁄[MOJCourt charges"	moj_clean*core2nzcvs_core_DV_L1_VISION:varchar
+J€[MOJCourt charges"	moj_clean*core2nzcvs_core_DV_L2_VISION:varchar
+J‹[MOJCourt charges"	moj_clean*core2nzcvs_core_DV_L3_VISION:varchar
+H›[MOJCourt charges"	moj_clean*core2nzcvs_core_DV_L1_HEAR:varchar
+Hﬁ[MOJCourt charges"	moj_clean*core2nzcvs_core_DV_L2_HEAR:varchar
+Hﬂ[MOJCourt charges"	moj_clean*core2nzcvs_core_DV_L3_HEAR:varchar
+J‡[MOJCourt charges"	moj_clean*core2nzcvs_core_DV_L1_MOBILE:varchar
+J·[MOJCourt charges"	moj_clean*core2nzcvs_core_DV_L2_MOBILE:varchar
+J‚[MOJCourt charges"	moj_clean*core2nzcvs_core_DV_L3_MOBILE:varchar
+J„[MOJCourt charges"	moj_clean*core2nzcvs_core_DV_L1_MEMORY:varchar
+J‰[MOJCourt charges"	moj_clean*core2nzcvs_core_DV_L2_MEMORY:varchar
+JÂ[MOJCourt charges"	moj_clean*core2nzcvs_core_DV_L3_MEMORY:varchar
+LÊ[MOJCourt charges"	moj_clean*core2nzcvs_core_DV_L1_SELFCARE:varchar
+LÁ[MOJCourt charges"	moj_clean*core2nzcvs_core_DV_L2_SELFCARE:varchar
+LË[MOJCourt charges"	moj_clean*core2nzcvs_core_DV_L3_SELFCARE:varchar
+IÈ[MOJCourt charges"	moj_clean*core2nzcvs_core_DV_L1_COMMS:varchar
+IÍ[MOJCourt charges"	moj_clean*core2nzcvs_core_DV_L2_COMMS:varchar
+IÎ[MOJCourt charges"	moj_clean*core2nzcvs_core_DV_L3_COMMS:varchar
+GÏ[MOJCourt charges"	moj_clean*core2nzcvs_core_DV_WGSS_COUNT:int
+FÌ[MOJCourt charges"	moj_clean*core2nzcvs_core_DV_WGSS1:varchar
+FÓ[MOJCourt charges"	moj_clean*core2nzcvs_core_DV_WGSS2:varchar
+FÔ[MOJCourt charges"	moj_clean*core2nzcvs_core_DV_WGSS3:varchar
+F[MOJCourt charges"	moj_clean*core2nzcvs_core_DV_WGSS4:varchar
+IÒ[MOJCourt charges"	moj_clean*core2nzcvs_core_DVMENTALSCORE:float
+MÚ[MOJCourt charges"	moj_clean*core2nzcvs_core_DVMENTALSCORELV:varchar
+QÛ[MOJCourt charges"	moj_clean*core2"nzcvs_core_DVSCREEN_INCIDENTCOUN..:int
+OÙ[MOJCourt charges"	moj_clean*core2nzcvs_core_DVSCREEN_BURGLARY:varchar
+Uı[MOJCourt charges"	moj_clean*core2"nzcvs_core_DVSCREEN_VEHICLEBICYC..:varchar
+Uˆ[MOJCourt charges"	moj_clean*core2"nzcvs_core_DVSCREEN_PROPERTYDAMA..:varchar
+L˜[MOJCourt charges"	moj_clean*core2nzcvs_core_DVSCREEN_THEFT:varchar
+O¯[MOJCourt charges"	moj_clean*core2nzcvs_core_DVSCREEN_TRESPASS:varchar
+N˘[MOJCourt charges"	moj_clean*core2nzcvs_core_DVSCREEN_ROBBERY:varchar
+L˙[MOJCourt charges"	moj_clean*core2nzcvs_core_DVSCREEN_FRAUD:varchar
+Q˚[MOJCourt charges"	moj_clean*core2nzcvs_core_DVSCREEN_CYBERCRIME:varchar
+M¸[MOJCourt charges"	moj_clean*core2nzcvs_core_DVSCREEN_SEXUAL:varchar
+N˝[MOJCourt charges"	moj_clean*core2nzcvs_core_DVSCREEN_ASSAULT:varchar
+M˛[MOJCourt charges"	moj_clean*core2nzcvs_core_DVSCREEN_THREAT:varchar
+Lˇ[MOJCourt charges"	moj_clean*core2nzcvs_core_DVSCREEN_OTHER:varchar
+PÄ\MOJCourt charges"	moj_clean*core2nzcvs_core_DVCONTROLBEHAVIOUR:varchar
+KÅ\MOJCourt charges"	moj_clean*core2nzcvs_core_DVSERIESCHECK:varchar
+HÇ\MOJCourt charges"	moj_clean*core2nzcvs_core_DVPERSONINCOME:int
+GÉ\MOJCourt charges"	moj_clean*core2nzcvs_core_DVHHOLDINCOME:int
+LÑ\MOJCourt charges"	moj_clean*core2nzcvs_core_DVPERSONINCOME_imp:int
+KÖ\MOJCourt charges"	moj_clean*core2nzcvs_core_DVHHOLDINCOME_imp:int
+FÜ\MOJCourt charges"	moj_clean*core2nzcvs_core_DVHHCOMP:varchar
+Lá\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep1:float
+Là\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep2:float
+Lâ\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep3:float
+Lä\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep4:float
+Lã\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep5:float
+Lå\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep6:float
+Lç\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep7:float
+Lé\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep8:float
+Lè\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep9:float
+Mê\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep10:float
+Më\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep11:float
+Mí\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep12:float
+Mì\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep13:float
+Mî\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep14:float
+Mï\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep15:float
+Mñ\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep16:float
+Mó\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep17:float
+Mò\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep18:float
+Mô\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep19:float
+Mö\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep20:float
+Mõ\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep21:float
+Mú\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep22:float
+Mù\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep23:float
+Mû\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep24:float
+Mü\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep25:float
+M†\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep26:float
+M°\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep27:float
+M¢\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep28:float
+M£\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep29:float
+M§\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep30:float
+M•\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep31:float
+M¶\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep32:float
+Mß\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep33:float
+M®\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep34:float
+M©\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep35:float
+M™\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep36:float
+M´\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep37:float
+M¨\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep38:float
+M≠\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep39:float
+MÆ\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep40:float
+MØ\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep41:float
+M∞\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep42:float
+M±\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep43:float
+M≤\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep44:float
+M≥\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep45:float
+M¥\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep46:float
+Mµ\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep47:float
+M∂\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep48:float
+M∑\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep49:float
+M∏\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep50:float
+Mπ\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep51:float
+M∫\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep52:float
+Mª\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep53:float
+Mº\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep54:float
+MΩ\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep55:float
+Mæ\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep56:float
+Mø\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep57:float
+M¿\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep58:float
+M¡\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep59:float
+M¬\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep60:float
+M√\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep61:float
+Mƒ\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep62:float
+M≈\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep63:float
+M∆\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep64:float
+M«\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep65:float
+M»\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep66:float
+M…\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep67:float
+M \MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep68:float
+MÀ\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep69:float
+MÃ\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep70:float
+MÕ\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep71:float
+MŒ\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep72:float
+Mœ\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep73:float
+M–\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep74:float
+M—\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep75:float
+M“\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep76:float
+M”\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep77:float
+M‘\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep78:float
+M’\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep79:float
+M÷\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep80:float
+M◊\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep81:float
+Mÿ\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep82:float
+MŸ\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep83:float
+M⁄\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep84:float
+M€\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep85:float
+M‹\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep86:float
+M›\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep87:float
+Mﬁ\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep88:float
+Mﬂ\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep89:float
+M‡\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep90:float
+M·\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep91:float
+M‚\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep92:float
+M„\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep93:float
+M‰\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep94:float
+MÂ\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep95:float
+MÊ\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep96:float
+MÁ\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep97:float
+MË\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep98:float
+MÈ\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep99:float
+NÍ\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight_rep100:float
+GÎ\MOJCourt charges"	moj_clean*core2nzcvs_core_hholdweight:float
+MÏ\MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep1:float
+MÌ\MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep2:float
+MÓ\MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep3:float
+MÔ\MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep4:float
+M\MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep5:float
+MÒ\MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep6:float
+MÚ\MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep7:float
+MÛ\MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep8:float
+MÙ\MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep9:float
+Nı\MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep10:float
+Nˆ\MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep11:float
+N˜\MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep12:float
+N¯\MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep13:float
+N˘\MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep14:float
+N˙\MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep15:float
+N˚\MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep16:float
+N¸\MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep17:float
+N˝\MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep18:float
+N˛\MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep19:float
+Nˇ\MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep20:float
+NÄ]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep21:float
+NÅ]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep22:float
+NÇ]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep23:float
+NÉ]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep24:float
+NÑ]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep25:float
+NÖ]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep26:float
+NÜ]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep27:float
+Ná]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep28:float
+Nà]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep29:float
+Nâ]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep30:float
+Nä]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep31:float
+Nã]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep32:float
+Nå]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep33:float
+Nç]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep34:float
+Né]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep35:float
+Nè]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep36:float
+Nê]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep37:float
+Në]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep38:float
+Ní]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep39:float
+Nì]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep40:float
+Nî]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep41:float
+Nï]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep42:float
+Nñ]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep43:float
+Nó]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep44:float
+Nò]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep45:float
+Nô]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep46:float
+Nö]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep47:float
+Nõ]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep48:float
+Nú]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep49:float
+Nù]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep50:float
+Nû]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep51:float
+Nü]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep52:float
+N†]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep53:float
+N°]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep54:float
+N¢]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep55:float
+N£]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep56:float
+N§]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep57:float
+N•]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep58:float
+N¶]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep59:float
+Nß]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep60:float
+N®]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep61:float
+N©]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep62:float
+N™]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep63:float
+N´]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep64:float
+N¨]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep65:float
+N≠]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep66:float
+NÆ]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep67:float
+NØ]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep68:float
+N∞]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep69:float
+N±]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep70:float
+N≤]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep71:float
+N≥]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep72:float
+N¥]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep73:float
+Nµ]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep74:float
+N∂]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep75:float
+N∑]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep76:float
+N∏]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep77:float
+Nπ]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep78:float
+N∫]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep79:float
+Nª]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep80:float
+Nº]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep81:float
+NΩ]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep82:float
+Næ]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep83:float
+Nø]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep84:float
+N¿]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep85:float
+N¡]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep86:float
+N¬]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep87:float
+N√]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep88:float
+Nƒ]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep89:float
+N≈]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep90:float
+N∆]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep91:float
+N«]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep92:float
+N»]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep93:float
+N…]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep94:float
+N ]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep95:float
+NÀ]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep96:float
+NÃ]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep97:float
+NÕ]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep98:float
+NŒ]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep99:float
+Oœ]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight_rep100:float
+H–]MOJCourt charges"	moj_clean*core2nzcvs_core_personweight:float
+F—]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD01_INC:int
+F“]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD02_INC:int
+F”]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD03_INC:int
+F‘]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD04_INC:int
+F’]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD05_INC:int
+F÷]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD06_INC:int
+F◊]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD07_INC:int
+Fÿ]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD08_INC:int
+FŸ]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD09_INC:int
+F⁄]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD10_INC:int
+F€]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD11_INC:int
+F‹]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD12_INC:int
+F›]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD13_INC:int
+Fﬁ]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD14_INC:int
+Fﬂ]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD15_INC:int
+F‡]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD16_INC:int
+F·]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD17_INC:int
+F‚]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD18_INC:int
+F„]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD98_INC:int
+F‰]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD99_INC:int
+JÂ]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCODFV_ALL_INC:int
+KÊ]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCODFV_PART_INC:int
+KÁ]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCODFV_EXPA_INC:int
+KË]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCODFV_FAMI_INC:int
+GÈ]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD01_PREV:int
+GÍ]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD02_PREV:int
+GÎ]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD03_PREV:int
+GÏ]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD04_PREV:int
+GÌ]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD05_PREV:int
+GÓ]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD06_PREV:int
+GÔ]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD07_PREV:int
+G]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD08_PREV:int
+GÒ]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD09_PREV:int
+GÚ]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD10_PREV:int
+GÛ]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD11_PREV:int
+GÙ]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD12_PREV:int
+Gı]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD13_PREV:int
+Gˆ]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD14_PREV:int
+G˜]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD15_PREV:int
+G¯]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD16_PREV:int
+G˘]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD17_PREV:int
+G˙]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD18_PREV:int
+G˚]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD98_PREV:int
+G¸]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCOD99_PREV:int
+K˝]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCODFV_ALL_PREV:int
+L˛]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCODFV_PART_PREV:int
+Lˇ]MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCODFV_EXPA_PREV:int
+LÄ^MOJCourt charges"	moj_clean*core2nzcvs_core_OFFCODFV_FAMI_PREV:int
+MÅ^MOJCourt charges"	moj_clean*core2nzcvs_core_ethnic_grp1_snz_ind:bit
+MÇ^MOJCourt charges"	moj_clean*core2nzcvs_core_ethnic_grp2_snz_ind:bit
+MÉ^MOJCourt charges"	moj_clean*core2nzcvs_core_ethnic_grp3_snz_ind:bit
+MÑ^MOJCourt charges"	moj_clean*core2nzcvs_core_ethnic_grp4_snz_ind:bit
+MÖ^MOJCourt charges"	moj_clean*core2nzcvs_core_ethnic_grp5_snz_ind:bit
+MÜ^MOJCourt charges"	moj_clean*core2nzcvs_core_ethnic_grp6_snz_ind:bit
+:á^MOJCourt charges"	moj_clean*incident2snz_uid:int
+Jà^MOJCourt charges"	moj_clean*incident2nzcvs_snz_unique_nbr:bigint
+@â^MOJCourt charges"	moj_clean*incident2snz_nzcvs_uid:int
+Jä^MOJCourt charges"	moj_clean*incident2nzcvs_incident_qtr:smallint
+Iã^MOJCourt charges"	moj_clean*incident2nzcvs_incident_psu2015:int
+Rå^MOJCourt charges"	moj_clean*incident2nzcvs_incident_FinalOffenceCode:int
+Uç^MOJCourt charges"	moj_clean*incident2"nzcvs_incident_FinalOffenceCodeN..:int
+Mé^MOJCourt charges"	moj_clean*incident2nzcvs_incident_VFTYPE:smallint
+Lè^MOJCourt charges"	moj_clean*incident2nzcvs_incident_APLY_NOTNZ:int
+Qê^MOJCourt charges"	moj_clean*incident2nzcvs_incident_APLY_NOT12MNTHS:int
+Që^MOJCourt charges"	moj_clean*incident2nzcvs_incident_APLY_NOTPRSNALY:int
+Qí^MOJCourt charges"	moj_clean*incident2nzcvs_incident_APLY_NOTPROPRTY:int
+Uì^MOJCourt charges"	moj_clean*incident2"nzcvs_incident_APLY_NOTHRTPRSNAL..:int
+Tî^MOJCourt charges"	moj_clean*incident2nzcvs_incident_WHENINCIDHAPN:smallint
+Lï^MOJCourt charges"	moj_clean*incident2nzcvs_incident_WHEREINCID:int
+Oñ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_OFFENNUM:smallint
+Oó^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DISCRACE:smallint
+Qò^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DISCSEXLTY:smallint
+Nô^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DISCAGE:smallint
+Nö^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DISCSEX:smallint
+Põ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DISCRELIG:smallint
+Oú^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DISCDISA:smallint
+Lù^MOJCourt charges"	moj_clean*incident2nzcvs_incident_MVWRTHSTOL:int
+Pû^MOJCourt charges"	moj_clean*incident2nzcvs_incident_MVWRTHSTOL_DKR:int
+Hü^MOJCourt charges"	moj_clean*incident2nzcvs_incident_MVBACK:int
+Q†^MOJCourt charges"	moj_clean*incident2nzcvs_incident_STOLMNYGDS:smallint
+Q°^MOJCourt charges"	moj_clean*incident2nzcvs_incident_TOTSTOLVAL:smallint
+Q¢^MOJCourt charges"	moj_clean*incident2nzcvs_incident_TOTDAMAVAL:smallint
+J£^MOJCourt charges"	moj_clean*incident2nzcvs_incident_INSCOVER:int
+J§^MOJCourt charges"	moj_clean*incident2nzcvs_incident_INSCLAIM:int
+Q•^MOJCourt charges"	moj_clean*incident2nzcvs_incident_TIMEOFFHRS:smallint
+Q¶^MOJCourt charges"	moj_clean*incident2nzcvs_incident_TIMEOFFDYS:smallint
+Tß^MOJCourt charges"	moj_clean*incident2nzcvs_incident_SGINCID_COMPO:smallint
+N®^MOJCourt charges"	moj_clean*incident2nzcvs_incident_POLIHOW:smallint
+M©^MOJCourt charges"	moj_clean*incident2nzcvs_incident_POLINF_TRIV:int
+M™^MOJCourt charges"	moj_clean*incident2nzcvs_incident_POLINF_ATMP:int
+N´^MOJCourt charges"	moj_clean*incident2nzcvs_incident_POLICNF_EVID:int
+N¨^MOJCourt charges"	moj_clean*incident2nzcvs_incident_POLICNF_ANYT:int
+N≠^MOJCourt charges"	moj_clean*incident2nzcvs_incident_POLICNF_BOTH:int
+NÆ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_POLICNF_CONT:int
+NØ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_POLICNF_BUSY:int
+P∞^MOJCourt charges"	moj_clean*incident2nzcvs_incident_POLICNF_BADEXP:int
+N±^MOJCourt charges"	moj_clean*incident2nzcvs_incident_POLICNF_PRIV:int
+N≤^MOJCourt charges"	moj_clean*incident2nzcvs_incident_POLICNF_SHAM:int
+O≥^MOJCourt charges"	moj_clean*incident2nzcvs_incident_POLICNF_DEALT:int
+N¥^MOJCourt charges"	moj_clean*incident2nzcvs_incident_POLICNF_FEAR:int
+Nµ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_POLICNF_TROU:int
+N∂^MOJCourt charges"	moj_clean*incident2nzcvs_incident_POLICNF_INCO:int
+M∑^MOJCourt charges"	moj_clean*incident2nzcvs_incident_POLICNF_JOB:int
+N∏^MOJCourt charges"	moj_clean*incident2nzcvs_incident_POLICNF_AUTH:int
+Nπ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_POLICNF_NORE:int
+M∫^MOJCourt charges"	moj_clean*incident2nzcvs_incident_POLICNF_OTH:int
+Hª^MOJCourt charges"	moj_clean*incident2nzcvs_incident_WEAPON:int
+Jº^MOJCourt charges"	moj_clean*incident2nzcvs_incident_SERINCID:int
+OΩ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_VIEINCID:smallint
+Jæ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_ALCOOFFE:int
+Jø^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DRUGOFFE:int
+L¿^MOJCourt charges"	moj_clean*incident2nzcvs_incident_AFF_YSALCO:int
+L¡^MOJCourt charges"	moj_clean*incident2nzcvs_incident_AFF_YSDRUG:int
+H¬^MOJCourt charges"	moj_clean*incident2nzcvs_incident_AFF_NO:int
+J√^MOJCourt charges"	moj_clean*incident2nzcvs_incident_FAC_ARGU:int
+Jƒ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_FAC_FINA:int
+J≈^MOJCourt charges"	moj_clean*incident2nzcvs_incident_FAC_FIGH:int
+J∆^MOJCourt charges"	moj_clean*incident2nzcvs_incident_FAC_CARE:int
+J«^MOJCourt charges"	moj_clean*incident2nzcvs_incident_FAC_JEAL:int
+J»^MOJCourt charges"	moj_clean*incident2nzcvs_incident_FAC_SEPA:int
+K…^MOJCourt charges"	moj_clean*incident2nzcvs_incident_FAC_NOTHP:int
+I ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_FAC_OTH:int
+JÀ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_FAC_NONE:int
+JÃ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_INJ_BRUI:int
+JÕ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_INJ_BONE:int
+JŒ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_INJ_INTE:int
+Iœ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_INJ_OTH:int
+J–^MOJCourt charges"	moj_clean*incident2nzcvs_incident_SEVERINJ:int
+I—^MOJCourt charges"	moj_clean*incident2nzcvs_incident_MEDPROF:int
+L“^MOJCourt charges"	moj_clean*incident2nzcvs_incident_NOMED_NEED:int
+M”^MOJCourt charges"	moj_clean*incident2nzcvs_incident_NOMED_AFORD:int
+L‘^MOJCourt charges"	moj_clean*incident2nzcvs_incident_NOMED_PREV:int
+M’^MOJCourt charges"	moj_clean*incident2nzcvs_incident_NOMED_SCARD:int
+K÷^MOJCourt charges"	moj_clean*incident2nzcvs_incident_NOMED_OTH:int
+J◊^MOJCourt charges"	moj_clean*incident2nzcvs_incident_EMO_ANGE:int
+Jÿ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_EMO_SHOC:int
+JŸ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_EMO_FEAR:int
+J⁄^MOJCourt charges"	moj_clean*incident2nzcvs_incident_EMO_DEPR:int
+J€^MOJCourt charges"	moj_clean*incident2nzcvs_incident_EMO_ANXI:int
+J‹^MOJCourt charges"	moj_clean*incident2nzcvs_incident_EMO_SLEE:int
+J›^MOJCourt charges"	moj_clean*incident2nzcvs_incident_EMO_CRYI:int
+Jﬁ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_EMO_CONF:int
+Jﬂ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_EMO_SHAM:int
+J‡^MOJCourt charges"	moj_clean*incident2nzcvs_incident_EMO_ALCO:int
+J·^MOJCourt charges"	moj_clean*incident2nzcvs_incident_EMO_CAUT:int
+I‚^MOJCourt charges"	moj_clean*incident2nzcvs_incident_EMO_OTH:int
+J„^MOJCourt charges"	moj_clean*incident2nzcvs_incident_EMO_NONE:int
+J‰^MOJCourt charges"	moj_clean*incident2nzcvs_incident_AFFINCID:int
+KÂ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_CHILDAWAR:int
+KÊ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVSEX:varchar
+QÁ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVSEXORIENT:varchar
+GË^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVAGE:int
+QÈ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DV5YRAGEGRP:varchar
+NÍ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVAGEGRP:varchar
+MÎ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVETHN_EURO:bit
+NÏ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVETHN_MAORI:bit
+PÌ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVETHN_PACIFIC:bit
+NÓ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVETHN_ASIAN:bit
+PÔ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVETHN_CHINESE:bit
+O^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVETHN_INDIAN:bit
+SÒ^MOJCourt charges"	moj_clean*incident2 nzcvs_incident_DVETHN_OTHERASIAN:bit
+NÚ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVETHN_OTHER:bit
+KÛ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVETHN_NS:bit
+PÙ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVPERSONINCOME:int
+Oı^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVHHOLDINCOME:int
+Uˆ^MOJCourt charges"	moj_clean*incident2"nzcvs_incident_DVPERSONINCOME_im..:int
+S˜^MOJCourt charges"	moj_clean*incident2 nzcvs_incident_DVHHOLDINCOME_imp:int
+S¯^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVPERSINCGRP1:varchar
+S˘^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVPERSINCGRP2:varchar
+T˙^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVHHOLDINCGRP1:varchar
+T˚^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVHHOLDINCGRP2:varchar
+M¸^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVURBAN:varchar
+R˝^MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVREGCOUNCIL:varchar
+L˛^MOJCourt charges"	moj_clean*incident2nzcvs_incident_NZDEPSCORE:int
+Qˇ^MOJCourt charges"	moj_clean*incident2nzcvs_incident_NZDEPDECILE:varchar
+SÄ_MOJCourt charges"	moj_clean*incident2nzcvs_incident_NZDEPQUINTILE:varchar
+VÅ_MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVEVERSEXASSAULT:varchar
+VÇ_MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVEVEROTHASSAULT:varchar
+OÉ_MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVOFFENCONTCT:int
+NÑ_MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVKNOW_OFFEN:int
+HÖ_MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVMALE:int
+JÜ_MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVFEMALE:int
+Lá_MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVTIMEOFFW:int
+Kà_MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVINJURED:int
+Lâ_MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVPOLIFOUN:int
+Sä_MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVPLACEHAPPEN:varchar
+Qã_MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVRELA_PART:varchar
+Qå_MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVRELA_EXPA:varchar
+Qç_MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVRELA_FAMI:varchar
+Qé_MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVRELA_FRIE:varchar
+Qè_MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVRELA_CARE:varchar
+Qê_MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVRELA_OTHS:varchar
+Që_MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVRELA_STRG:varchar
+Oí_MOJCourt charges"	moj_clean*incident2nzcvs_incident_DVRELA_NS:varchar
+Wì_MOJCourt charges"	moj_clean*incident2 nzcvs_incident_DVANYBREACHORDERS:varchar
+Yî_MOJCourt charges"	moj_clean*incident2"nzcvs_incident_DVANYDISCRIMINATI..:varchar
+Lï_MOJCourt charges"	moj_clean*incident2nzcvs_incident_Imputation:int
+Uñ_MOJCourt charges"	moj_clean*incident2"nzcvs_incident_ethnic_grp1_snz_i..:bit
+Uó_MOJCourt charges"	moj_clean*incident2"nzcvs_incident_ethnic_grp2_snz_i..:bit
+Uò_MOJCourt charges"	moj_clean*incident2"nzcvs_incident_ethnic_grp3_snz_i..:bit
+Uô_MOJCourt charges"	moj_clean*incident2"nzcvs_incident_ethnic_grp4_snz_i..:bit
+Uö_MOJCourt charges"	moj_clean*incident2"nzcvs_incident_ethnic_grp5_snz_i..:bit
+Uõ_MOJCourt charges"	moj_clean*incident2"nzcvs_incident_ethnic_grp6_snz_i..:bit
+„ú_MOJCourt charges"	moj_clean*matching2snz_uid:intB¶A global unique identifier created by Statistics NZ. There is a snz_uid for each distinct identity in the IDI. This identifier is changed and reassigned each refresh.
+Êù_MOJCourt charges"	moj_clean*matching2snz_jus_uid:intB•An encrypted/transformed Justice sector unique identifier. Justice sector refers to data from New Zealand Police, Ministry of Justice, and Department of corrections.
+[û_MOJCourt charges"	moj_clean*matching2moj_mat_birth_month_nbr:tinyintBBirth month
+Zü_MOJCourt charges"	moj_clean*matching2moj_mat_birth_year_nbr:smallintB
+Birth year
+™†_MOJCourt charges"	moj_clean*matching2moj_mat_sex_snz_code:varcharB]Sex variable concorded to the Statistics NZ standard.
+Note: Organisations have a value of 3.
+z°_MOJCourt charges"	moj_clean*matching2snz_person_ind:bitB7This indicates whether or not this relates to a person.
+„¢_MOJCourt charges"	moj_clean*matching2snz_uid:intB¶A global unique identifier created by Statistics NZ. There is a snz_uid for each distinct identity in the IDI. This identifier is changed and reassigned each refresh.
+J£_MOJCourt charges"	moj_clean*matching2nzcvs_snz_unique_nbr:bigint
+@§_MOJCourt charges"	moj_clean*matching2snz_nzcvs_uid:int
+J•_MOJCourt charges"	moj_clean*matching2nzcvs_matching_qtr:smallint
+I¶_MOJCourt charges"	moj_clean*matching2nzcvs_matching_psu2015:int
+Pß_MOJCourt charges"	moj_clean*matching2nzcvs_matching_OutcomeMOJ:varchar
+L®_MOJCourt charges"	moj_clean*matching2nzcvs_matching_ER1_06:tinyint
+L©_MOJCourt charges"	moj_clean*matching2nzcvs_matching_ER1_08:tinyint
+L™_MOJCourt charges"	moj_clean*matching2nzcvs_birth_month_nbr:tinyint
+L´_MOJCourt charges"	moj_clean*matching2nzcvs_birth_year_nbr:smallint
+I¨_MOJCourt charges"	moj_clean*matching2nzcvs_snz_sex_code:varchar
+O≠_MOJCourt charges"	moj_clean*matching2snz_idi_address_register_uid:int
+EÆ_MOJCourt charges"	moj_clean*matching2nzcvs_region_code:char
+AØ_MOJCourt charges"	moj_clean*matching2nzcvs_ta_code:char
+H∞_MOJCourt charges"	moj_clean*matching2nzcvs_meshblock_code:char
+R±_MOJCourt charges"	moj_clean*matching2nzcvs_meshblock_imputed_ind:varchar
+6≤_MSDBenefits"	msd_clean*	msd_child2snz_uid:int
+:≥_MSDBenefits"	msd_clean*	msd_child2snz_msd_uid:int
+A¥_MSDBenefits"	msd_clean*	msd_child2msd_chld_spell_nbr:int
+Iµ_MSDBenefits"	msd_clean*	msd_child2msd_chld_snz_unique_nbr:bigint
+<∂_MSDBenefits"	msd_clean*	msd_child2child_snz_uid:int
+@∑_MSDBenefits"	msd_clean*	msd_child2child_snz_msd_uid:int
+H∏_MSDBenefits"	msd_clean*	msd_child2msd_chld_child_from_date:date
+Fπ_MSDBenefits"	msd_clean*	msd_child2msd_chld_child_to_date:date
+M∫_MSDBenefits"	msd_clean*	msd_child2msd_chld_child_birth_month_nbr:int
+Lª_MSDBenefits"	msd_clean*	msd_child2msd_chld_child_birth_year_nbr:int
+:º_MSDBenefits"	msd_clean*	msd_child2snz_swn_nbr:int
+@Ω_MSDBenefits"	msd_clean*	msd_child2child_snz_swn_nbr:int
+;æ_MSDBenefits"	msd_clean*msd_child_full2snz_uid:int
+?ø_MSDBenefits"	msd_clean*msd_child_full2snz_msd_uid:int
+M¿_MSDBenefits"	msd_clean*msd_child_full2msd_chf_snz_unique_nbr:bigint
+H¡_MSDBenefits"	msd_clean*msd_child_full2msd_chf_cod_code:varchar
+K¬_MSDBenefits"	msd_clean*msd_child_full2msd_chf_locked_rcd_ind:char
+E√_MSDBenefits"	msd_clean*msd_child_full2snz_msd_party_uid:int
+Oƒ_MSDBenefits"	msd_clean*msd_child_full2msd_chf_birth_month_nbr:tinyint
+O≈_MSDBenefits"	msd_clean*msd_child_full2msd_chf_birth_year_nbr:smallint
+O∆_MSDBenefits"	msd_clean*msd_child_full2msd_chf_death_month_nbr:tinyint
+O«_MSDBenefits"	msd_clean*msd_child_full2msd_chf_death_year_nbr:smallint
+K»_MSDBenefits"	msd_clean*msd_child_full2msd_snz_gender_code:varchar
+F…_MSDBenefits"	msd_clean*msd_child_full2msd_chf_file_date:date
+D _MSDBenefits"	msd_clean*msd_child_full2snz_msd_role_uid:int
+NÀ_MSDBenefits"	msd_clean*msd_child_full2msd_chf_role_type_code:varchar
+?Ã_MSDBenefits"	msd_clean*msd_child_full2snz_swn_nbr:int
+?Õ_MSDBenefits"	msd_clean*msd_client_varchar2snz_uid:int
+CŒ_MSDBenefits"	msd_clean*msd_client_varchar2snz_msd_uid:int
+Qœ_MSDBenefits"	msd_clean*msd_client_varchar2msd_cvc_snz_unique_nbr:bigint
+C–_MSDBenefits"	msd_clean*msd_client_varchar2snz_swn_nbr:int
+G—_MSDBenefits"	msd_clean*msd_client_varchar2snz_msd_int_uid:int
+W“_MSDBenefits"	msd_clean*msd_client_varchar2msd_cvc_client_id_type_text:varchar
+O”_MSDBenefits"	msd_clean*msd_client_varchar2msd_cvc_pc_grp_code:varchar
+M‘_MSDBenefits"	msd_clean*msd_client_varchar2msd_cvc_profile_date:date
+R’_MSDBenefits"	msd_clean*msd_client_varchar2msd_cvc_prfl_name_text:varchar
+S÷_MSDBenefits"	msd_clean*msd_client_varchar2msd_cvc_prfl_value_text:varchar
+>◊_MSDBenefits"	msd_clean*msd_client_varnum2snz_uid:int
+Bÿ_MSDBenefits"	msd_clean*msd_client_varnum2snz_msd_uid:int
+PŸ_MSDBenefits"	msd_clean*msd_client_varnum2msd_cvn_snz_unique_nbr:bigint
+B⁄_MSDBenefits"	msd_clean*msd_client_varnum2snz_swn_nbr:int
+F€_MSDBenefits"	msd_clean*msd_client_varnum2snz_msd_int_uid:int
+V‹_MSDBenefits"	msd_clean*msd_client_varnum2msd_cvn_client_id_type_text:varchar
+N›_MSDBenefits"	msd_clean*msd_client_varnum2msd_cvn_pc_grp_code:varchar
+Lﬁ_MSDBenefits"	msd_clean*msd_client_varnum2msd_cvn_profile_date:date
+Qﬂ_MSDBenefits"	msd_clean*msd_client_varnum2msd_cvn_prfl_name_text:varchar
+Q‡_MSDBenefits"	msd_clean*msd_client_varnum2msd_cvn_prfl_value_nbr:decimal
+9·_MSDBenefits"	msd_clean*msd_customer2snz_uid:int
+=‚_MSDBenefits"	msd_clean*msd_customer2snz_msd_uid:int
+K„_MSDBenefits"	msd_clean*msd_customer2msd_cus_snz_unique_nbr:bigint
+F‰_MSDBenefits"	msd_clean*msd_customer2msd_cus_cod_code:varchar
+IÂ_MSDBenefits"	msd_clean*msd_customer2msd_cus_locked_rcd_ind:char
+KÊ_MSDBenefits"	msd_clean*msd_customer2msd_cus_notfn_id_text:varchar
+CÁ_MSDBenefits"	msd_clean*msd_customer2snz_msd_party_uid:int
+MË_MSDBenefits"	msd_clean*msd_customer2msd_cus_birth_month_nbr:tinyint
+MÈ_MSDBenefits"	msd_clean*msd_customer2msd_cus_birth_year_nbr:smallint
+MÍ_MSDBenefits"	msd_clean*msd_customer2msd_cus_death_month_nbr:tinyint
+MÎ_MSDBenefits"	msd_clean*msd_customer2msd_cus_death_year_nbr:smallint
+IÏ_MSDBenefits"	msd_clean*msd_customer2msd_snz_gender_code:varchar
+BÌ_MSDBenefits"	msd_clean*msd_customer2snz_msd_role_uid:int
+LÓ_MSDBenefits"	msd_clean*msd_customer2msd_cus_role_type_code:varchar
+IÔ_MSDBenefits"	msd_clean*msd_customer2snz_msd_assoc_child_uid:int
+D_MSDBenefits"	msd_clean*msd_customer2msd_cus_file_date:date
+=Ò_MSDBenefits"	msd_clean*msd_customer2snz_swn_nbr:int
+?Ú_MSDBenefits"	msd_clean*msd_customer_alias2snz_uid:int
+CÛ_MSDBenefits"	msd_clean*msd_customer_alias2snz_msd_uid:int
+QÙ_MSDBenefits"	msd_clean*msd_customer_alias2msd_ali_snz_unique_nbr:bigint
+Lı_MSDBenefits"	msd_clean*msd_customer_alias2msd_ali_cod_code:varchar
+Oˆ_MSDBenefits"	msd_clean*msd_customer_alias2msd_ali_locked_rcd_ind:char
+Q˜_MSDBenefits"	msd_clean*msd_customer_alias2msd_ali_notfn_id_text:varchar
+I¯_MSDBenefits"	msd_clean*msd_customer_alias2snz_msd_party_uid:int
+S˘_MSDBenefits"	msd_clean*msd_customer_alias2msd_ali_birth_month_nbr:tinyint
+S˙_MSDBenefits"	msd_clean*msd_customer_alias2msd_ali_birth_year_nbr:smallint
+S˚_MSDBenefits"	msd_clean*msd_customer_alias2msd_ali_death_month_nbr:tinyint
+S¸_MSDBenefits"	msd_clean*msd_customer_alias2msd_ali_death_year_nbr:smallint
+O˝_MSDBenefits"	msd_clean*msd_customer_alias2msd_snz_gender_code:varchar
+H˛_MSDBenefits"	msd_clean*msd_customer_alias2snz_msd_role_uid:int
+Rˇ_MSDBenefits"	msd_clean*msd_customer_alias2msd_ali_role_type_code:varchar
+OÄ`MSDBenefits"	msd_clean*msd_customer_alias2snz_msd_assoc_child_uid:int
+JÅ`MSDBenefits"	msd_clean*msd_customer_alias2msd_ali_file_date:date
+CÇ`MSDBenefits"	msd_clean*msd_customer_alias2snz_swn_nbr:int
+9É`MSDBenefits"	msd_clean*msd_district2snz_uid:int
+=Ñ`MSDBenefits"	msd_clean*msd_district2snz_msd_uid:int
+HÖ`MSDBenefits"	msd_clean*msd_district2msd_dist_spell_nbr:tinyint
+LÜ`MSDBenefits"	msd_clean*msd_district2msd_dist_snz_unique_nbr:bigint
+Eá`MSDBenefits"	msd_clean*msd_district2msd_dist_dist_code:char
+Kà`MSDBenefits"	msd_clean*msd_district2msd_dist_dist_start_date:date
+Iâ`MSDBenefits"	msd_clean*msd_district2msd_dist_dist_end_date:date
+=ä`MSDBenefits"	msd_clean*msd_district2snz_swn_nbr:int
+Bã`MSDBenefits"	msd_clean*msd_education_history2snz_uid:int
+Få`MSDBenefits"	msd_clean*msd_education_history2snz_msd_uid:int
+Wç`MSDBenefits"	msd_clean*msd_education_history2msd_edh_educ_lvl_start_date:date
+Té`MSDBenefits"	msd_clean*msd_education_history2msd_edh_snz_unique_nbr:bigint
+Uè`MSDBenefits"	msd_clean*msd_education_history2msd_edh_educ_lvl_end_date:date
+Zê`MSDBenefits"	msd_clean*msd_education_history2msd_edh_education_desc_text:varchar
+Rë`MSDBenefits"	msd_clean*msd_education_history2msd_edh_education_code:char
+Ví`MSDBenefits"	msd_clean*msd_education_history2msd_edh_educ_score_nbr:smallint
+Fì`MSDBenefits"	msd_clean*msd_education_history2snz_swn_nbr:int
+Fî`MSDBenefits"	msd_clean*msd_employment_assistance2snz_uid:int
+Jï`MSDBenefits"	msd_clean*msd_employment_assistance2snz_msd_uid:int
+Uñ`MSDBenefits"	msd_clean*msd_employment_assistance2msd_empa_prog_code:varchar
+bó`MSDBenefits"	msd_clean*msd_employment_assistance2"msd_empa_participation_start_dat..:date
+Yò`MSDBenefits"	msd_clean*msd_employment_assistance2msd_empa_snz_unique_nbr:bigint
+_ô`MSDBenefits"	msd_clean*msd_employment_assistance2msd_empa_participation_end_date:date
+Zö`MSDBenefits"	msd_clean*msd_employment_assistance2msd_empa_prog_name_text:varchar
+Zõ`MSDBenefits"	msd_clean*msd_employment_assistance2msd_empa_assistance_amt:decimal
+Tú`MSDBenefits"	msd_clean*msd_employment_assistance2msd_empa_provider_uid:int
+Vù`MSDBenefits"	msd_clean*msd_employment_assistance2msd_empa_referral_date:date
+Jû`MSDBenefits"	msd_clean*msd_employment_assistance2snz_swn_nbr:int
+Vü`MSDBenefits"	msd_clean*msd_employment_assistance2msd_empa_opportunity_id:int
+T†`MSDBenefits"	msd_clean*msd_employment_assistance2msd_empa_contract_id:char
+G°`MSDBenefits"	msd_clean*msd_first_tier_expenditure2snz_uid:int
+K¢`MSDBenefits"	msd_clean*msd_first_tier_expenditure2snz_msd_uid:int
+Y£`MSDBenefits"	msd_clean*msd_first_tier_expenditure2msd_fte_snz_unique_nbr:bigint
+K§`MSDBenefits"	msd_clean*msd_first_tier_expenditure2snz_swn_nbr:int
+R•`MSDBenefits"	msd_clean*msd_first_tier_expenditure2msd_fte_serv_code:char
+S¶`MSDBenefits"	msd_clean*msd_first_tier_expenditure2msd_fte_srvst_code:char
+Sß`MSDBenefits"	msd_clean*msd_first_tier_expenditure2msd_fte_servf_code:char
+S®`MSDBenefits"	msd_clean*msd_first_tier_expenditure2msd_fte_start_date:date
+Q©`MSDBenefits"	msd_clean*msd_first_tier_expenditure2msd_fte_end_date:date
+[™`MSDBenefits"	msd_clean*msd_first_tier_expenditure2msd_fte_daily_gross_amt:decimal
+Z´`MSDBenefits"	msd_clean*msd_first_tier_expenditure2msd_fte_daily_nett_amt:decimal
+W¨`MSDBenefits"	msd_clean*msd_first_tier_expenditure2msd_fte_period_nbr:smallint
+;≠`MSDBenefits"	msd_clean*msd_incapacity2snz_uid:int
+?Æ`MSDBenefits"	msd_clean*msd_incapacity2snz_msd_uid:int
+JØ`MSDBenefits"	msd_clean*msd_incapacity2msd_incp_spell_nbr:tinyint
+N∞`MSDBenefits"	msd_clean*msd_incapacity2msd_incp_snz_unique_nbr:bigint
+L±`MSDBenefits"	msd_clean*msd_incapacity2msd_incp_incp_from_date:date
+J≤`MSDBenefits"	msd_clean*msd_incapacity2msd_incp_incp_to_date:date
+I≥`MSDBenefits"	msd_clean*msd_incapacity2msd_incp_incrsn_code:char
+M¥`MSDBenefits"	msd_clean*msd_incapacity2msd_incp_incrsn95_1_code:char
+Mµ`MSDBenefits"	msd_clean*msd_incapacity2msd_incp_incrsn95_2_code:char
+M∂`MSDBenefits"	msd_clean*msd_incapacity2msd_incp_incrsn95_3_code:char
+M∑`MSDBenefits"	msd_clean*msd_incapacity2msd_incp_incrsn95_4_code:char
+M∏`MSDBenefits"	msd_clean*msd_incapacity2msd_incp_incapacity_code:char
+?π`MSDBenefits"	msd_clean*msd_incapacity2snz_swn_nbr:int
+H∫`MSDBenefits"	msd_clean*msd_int_description2snz_msd_int_uid:int
+Mª`MSDBenefits"	msd_clean*msd_int_description2msd_int_var_text:varchar
+Oº`MSDBenefits"	msd_clean*msd_int_description2msd_int_label_text:varchar
+KΩ`MSDBenefits"	msd_clean*msd_int_description2msd_int_type_code:char
+Næ`MSDBenefits"	msd_clean*msd_int_description2msd_int_char_text:varchar
+Lø`MSDBenefits"	msd_clean*msd_int_description2msd_int_num_nbr:decimal
+C¿`MSDBenefits"	msd_clean*msd_par_counter_events2snz_uid:int
+G¡`MSDBenefits"	msd_clean*msd_par_counter_events2snz_msd_uid:int
+U¬`MSDBenefits"	msd_clean*msd_par_counter_events2msd_pce_snz_unique_nbr:bigint
+G√`MSDBenefits"	msd_clean*msd_par_counter_events2snz_swn_nbr:int
+Kƒ`MSDBenefits"	msd_clean*msd_par_counter_events2snz_msd_int_uid:int
+[≈`MSDBenefits"	msd_clean*msd_par_counter_events2msd_pce_client_id_type_text:varchar
+S∆`MSDBenefits"	msd_clean*msd_par_counter_events2msd_pce_pc_grp_code:varchar
+S«`MSDBenefits"	msd_clean*msd_par_counter_events2msd_pce_grp_start_date:date
+Q»`MSDBenefits"	msd_clean*msd_par_counter_events2msd_pce_grp_end_date:date
+Q…`MSDBenefits"	msd_clean*msd_par_counter_events2msd_pce_profile_date:date
+8 `MSDBenefits"	msd_clean*msd_partner2snz_uid:int
+<À`MSDBenefits"	msd_clean*msd_partner2snz_msd_uid:int
+@Ã`MSDBenefits"	msd_clean*msd_partner2partner_snz_uid:int
+DÕ`MSDBenefits"	msd_clean*msd_partner2partner_snz_msd_uid:int
+GŒ`MSDBenefits"	msd_clean*msd_partner2msd_ptnr_spell_nbr:tinyint
+Kœ`MSDBenefits"	msd_clean*msd_partner2msd_ptnr_snz_unique_nbr:bigint
+I–`MSDBenefits"	msd_clean*msd_partner2msd_ptnr_ptnr_from_date:date
+G—`MSDBenefits"	msd_clean*msd_partner2msd_ptnr_ptnr_to_date:date
+<“`MSDBenefits"	msd_clean*msd_partner2snz_swn_nbr:int
+D”`MSDBenefits"	msd_clean*msd_partner2partner_snz_swn_nbr:int
+@‘`MSDBenefits"	msd_clean*msd_postal_location2snz_uid:int
+D’`MSDBenefits"	msd_clean*msd_postal_location2snz_msd_uid:int
+R÷`MSDBenefits"	msd_clean*msd_postal_location2msd_pst_snz_unique_nbr:bigint
+D◊`MSDBenefits"	msd_clean*msd_postal_location2snz_swn_nbr:int
+Hÿ`MSDBenefits"	msd_clean*msd_postal_location2snz_msd_cad_uid:int
+LŸ`MSDBenefits"	msd_clean*msd_postal_location2msd_pst_start_date:date
+J⁄`MSDBenefits"	msd_clean*msd_postal_location2msd_pst_end_date:date
+U€`MSDBenefits"	msd_clean*msd_postal_location2snz_idi_address_register_uid:int
+M‹`MSDBenefits"	msd_clean*msd_postal_location2msd_pst_region_code:char
+I›`MSDBenefits"	msd_clean*msd_postal_location2msd_pst_ta_code:char
+Pﬁ`MSDBenefits"	msd_clean*msd_postal_location2msd_pst_meshblock_code:char
+Zﬂ`MSDBenefits"	msd_clean*msd_postal_location2msd_pst_meshblock_imputed_ind:varchar
+E‡`MSDBenefits"	msd_clean*msd_residential_location2snz_uid:int
+I·`MSDBenefits"	msd_clean*msd_residential_location2snz_msd_uid:int
+W‚`MSDBenefits"	msd_clean*msd_residential_location2msd_rsd_snz_unique_nbr:bigint
+I„`MSDBenefits"	msd_clean*msd_residential_location2snz_swn_nbr:int
+M‰`MSDBenefits"	msd_clean*msd_residential_location2snz_msd_cad_uid:int
+QÂ`MSDBenefits"	msd_clean*msd_residential_location2msd_rsd_start_date:date
+OÊ`MSDBenefits"	msd_clean*msd_residential_location2msd_rsd_end_date:date
+ZÁ`MSDBenefits"	msd_clean*msd_residential_location2snz_idi_address_register_uid:int
+RË`MSDBenefits"	msd_clean*msd_residential_location2msd_rsd_region_code:char
+NÈ`MSDBenefits"	msd_clean*msd_residential_location2msd_rsd_ta_code:char
+UÍ`MSDBenefits"	msd_clean*msd_residential_location2msd_rsd_meshblock_code:char
+_Î`MSDBenefits"	msd_clean*msd_residential_location2msd_rsd_meshblock_imputed_ind:varchar
+HÏ`MSDBenefits"	msd_clean*msd_second_tier_expenditure2snz_uid:int
+LÌ`MSDBenefits"	msd_clean*msd_second_tier_expenditure2snz_msd_uid:int
+ZÓ`MSDBenefits"	msd_clean*msd_second_tier_expenditure2msd_ste_snz_unique_nbr:bigint
+LÔ`MSDBenefits"	msd_clean*msd_second_tier_expenditure2snz_swn_nbr:int
+T`MSDBenefits"	msd_clean*msd_second_tier_expenditure2msd_ste_start_date:date
+RÒ`MSDBenefits"	msd_clean*msd_second_tier_expenditure2msd_ste_end_date:date
+TÚ`MSDBenefits"	msd_clean*msd_second_tier_expenditure2msd_ste_srvst_code:char
+ZÛ`MSDBenefits"	msd_clean*msd_second_tier_expenditure2msd_ste_parent_serv_code:char
+TÙ`MSDBenefits"	msd_clean*msd_second_tier_expenditure2msd_ste_servf_code:char
+Xı`MSDBenefits"	msd_clean*msd_second_tier_expenditure2msd_ste_supp_serv_code:char
+\ˆ`MSDBenefits"	msd_clean*msd_second_tier_expenditure2msd_ste_daily_gross_amt:decimal
+[˜`MSDBenefits"	msd_clean*msd_second_tier_expenditure2msd_ste_daily_nett_amt:decimal
+X¯`MSDBenefits"	msd_clean*msd_second_tier_expenditure2msd_ste_period_nbr:smallint
+]˘`MSDBenefits"	msd_clean*msd_second_tier_expenditure2msd_ste_supp_source_text:varchar
+6˙`MSDBenefits"	msd_clean*	msd_spell2snz_uid:int
+:˚`MSDBenefits"	msd_clean*	msd_spell2snz_msd_uid:int
+E¸`MSDBenefits"	msd_clean*	msd_spell2msd_spel_spell_nbr:tinyint
+I˝`MSDBenefits"	msd_clean*	msd_spell2msd_spel_snz_unique_nbr:bigint
+A˛`MSDBenefits"	msd_clean*	msd_spell2msd_spel_com_date:date
+Aˇ`MSDBenefits"	msd_clean*	msd_spell2msd_spel_rsn_code:char
+CÄaMSDBenefits"	msd_clean*	msd_spell2msd_spel_servf_code:char
+CÅaMSDBenefits"	msd_clean*	msd_spell2msd_spel_srvst_code:char
+EÇaMSDBenefits"	msd_clean*	msd_spell2msd_spel_old_com_date:date
+AÉaMSDBenefits"	msd_clean*	msd_spell2msd_spel_chg_date:date
+CÑaMSDBenefits"	msd_clean*	msd_spell2msd_spel_srtet_code:char
+CÖaMSDBenefits"	msd_clean*	msd_spell2msd_spel_event_code:char
+AÜaMSDBenefits"	msd_clean*	msd_spell2msd_spel_job_code:char
+FáaMSDBenefits"	msd_clean*	msd_spell2msd_spel_ernlst_amt:decimal
+CàaMSDBenefits"	msd_clean*	msd_spell2msd_spel_lstwk_date:date
+EâaMSDBenefits"	msd_clean*	msd_spell2msd_spel_prevpart_ind:char
+IäaMSDBenefits"	msd_clean*	msd_spell2msd_spel_spell_start_date:date
+GãaMSDBenefits"	msd_clean*	msd_spell2msd_spel_spell_end_date:date
+AåaMSDBenefits"	msd_clean*	msd_spell2msd_spel_reg_date:date
+JçaMSDBenefits"	msd_clean*	msd_spell2msd_spel_add_servf_code:varchar
+MéaMSDBenefits"	msd_clean*	msd_spell2msd_spel_prewr3_servf_code:varchar
+:èaMSDBenefits"	msd_clean*	msd_spell2snz_swn_nbr:int
+4êaMSDBenefits"	msd_clean*msd_swn2snz_uid:int
+8ëaMSDBenefits"	msd_clean*msd_swn2snz_msd_uid:int
+FíaMSDBenefits"	msd_clean*msd_swn2msd_swn_snz_unique_nbr:bigint
+HìaMSDBenefits"	msd_clean*msd_swn2msd_swn_birth_month_nbr:tinyint
+HîaMSDBenefits"	msd_clean*msd_swn2msd_swn_birth_year_nbr:smallint
+HïaMSDBenefits"	msd_clean*msd_swn2msd_swn_gender_snz_code:varchar
+DñaMSDBenefits"	msd_clean*msd_swn2msd_swn_edu_level_code:char
+DóaMSDBenefits"	msd_clean*msd_swn2msd_swn_sgi_adj_nbr:tinyint
+AòaMSDBenefits"	msd_clean*msd_swn2msd_swn_ethnic_code:char
+HôaMSDBenefits"	msd_clean*msd_swn2msd_swn_ucvii_ethnic1_code:char
+HöaMSDBenefits"	msd_clean*msd_swn2msd_swn_ucvii_ethnic2_code:char
+HõaMSDBenefits"	msd_clean*msd_swn2msd_swn_ucvii_ethnic3_code:char
+HúaMSDBenefits"	msd_clean*msd_swn2msd_swn_ethnic_snz_code:varchar
+OùaMSDBenefits"	msd_clean*msd_swn2msd_swn_ucvii_ethnic1_snz_code:varchar
+OûaMSDBenefits"	msd_clean*msd_swn2msd_swn_ucvii_ethnic2_snz_code:varchar
+OüaMSDBenefits"	msd_clean*msd_swn2msd_swn_ucvii_ethnic3_snz_code:varchar
+H†aMSDBenefits"	msd_clean*msd_swn2msd_swn_ethnic_grp1_snz_ind:bit
+H°aMSDBenefits"	msd_clean*msd_swn2msd_swn_ethnic_grp2_snz_ind:bit
+H¢aMSDBenefits"	msd_clean*msd_swn2msd_swn_ethnic_grp3_snz_ind:bit
+H£aMSDBenefits"	msd_clean*msd_swn2msd_swn_ethnic_grp4_snz_ind:bit
+H§aMSDBenefits"	msd_clean*msd_swn2msd_swn_ethnic_grp5_snz_ind:bit
+H•aMSDBenefits"	msd_clean*msd_swn2msd_swn_ethnic_grp6_snz_ind:bit
+8¶aMSDBenefits"	msd_clean*msd_swn2snz_ird_uid:int
+8ßaMSDBenefits"	msd_clean*msd_swn2snz_swn_nbr:int
+G®aMSDBenefits"	msd_clean*msd_third_tier_expenditure2snz_uid:int
+K©aMSDBenefits"	msd_clean*msd_third_tier_expenditure2snz_msd_uid:int
+Y™aMSDBenefits"	msd_clean*msd_third_tier_expenditure2msd_tte_snz_unique_nbr:bigint
+K´aMSDBenefits"	msd_clean*msd_third_tier_expenditure2snz_swn_nbr:int
+S¨aMSDBenefits"	msd_clean*msd_third_tier_expenditure2msd_tte_ttp_grp_nbr:int
+U≠aMSDBenefits"	msd_clean*msd_third_tier_expenditure2msd_tte_tt_pmt_nbr:bigint
+VÆaMSDBenefits"	msd_clean*msd_third_tier_expenditure2msd_tte_decision_date:date
+QØaMSDBenefits"	msd_clean*msd_third_tier_expenditure2msd_tte_app_date:date
+Q∞aMSDBenefits"	msd_clean*msd_third_tier_expenditure2msd_tte_ref_date:date
+X±aMSDBenefits"	msd_clean*msd_third_tier_expenditure2msd_tte_parent_svc_code:char
+Z≤aMSDBenefits"	msd_clean*msd_third_tier_expenditure2msd_tte_lump_sum_svc_code:char
+Z≥aMSDBenefits"	msd_clean*msd_third_tier_expenditure2msd_tte_pmt_rsn_type_code:char
+S¥aMSDBenefits"	msd_clean*msd_third_tier_expenditure2msd_tte_pmt_amt:decimal
+XµaMSDBenefits"	msd_clean*msd_third_tier_expenditure2msd_tte_recoverable_ind:char
+Z∂aMSDBenefits"	msd_clean*msd_third_tier_expenditure2msd_tte_rcmd_dist_code:varchar
+Z∑aMSDBenefits"	msd_clean*ref_msd_district_concordance2district_office_code:varchar
+_∏aMSDBenefits"	msd_clean*ref_msd_district_concordance2district_office_desc_text:varchar
+^πaMSDBenefits"	msd_clean*ref_msd_district_concordance2district_office_tla_text:varchar
+a∫aMSDBenefits"	msd_clean*ref_msd_district_concordance2district_office_region_text:varchar
+MªaMSDBenefits"	msd_clean*ref_msd_district_concordance2ta_code:varchar
+RºaMSDBenefits"	msd_clean*ref_msd_district_concordance2ta_name_text:varchar
+MΩaMSDBenefits"	msd_clean*ref_msd_district_concordance2rc_code:varchar
+MæaMSDBenefits"	msd_clean*ref_msd_district_concordance2rc_text:varchar
+FøaMOJNZ Crime and Victims Survey"nzcvs_clean*core2snz_uid:int
+V¿aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_snz_unique_nbr:bigint
+L¡aMOJNZ Crime and Victims Survey"nzcvs_clean*core2snz_nzcvs_uid:int
+R¬aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_qtr:smallint
+Q√aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_psu2015:int
+XƒaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DATE_TIME:datetime
+V≈aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_PARTNERP_OPS:int
+V∆aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_PARTNERP_SAM:int
+U«aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_PARTNERP_NO:int
+Y»aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_EVERPARTNER_OPS:int
+Y…aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_EVERPARTNER_SAM:int
+X aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_EVERPARTNER_NO:int
+[ÀaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_SATISFACTION:smallint
+WÃaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_SAFEFEEL:smallint
+YÕaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_VEHICLEUSE:smallint
+YŒaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_BICYCLEUSE:smallint
+SœaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_GETINHOME:int
+V–aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSGETINHOME:int
+Y—aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_MVTHEFT_GETINHM:int
+\“aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSMVTHEFT_GETINHM:int
+T”aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TRDGETINHM:int
+W‘aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTRDGETINHM:int
+\’aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_MVTHFT_TRDSGETINHM:int
+_÷aMOJNZ Crime and Victims Survey"nzcvs_clean*core2 nzcvs_core_TMSMVTHFT_TRDSGETINHM:int
+Q◊aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_MVTHEFT:int
+TÿaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSMVTHEFT:int
+SŸaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDMVTHFT:int
+V⁄aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSYRDMVTHFT:int
+X€aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDMVTHFT_ALOW:int
+[‹aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSYRDMVTHFT_ALOW:int
+T›aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_STOLENOFMV:int
+WﬁaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSSTOLENOFMV:int
+UﬂaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDSTOLOFMV:int
+X‡aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSYRDSTOLOFMV:int
+Y·aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDSTOLOFMV_SMN:int
+\‚aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSYRDSTOLOFMV_SMN:int
+P„aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_MVTAMP:int
+S‰aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSMVTAMP:int
+RÂaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDMVTMP:int
+UÊaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSYRDMVTMP:int
+VÁaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDMVTMP_SMN:int
+YËaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSYRDMVTMP_SMN:int
+RÈaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_MVDAMAGE:int
+UÍaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSMVDAMAGE:int
+SÎaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDMVDAMA:int
+VÏaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSYRDMVDAMA:int
+WÌaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDMVDAMA_SMN:int
+ZÓaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSYRDMVDAMA_SMN:int
+VÔaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_BICYCLETHEFT:int
+YaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSBICYCLETHEFT:int
+VÒaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDBCYCLTHFT:int
+YÚaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSYRDBCYCLTHFT:int
+ZÛaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDBCYCLTHFT_SMN:int
+]ÙaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSYRDBCYCLTHFT_SMN:int
+WıaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_BICYCLEDAMAGE:int
+ZˆaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSBICYCLEDAMAGE:int
+V˜aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDBCYCLDAMA:int
+Y¯aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSYRDBCYCLDAMA:int
+Z˘aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDBCYCLDAMA_SMN:int
+]˙aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSYRDBCYCLDAMA_SMN:int
+T˚aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DAMAGEHOME:int
+W¸aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSDAMAGEHOME:int
+U˝aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DAMAPRSNALY:int
+X˛aMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSDAMAPRSNALY:int
+UˇaMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_STOLOUTSDHM:int
+XÄbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSSTOLOUTSDHM:int
+XÅbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDSTOLOUTSDHM:int
+[ÇbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSYRDSTOLOUTSDHM:int
+\ÉbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_YRDSTOLOUTSDHM_SMN:int
+_ÑbMOJNZ Crime and Victims Survey"nzcvs_clean*core2 nzcvs_core_TMSYRDSTOLOUTSDHM_SMN:int
+ZÖbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_PROPSTOLINHM_SMN:int
+]ÜbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSPROPSTOLINHM_SMN:int
+SábMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_HOUSEGRDS:int
+VàbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSHOUSEGRDS:int
+TâbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_STOLCARYNG:int
+WäbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSSTOLCARYNG:int
+ZãbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_USEFORTHRT_STOLC:int
+]åbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSUSEFORTHRT_STOLC:int
+UçbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_STOLPRSNALY:int
+XébMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSSTOLPRSNALY:int
+UèbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TRCKMONYGDS:int
+XêbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTRCKMONYGDS:int
+TëbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_ATMPCREDIT:int
+WíbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSATMPCREDIT:int
+RìbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_CMPUTVRS:int
+UîbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSCMPUTVRS:int
+WïbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_FORCESEX:smallint
+YñbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSFORCESEX_REF:int
+UóbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSFORCESEX:int
+ZòbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_FORCESEXACT:smallint
+\ôbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSFORCESEXACT_REF:int
+XöbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSFORCESEXACT:int
+UõbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TOUSEX:smallint
+WúbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTOUSEX_REF:int
+SùbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTOUSEX:int
+VûbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_THRTSEX:smallint
+XübMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTHRTSEX_REF:int
+T†bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTHRTSEX:int
+U°bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_FORVIO:smallint
+W¢bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSFORVIO_REF:int
+S£bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSFORVIO:int
+X§bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TRDFORVIO:smallint
+Z•bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTRDFORVIO_REF:int
+V¶bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTRDFORVIO:int
+YßbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_THRTFORVIO:smallint
+[®bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTHRTFORVIO_REF:int
+W©bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTHRTFORVIO:int
+W™bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_THRTDAMA:smallint
+Y´bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTHRTDAMA_REF:int
+U¨bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTHRTDAMA:int
+Z≠bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_THRTINJRFAM:smallint
+\ÆbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTHRTINJRFAM_REF:int
+XØbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSTHRTINJRFAM:int
+Y∞bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_CAUSEDFEAR:smallint
+[±bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSCAUSEDFEAR_REF:int
+W≤bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSCAUSEDFEAR:int
+X≥bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_PSYFRIEND:smallint
+X¥bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_PSYFOLLOW:smallint
+XµbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_PSYACCESS:smallint
+X∂bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_PSYHLCARE:smallint
+X∑bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_PSYPRESWK:smallint
+X∏bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_PSYSTOPWK:smallint
+WπbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_EVSEXFOR:smallint
+W∫bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_EVSEXTOU:smallint
+WªbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_EVPARTAS:smallint
+WºbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_EVPARTTH:smallint
+QΩbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OTHCRMS:int
+TæbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_TMSOTHCRMS:int
+XøbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_CURADDRES:smallint
+W¿bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_FINSTRMO:smallint
+W¡bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_FINSTRMU:smallint
+[¬bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DurationTotal:varchar
+[√bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_SubSampleType:varchar
+SƒbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSEX:varchar
+V≈bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVGENDER:varchar
+Y∆bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSEXORIENT:varchar
+O«bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVAGE:int
+Y»bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV5YRAGEGRP:varchar
+V…bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVAGEGRP:varchar
+U bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVETHN_EURO:bit
+VÀbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVETHN_MAORI:bit
+XÃbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVETHN_PACIFIC:bit
+VÕbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVETHN_ASIAN:bit
+XŒbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVETHN_CHINESE:bit
+WœbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVETHN_INDIAN:bit
+[–bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVETHN_OTHERASIAN:bit
+V—bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVETHN_OTHER:bit
+S“bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVETHN_NS:bit
+T”bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVNUMUSRES:int
+T‘bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVNUMCHILD:int
+V’bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVTENURE:varchar
+X÷bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVLANDLORD:varchar
+X◊bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVTENLLORD:varchar
+XÿbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVPARTNERC:varchar
+XŸbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVPARTNERP:varchar
+[⁄bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVEVERPARTNER:varchar
+X€bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVRELASTAT:varchar
+]‹bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVPARTNERSTATUS:varchar
+^›bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVRELATIONSTATUS:varchar
+YﬁbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVEMPSTATUS:varchar
+[ﬂbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVPERSINCGRP1:varchar
+[‡bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVPERSINCGRP2:varchar
+\·bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVHHOLDINCGRP1:varchar
+\‚bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVHHOLDINCGRP2:varchar
+\„bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSATISFACTION:varchar
+X‰bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSAFEFEEL:varchar
+SÂbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_MESHBLOCK:int
+UÊbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVURBAN:varchar
+ZÁbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVREGCOUNCIL:varchar
+ZËbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVREGIONGRP5:varchar
+TÈbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_NZDEPSCORE:int
+YÍbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_NZDEPDECILE:varchar
+[ÎbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_NZDEPQUINTILE:varchar
+^ÏbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVEVERSEXASSAULT:varchar
+^ÌbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVEVEROTHASSAULT:varchar
+ZÓbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L1_VISION:varchar
+ZÔbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L2_VISION:varchar
+ZbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L3_VISION:varchar
+XÒbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L1_HEAR:varchar
+XÚbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L2_HEAR:varchar
+XÛbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L3_HEAR:varchar
+ZÙbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L1_MOBILE:varchar
+ZıbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L2_MOBILE:varchar
+ZˆbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L3_MOBILE:varchar
+Z˜bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L1_MEMORY:varchar
+Z¯bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L2_MEMORY:varchar
+Z˘bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L3_MEMORY:varchar
+\˙bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L1_SELFCARE:varchar
+\˚bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L2_SELFCARE:varchar
+\¸bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L3_SELFCARE:varchar
+Y˝bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L1_COMMS:varchar
+Y˛bMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L2_COMMS:varchar
+YˇbMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_L3_COMMS:varchar
+WÄcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_WGSS_COUNT:int
+VÅcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_WGSS1:varchar
+VÇcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_WGSS2:varchar
+VÉcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_WGSS3:varchar
+VÑcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DV_WGSS4:varchar
+YÖcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVMENTALSCORE:float
+]ÜcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVMENTALSCORELV:varchar
+aácMOJNZ Crime and Victims Survey"nzcvs_clean*core2"nzcvs_core_DVSCREEN_INCIDENTCOUN..:int
+_àcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSCREEN_BURGLARY:varchar
+eâcMOJNZ Crime and Victims Survey"nzcvs_clean*core2"nzcvs_core_DVSCREEN_VEHICLEBICYC..:varchar
+eäcMOJNZ Crime and Victims Survey"nzcvs_clean*core2"nzcvs_core_DVSCREEN_PROPERTYDAMA..:varchar
+\ãcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSCREEN_THEFT:varchar
+_åcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSCREEN_TRESPASS:varchar
+^çcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSCREEN_ROBBERY:varchar
+\écMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSCREEN_FRAUD:varchar
+aècMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSCREEN_CYBERCRIME:varchar
+]êcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSCREEN_SEXUAL:varchar
+^ëcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSCREEN_ASSAULT:varchar
+]ícMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSCREEN_THREAT:varchar
+\ìcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSCREEN_OTHER:varchar
+`îcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVCONTROLBEHAVIOUR:varchar
+[ïcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVSERIESCHECK:varchar
+XñcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVPERSONINCOME:int
+WócMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVHHOLDINCOME:int
+\òcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVPERSONINCOME_imp:int
+[ôcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVHHOLDINCOME_imp:int
+VöcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_DVHHCOMP:varchar
+\õcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep1:float
+\úcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep2:float
+\ùcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep3:float
+\ûcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep4:float
+\ücMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep5:float
+\†cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep6:float
+\°cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep7:float
+\¢cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep8:float
+\£cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep9:float
+]§cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep10:float
+]•cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep11:float
+]¶cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep12:float
+]ßcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep13:float
+]®cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep14:float
+]©cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep15:float
+]™cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep16:float
+]´cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep17:float
+]¨cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep18:float
+]≠cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep19:float
+]ÆcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep20:float
+]ØcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep21:float
+]∞cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep22:float
+]±cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep23:float
+]≤cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep24:float
+]≥cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep25:float
+]¥cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep26:float
+]µcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep27:float
+]∂cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep28:float
+]∑cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep29:float
+]∏cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep30:float
+]πcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep31:float
+]∫cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep32:float
+]ªcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep33:float
+]ºcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep34:float
+]ΩcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep35:float
+]æcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep36:float
+]øcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep37:float
+]¿cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep38:float
+]¡cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep39:float
+]¬cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep40:float
+]√cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep41:float
+]ƒcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep42:float
+]≈cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep43:float
+]∆cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep44:float
+]«cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep45:float
+]»cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep46:float
+]…cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep47:float
+] cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep48:float
+]ÀcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep49:float
+]ÃcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep50:float
+]ÕcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep51:float
+]ŒcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep52:float
+]œcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep53:float
+]–cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep54:float
+]—cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep55:float
+]“cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep56:float
+]”cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep57:float
+]‘cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep58:float
+]’cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep59:float
+]÷cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep60:float
+]◊cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep61:float
+]ÿcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep62:float
+]ŸcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep63:float
+]⁄cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep64:float
+]€cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep65:float
+]‹cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep66:float
+]›cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep67:float
+]ﬁcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep68:float
+]ﬂcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep69:float
+]‡cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep70:float
+]·cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep71:float
+]‚cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep72:float
+]„cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep73:float
+]‰cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep74:float
+]ÂcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep75:float
+]ÊcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep76:float
+]ÁcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep77:float
+]ËcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep78:float
+]ÈcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep79:float
+]ÍcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep80:float
+]ÎcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep81:float
+]ÏcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep82:float
+]ÌcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep83:float
+]ÓcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep84:float
+]ÔcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep85:float
+]cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep86:float
+]ÒcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep87:float
+]ÚcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep88:float
+]ÛcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep89:float
+]ÙcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep90:float
+]ıcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep91:float
+]ˆcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep92:float
+]˜cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep93:float
+]¯cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep94:float
+]˘cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep95:float
+]˙cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep96:float
+]˚cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep97:float
+]¸cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep98:float
+]˝cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep99:float
+^˛cMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight_rep100:float
+WˇcMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_hholdweight:float
+]ÄdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep1:float
+]ÅdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep2:float
+]ÇdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep3:float
+]ÉdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep4:float
+]ÑdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep5:float
+]ÖdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep6:float
+]ÜdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep7:float
+]ádMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep8:float
+]àdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep9:float
+^âdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep10:float
+^ädMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep11:float
+^ãdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep12:float
+^ådMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep13:float
+^çdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep14:float
+^édMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep15:float
+^èdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep16:float
+^êdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep17:float
+^ëdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep18:float
+^ídMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep19:float
+^ìdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep20:float
+^îdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep21:float
+^ïdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep22:float
+^ñdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep23:float
+^ódMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep24:float
+^òdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep25:float
+^ôdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep26:float
+^ödMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep27:float
+^õdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep28:float
+^údMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep29:float
+^ùdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep30:float
+^ûdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep31:float
+^üdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep32:float
+^†dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep33:float
+^°dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep34:float
+^¢dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep35:float
+^£dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep36:float
+^§dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep37:float
+^•dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep38:float
+^¶dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep39:float
+^ßdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep40:float
+^®dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep41:float
+^©dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep42:float
+^™dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep43:float
+^´dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep44:float
+^¨dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep45:float
+^≠dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep46:float
+^ÆdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep47:float
+^ØdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep48:float
+^∞dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep49:float
+^±dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep50:float
+^≤dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep51:float
+^≥dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep52:float
+^¥dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep53:float
+^µdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep54:float
+^∂dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep55:float
+^∑dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep56:float
+^∏dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep57:float
+^πdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep58:float
+^∫dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep59:float
+^ªdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep60:float
+^ºdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep61:float
+^ΩdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep62:float
+^ædMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep63:float
+^ødMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep64:float
+^¿dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep65:float
+^¡dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep66:float
+^¬dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep67:float
+^√dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep68:float
+^ƒdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep69:float
+^≈dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep70:float
+^∆dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep71:float
+^«dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep72:float
+^»dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep73:float
+^…dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep74:float
+^ dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep75:float
+^ÀdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep76:float
+^ÃdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep77:float
+^ÕdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep78:float
+^ŒdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep79:float
+^œdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep80:float
+^–dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep81:float
+^—dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep82:float
+^“dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep83:float
+^”dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep84:float
+^‘dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep85:float
+^’dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep86:float
+^÷dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep87:float
+^◊dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep88:float
+^ÿdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep89:float
+^ŸdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep90:float
+^⁄dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep91:float
+^€dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep92:float
+^‹dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep93:float
+^›dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep94:float
+^ﬁdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep95:float
+^ﬂdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep96:float
+^‡dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep97:float
+^·dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep98:float
+^‚dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep99:float
+_„dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight_rep100:float
+X‰dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_personweight:float
+VÂdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD01_INC:int
+VÊdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD02_INC:int
+VÁdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD03_INC:int
+VËdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD04_INC:int
+VÈdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD05_INC:int
+VÍdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD06_INC:int
+VÎdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD07_INC:int
+VÏdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD08_INC:int
+VÌdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD09_INC:int
+VÓdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD10_INC:int
+VÔdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD11_INC:int
+VdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD12_INC:int
+VÒdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD13_INC:int
+VÚdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD14_INC:int
+VÛdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD15_INC:int
+VÙdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD16_INC:int
+VıdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD17_INC:int
+VˆdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD18_INC:int
+V˜dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD98_INC:int
+V¯dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD99_INC:int
+Z˘dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCODFV_ALL_INC:int
+[˙dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCODFV_PART_INC:int
+[˚dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCODFV_EXPA_INC:int
+[¸dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCODFV_FAMI_INC:int
+W˝dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD01_PREV:int
+W˛dMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD02_PREV:int
+WˇdMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD03_PREV:int
+WÄeMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD04_PREV:int
+WÅeMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD05_PREV:int
+WÇeMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD06_PREV:int
+WÉeMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD07_PREV:int
+WÑeMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD08_PREV:int
+WÖeMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD09_PREV:int
+WÜeMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD10_PREV:int
+WáeMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD11_PREV:int
+WàeMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD12_PREV:int
+WâeMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD13_PREV:int
+WäeMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD14_PREV:int
+WãeMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD15_PREV:int
+WåeMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD16_PREV:int
+WçeMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD17_PREV:int
+WéeMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD18_PREV:int
+WèeMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD98_PREV:int
+WêeMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCOD99_PREV:int
+[ëeMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCODFV_ALL_PREV:int
+\íeMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCODFV_PART_PREV:int
+\ìeMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCODFV_EXPA_PREV:int
+\îeMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_OFFCODFV_FAMI_PREV:int
+]ïeMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_ethnic_grp1_snz_ind:bit
+]ñeMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_ethnic_grp2_snz_ind:bit
+]óeMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_ethnic_grp3_snz_ind:bit
+]òeMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_ethnic_grp4_snz_ind:bit
+]ôeMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_ethnic_grp5_snz_ind:bit
+]öeMOJNZ Crime and Victims Survey"nzcvs_clean*core2nzcvs_core_ethnic_grp6_snz_ind:bit
+JõeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2snz_uid:int
+ZúeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_snz_unique_nbr:bigint
+PùeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2snz_nzcvs_uid:int
+ZûeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_qtr:smallint
+YüeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_psu2015:int
+b†eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_FinalOffenceCode:int
+e°eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2"nzcvs_incident_FinalOffenceCodeN..:int
+]¢eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_VFTYPE:smallint
+\£eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_APLY_NOTNZ:int
+a§eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_APLY_NOT12MNTHS:int
+a•eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_APLY_NOTPRSNALY:int
+a¶eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_APLY_NOTPROPRTY:int
+eßeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2"nzcvs_incident_APLY_NOTHRTPRSNAL..:int
+d®eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_WHENINCIDHAPN:smallint
+\©eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_WHEREINCID:int
+_™eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_OFFENNUM:smallint
+_´eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DISCRACE:smallint
+a¨eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DISCSEXLTY:smallint
+^≠eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DISCAGE:smallint
+^ÆeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DISCSEX:smallint
+`ØeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DISCRELIG:smallint
+_∞eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DISCDISA:smallint
+\±eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_MVWRTHSTOL:int
+`≤eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_MVWRTHSTOL_DKR:int
+X≥eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_MVBACK:int
+a¥eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_STOLMNYGDS:smallint
+aµeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_TOTSTOLVAL:smallint
+a∂eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_TOTDAMAVAL:smallint
+Z∑eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_INSCOVER:int
+Z∏eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_INSCLAIM:int
+aπeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_TIMEOFFHRS:smallint
+a∫eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_TIMEOFFDYS:smallint
+dªeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_SGINCID_COMPO:smallint
+^ºeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLIHOW:smallint
+]ΩeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLINF_TRIV:int
+]æeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLINF_ATMP:int
+^øeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_EVID:int
+^¿eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_ANYT:int
+^¡eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_BOTH:int
+^¬eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_CONT:int
+^√eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_BUSY:int
+`ƒeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_BADEXP:int
+^≈eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_PRIV:int
+^∆eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_SHAM:int
+_«eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_DEALT:int
+^»eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_FEAR:int
+^…eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_TROU:int
+^ eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_INCO:int
+]ÀeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_JOB:int
+^ÃeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_AUTH:int
+^ÕeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_NORE:int
+]ŒeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_POLICNF_OTH:int
+XœeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_WEAPON:int
+Z–eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_SERINCID:int
+_—eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_VIEINCID:smallint
+Z“eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_ALCOOFFE:int
+Z”eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DRUGOFFE:int
+\‘eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_AFF_YSALCO:int
+\’eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_AFF_YSDRUG:int
+X÷eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_AFF_NO:int
+Z◊eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_FAC_ARGU:int
+ZÿeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_FAC_FINA:int
+ZŸeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_FAC_FIGH:int
+Z⁄eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_FAC_CARE:int
+Z€eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_FAC_JEAL:int
+Z‹eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_FAC_SEPA:int
+[›eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_FAC_NOTHP:int
+YﬁeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_FAC_OTH:int
+ZﬂeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_FAC_NONE:int
+Z‡eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_INJ_BRUI:int
+Z·eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_INJ_BONE:int
+Z‚eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_INJ_INTE:int
+Y„eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_INJ_OTH:int
+Z‰eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_SEVERINJ:int
+YÂeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_MEDPROF:int
+\ÊeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_NOMED_NEED:int
+]ÁeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_NOMED_AFORD:int
+\ËeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_NOMED_PREV:int
+]ÈeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_NOMED_SCARD:int
+[ÍeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_NOMED_OTH:int
+ZÎeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_EMO_ANGE:int
+ZÏeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_EMO_SHOC:int
+ZÌeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_EMO_FEAR:int
+ZÓeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_EMO_DEPR:int
+ZÔeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_EMO_ANXI:int
+ZeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_EMO_SLEE:int
+ZÒeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_EMO_CRYI:int
+ZÚeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_EMO_CONF:int
+ZÛeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_EMO_SHAM:int
+ZÙeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_EMO_ALCO:int
+ZıeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_EMO_CAUT:int
+YˆeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_EMO_OTH:int
+Z˜eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_EMO_NONE:int
+Z¯eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_AFFINCID:int
+[˘eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_CHILDAWAR:int
+[˙eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVSEX:varchar
+a˚eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVSEXORIENT:varchar
+W¸eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVAGE:int
+a˝eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DV5YRAGEGRP:varchar
+^˛eMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVAGEGRP:varchar
+]ˇeMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVETHN_EURO:bit
+^ÄfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVETHN_MAORI:bit
+`ÅfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVETHN_PACIFIC:bit
+^ÇfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVETHN_ASIAN:bit
+`ÉfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVETHN_CHINESE:bit
+_ÑfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVETHN_INDIAN:bit
+cÖfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2 nzcvs_incident_DVETHN_OTHERASIAN:bit
+^ÜfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVETHN_OTHER:bit
+[áfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVETHN_NS:bit
+`àfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVPERSONINCOME:int
+_âfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVHHOLDINCOME:int
+eäfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2"nzcvs_incident_DVPERSONINCOME_im..:int
+cãfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2 nzcvs_incident_DVHHOLDINCOME_imp:int
+cåfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVPERSINCGRP1:varchar
+cçfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVPERSINCGRP2:varchar
+défMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVHHOLDINCGRP1:varchar
+dèfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVHHOLDINCGRP2:varchar
+]êfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVURBAN:varchar
+bëfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVREGCOUNCIL:varchar
+\ífMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_NZDEPSCORE:int
+aìfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_NZDEPDECILE:varchar
+cîfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_NZDEPQUINTILE:varchar
+fïfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVEVERSEXASSAULT:varchar
+fñfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVEVEROTHASSAULT:varchar
+_ófMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVOFFENCONTCT:int
+^òfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVKNOW_OFFEN:int
+XôfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVMALE:int
+ZöfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVFEMALE:int
+\õfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVTIMEOFFW:int
+[úfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVINJURED:int
+\ùfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVPOLIFOUN:int
+cûfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVPLACEHAPPEN:varchar
+aüfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVRELA_PART:varchar
+a†fMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVRELA_EXPA:varchar
+a°fMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVRELA_FAMI:varchar
+a¢fMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVRELA_FRIE:varchar
+a£fMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVRELA_CARE:varchar
+a§fMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVRELA_OTHS:varchar
+a•fMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVRELA_STRG:varchar
+_¶fMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_DVRELA_NS:varchar
+gßfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2 nzcvs_incident_DVANYBREACHORDERS:varchar
+i®fMOJNZ Crime and Victims Survey"nzcvs_clean*incident2"nzcvs_incident_DVANYDISCRIMINATI..:varchar
+\©fMOJNZ Crime and Victims Survey"nzcvs_clean*incident2nzcvs_incident_Imputation:int
+e™fMOJNZ Crime and Victims Survey"nzcvs_clean*incident2"nzcvs_incident_ethnic_grp1_snz_i..:bit
+e´fMOJNZ Crime and Victims Survey"nzcvs_clean*incident2"nzcvs_incident_ethnic_grp2_snz_i..:bit
+e¨fMOJNZ Crime and Victims Survey"nzcvs_clean*incident2"nzcvs_incident_ethnic_grp3_snz_i..:bit
+e≠fMOJNZ Crime and Victims Survey"nzcvs_clean*incident2"nzcvs_incident_ethnic_grp4_snz_i..:bit
+eÆfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2"nzcvs_incident_ethnic_grp5_snz_i..:bit
+eØfMOJNZ Crime and Victims Survey"nzcvs_clean*incident2"nzcvs_incident_ethnic_grp6_snz_i..:bit
+J∞fMOJNZ Crime and Victims Survey"nzcvs_clean*matching2snz_uid:int
+N±fMOJNZ Crime and Victims Survey"nzcvs_clean*matching2snz_jus_uid:int
+^≤fMOJNZ Crime and Victims Survey"nzcvs_clean*matching2moj_mat_birth_month_nbr:tinyint
+^≥fMOJNZ Crime and Victims Survey"nzcvs_clean*matching2moj_mat_birth_year_nbr:smallint
+[¥fMOJNZ Crime and Victims Survey"nzcvs_clean*matching2moj_mat_sex_snz_code:varchar
+QµfMOJNZ Crime and Victims Survey"nzcvs_clean*matching2snz_person_ind:bit
+J∂fMOJNZ Crime and Victims Survey"nzcvs_clean*matching2snz_uid:int
+Z∑fMOJNZ Crime and Victims Survey"nzcvs_clean*matching2nzcvs_snz_unique_nbr:bigint
+P∏fMOJNZ Crime and Victims Survey"nzcvs_clean*matching2snz_nzcvs_uid:int
+ZπfMOJNZ Crime and Victims Survey"nzcvs_clean*matching2nzcvs_matching_qtr:smallint
+Y∫fMOJNZ Crime and Victims Survey"nzcvs_clean*matching2nzcvs_matching_psu2015:int
+`ªfMOJNZ Crime and Victims Survey"nzcvs_clean*matching2nzcvs_matching_OutcomeMOJ:varchar
+\ºfMOJNZ Crime and Victims Survey"nzcvs_clean*matching2nzcvs_matching_ER1_06:tinyint
+\ΩfMOJNZ Crime and Victims Survey"nzcvs_clean*matching2nzcvs_matching_ER1_08:tinyint
+\æfMOJNZ Crime and Victims Survey"nzcvs_clean*matching2nzcvs_birth_month_nbr:tinyint
+\øfMOJNZ Crime and Victims Survey"nzcvs_clean*matching2nzcvs_birth_year_nbr:smallint
+Y¿fMOJNZ Crime and Victims Survey"nzcvs_clean*matching2nzcvs_snz_sex_code:varchar
+_¡fMOJNZ Crime and Victims Survey"nzcvs_clean*matching2snz_idi_address_register_uid:int
+U¬fMOJNZ Crime and Victims Survey"nzcvs_clean*matching2nzcvs_region_code:char
+Q√fMOJNZ Crime and Victims Survey"nzcvs_clean*matching2nzcvs_ta_code:char
+XƒfMOJNZ Crime and Victims Survey"nzcvs_clean*matching2nzcvs_meshblock_code:char
+b≈fMOJNZ Crime and Victims Survey"nzcvs_clean*matching2nzcvs_meshblock_imputed_ind:varchar
+H∆fMOJNZ Crime and Victims Survey"nzcvs_clean*module2snz_uid:int
+X«fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_snz_unique_nbr:bigint
+N»fMOJNZ Crime and Victims Survey"nzcvs_clean*module2snz_nzcvs_uid:int
+V…fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_qtr:smallint
+U fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_Psu2015:int
+WÀfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AWAR_VICT:int
+WÃfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AWAR_WREF:int
+WÕfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AWAR_RAPE:int
+VŒfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AWAR_CAB:int
+XœfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AWAR_LIFEL:int
+U–fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AWAR_FV:int
+W—fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AWAR_VCIL:int
+W“fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AWAR_NONE:int
+\”fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AGAP_VICT:smallint
+\‘fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AGAP_WREF:smallint
+\’fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AGAP_RAPE:smallint
+[÷fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AGAP_CAB:smallint
+]◊fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AGAP_LIFEL:smallint
+ZÿfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AGAP_FV:smallint
+\ŸfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AGAP_VCIL:smallint
+\⁄fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AGAP_SALV:smallint
+[€fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AGAP_IWI:smallint
+\‹fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AGAP_WORK:smallint
+\›fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AGAP_COUR:smallint
+[ﬁfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_AGAP_GOV:smallint
+WﬂfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VICT_INFO:int
+W‡fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VICT_TALK:int
+W·fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VICT_COUN:int
+W‚fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VICT_LEGA:int
+W„fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VICT_SAFE:int
+X‰fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VICT_OTHAD:int
+WÂfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VICT_DEPE:int
+WÊfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VICT_FINA:int
+WÁfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VICT_TRAN:int
+WËfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VICT_LANG:int
+XÈfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VICT_SHELT:int
+VÍfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VICT_OTH:int
+WÎfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VICT_NONE:int
+WÏfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_VICT:int
+WÌfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WREF_INFO:int
+WÓfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WREF_TALK:int
+WÔfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WREF_COUN:int
+WfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WREF_LEGA:int
+WÒfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WREF_SAFE:int
+XÚfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WREF_OTHAD:int
+WÛfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WREF_DEPE:int
+WÙfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WREF_FINA:int
+WıfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WREF_TRAN:int
+WˆfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WREF_LANG:int
+X˜fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WREF_SHELT:int
+V¯fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WREF_OTH:int
+W˘fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WREF_NONE:int
+W˙fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_WREF:int
+W˚fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RAPE_INFO:int
+W¸fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RAPE_TALK:int
+W˝fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RAPE_COUN:int
+W˛fMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RAPE_LEGA:int
+WˇfMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RAPE_SAFE:int
+XÄgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RAPE_OTHAD:int
+WÅgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RAPE_DEPE:int
+WÇgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RAPE_FINA:int
+WÉgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RAPE_TRAN:int
+WÑgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RAPE_LANG:int
+XÖgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RAPE_SHELT:int
+VÜgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RAPE_OTH:int
+WágMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RAPE_NONE:int
+WàgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_RAPE:int
+VâgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_CAB_INFO:int
+VägMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_CAB_TALK:int
+VãgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_CAB_COUN:int
+VågMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_CAB_LEGA:int
+VçgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_CAB_SAFE:int
+WégMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_CAB_OTHAD:int
+VègMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_CAB_DEPE:int
+VêgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_CAB_FINA:int
+VëgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_CAB_TRAN:int
+VígMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_CAB_LANG:int
+WìgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_CAB_SHELT:int
+UîgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_CAB_OTH:int
+VïgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_CAB_NONE:int
+VñgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_CAB:int
+XógMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_LIFEL_INFO:int
+XògMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_LIFEL_TALK:int
+XôgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_LIFEL_COUN:int
+XögMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_LIFEL_LEGA:int
+XõgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_LIFEL_SAFE:int
+YúgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_LIFEL_OTHAD:int
+XùgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_LIFEL_DEPE:int
+XûgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_LIFEL_FINA:int
+XügMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_LIFEL_TRAN:int
+X†gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_LIFEL_LANG:int
+Y°gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_LIFEL_SHELT:int
+W¢gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_LIFEL_OTH:int
+X£gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_LIFEL_NONE:int
+X§gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_LIFEL:int
+U•gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_FV_INFO:int
+U¶gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_FV_TALK:int
+UßgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_FV_COUN:int
+U®gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_FV_LEGA:int
+U©gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_FV_SAFE:int
+V™gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_FV_OTHAD:int
+U´gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_FV_DEPE:int
+U¨gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_FV_FINA:int
+U≠gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_FV_TRAN:int
+UÆgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_FV_LANG:int
+VØgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_FV_SHELT:int
+T∞gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_FV_OTH:int
+U±gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_FV_NONE:int
+U≤gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_FV:int
+W≥gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VCIL_INFO:int
+W¥gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VCIL_TALK:int
+WµgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VCIL_COUN:int
+W∂gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VCIL_LEGA:int
+W∑gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VCIL_SAFE:int
+X∏gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VCIL_OTHAD:int
+WπgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VCIL_DEPE:int
+W∫gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VCIL_FINA:int
+WªgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VCIL_TRAN:int
+WºgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VCIL_LANG:int
+XΩgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VCIL_SHELT:int
+VægMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VCIL_OTH:int
+WøgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_VCIL_NONE:int
+W¿gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_VCIL:int
+W¡gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_SALV_INFO:int
+W¬gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_SALV_TALK:int
+W√gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_SALV_COUN:int
+WƒgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_SALV_LEGA:int
+W≈gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_SALV_SAFE:int
+X∆gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_SALV_OTHAD:int
+W«gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_SALV_DEPE:int
+W»gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_SALV_FINA:int
+W…gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_SALV_TRAN:int
+W gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_SALV_LANG:int
+XÀgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_SALV_SHELT:int
+VÃgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_SALV_OTH:int
+WÕgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_SALV_NONE:int
+WŒgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_SALV:int
+VœgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_IWI_INFO:int
+V–gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_IWI_TALK:int
+V—gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_IWI_COUN:int
+V“gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_IWI_LEGA:int
+V”gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_IWI_SAFE:int
+W‘gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_IWI_OTHAD:int
+V’gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_IWI_DEPE:int
+V÷gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_IWI_FINA:int
+V◊gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_IWI_TRAN:int
+VÿgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_IWI_LANG:int
+WŸgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_IWI_SHELT:int
+U⁄gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_IWI_OTH:int
+V€gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_IWI_NONE:int
+V‹gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_IWI:int
+W›gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WORK_INFO:int
+WﬁgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WORK_TALK:int
+WﬂgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WORK_COUN:int
+W‡gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WORK_LEGA:int
+W·gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WORK_SAFE:int
+X‚gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WORK_OTHAD:int
+W„gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WORK_DEPE:int
+W‰gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WORK_FINA:int
+WÂgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WORK_TRAN:int
+WÊgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WORK_LANG:int
+XÁgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WORK_SHELT:int
+VËgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WORK_OTH:int
+WÈgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_WORK_NONE:int
+WÍgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_WORK:int
+WÎgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_COUR_INFO:int
+WÏgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_COUR_TALK:int
+WÌgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_COUR_COUN:int
+WÓgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_COUR_LEGA:int
+WÔgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_COUR_SAFE:int
+XgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_COUR_OTHAD:int
+WÒgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_COUR_DEPE:int
+WÚgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_COUR_FINA:int
+WÛgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_COUR_TRAN:int
+WÙgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_COUR_LANG:int
+XıgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_COUR_SHELT:int
+VˆgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_COUR_OTH:int
+W˜gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_COUR_NONE:int
+W¯gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_COUR:int
+V˘gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_GOV_INFO:int
+V˙gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_GOV_TALK:int
+V˚gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_GOV_COUN:int
+V¸gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_GOV_LEGA:int
+V˝gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_GOV_SAFE:int
+W˛gMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_GOV_OTHAD:int
+VˇgMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_GOV_DEPE:int
+VÄhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_GOV_FINA:int
+VÅhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_GOV_TRAN:int
+VÇhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_GOV_LANG:int
+WÉhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_GOV_SHELT:int
+UÑhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_GOV_OTH:int
+VÖhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_GOV_NONE:int
+VÜhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_GOV:int
+XáhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKS_WHO:int
+YàhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKS_FEAR:int
+YâhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKS_EMBA:int
+YähMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKS_PRIV:int
+YãhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKS_HELP:int
+YåhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKS_NORM:int
+ZçhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKS_BELIE:int
+YéhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKS_NEED:int
+YèhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKS_SELF:int
+ZêhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKS_ACCES:int
+YëhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKS_NORE:int
+XíhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKS_OTH:int
+YìhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_ASKFAM:smallint
+XîhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKF_ASK:int
+YïhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKF_FEAR:int
+YñhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKF_EMBA:int
+YóhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKF_PRIV:int
+YòhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKF_HELP:int
+YôhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKF_NORM:int
+ZöhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKF_BELIE:int
+YõhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKF_NEED:int
+YúhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKF_SELF:int
+YùhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKF_NORE:int
+XûhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NTASKF_OTH:int
+]ühMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_RECEIVEHLP:smallint
+Y†hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HLPFAM_TALK:int
+Y°hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HLPFAM_SAFE:int
+Z¢hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HLPFAM_OTHAD:int
+Y£hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HLPFAM_FINA:int
+Y§hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HLPFAM_TRAN:int
+Y•hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HLPFAM_DEPE:int
+Z¶hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HLPFAM_SHELT:int
+ZßhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HLPFAM_OFFEN:int
+X®hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HLPFAM_OTH:int
+V©hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_FAM:int
+X™hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NOHLP_INVO:int
+X´hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NOHLP_FEAR:int
+W¨hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NOHLP_HOW:int
+X≠hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NOHLP_NORM:int
+YÆhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NOHLP_BELIE:int
+XØhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NOHLP_SIDE:int
+Y∞hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NOHLP_NTSUR:int
+W±hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NOHLP_OTH:int
+`≤hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HLP_NOTRECVED:smallint
+W≥hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_TALK:int
+W¥hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_COUN:int
+WµhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_LEGA:int
+V∂hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_MED:int
+X∑hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_OTHAD:int
+W∏hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_DEPE:int
+WπhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_FINA:int
+W∫hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_TRAN:int
+WªhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_LANG:int
+XºhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_SHELT:int
+VΩhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_HELP_OTH:int
+WæhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_TALK_KNOW:int
+WøhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_TALK_CULT:int
+X¿hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_TALK_RELIG:int
+W¡hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_TALK_ANON:int
+W¬hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_TALK_ELSE:int
+W√hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVSEX:varchar
+ZƒhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVGender:varchar
+]≈hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVSEXORIENT:varchar
+S∆hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVAGE:int
+]«hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DV5YRAGEGRP:varchar
+Z»hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVAGEGRP:varchar
+Y…hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVETHN_EURO:bit
+Z hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVETHN_MAORI:bit
+\ÀhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVETHN_PACIFIC:bit
+ZÃhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVETHN_ASIAN:bit
+\ÕhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVETHN_CHINESE:bit
+[ŒhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVETHN_INDIAN:bit
+_œhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVETHN_OTHERASIAN:bit
+Z–hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVETHN_OTHER:bit
+W—hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVETHN_NS:bit
+_“hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVPERSINCGRP1:varchar
+_”hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVPERSINCGRP2:varchar
+`‘hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVHHOLDINCGRP1:varchar
+`’hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVHHOLDINCGRP2:varchar
+Y÷hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVURBAN:varchar
+^◊hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVREGCOUNCIL:varchar
+XÿhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NZDEPSCORE:int
+]ŸhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NZDEPDECILE:varchar
+_⁄hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_NZDEPQUINTILE:varchar
+b€hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVEVERSEXASSAULT:varchar
+b‹hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVEVEROTHASSAULT:varchar
+\›hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVPERSONINCOME:int
+[ﬁhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVHHOLDINCOME:int
+`ﬂhMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVPERSONINCOME_imp:int
+_‡hMOJNZ Crime and Victims Survey"nzcvs_clean*module2nzcvs_module_DVHHOLDINCOME_imp:int
+a·hMOJNZ Crime and Victims Survey"nzcvs_clean*module2 nzcvs_module_ethnic_grp1_snz_ind:bit
+a‚hMOJNZ Crime and Victims Survey"nzcvs_clean*module2 nzcvs_module_ethnic_grp2_snz_ind:bit
+a„hMOJNZ Crime and Victims Survey"nzcvs_clean*module2 nzcvs_module_ethnic_grp3_snz_ind:bit
+a‰hMOJNZ Crime and Victims Survey"nzcvs_clean*module2 nzcvs_module_ethnic_grp4_snz_ind:bit
+aÂhMOJNZ Crime and Victims Survey"nzcvs_clean*module2 nzcvs_module_ethnic_grp5_snz_ind:bit
+aÊhMOJNZ Crime and Victims Survey"nzcvs_clean*module2 nzcvs_module_ethnic_grp6_snz_ind:bit
+`ÁhNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*dlr_conditions2snz_uid:int
-eﬂWNZTA+Drivers licence and motor vehicle registers"
+eËhNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*dlr_conditions2snz_nzta_uid:int
-y‡WNZTA+Drivers licence and motor vehicle registers"
+yÈhNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*dlr_conditions2nzta_cond_licence_class_text:varchar
-|·WNZTA+Drivers licence and motor vehicle registers"
+|ÍhNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*dlr_conditions2nzta_cond_endorsement_type_text:varchar
-x‚WNZTA+Drivers licence and motor vehicle registers"
+xÎhNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*dlr_conditions2nzta_cond_condition_start_date:date
-z„WNZTA+Drivers licence and motor vehicle registers"
+zÏhNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*dlr_conditions2nzta_cond_condition_type_text:varchar
-|‰WNZTA+Drivers licence and motor vehicle registers"
+|ÌhNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*dlr_conditions2nzta_cond_condition_status_text:varchar
-^ÂWNZTA+Drivers licence and motor vehicle registers"
+^ÓhNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*dlr_historic2snz_uid:int
-cÊWNZTA+Drivers licence and motor vehicle registers"
+cÔhNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*dlr_historic2snz_nzta_uid:int
-lÁWNZTA+Drivers licence and motor vehicle registers"
+lhNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*dlr_historic2nzta_snz_sex_code:varchar
-tËWNZTA+Drivers licence and motor vehicle registers"
+tÒhNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*dlr_historic2nzta_hist_birth_month_nbr:tinyint
-tÈWNZTA+Drivers licence and motor vehicle registers"
+tÚhNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*dlr_historic2nzta_hist_birth_year_nbr:smallint
-wÍWNZTA+Drivers licence and motor vehicle registers"
+wÛhNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*dlr_historic2nzta_hist_birth_country_text:varchar
-vÎWNZTA+Drivers licence and motor vehicle registers"
+vÙhNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*dlr_historic2nzta_hist_licence_type_text:varchar
-tÏWNZTA+Drivers licence and motor vehicle registers"
+tıhNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*dlr_historic2nzta_hist_licence_start_date:date
-wÌWNZTA+Drivers licence and motor vehicle registers"
+wˆhNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*dlr_historic2nzta_hist_licence_class_text:varchar
-tÓWNZTA+Drivers licence and motor vehicle registers"
+t˜hNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*dlr_historic2nzta_hist_learner_start_date:date
-wÔWNZTA+Drivers licence and motor vehicle registers"
+w¯hNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*dlr_historic2nzta_hist_restricted_start_date:date
-qWNZTA+Drivers licence and motor vehicle registers"
+q˘hNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*dlr_historic2nzta_hist_full_start_date:date
-jÒWNZTA+Drivers licence and motor vehicle registers"
+j˙hNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2snz_uid:int
-oÚWNZTA+Drivers licence and motor vehicle registers"
+o˚hNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2snz_nzta_uid:int
-xÛWNZTA+Drivers licence and motor vehicle registers"
+x¸hNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2nzta_snz_sex_code:varchar
-ÙWNZTA+Drivers licence and motor vehicle registers"
+˝hNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2nzta_dlr_birth_month_nbr:tinyint
-ıWNZTA+Drivers licence and motor vehicle registers"
+˛hNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2nzta_dlr_birth_year_nbr:smallint
-ÇˆWNZTA+Drivers licence and motor vehicle registers"
+ÇˇhNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2nzta_dlr_birth_country_text:varchar
-˜WNZTA+Drivers licence and motor vehicle registers"
+ÄiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2nzta_dlr_licence_issue_date:date
-{¯WNZTA+Drivers licence and motor vehicle registers"
+{ÅiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2nzta_dlr_organ_donor_ind:bit
-Å˘WNZTA+Drivers licence and motor vehicle registers"
+ÅÇiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2nzta_dlr_licence_type_text:varchar
-É˙WNZTA+Drivers licence and motor vehicle registers"
+ÉÉiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2nzta_dlr_licence_status_text:varchar
-Å˚WNZTA+Drivers licence and motor vehicle registers"
+ÅÑiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2nzta_dlr_lic_class_grant_date:date
-Å¸WNZTA+Drivers licence and motor vehicle registers"
+ÅÖiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2nzta_dlr_lic_class_start_date:date
-~˝WNZTA+Drivers licence and motor vehicle registers"
+~ÜiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2nzta_dlr_licence_from_date:date
-Å˛WNZTA+Drivers licence and motor vehicle registers"
+ÅáiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2nzta_dlr_class_status_text:varchar
-ÇˇWNZTA+Drivers licence and motor vehicle registers"
+ÇàiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2nzta_dlr_licence_class_text:varchar
-ÇÄXNZTA+Drivers licence and motor vehicle registers"
+ÇâiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2nzta_dlr_licence_stage_text:varchar
-|ÅXNZTA+Drivers licence and motor vehicle registers"
+|äiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2nzta_dlr_class_from_date:date
-ÖÇXNZTA+Drivers licence and motor vehicle registers"
+ÖãiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2nzta_dlr_endorsement_type_text:varchar
-ÉÉXNZTA+Drivers licence and motor vehicle registers"
+ÉåiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2nzta_dlr_endorsement_start_date:date
-ÑÑXNZTA+Drivers licence and motor vehicle registers"
+ÑçiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2 nzta_dlr_endorsement_expiry_date:date
-áÖXNZTA+Drivers licence and motor vehicle registers"
+áéiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2 nzta_dlr_endorsement_status_text:varchar
-}ÜXNZTA+Drivers licence and motor vehicle registers"
+}èiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2nzta_dlr_card_required_ind:bit
-ÇáXNZTA+Drivers licence and motor vehicle registers"
+ÇêiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2nzta_dlr_endorsement_from_date:date
-àXNZTA+Drivers licence and motor vehicle registers"
+ëiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2snz_idi_address_register_uid:int
-xâXNZTA+Drivers licence and motor vehicle registers"
+xíiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2nzta_dlr_region_code:char
-täXNZTA+Drivers licence and motor vehicle registers"
+tìiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2nzta_dlr_ta_code:char
-{ãXNZTA+Drivers licence and motor vehicle registers"
+{îiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2nzta_dlr_meshblock_code:char
-ÖåXNZTA+Drivers licence and motor vehicle registers"
+ÖïiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*drivers_licence_register2nzta_dlr_meshblock_imputed_ind:varchar
-hçXNZTA+Drivers licence and motor vehicle registers"
+hñiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2snz_uid:int
-méXNZTA+Drivers licence and motor vehicle registers"
+móiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2snz_nzta_uid:int
-}èXNZTA+Drivers licence and motor vehicle registers"
+}òiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_birth_month_nbr:tinyint
-}êXNZTA+Drivers licence and motor vehicle registers"
+}ôiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_birth_year_nbr:smallint
-vëXNZTA+Drivers licence and motor vehicle registers"
+vöiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_snz_sex_code:varchar
-qíXNZTA+Drivers licence and motor vehicle registers"
+qõiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2snz_nzta_reg_uid:int
-}ìXNZTA+Drivers licence and motor vehicle registers"
+}úiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_reg_status_text:varchar
-ÉîXNZTA+Drivers licence and motor vehicle registers"
+ÉùiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_alt_motive_power_text:varchar
-|ïXNZTA+Drivers licence and motor vehicle registers"
+|ûiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_axle_type_text:varchar
-rñXNZTA+Drivers licence and motor vehicle registers"
+rüiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_axle_nbr:int
-sóXNZTA+Drivers licence and motor vehicle registers"
+s†iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_seats_nbr:int
-òXNZTA+Drivers licence and motor vehicle registers"
+°iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_basic_colour_text:varchar
-|ôXNZTA+Drivers licence and motor vehicle registers"
+|¢iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_body_type_text:varchar
-{öXNZTA+Drivers licence and motor vehicle registers"
+{£iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_cab_type_text:varchar
-wõXNZTA+Drivers licence and motor vehicle registers"
+w§iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_cc_rating_nbr:int
-yúXNZTA+Drivers licence and motor vehicle registers"
+y•iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_duty_exempt_ind:bit
-ÅùXNZTA+Drivers licence and motor vehicle registers"
+Å¶iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2 nzta_mvr_exempt_frm_sgg_levy_ind:bit
-|ûXNZTA+Drivers licence and motor vehicle registers"
+|ßiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_first_nz_reg_date:date
-ÄüXNZTA+Drivers licence and motor vehicle registers"
+Ä®iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_gross_vehicle_mass_nbr:int
-q†XNZTA+Drivers licence and motor vehicle registers"
+q©iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_hgt_nbr:int
-{°XNZTA+Drivers licence and motor vehicle registers"
+{™iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_hubodo_exempt_ind:bit
-~¢XNZTA+Drivers licence and motor vehicle registers"
+~´iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_hubodo_make_text:varchar
-Ä£XNZTA+Drivers licence and motor vehicle registers"
+Ä¨iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_import_status_text:varchar
-Å§XNZTA+Drivers licence and motor vehicle registers"
+Å≠iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_industry_class_text:varchar
-Å•XNZTA+Drivers licence and motor vehicle registers"
+ÅÆiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_industry_model_code:varchar
-Ñ¶XNZTA+Drivers licence and motor vehicle registers"
+ÑØiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_lat_vehicle_class_text:varchar
-|ßXNZTA+Drivers licence and motor vehicle registers"
+|∞iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_lefthand_drive_ind:bit
-®XNZTA+Drivers licence and motor vehicle registers"
+±iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_motive_power_text:varchar
-}©XNZTA+Drivers licence and motor vehicle registers"
+}≤iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_mvma_model_code:varchar
-™XNZTA+Drivers licence and motor vehicle registers"
+≥iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_nz_assembled_text:varchar
-Ñ´XNZTA+Drivers licence and motor vehicle registers"
+Ñ¥iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_odo_distance_unit_text:varchar
-É¨XNZTA+Drivers licence and motor vehicle registers"
+ÉµiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_original_country_text:varchar
-w≠XNZTA+Drivers licence and motor vehicle registers"
+w∂iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2snz_nzta_plate_uid:varchar
-zÆXNZTA+Drivers licence and motor vehicle registers"
+z∑iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_power_rating_nbr:int
-ÉØXNZTA+Drivers licence and motor vehicle registers"
+É∏iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_previous_country_text:varchar
-{∞XNZTA+Drivers licence and motor vehicle registers"
+{πiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_rear_overhang_nbr:int
-Å±XNZTA+Drivers licence and motor vehicle registers"
+Å∫iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_road_transport_code:varchar
-s≤XNZTA+Drivers licence and motor vehicle registers"
+sªiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_reg_date:date
-Å≥XNZTA+Drivers licence and motor vehicle registers"
+ÅºiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_special_permit_text:varchar
-Å¥XNZTA+Drivers licence and motor vehicle registers"
+ÅΩiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_srt_max_allow_hgt_nbr:float
-ÄµXNZTA+Drivers licence and motor vehicle registers"
+ÄæiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_srt_max_allow_mass_nbr:int
-Ä∂XNZTA+Drivers licence and motor vehicle registers"
+ÄøiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_srt_max_safe_hgt_nbr:float
-∑XNZTA+Drivers licence and motor vehicle registers"
+¿iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_srt_max_safe_mass_nbr:int
-y∏XNZTA+Drivers licence and motor vehicle registers"
+y¡iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_srt_value_nbr:float
-ÑπXNZTA+Drivers licence and motor vehicle registers"
+Ñ¬iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_transmission_type_text:varchar
-y∫XNZTA+Drivers licence and motor vehicle registers"
+y√iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_vdam_weight_nbr:int
-xªXNZTA+Drivers licence and motor vehicle registers"
+xƒiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2snz_nzta_vehicle_id_uid:int
-yºXNZTA+Drivers licence and motor vehicle registers"
+y≈iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2snz_nzta_vehicle_key_uid:int
-ΩXNZTA+Drivers licence and motor vehicle registers"
+∆iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_vehicle_make_text:varchar
-ÄæXNZTA+Drivers licence and motor vehicle registers"
+Ä«iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_vehicle_model_text:varchar
-ÑøXNZTA+Drivers licence and motor vehicle registers"
+Ñ»iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_vehicle_sub_model_text:varchar
-Å¿XNZTA+Drivers licence and motor vehicle registers"
+Å…iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_vehicle_status_text:varchar
-¡XNZTA+Drivers licence and motor vehicle registers"
+ iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_vehicle_type_text:varchar
-z¬XNZTA+Drivers licence and motor vehicle registers"
+zÀiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_vehicle_year_nbr:int
-{√XNZTA+Drivers licence and motor vehicle registers"
+{ÃiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_vehicle_usage_nbr:int
-sƒXNZTA+Drivers licence and motor vehicle registers"
+sÕiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_vin_date:date
-x≈XNZTA+Drivers licence and motor vehicle registers"
+xŒiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_wheel_base_nbr:int
-s∆XNZTA+Drivers licence and motor vehicle registers"
+sœiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_width_nbr:int
-v«XNZTA+Drivers licence and motor vehicle registers"
+v–iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_amount_nbr:float
-s»XNZTA+Drivers licence and motor vehicle registers"
+s—iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_end_date:date
-u…XNZTA+Drivers licence and motor vehicle registers"
+u“iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2snz_nzta_licence_uid:int
-| XNZTA+Drivers licence and motor vehicle registers"
+|”iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_licence_period_nbr:int
-ÅÀXNZTA+Drivers licence and motor vehicle registers"
+Å‘iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_licence_status_text:varchar
-ÃXNZTA+Drivers licence and motor vehicle registers"
+’iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_licence_type_text:varchar
-ÖÕXNZTA+Drivers licence and motor vehicle registers"
+Ö÷iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2 nzta_mvr_delivery_mechanism_text:varchar
-uŒXNZTA+Drivers licence and motor vehicle registers"
+u◊iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_start_date:date
-tœXNZTA+Drivers licence and motor vehicle registers"
+tÿiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_diesel_ind:bit
-}–XNZTA+Drivers licence and motor vehicle registers"
+}ŸiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_event_type_text:varchar
-|—XNZTA+Drivers licence and motor vehicle registers"
+|⁄iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_hubodo_reading_nbr:int
-z“XNZTA+Drivers licence and motor vehicle registers"
+z€iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_inspection_date:date
-~”XNZTA+Drivers licence and motor vehicle registers"
+~‹iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_number_of_faults_nbr:int
-y‘XNZTA+Drivers licence and motor vehicle registers"
+y›iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_odo_reading_nbr:int
-y’XNZTA+Drivers licence and motor vehicle registers"
+yﬁiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_result_text:varchar
-}÷XNZTA+Drivers licence and motor vehicle registers"
+}ﬂiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_fault_code_text:varchar
-}◊XNZTA+Drivers licence and motor vehicle registers"
+}‡iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_fault_type_text:varchar
-|ÿXNZTA+Drivers licence and motor vehicle registers"
+|·iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_component_text:varchar
-xŸXNZTA+Drivers licence and motor vehicle registers"
+x‚iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_fault_text:varchar
-{⁄XNZTA+Drivers licence and motor vehicle registers"
+{„iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_location_text:varchar
-}€XNZTA+Drivers licence and motor vehicle registers"
+}‰iNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2snz_idi_address_register_uid:int
-v‹XNZTA+Drivers licence and motor vehicle registers"
+vÂiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_region_code:char
-r›XNZTA+Drivers licence and motor vehicle registers"
+rÊiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_ta_code:char
-yﬁXNZTA+Drivers licence and motor vehicle registers"
+yÁiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_meshblock_code:char
-ÉﬂXNZTA+Drivers licence and motor vehicle registers"
+ÉËiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_meshblock_imputed_ind:varchar
-}‡XNZTA+Drivers licence and motor vehicle registers"
+}ÈiNZTA+Drivers licence and motor vehicle registers"
 nzta_clean*motor_vehicle_register2nzta_mvr_address_start_date:date
-k·XOranga Tamariki#Family Start Intervention programme"
+kÍiOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_client_identities2snz_uid:int
-p‚XOranga Tamariki#Family Start Intervention programme"
+pÎiOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_client_identities2snz_otfs_uid:int
-Ä„XOranga Tamariki#Family Start Intervention programme"
+ÄÏiOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_client_identities2otfs_cid_birth_month_nbr:tinyint
-Ä‰XOranga Tamariki#Family Start Intervention programme"
+ÄÌiOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_client_identities2otfs_cid_birth_year_nbr:smallint
-yÂXOranga Tamariki#Family Start Intervention programme"
+yÓiOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_client_identities2otfs_snz_sex_code:varchar
-ÜÊXOranga Tamariki#Family Start Intervention programme"
+ÜÔiOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_client_identities2otfs_cid_child_surname_imputed:varchar
-tÁXOranga Tamariki#Family Start Intervention programme"
+tiOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_engagement2snz_otfs_engagement_uid:int
-yËXOranga Tamariki#Family Start Intervention programme"
+yÒiOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_engagement2otfs_eng_consent_given_date:date
-zÈXOranga Tamariki#Family Start Intervention programme"
+zÚiOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_engagement2otfs_eng_intial_contact_date:date
-}ÍXOranga Tamariki#Family Start Intervention programme"
+}ÛiOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_engagement2otfs_eng_first_ext_service_date:date
-tÎXOranga Tamariki#Family Start Intervention programme"
+tÙiOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_engagement2otfs_eng_accepted_date:date
-rÏXOranga Tamariki#Family Start Intervention programme"
+rıiOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_engagement2otfs_eng_active_date:date
-pÌXOranga Tamariki#Family Start Intervention programme"
+pˆiOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_engagement2otfs_eng_exit_date:date
-zÓXOranga Tamariki#Family Start Intervention programme"
+z˜iOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_engagement2otfs_eng_referred_to_FS_date:date
-tÔXOranga Tamariki#Family Start Intervention programme"
+t¯iOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_engagement2otfs_eng_declined_date:date
-uXOranga Tamariki#Family Start Intervention programme"
+u˘iOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_engagement2otfs_eng_graduated_date:date
-yÒXOranga Tamariki#Family Start Intervention programme"
+y˙iOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_engagement2otfs_eng_last_activity_date:date
-tÚXOranga Tamariki#Family Start Intervention programme"
+t˚iOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_engagement2otfs_eng_transfer_date:date
-}ÛXOranga Tamariki#Family Start Intervention programme"
+}¸iOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_engagement2otfs_eng_transfer_complete_date:date
-~ÙXOranga Tamariki#Family Start Intervention programme"
+~˝iOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_engagement2otfs_eng_replicated_datetime:datetime
-zıXOranga Tamariki#Family Start Intervention programme"
+z˛iOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_engagement2otfs_eng_last_status_code:varchar
-|ˆXOranga Tamariki#Family Start Intervention programme"
+|ˇiOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_engagement2otfs_eng_referrer_desc_code:varchar
-|˜XOranga Tamariki#Family Start Intervention programme"
+|ÄjOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_engagement2otfs_eng_referrer_desc_text:varchar
-z¯XOranga Tamariki#Family Start Intervention programme"
+zÅjOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_engagement2otfs_eng_provider_id_code:varchar
-|˘XOranga Tamariki#Family Start Intervention programme"
+|ÇjOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_engagement2otfs_eng_external_provider_ind:char
-|˙XOranga Tamariki#Family Start Intervention programme"
+|ÉjOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_engagement_members2snz_otfs_engagement_uid:int
-l˚XOranga Tamariki#Family Start Intervention programme"
+lÑjOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_engagement_members2snz_uid:int
-q¸XOranga Tamariki#Family Start Intervention programme"
+qÖjOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_engagement_members2snz_otfs_uid:int
-Ç˝XOranga Tamariki#Family Start Intervention programme"
+ÇÜjOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_engagement_members2otfs_enm_involvement_code:varchar
-á˛XOranga Tamariki#Family Start Intervention programme"
+áájOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_engagement_members2otfs_enm_involvement_desc_text:varchar
-yˇXOranga Tamariki#Family Start Intervention programme"
+yàjOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_engagement_members2otfs_enm_start_date:date
-zÄYOranga Tamariki#Family Start Intervention programme"
+zâjOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_member_departure2snz_otfs_engagement_uid:int
-jÅYOranga Tamariki#Family Start Intervention programme"
+jäjOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_member_departure2snz_uid:int
-oÇYOranga Tamariki#Family Start Intervention programme"
+oãjOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_member_departure2snz_otfs_uid:int
-ÄÉYOranga Tamariki#Family Start Intervention programme"
+ÄåjOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_member_departure2otfs_mde_involvement_code:varchar
-ÖÑYOranga Tamariki#Family Start Intervention programme"
+ÖçjOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_member_departure2otfs_mde_departure_reason_code:varchar
-ÖÖYOranga Tamariki#Family Start Intervention programme"
+ÖéjOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_member_departure2otfs_mde_departure_reason_text:varchar
-ÑÜYOranga Tamariki#Family Start Intervention programme"
+ÑèjOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_member_departure2otfs_mde_departure_fatal_code:tinyint
-ÅáYOranga Tamariki#Family Start Intervention programme"
+ÅêjOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_member_departure2otfs_mde_departure_start_date:date
-àYOranga Tamariki#Family Start Intervention programme"
+ëjOranga Tamariki#Family Start Intervention programme"
 otfs_clean*otfs_member_departure2otfs_mde_departure_end_date:date
-˛âY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2snz_uid:intB¶A global unique identifier created by Statistics NZ. There is a snz_uid for each distinct identity in the IDI. This identifier is changed and reassigned each refresh.
-ÅäY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2snz_jus_uid:intB•An encrypted/transformed Justice sector unique identifier. Justice sector refers to data from New Zealand Police, Ministry of Justice, and Department of corrections.
-ßãY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2snz_pol_occurrence_uid:intB¿The occurrence ID identifies a single criminal incident (i.e., an event). This variable is encrypted by Stats NZ. It should be used in conjunction with the occurrence_inv_ind. On the pre-count table, where multiple offences have occurred during an incident, an Occurrence ID will have multiple corresponding Offence IDs in the dataset, e.g.
+˛íj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2snz_uid:intB¶A global unique identifier created by Statistics NZ. There is a snz_uid for each distinct identity in the IDI. This identifier is changed and reassigned each refresh.
+Åìj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2snz_jus_uid:intB•An encrypted/transformed Justice sector unique identifier. Justice sector refers to data from New Zealand Police, Ministry of Justice, and Department of corrections.
+ßîj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2snz_pol_occurrence_uid:intB¿The occurrence ID identifies a single criminal incident (i.e., an event). This variable is encrypted by Stats NZ. It should be used in conjunction with the occurrence_inv_ind. On the pre-count table, where multiple offences have occurred during an incident, an Occurrence ID will have multiple corresponding Offence IDs in the dataset, e.g.
 
 occurrence_uid	offence_uid
 1	10
@@ -13693,8 +15946,8 @@ The Occurrence ID and Offence ID fields are identical for some records.
 Occurrence ID can be used to connect records on the victim (RCVS), offender (RCOS), and NIA Links datasets.
 
 Note: Because only the most serious offence is used in post-count datasets and the two collections count in different ways, matching proceedings (RCOS) to victimisations (RCVS) on post-count datasets may not match an offender to all related victimisations.
-ÄåY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_occurrence_inv_ind:bitBoccurrence indicator
-›çY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2snz_pol_offence_uid:intB˘The Offence ID identifies a single chargeable offence within a criminal incident. This variable is encrypted by Statistics NZ. It should be used in conjunction with offence_inv_ind.
+Äïj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_occurrence_inv_ind:bitBoccurrence indicator
+›ñj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2snz_pol_offence_uid:intB˘The Offence ID identifies a single chargeable offence within a criminal incident. This variable is encrypted by Statistics NZ. It should be used in conjunction with offence_inv_ind.
 
 On the pre-count table, where multiple offences have occurred during an incident, a single Occurrence ID will have multiple corresponding Offence IDs in the dataset. Eg
 
@@ -13706,69 +15959,69 @@ occurrence_uid	offence_uid
 The Offence ID can be used to connect records on the victim (RCVS) and offender (RCOS) datasets.
 
 Note: Because only the most serious offence is used in post-count datasets and the two collections count in different ways, matching proceedings (RCOS) to victimisations (RCVS) on post-count datasets may not match an offender to all related victimisations.
-zéY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_offence_inv_ind:bitBoffence indicator
-vèY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2snz_person_uid:intBperson unique identifier
-ûêY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_person_org_ind:charB5Whether the offender was a person or an organisation.
-íëY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_rec_cal_year:varcharB(Calendar year the offender was recorded.
-ëíY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_rec_fisc_year:varcharB&Fiscal year the offender was recorded.
-üìY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_rec_year_month_text:varcharB.Year and month in which the link was recorded.
-àîY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_rec_month_text:varcharBMonth the link was recorded.
-õïY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_rec_month_nbr:intB4Number of the month tin which the link was recorded.
-ôñY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_rec_week_nbr:intB3Week number of year in which the link was recorded.
-~óY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_rec_date:dateBDate the link was recorded.
-•òY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_occurrence_day_text:varcharB4Weekday of the relevant occurrence. Notes: if known.
-©ôY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_occurrence_hour_nbr:intB<Hour of the day of the relevant occurrence. Notes: if known.
-ôöY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_nz_code:varcharB4Top level of a geographic hierarchy when using maps.
-óõY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_pol_district_occur:varcharB'Police district of occurrence location.
-èúY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_pol_area_occur:varcharB#Police area of occurrence location.
-ïùY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_pol_station_occur:varcharB&Police station of occurrence location.
-ùûY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_pol_station_northing:intB/Police station northing of occurrence location.
-õüY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_pol_station_easting:intB.Police station easting of occurrence location.
-ò†Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_occurrence_ta:varcharB-Territorial authority of occurrence location.
-®°Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_occurrence_area_unit:varcharB6Area unit of the occurrence location. Notes: if known.
-ù¢Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_occurrence_mb:intB6Meshblock of the occurrence location. Notes: if known.
-è£Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_occurrence_latitude:floatB Latitude of occurrence location.
-ë§Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_occurrence_longitude:floatB!Longitude of occurrence location.
-ç•Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_occurrence_northing:intB Northing of occurrence location.
-ã¶Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_occurrence_easting:intBEasting of occurrence location.
-ÑßY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_method_proceeding:varcharBMethod of proceeding.
-¥®Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_init_proceed_dec_date:dateBDInitial proceeding decision date. Notes: aligns with RCOS/RCVS date.
- ©Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_latest_inc_off_code:varcharBYLatest incident offence code. Notes: As at the date of extraction. Activity_justice_code.
-ú™Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_latest_inc_off_desc:varcharB+Description of the latest incident offence.
-ë´Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_demand_act_off_cat:varcharB!Demand activity offence category.
-ë¨Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_demand_act_off_div:varcharB!Demand activity offence division.
-ó≠Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_demand_act_off_subdiv:varcharB$Demand activity offence subdivision.
-êÆY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_demand_act_off_group:varcharBDemand activity offence group.
-îØY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_demand_act_off_subgrp:varcharB!Demand activity offence subgroup.
-™∞Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_primary_weapon_code:varcharB9Type of weapon used in the offence. Notes: if applicable.
-∫±Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_age_when_linked_nbr:varcharBIAge of the person in years when linked to the Offence, Incident, or Task.
-t≤Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2"nia_links_age_group_when_linked_..:varchar
-°≥Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_age_occurrence_date:intB4Age of person in years at the date of the occurrence
-ƒ¥Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_snz_sex_code:charB]Sex variable concorded to the Statistics NZ standard.
+zój	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_offence_inv_ind:bitBoffence indicator
+vòj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2snz_person_uid:intBperson unique identifier
+ûôj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_person_org_ind:charB5Whether the offender was a person or an organisation.
+íöj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_rec_cal_year:varcharB(Calendar year the offender was recorded.
+ëõj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_rec_fisc_year:varcharB&Fiscal year the offender was recorded.
+üúj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_rec_year_month_text:varcharB.Year and month in which the link was recorded.
+àùj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_rec_month_text:varcharBMonth the link was recorded.
+õûj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_rec_month_nbr:intB4Number of the month tin which the link was recorded.
+ôüj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_rec_week_nbr:intB3Week number of year in which the link was recorded.
+~†j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_rec_date:dateBDate the link was recorded.
+•°j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_occurrence_day_text:varcharB4Weekday of the relevant occurrence. Notes: if known.
+©¢j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_occurrence_hour_nbr:intB<Hour of the day of the relevant occurrence. Notes: if known.
+ô£j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_nz_code:varcharB4Top level of a geographic hierarchy when using maps.
+ó§j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_pol_district_occur:varcharB'Police district of occurrence location.
+è•j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_pol_area_occur:varcharB#Police area of occurrence location.
+ï¶j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_pol_station_occur:varcharB&Police station of occurrence location.
+ùßj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_pol_station_northing:intB/Police station northing of occurrence location.
+õ®j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_pol_station_easting:intB.Police station easting of occurrence location.
+ò©j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_occurrence_ta:varcharB-Territorial authority of occurrence location.
+®™j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_occurrence_area_unit:varcharB6Area unit of the occurrence location. Notes: if known.
+ù´j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_occurrence_mb:intB6Meshblock of the occurrence location. Notes: if known.
+è¨j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_occurrence_latitude:floatB Latitude of occurrence location.
+ë≠j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_occurrence_longitude:floatB!Longitude of occurrence location.
+çÆj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_occurrence_northing:intB Northing of occurrence location.
+ãØj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_occurrence_easting:intBEasting of occurrence location.
+Ñ∞j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_method_proceeding:varcharBMethod of proceeding.
+¥±j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_init_proceed_dec_date:dateBDInitial proceeding decision date. Notes: aligns with RCOS/RCVS date.
+ ≤j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_latest_inc_off_code:varcharBYLatest incident offence code. Notes: As at the date of extraction. Activity_justice_code.
+ú≥j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_latest_inc_off_desc:varcharB+Description of the latest incident offence.
+ë¥j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_demand_act_off_cat:varcharB!Demand activity offence category.
+ëµj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_demand_act_off_div:varcharB!Demand activity offence division.
+ó∂j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_demand_act_off_subdiv:varcharB$Demand activity offence subdivision.
+ê∑j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_demand_act_off_group:varcharBDemand activity offence group.
+î∏j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_demand_act_off_subgrp:varcharB!Demand activity offence subgroup.
+™πj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_primary_weapon_code:varcharB9Type of weapon used in the offence. Notes: if applicable.
+∫∫j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_age_when_linked_nbr:varcharBIAge of the person in years when linked to the Offence, Incident, or Task.
+ ªj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2$nia_links_age_group_when_linked_text:varcharBRAge group of person in 5-year bands when linked to the offence, incident, or task.
+°ºj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_age_occurrence_date:intB4Age of person in years at the date of the occurrence
+ƒΩj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_snz_sex_code:charB]Sex variable concorded to the Statistics NZ standard.
 Note: Organisations have a value of 3.
-ïµY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2snz_person_ind:bitB7This indicates whether or not this relates to a person.
-Ç∂Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_ethnicity_code:varcharBEthnicity from Police.
-ô∑Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_birth_year_nbr:intB1Year of birth. Notes: Derived from date of birth.
-ö∏Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_birth_month_nbr:intB1Month of birth. Notes: Derived from date of birth
-dπY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_iwi:varcharBIwi
-f∫Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_hapu:varcharBHapu
-ÇªY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_count_1:charB One count assigned for each link
-zºY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_imputed_ind:charBimputation indicator
-ÃΩY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_firearms_licence_ind:charB]Flag to indicate whether or not the person held a firearms licence as at the occurrence date.
-ÔæY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_role_type_text:varcharBÇThe role of the person/organisation in the offence, incident or task. Notes: Witness, informant, offender, suspect, subject, etc. Subject would be used for the person who has attempted suicide or the person involved in an incident if there are more than one.
-íøY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_loc_type_po_address:varcharB!location type post office address
-ì¿Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_po_address_easting:varcharB#person/organisation address easting
-ï¡Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_po_address_northing:varcharB$person/organisation address northing
-ó¬Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_po_address_mb:varcharB,person/organisation address census meshblock
-ï√Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_po_address_latitude:varcharB$person/organisation address latitude
-óƒY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_po_address_longitude:varcharB%person/organisation address longitude
-≠≈Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2 nia_links_po_address_polsta_dist:varcharB9person/organisation address local police station district
-©∆Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2 nia_links_po_address_polsta_area:varcharB5person/organisation address local police station area
-§«Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2 nia_links_po_address_pol_station:varcharB0person/organisation address local police station
-¢»Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_po_address_area_unit:varcharB0person/organisation address area unit (if known)
-õ…Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_station_easting:varcharB.Police station easting of occurrence location.
-ù Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_station_northing:varcharB/Police station northing of occurrence location.
-Ê	ÀY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_ethnic_snz_code:varcharB¯This ethnicity variable is concorded to the Stats NZ standard and six derived ethnicity variables below. 
+ïæj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2snz_person_ind:bitB7This indicates whether or not this relates to a person.
+Çøj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_ethnicity_code:varcharBEthnicity from Police.
+ô¿j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_birth_year_nbr:intB1Year of birth. Notes: Derived from date of birth.
+ö¡j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_birth_month_nbr:intB1Month of birth. Notes: Derived from date of birth
+d¬j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_iwi:varcharBIwi
+f√j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_hapu:varcharBHapu
+Çƒj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_count_1:charB One count assigned for each link
+z≈j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_imputed_ind:charBimputation indicator
+Ã∆j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_firearms_licence_ind:charB]Flag to indicate whether or not the person held a firearms licence as at the occurrence date.
+Ô«j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_role_type_text:varcharBÇThe role of the person/organisation in the offence, incident or task. Notes: Witness, informant, offender, suspect, subject, etc. Subject would be used for the person who has attempted suicide or the person involved in an incident if there are more than one.
+í»j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_loc_type_po_address:varcharB!location type post office address
+ì…j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_po_address_easting:varcharB#person/organisation address easting
+ï j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_po_address_northing:varcharB$person/organisation address northing
+óÀj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_po_address_mb:varcharB,person/organisation address census meshblock
+ïÃj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_po_address_latitude:varcharB$person/organisation address latitude
+óÕj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_po_address_longitude:varcharB%person/organisation address longitude
+≠Œj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2 nia_links_po_address_polsta_dist:varcharB9person/organisation address local police station district
+©œj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2 nia_links_po_address_polsta_area:varcharB5person/organisation address local police station area
+§–j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2 nia_links_po_address_pol_station:varcharB0person/organisation address local police station
+¢—j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_po_address_area_unit:varcharB0person/organisation address area unit (if known)
+õ“j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_station_easting:varcharB.Police station easting of occurrence location.
+ù”j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_station_northing:varcharB/Police station northing of occurrence location.
+Ê	‘j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_ethnic_snz_code:varcharB¯This ethnicity variable is concorded to the Stats NZ standard and six derived ethnicity variables below. 
 
 Ethnicity is the ethnic group or groups a person identifies with or has a sense of belonging to. It is a measure of cultural affiliation (in contrast to race, ancestry, nationality, or citizenship). Ethnicity is self-perceived and a person can belong to more than one ethnic group. An ethnic group is made up of people who have some or all of the following characteristics: 
 ‚Ä¢	a common proper name 
@@ -13786,454 +16039,1221 @@ The ethnicities listed in this dataset come from the 2013 Census ethnicity varia
 5 Middle Eastern/Latin American/African 
 6 Other ethnicity 
 9 Residual categories
-’ÃY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_ethnic_grp1_snz_ind:bitBhEuropean ethnicity indicator. This variable is concorded to the Statistics NZ standard derived variable.
-“ÕY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_ethnic_grp2_snz_ind:bitBeMaori ethnicity indicator. This variable is concorded to the Statistics NZ standard derived variable.
-‹ŒY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_ethnic_grp3_snz_ind:bitBoPacific peoples ethnicity indicator. This variable is concorded to the Statistics NZ standard derived variable.
-“œY	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_ethnic_grp4_snz_ind:bitBeAsian ethnicity indicator. This variable is concorded to the Statistics NZ standard derived variable.
-Û–Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_ethnic_grp5_snz_ind:bitBÖMiddle Eastern/Latin American/African ethnicity indicator. This variable is concorded to the Statistics NZ standard derived variable.
-“—Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_ethnic_grp6_snz_ind:bitBeOther ethnicity indicator. This variable is concorded to the Statistics NZ standard derived variable.
-à“Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2snz_address_register_id:varcharBencrypted address register id
-ñ”Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2snz_idi_address_register_uid:intB*The encrypted identifier for this address.
+’’j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_ethnic_grp1_snz_ind:bitBhEuropean ethnicity indicator. This variable is concorded to the Statistics NZ standard derived variable.
+“÷j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_ethnic_grp2_snz_ind:bitBeMaori ethnicity indicator. This variable is concorded to the Statistics NZ standard derived variable.
+‹◊j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_ethnic_grp3_snz_ind:bitBoPacific peoples ethnicity indicator. This variable is concorded to the Statistics NZ standard derived variable.
+“ÿj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_ethnic_grp4_snz_ind:bitBeAsian ethnicity indicator. This variable is concorded to the Statistics NZ standard derived variable.
+ÛŸj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_ethnic_grp5_snz_ind:bitBÖMiddle Eastern/Latin American/African ethnicity indicator. This variable is concorded to the Statistics NZ standard derived variable.
+“⁄j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_ethnic_grp6_snz_ind:bitBeOther ethnicity indicator. This variable is concorded to the Statistics NZ standard derived variable.
+à€j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2snz_address_register_id:varcharBencrypted address register id
+ñ‹j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2snz_idi_address_register_uid:intB*The encrypted identifier for this address.
 —
-‘Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_region_code:charBÍ	The regional council associated with _________. Notes: The regional council is the top tier of local government in New Zealand. They are defined by Part 1 of Schedule 2 of the Local Government Act 2002. Regional councils are defined at meshblock and area unit level. The Local Government Act 2002 requires the boundaries of regions to conform as far as possible to one or more water catchments. When determining regional boundaries, the Local Government Commission gave consideration to regional communities of interest when selecting water catchments to be included in a region. It also considered factors such as natural resource management, land use planning and environmental matters. Regional councils cover every territorial authority in New Zealand with the exception of Chatham Islands Territory. The seaward boundary of the regions is the twelve mile (19.3km) New Zealand territorial limit. Generally regional councils contain complete territorial authorities. Where territorial authorities straddle regional council boundaries, the affected area has been statistically defined in complete area units. Regional councils are given a unique two digit code. Area Outside Region code of 99 is for those areas that are not included in a Regional Council.
-¨’Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_ta_code:charB…The territorial authority associated with the _____________.  Notes: Territorial authorities are the second tier of local government in New Zealand, below regional councils and are defined under the Local Government Act 2002 as a city council or district council. Territorial authorities are defined at meshblock and area unit level. When defining the boundaries of territorial authorities, the Local Government Commission placed considerable weight on the 'community of interest'. While the size of a community was a factor, the relevance of the components of the community to each other and the capacity of the unit to service the community in an efficient manner, were the factors on which the Commission placed most emphasis. In general, the seaward boundary of a territorial authority is either the mean high water mark or mean low water springs. The interpretation of 'mean high water mark' includes the edge of man-made structures such as wharves and reclaimed land. A city must have a minimum population of 50,000, be predominantly urban in character, be a distinct entity and a major centre of activity within the region. A district serves a combination of rural and urban communities. The boundaries of wards and their parent territorial authorities may be reviewed in the year immediately preceding the three yearly local government elections. The review is conducted by the territorial authority under provisions contained in the Local Government Act. Territorial authorities are given a unique three digit code. Area Outside Territorial Authority code of 999 is  for those areas not included in a Territorial Authorities. Note: Wanganui District Council name changed to Whanganui District  Council effective 1 December 2015.
+›j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_region_code:charBÍ	The regional council associated with _________. Notes: The regional council is the top tier of local government in New Zealand. They are defined by Part 1 of Schedule 2 of the Local Government Act 2002. Regional councils are defined at meshblock and area unit level. The Local Government Act 2002 requires the boundaries of regions to conform as far as possible to one or more water catchments. When determining regional boundaries, the Local Government Commission gave consideration to regional communities of interest when selecting water catchments to be included in a region. It also considered factors such as natural resource management, land use planning and environmental matters. Regional councils cover every territorial authority in New Zealand with the exception of Chatham Islands Territory. The seaward boundary of the regions is the twelve mile (19.3km) New Zealand territorial limit. Generally regional councils contain complete territorial authorities. Where territorial authorities straddle regional council boundaries, the affected area has been statistically defined in complete area units. Regional councils are given a unique two digit code. Area Outside Region code of 99 is for those areas that are not included in a Regional Council.
+¨ﬁj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_ta_code:charB…The territorial authority associated with the _____________.  Notes: Territorial authorities are the second tier of local government in New Zealand, below regional councils and are defined under the Local Government Act 2002 as a city council or district council. Territorial authorities are defined at meshblock and area unit level. When defining the boundaries of territorial authorities, the Local Government Commission placed considerable weight on the 'community of interest'. While the size of a community was a factor, the relevance of the components of the community to each other and the capacity of the unit to service the community in an efficient manner, were the factors on which the Commission placed most emphasis. In general, the seaward boundary of a territorial authority is either the mean high water mark or mean low water springs. The interpretation of 'mean high water mark' includes the edge of man-made structures such as wharves and reclaimed land. A city must have a minimum population of 50,000, be predominantly urban in character, be a distinct entity and a major centre of activity within the region. A district serves a combination of rural and urban communities. The boundaries of wards and their parent territorial authorities may be reviewed in the year immediately preceding the three yearly local government elections. The review is conducted by the territorial authority under provisions contained in the Local Government Act. Territorial authorities are given a unique three digit code. Area Outside Territorial Authority code of 999 is  for those areas not included in a Territorial Authorities. Note: Wanganui District Council name changed to Whanganui District  Council effective 1 December 2015.
 ‡
-÷Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_meshblock_code:charBˆ	The meshblock associated with the ____________________. Notes: A meshblock is both a geographic unit and a classification. It is the smallest geographic unit for which statistical data is reported by Stats NZ. A meshblock is a defined geographic area, varying in size from part of a city block to large areas of rural land. Meshblocks are contiguous: each meshblock borders on another to form a network covering all of New Zealand, including coasts and inlets. The meshblock classification extends out to New Zealand‚Äôs 200 mile exclusive economic zone (EEZ).
+ﬂj	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_meshblock_code:charBˆ	The meshblock associated with the ____________________. Notes: A meshblock is both a geographic unit and a classification. It is the smallest geographic unit for which statistical data is reported by Stats NZ. A meshblock is a defined geographic area, varying in size from part of a city block to large areas of rural land. Meshblocks are contiguous: each meshblock borders on another to form a network covering all of New Zealand, including coasts and inlets. The meshblock classification extends out to New Zealand‚Äôs 200 mile exclusive economic zone (EEZ).
 
 Primary purposes of a meshblock classification are: 
 ‚Ä¢	to provide a small, relevant, and flexible building block geography for aggregation into statistical geographies such as sampling, collection, and output areas 
 ‚Ä¢	to ensure geographic boundaries can be physically identified and located on the ground by alignment with geographic or physical features, or with the cadastre (New Zealand‚Äôs land information and survey system for the accurate identification of boundaries for land tenure purposes)
 ‚Ä¢	to form the basis of the New Zealand electoral system as the lowest level building block, by which it defines electorates and polling areas for both parliamentary and local government elections.
-Ø◊Y	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_meshblock_imputed_ind:varcharB<A flag to indicate whether or not the meshblock was imputed.
-YÿYStats NZLinkage and security tables"security*concordance2link_set_key:smallint
-OŸYStats NZLinkage and security tables"security*concordance2snz_uid:int
-U⁄YStats NZLinkage and security tables"security*concordance2snz_spine_uid:int
-S€YStats NZLinkage and security tables"security*concordance2snz_ird_uid:int
-S‹YStats NZLinkage and security tables"security*concordance2snz_moe_uid:int
-S›YStats NZLinkage and security tables"security*concordance2snz_dol_uid:int
-TﬁYStats NZLinkage and security tables"security*concordance2snz_hlfs_uid:int
-SﬂYStats NZLinkage and security tables"security*concordance2snz_msd_uid:int
-U‡YStats NZLinkage and security tables"security*concordance2snz_sofie_uid:int
-S·YStats NZLinkage and security tables"security*concordance2snz_jus_uid:int
-S‚YStats NZLinkage and security tables"security*concordance2snz_acc_uid:int
-S„YStats NZLinkage and security tables"security*concordance2snz_moh_uid:int
-S‰YStats NZLinkage and security tables"security*concordance2snz_dia_uid:int
-SÂYStats NZLinkage and security tables"security*concordance2snz_cen_uid:int
-SÊYStats NZLinkage and security tables"security*concordance2snz_hes_uid:int
-SÁYStats NZLinkage and security tables"security*concordance2snz_acm_uid:int
-TËYStats NZLinkage and security tables"security*concordance2snz_nzta_uid:int
-SÈYStats NZLinkage and security tables"security*concordance2snz_gss_uid:int
-TÍYStats NZLinkage and security tables"security*concordance2snz_otfs_uid:int
-UÎYStats NZLinkage and security tables"security*concordance2snz_piaac_uid:int
-SÏYStats NZLinkage and security tables"security*concordance2snz_esp_uid:int
-UÌYStats NZLinkage and security tables"security*concordance2snz_nzcvs_uid:int
-HÓYIRDWorking for Families"	wff_clean*fam_adjustments2snz_uid:int
-VÔYIRDWorking for Families"	wff_clean*fam_adjustments2wff_snz_unique_nbr:bigint
-PYIRDWorking for Families"	wff_clean*fam_adjustments2adjustm_snz_uid:int
-LÒYIRDWorking for Families"	wff_clean*fam_adjustments2snz_ird_uid:int
-TÚYIRDWorking for Families"	wff_clean*fam_adjustments2adjustm_snz_ird_uid:int
-VÛYIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_rtn_prd_date:date
-VÙYIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_list_nbr:smallint
-\ıYIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_fam_assmnt_rsn_ind:char
-YˆYIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_fb_payment_code:char
-a˜YIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_eligible_per_start_date:date
-`¯YIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_daily_rate_acm_adj_ind:char
-d˘YIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_child_support_recvd_amt:decimal
-c˙YIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_child_support_paid_amt:decimal
-b˚YIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_maintenance_recvd_amt:decimal
-a¸YIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_maintenance_paid_amt:decimal
-c˝YIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_business_adj_recvd_amt:decimal
-b˛YIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_business_adj_paid_amt:decimal
-cˇYIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_non_taxable_income_amt:decimal
-]ÄZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_pcc_arrives_nz_date:date
-]ÅZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_pcc_departs_nz_date:date
-TÇZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_abated_ind:char
-_ÉZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_total_fam_paid_amt:decimal
-dÑZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_tot_fam_paid_by_msd_amt:decimal
-YÖZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_partner_adj_ind:char
-[ÜZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_total_fstc_amt:decimal
-ZáZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_total_ftc_amt:decimal
-ZàZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_total_ctc_amt:decimal
-ZâZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_total_ptc_amt:decimal
-däZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_est_tot_salary_wage_amt:decimal
-aãZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_total_acc_income_amt:decimal
-cåZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_est_interest_divid_amt:decimal
-_çZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_est_bus_income_amt:decimal
-eéZIRDWorking for Families"	wff_clean*fam_adjustments2 wff_adj_est_test_benefit_inc_amt:decimal
-cèZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_est_super_stud_alw_amt:decimal
-^êZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_total_inc_est_amt:decimal
-`ëZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_est_cs_received_amt:decimal
-\íZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_est_cs_paid_amt:decimal
-VìZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_applied_date:date
-UîZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_ceased_date:date
-XïZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_timestamp_date:date
-QñZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_ctc_ind:char
-VóZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_ctc_end_date:date
-bòZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_msd_benefit_serv_code:varchar
-XôZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_ann_iwp_amt:decimal
-]öZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_business_begin_date:date
-[õZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_business_end_date:date
-ZúZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_accident_code:varchar
-^ùZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_sq_maint_paid_amt:decimal
-_ûZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_sq_maint_recvd_amt:decimal
-füZIRDWorking for Families"	wff_clean*fam_adjustments2 wff_adj_tot_ftc_weeks_worked_nbr:smallint
-]†ZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_interest_rec_amt:decimal
-`°ZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_dividends_recvd_amt:decimal
-^¢ZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_rental_income_amt:decimal
-\£ZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_royal_recvd_amt:decimal
-b§ZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_est_trust_inc_rec_amt:decimal
-e•ZIRDWorking for Families"	wff_clean*fam_adjustments2 wff_adj_maori_auth_inc_recvd_amt:decimal
-a¶ZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_tot_income_debit_amt:decimal
-bßZIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_tot_income_credit_amt:decimal
-e®ZIRDWorking for Families"	wff_clean*fam_adjustments2 wff_adj_fam_bstc_entitlement_amt:decimal
-E©ZIRDWorking for Families"	wff_clean*fam_children2snz_uid:int
-S™ZIRDWorking for Families"	wff_clean*fam_children2wff_snz_unique_nbr:bigint
-K´ZIRDWorking for Families"	wff_clean*fam_children2child_snz_uid:int
-I¨ZIRDWorking for Families"	wff_clean*fam_children2snz_ird_uid:int
-O≠ZIRDWorking for Families"	wff_clean*fam_children2child_snz_ird_uid:int
-SÆZIRDWorking for Families"	wff_clean*fam_children2wff_chi_list_nbr:smallint
-VØZIRDWorking for Families"	wff_clean*fam_children2wff_chi_child_key_nbr:bigint
-Y∞ZIRDWorking for Families"	wff_clean*fam_children2wff_chi_birth_month_nbr:tinyint
-Y±ZIRDWorking for Families"	wff_clean*fam_children2wff_chi_birth_year_nbr:smallint
-Q≤ZIRDWorking for Families"	wff_clean*fam_children2wff_chi_start_date:date
-O≥ZIRDWorking for Families"	wff_clean*fam_children2wff_chi_end_date:date
-a¥ZIRDWorking for Families"	wff_clean*fam_children2wff_chi_days_share_custody_nbr:smallint
-SµZIRDWorking for Families"	wff_clean*fam_children2wff_chi_deceased_ind:char
-\∂ZIRDWorking for Families"	wff_clean*fam_children2wff_chi_last_ptc_install_date:date
-S∑ZIRDWorking for Families"	wff_clean*fam_children2wff_chi_applied_date:date
-R∏ZIRDWorking for Families"	wff_clean*fam_children2wff_chi_ceased_date:date
-UπZIRDWorking for Families"	wff_clean*fam_children2wff_chi_timestamp_date:date
-N∫ZIRDWorking for Families"	wff_clean*fam_children2wff_chi_fou_ind:char
-GªZIRDWorking for Families"	wff_clean*fam_daily_rate2snz_uid:int
-UºZIRDWorking for Families"	wff_clean*fam_daily_rate2wff_snz_unique_nbr:bigint
-KΩZIRDWorking for Families"	wff_clean*fam_daily_rate2snz_ird_uid:int
-[æZIRDWorking for Families"	wff_clean*fam_daily_rate2wff_fdr_return_period_date:date
-UøZIRDWorking for Families"	wff_clean*fam_daily_rate2wff_fdr_list_nbr:smallint
-a¿ZIRDWorking for Families"	wff_clean*fam_daily_rate2 wff_fdr_eligible_period_end_date:date
-_¡ZIRDWorking for Families"	wff_clean*fam_daily_rate2wff_fdr_daily_fstc_rate_amt:decimal
-^¬ZIRDWorking for Families"	wff_clean*fam_daily_rate2wff_fdr_daily_ftc_rate_amt:decimal
-^√ZIRDWorking for Families"	wff_clean*fam_daily_rate2wff_fdr_daily_ctc_rate_amt:decimal
-^ƒZIRDWorking for Families"	wff_clean*fam_daily_rate2wff_fdr_daily_ptc_rate_amt:decimal
-[≈ZIRDWorking for Families"	wff_clean*fam_daily_rate2wff_fdr_change_reason_code:char
-U∆ZIRDWorking for Families"	wff_clean*fam_daily_rate2wff_fdr_applied_date:date
-T«ZIRDWorking for Families"	wff_clean*fam_daily_rate2wff_fdr_ceased_date:date
-W»ZIRDWorking for Families"	wff_clean*fam_daily_rate2wff_fdr_timestamp_date:date
-^…ZIRDWorking for Families"	wff_clean*fam_daily_rate2wff_fdr_daily_iwp_rate_amt:decimal
-_ ZIRDWorking for Families"	wff_clean*fam_daily_rate2wff_fdr_daily_bstc_rate_amt:decimal
-FÀZIRDWorking for Families"	wff_clean*fam_list_hist2snz_uid:int
-TÃZIRDWorking for Families"	wff_clean*fam_list_hist2wff_snz_unique_nbr:bigint
-JÕZIRDWorking for Families"	wff_clean*fam_list_hist2snz_ird_uid:int
-[ŒZIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_return_period_date:date
-UœZIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_list_nbr:smallint
-P–ZIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_acc_ind:char
-W—ZIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_adjustment_ind:char
-T“ZIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_benefit_ind:char
-P”ZIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_ftc_ind:char
-R‘ZIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_child_ind:char
-X’ZIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_end_of_year_ind:char
-S÷ZIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_income_ind:char
-S◊ZIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_parent_ind:char
-UÿZIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_applied_date:date
-TŸZIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_ceased_date:date
-W⁄ZIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_timestamp_date:date
-P€ZIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_iwp_ind:char
-H‹ZIRDWorking for Families"	wff_clean*fam_return_dtls2snz_uid:int
-V›ZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_snz_unique_nbr:bigint
-PﬁZIRDWorking for Families"	wff_clean*fam_return_dtls2partner_snz_uid:int
-LﬂZIRDWorking for Families"	wff_clean*fam_return_dtls2snz_ird_uid:int
-T‡ZIRDWorking for Families"	wff_clean*fam_return_dtls2partner_snz_ird_uid:int
-W·ZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_year_month_key:int
-\‚ZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_return_period_date:date
-^„ZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_partner_started_date:date
-V‰ZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_children_ind:char
-eÂZIRDWorking for Families"	wff_clean*fam_return_dtls2 wff_frd_children_decease_tot_nbr:tinyint
-_ÊZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_children_total_nbr:tinyint
-\ÁZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_shared_custody_ind:char
-YËZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_fam_paid_amt:decimal
-_ÈZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_fam_assessment_amt:decimal
-YÍZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_fb_payment_code:char
-bÎZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_child_support_rec_amt:decimal
-cÏZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_child_support_paid_amt:decimal
-aÌZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_pcc_salary_wages_amt:decimal
-cÓZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_partners_sal_wages_amt:decimal
-dÔZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_student_allow_gross_amt:decimal
-bZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_student_loan_paid_amt:decimal
-[ÒZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_winz_gross_amt:decimal
-ZÚZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_winz_paid_amt:decimal
-ZÛZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_acc_gross_amt:decimal
-^ÙZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_pension_gross_amt:decimal
-_ıZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_unk_empr_gross_amt:decimal
-aˆZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_fstc_entitlement_amt:decimal
-`˜ZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_ptc_entitlement_amt:decimal
-`¯ZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_ctc_entitlement_amt:decimal
-d˘ZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_total_family_income_amt:decimal
-`˙ZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_ftc_entitlement_amt:decimal
-`˚ZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_iwp_entitlement_amt:decimal
-\¸ZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_final_dr_cr_amt:decimal
-V˝ZIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_updated_date:date
-e˛ZIRDWorking for Families"	wff_clean*fam_return_dtls2 wff_frd_fam_bstc_entitlement_amt:decimal
-KˇZIRDWorking for Families"	wff_clean*fam_return_parents2snz_uid:int
-YÄ[IRDWorking for Families"	wff_clean*fam_return_parents2wff_snz_unique_nbr:bigint
-SÅ[IRDWorking for Families"	wff_clean*fam_return_parents2partner_snz_uid:int
-OÇ[IRDWorking for Families"	wff_clean*fam_return_parents2snz_ird_uid:int
-WÉ[IRDWorking for Families"	wff_clean*fam_return_parents2partner_snz_ird_uid:int
-ZÑ[IRDWorking for Families"	wff_clean*fam_return_parents2wff_frp_year_month_key:int
-WÖ[IRDWorking for Families"	wff_clean*fam_return_parents2wff_frp_pcc_ird_nbr:int
-[Ü[IRDWorking for Families"	wff_clean*fam_return_parents2wff_frp_partner_ird_nbr:int
-_á[IRDWorking for Families"	wff_clean*fam_return_parents2wff_frp_return_period_date:date
-Wà[IRDWorking for Families"	wff_clean*fam_return_parents2wff_frp_start_date:date
-Uâ[IRDWorking for Families"	wff_clean*fam_return_parents2wff_frp_end_date:date
-Hä[IRDWorking for Families"	wff_clean*fam_tax_credits2snz_uid:int
-Vã[IRDWorking for Families"	wff_clean*fam_tax_credits2wff_snz_unique_nbr:bigint
-På[IRDWorking for Families"	wff_clean*fam_tax_credits2partner_snz_uid:int
-Lç[IRDWorking for Families"	wff_clean*fam_tax_credits2snz_ird_uid:int
-Té[IRDWorking for Families"	wff_clean*fam_tax_credits2partner_snz_ird_uid:int
-\è[IRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_return_period_date:date
-Vê[IRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_list_nbr:smallint
-Të[IRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_start_date:date
-Rí[IRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_end_date:date
-Yì[IRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_itwc_start_date:date
-Wî[IRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_itwc_end_date:date
-bï[IRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_pcc_hours_worked_nbr:smallint
-añ[IRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_pcc_weeks_worked_nbr:tinyint
-fó[IRDWorking for Families"	wff_clean*fam_tax_credits2 wff_ftc_partner_hours_worked_nbr:smallint
-eò[IRDWorking for Families"	wff_clean*fam_tax_credits2 wff_ftc_partner_weeks_worked_nbr:tinyint
-cô[IRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_total_weeks_worked_nbr:tinyint
-Vö[IRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_applied_date:date
-Uõ[IRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_ceased_date:date
-Xú[IRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_timestamp_date:date
-Qù[IRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_iwp_ind:char
-Qû[IRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_ftc_ind:char
-Mü[IRDWorking for Families"	wff_clean*lvl_two_both_primary2snz_uid:int
-Q†[IRDWorking for Families"	wff_clean*lvl_two_both_primary2snz_ird_uid:int
-U°[IRDWorking for Families"	wff_clean*lvl_two_both_primary2partner_snz_uid:int
-Y¢[IRDWorking for Families"	wff_clean*lvl_two_both_primary2snz_partner_ird_uid:int
-S£[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_date:date
-c§[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_gross_earning_amt:decimal
-a•[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_paye_deduct_amt:decimal
-h¶[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_msd_fam_tax_credit_amt:decimal
-aß[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_benefit_inc_amt:decimal
-_®[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_other_inc_amt:decimal
-b©[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_lbr_mrkt_inc_amt:decimal
-Y™[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_acc_amt:decimal
-^´[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_pensions_amt:decimal
-g¨[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_student_allowance_amt:decimal
-Y≠[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_ppl_amt:decimal
-ZÆ[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_nz_earn_ind:char
-]Ø[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_edit_check_ind:char
-h∞[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_ird_fam_tax_credit_amt:decimal
-Z±[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_source_code:char
-a≤[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_partner_snz_swn_nbr:int
-[≥[IRDWorking for Families"	wff_clean*lvl_two_both_primary2snz_hybrid_ird_uid:bigint
-Y¥[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_snz_swn_nbr:int
-aµ[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_snz_partnership_uid:int
-^∂[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_benefit_code:varchar
-h∑[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_on_behalf_of_bnft_code:varchar
-c∏[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_benefit_gross_amt:decimal
-bπ[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_benefit_nett_amt:decimal
-a∫[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_accomm_supp_amt:decimal
-dª[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_family_support_amt:decimal
-eº[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_special_benefit_amt:decimal
-YΩ[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_tas_amt:decimal
-dæ[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_all_other_supp_amt:decimal
-cø[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_non_oscar_hours_nbr:float
-_¿[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_non_oscar_amt:decimal
-_¡[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_oscar_hours_nbr:float
-[¬[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_oscar_amt:decimal
-h√[IRDWorking for Families"	wff_clean*lvl_two_both_primary2 wff_lbp_othr_childcare_hours_nbr:float
-dƒ[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_othr_childcare_amt:decimal
-h≈[IRDWorking for Families"	wff_clean*lvl_two_both_primary2 wff_lbp_child_lessthan_5_fte_nbr:float
-e∆[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_child_5_to_12_fte_nbr:float
-`«[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_child_13_fte_nbr:float
-f»[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_child_14_to_15_fte_nbr:float
-f…[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_child_16_to_18_fte_nbr:float
-` [IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_child_19_fte_nbr:float
-eÀ[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_child_out_rng_fte_nbr:float
-dÃ[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_child_lessthan_5_count:int
-aÕ[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_child_5_to_12_count:int
-\Œ[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_child_13_count:int
-bœ[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_child_14_to_15_count:int
-b–[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_child_16_to_18_count:int
-\—[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_child_19_count:int
-a“[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_child_out_rng_count:int
-c”[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_non_oscar_child_count:int
-_‘[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_oscar_child_count:int
-c’[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_other_childcare_count:int
-`÷[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_cancellation_date:date
-e◊[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_cancellation_type_code:char
-jÿ[IRDWorking for Families"	wff_clean*lvl_two_both_primary2 wff_lbp_cancellation_reason_code:varchar
-dŸ[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_msd_total_cash_amt:decimal
-\⁄[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_tax_year_date:date
-]€[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_ethnic_text:varchar
-`‹[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_msd_children_nbr:float
-a›[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_ethnic_snz_code:varchar
-aﬁ[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_ethnic_grp1_snz_ind:bit
-aﬂ[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_ethnic_grp2_snz_ind:bit
-a‡[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_ethnic_grp3_snz_ind:bit
-a·[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_ethnic_grp4_snz_ind:bit
-a‚[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_ethnic_grp5_snz_ind:bit
-a„[IRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_ethnic_grp6_snz_ind:bit
-?‰[IRDWorking for Families"	wff_clean*spells2snz_uid:int
-GÂ[IRDWorking for Families"	wff_clean*spells2partner_snz_uid:int
-CÊ[IRDWorking for Families"	wff_clean*spells2snz_ird_uid:int
-KÁ[IRDWorking for Families"	wff_clean*spells2snz_partner_ird_uid:int
-MË[IRDWorking for Families"	wff_clean*spells2wff_spe_year_nbr:smallint
-QÈ[IRDWorking for Families"	wff_clean*spells2wff_spe_spell_start_date:date
-OÍ[IRDWorking for Families"	wff_clean*spells2wff_spe_spell_end_date:date
-NÎ[IRDWorking for Families"	wff_clean*spells2wff_spe_spell_duration:int
-MÏ[IRDWorking for Families"	wff_clean*spells2snz_hybrid_ird_uid:bigint
-YÌ[IRDWorking for Families"	wff_clean*spells2wff_spe_fte_child_source_code:varchar
-ZÓ[IRDWorking for Families"	wff_clean*spells2 wff_spe_child_lessthan_5_fte_nbr:float
-WÔ[IRDWorking for Families"	wff_clean*spells2wff_spe_child_5_to_12_fte_nbr:float
-R[IRDWorking for Families"	wff_clean*spells2wff_spe_child_13_fte_nbr:float
-XÒ[IRDWorking for Families"	wff_clean*spells2wff_spe_child_14_to_15_fte_nbr:float
-XÚ[IRDWorking for Families"	wff_clean*spells2wff_spe_child_16_to_18_fte_nbr:float
-RÛ[IRDWorking for Families"	wff_clean*spells2wff_spe_child_19_fte_nbr:float
-WÙ[IRDWorking for Families"	wff_clean*spells2wff_spe_child_out_rng_fte_nbr:float
-Uı[IRDWorking for Families"	wff_clean*spells2wff_spe_child_total_fte_nbr:float
-Qˆ[IRDWorking for Families"	wff_clean*spells2wff_spe_l_ethnic_text:varchar
-Q˜[IRDWorking for Families"	wff_clean*spells2wff_spe_l_birth_month_nbr:int
-P¯[IRDWorking for Families"	wff_clean*spells2wff_spe_l_birth_year_nbr:int
-N˘[IRDWorking for Families"	wff_clean*spells2wff_spe_l_sex_code:varchar
-R˙[IRDWorking for Families"	wff_clean*spells2wff_spe_l_age_at_spell_end:int
-Q˚[IRDWorking for Families"	wff_clean*spells2wff_spe_r_ethnic_text:varchar
-Q¸[IRDWorking for Families"	wff_clean*spells2wff_spe_r_birth_month_nbr:int
-P˝[IRDWorking for Families"	wff_clean*spells2wff_spe_r_birth_year_nbr:int
-N˛[IRDWorking for Families"	wff_clean*spells2wff_spe_r_sex_code:varchar
-Rˇ[IRDWorking for Families"	wff_clean*spells2wff_spe_r_age_at_spell_end:int
-[Ä\IRDWorking for Families"	wff_clean*spells2wff_spe_l_ems_gross_earning_amt:decimal
-ZÅ\IRDWorking for Families"	wff_clean*spells2wff_spe_l_ems_lbr_mrkt_inc_amt:decimal
-YÇ\IRDWorking for Families"	wff_clean*spells2wff_spe_l_ems_paye_deduct_amt:decimal
-YÉ\IRDWorking for Families"	wff_clean*spells2wff_spe_l_ems_benefit_inc_amt:decimal
-VÑ\IRDWorking for Families"	wff_clean*spells2wff_spe_l_ems_othr_inc_amt:decimal
-\Ö\IRDWorking for Families"	wff_clean*spells2 wff_spe_l_ems_lst_actv_bnft_code:varchar
-[Ü\IRDWorking for Families"	wff_clean*spells2wff_spe_r_ems_gross_earning_amt:decimal
-Zá\IRDWorking for Families"	wff_clean*spells2wff_spe_r_ems_lbr_mrkt_inc_amt:decimal
-Yà\IRDWorking for Families"	wff_clean*spells2wff_spe_r_ems_paye_deduct_amt:decimal
-Yâ\IRDWorking for Families"	wff_clean*spells2wff_spe_r_ems_benefit_inc_amt:decimal
-Vä\IRDWorking for Families"	wff_clean*spells2wff_spe_r_ems_othr_inc_amt:decimal
-\ã\IRDWorking for Families"	wff_clean*spells2 wff_spe_r_ems_lst_actv_bnft_code:varchar
-Yå\IRDWorking for Families"	wff_clean*spells2wff_spe_l_msd_accomm_supp_amt:decimal
-Vç\IRDWorking for Families"	wff_clean*spells2wff_spe_l_msd_ftc_paid_amt:decimal
-Xé\IRDWorking for Families"	wff_clean*spells2wff_spe_l_msd_bnft_gross_amt:decimal
-Zè\IRDWorking for Families"	wff_clean*spells2wff_spe_l_msd_special_bnft_amt:decimal
-[ê\IRDWorking for Families"	wff_clean*spells2wff_spe_l_msd_all_othr_supp_amt:decimal
-Që\IRDWorking for Families"	wff_clean*spells2wff_spe_l_msd_tas_amt:decimal
-Wí\IRDWorking for Families"	wff_clean*spells2wff_spe_l_msd_non_oscar_amt:decimal
-Sì\IRDWorking for Families"	wff_clean*spells2wff_spe_l_msd_oscar_amt:decimal
-\î\IRDWorking for Families"	wff_clean*spells2 wff_spe_l_msd_othr_childcare_amt:decimal
-Yï\IRDWorking for Families"	wff_clean*spells2wff_spe_r_msd_accomm_supp_amt:decimal
-Vñ\IRDWorking for Families"	wff_clean*spells2wff_spe_r_msd_ftc_paid_amt:decimal
-Xó\IRDWorking for Families"	wff_clean*spells2wff_spe_r_msd_bnft_gross_amt:decimal
-Zò\IRDWorking for Families"	wff_clean*spells2wff_spe_r_msd_special_bnft_amt:decimal
-[ô\IRDWorking for Families"	wff_clean*spells2wff_spe_r_msd_all_othr_supp_amt:decimal
-Qö\IRDWorking for Families"	wff_clean*spells2wff_spe_r_msd_tas_amt:decimal
-Wõ\IRDWorking for Families"	wff_clean*spells2wff_spe_r_msd_non_oscar_amt:decimal
-Sú\IRDWorking for Families"	wff_clean*spells2wff_spe_r_msd_oscar_amt:decimal
-\ù\IRDWorking for Families"	wff_clean*spells2 wff_spe_r_msd_othr_childcare_amt:decimal
-Wû\IRDWorking for Families"	wff_clean*spells2wff_spe_l_gross_earning_amt:decimal
-\ü\IRDWorking for Families"	wff_clean*spells2 wff_spe_l_defn_gross_earning_amt:decimal
-Y†\IRDWorking for Families"	wff_clean*spells2 wff_spe_l_defn_grs_earn_src_code:char
-U°\IRDWorking for Families"	wff_clean*spells2wff_spe_l_ftc_entitle_amt:decimal
-U¢\IRDWorking for Families"	wff_clean*spells2wff_spe_l_ctc_entitle_amt:decimal
-U£\IRDWorking for Families"	wff_clean*spells2wff_spe_l_ptc_entitle_amt:decimal
-V§\IRDWorking for Families"	wff_clean*spells2wff_spe_l_mftc_entitle_amt:decimal
-V•\IRDWorking for Families"	wff_clean*spells2wff_spe_l_iwtc_entitle_amt:decimal
-U¶\IRDWorking for Families"	wff_clean*spells2wff_spe_l_taxable_inc_amt:decimal
-Tß\IRDWorking for Families"	wff_clean*spells2wff_spe_l_tax_on_inc_amt:decimal
-U®\IRDWorking for Families"	wff_clean*spells2wff_spe_l_ttl_fam_inc_amt:decimal
-[©\IRDWorking for Families"	wff_clean*spells2wff_spe_l_ttl_fam_round_inc_amt:decimal
-U™\IRDWorking for Families"	wff_clean*spells2wff_spe_l_filer_type_code:varchar
-[´\IRDWorking for Families"	wff_clean*spells2wff_spe_l_wfftc_final_sq_up_amt:decimal
-[¨\IRDWorking for Families"	wff_clean*spells2wff_spe_l_ird_tax_cred_rcvd_amt:decimal
-\≠\IRDWorking for Families"	wff_clean*spells2 wff_spe_l_child_support_rcvd_amt:decimal
-\Æ\IRDWorking for Families"	wff_clean*spells2 wff_spe_l_child_support_paid_amt:decimal
-ZØ\IRDWorking for Families"	wff_clean*spells2wff_spe_l_maintenance_rcvd_amt:decimal
-Z∞\IRDWorking for Families"	wff_clean*spells2wff_spe_l_maintenance_paid_amt:decimal
-R±\IRDWorking for Families"	wff_clean*spells2wff_spe_l_ppl_paid_amt:decimal
-\≤\IRDWorking for Families"	wff_clean*spells2 wff_spe_l_wfftc_ov_und_paid_code:varchar
-W≥\IRDWorking for Families"	wff_clean*spells2wff_spe_l_wfftc_assemnt_ind:varchar
-\¥\IRDWorking for Families"	wff_clean*spells2 wff_spe_l_eoy_wfftc_pay_src_code:varchar
-\µ\IRDWorking for Families"	wff_clean*spells2 wff_spe_l_wfftc_assemnt_src_code:varchar
-[∂\IRDWorking for Families"	wff_clean*spells2wff_spe_l_wfftc_ttl_entitle_amt:decimal
-W∑\IRDWorking for Families"	wff_clean*spells2wff_spe_r_gross_earning_amt:decimal
-\∏\IRDWorking for Families"	wff_clean*spells2 wff_spe_r_defn_gross_earning_amt:decimal
-Yπ\IRDWorking for Families"	wff_clean*spells2 wff_spe_r_defn_grs_earn_src_code:char
-U∫\IRDWorking for Families"	wff_clean*spells2wff_spe_r_ftc_entitle_amt:decimal
-Uª\IRDWorking for Families"	wff_clean*spells2wff_spe_r_ctc_entitle_amt:decimal
-Uº\IRDWorking for Families"	wff_clean*spells2wff_spe_r_ptc_entitle_amt:decimal
-VΩ\IRDWorking for Families"	wff_clean*spells2wff_spe_r_mftc_entitle_amt:decimal
-Væ\IRDWorking for Families"	wff_clean*spells2wff_spe_r_iwtc_entitle_amt:decimal
-Uø\IRDWorking for Families"	wff_clean*spells2wff_spe_r_taxable_inc_amt:decimal
-T¿\IRDWorking for Families"	wff_clean*spells2wff_spe_r_tax_on_inc_amt:decimal
-U¡\IRDWorking for Families"	wff_clean*spells2wff_spe_r_ttl_fam_inc_amt:decimal
-[¬\IRDWorking for Families"	wff_clean*spells2wff_spe_r_ttl_fam_round_inc_amt:decimal
-U√\IRDWorking for Families"	wff_clean*spells2wff_spe_r_filer_type_code:varchar
-[ƒ\IRDWorking for Families"	wff_clean*spells2wff_spe_r_wfftc_final_sq_up_amt:decimal
-[≈\IRDWorking for Families"	wff_clean*spells2wff_spe_r_ird_tax_cred_rcvd_amt:decimal
-\∆\IRDWorking for Families"	wff_clean*spells2 wff_spe_r_child_support_rcvd_amt:decimal
-\«\IRDWorking for Families"	wff_clean*spells2 wff_spe_r_child_support_paid_amt:decimal
-Z»\IRDWorking for Families"	wff_clean*spells2wff_spe_r_maintenance_rcvd_amt:decimal
-Z…\IRDWorking for Families"	wff_clean*spells2wff_spe_r_maintenance_paid_amt:decimal
-R \IRDWorking for Families"	wff_clean*spells2wff_spe_r_ppl_paid_amt:decimal
-\À\IRDWorking for Families"	wff_clean*spells2 wff_spe_r_wfftc_ov_und_paid_code:varchar
-WÃ\IRDWorking for Families"	wff_clean*spells2wff_spe_r_wfftc_assemnt_ind:varchar
-\Õ\IRDWorking for Families"	wff_clean*spells2 wff_spe_r_eoy_wfftc_pay_src_code:varchar
-\Œ\IRDWorking for Families"	wff_clean*spells2 wff_spe_r_wfftc_assemnt_src_code:varchar
-[œ\IRDWorking for Families"	wff_clean*spells2wff_spe_r_wfftc_ttl_entitle_amt:decimal
-T–\IRDWorking for Families"	wff_clean*spells2wff_spe_l_denom_simple_nbr:float
-U—\IRDWorking for Families"	wff_clean*spells2wff_spe_l_denom_complex_nbr:float
-T“\IRDWorking for Families"	wff_clean*spells2wff_spe_r_denom_simple_nbr:float
-U”\IRDWorking for Families"	wff_clean*spells2wff_spe_r_denom_complex_nbr:float
-X‘\IRDWorking for Families"	wff_clean*spells2wff_spe_l_simple_prrt_fctr_nbr:float
-Y’\IRDWorking for Families"	wff_clean*spells2wff_spe_l_complex_prrt_fctr_nbr:float
-X÷\IRDWorking for Families"	wff_clean*spells2wff_spe_r_simple_prrt_fctr_nbr:float
-Y◊\IRDWorking for Families"	wff_clean*spells2wff_spe_r_complex_prrt_fctr_nbr:float
-Uÿ\IRDWorking for Families"	wff_clean*spells2wff_spe_l_ethnic_snz_code:varchar
-UŸ\IRDWorking for Families"	wff_clean*spells2wff_spe_l_ethnic_grp1_snz_ind:bit
-U⁄\IRDWorking for Families"	wff_clean*spells2wff_spe_l_ethnic_grp2_snz_ind:bit
-U€\IRDWorking for Families"	wff_clean*spells2wff_spe_l_ethnic_grp3_snz_ind:bit
-U‹\IRDWorking for Families"	wff_clean*spells2wff_spe_l_ethnic_grp4_snz_ind:bit
-U›\IRDWorking for Families"	wff_clean*spells2wff_spe_l_ethnic_grp5_snz_ind:bit
-Uﬁ\IRDWorking for Families"	wff_clean*spells2wff_spe_l_ethnic_grp6_snz_ind:bit
-Uﬂ\IRDWorking for Families"	wff_clean*spells2wff_spe_r_ethnic_snz_code:varchar
-U‡\IRDWorking for Families"	wff_clean*spells2wff_spe_r_ethnic_grp1_snz_ind:bit
-U·\IRDWorking for Families"	wff_clean*spells2wff_spe_r_ethnic_grp2_snz_ind:bit
-U‚\IRDWorking for Families"	wff_clean*spells2wff_spe_r_ethnic_grp3_snz_ind:bit
-U„\IRDWorking for Families"	wff_clean*spells2wff_spe_r_ethnic_grp4_snz_ind:bit
-U‰\IRDWorking for Families"	wff_clean*spells2wff_spe_r_ethnic_grp5_snz_ind:bit
-UÂ\IRDWorking for Families"	wff_clean*spells2wff_spe_r_ethnic_grp6_snz_ind:bit
-JÊ\Oranga TamarikiYouth Services"	yst_clean*yst_clients2snz_uid:int
-NÁ\Oranga TamarikiYouth Services"	yst_clean*yst_clients2snz_msd_uid:int
-_Ë\Oranga TamarikiYouth Services"	yst_clean*yst_clients2yst_cli_client_id_type_code:char
-ZÈ\Oranga TamarikiYouth Services"	yst_clean*yst_clients2yst_cli_birth_month_nbr:int
-YÍ\Oranga TamarikiYouth Services"	yst_clean*yst_clients2yst_cli_birth_year_nbr:int
-WÎ\Oranga TamarikiYouth Services"	yst_clean*yst_clients2yst_cli_sex_code:varchar
-XÏ\Oranga TamarikiYouth Services"	yst_clean*yst_clients2yst_cli_extract_date:date
-LÌ\Oranga TamarikiYouth Services"	yst_clean*yst_neet_risk2snz_uid:int
-PÓ\Oranga TamarikiYouth Services"	yst_clean*yst_neet_risk2snz_msd_uid:int
-_Ô\Oranga TamarikiYouth Services"	yst_clean*yst_neet_risk2yst_ntr_neet_risk_text:varchar
-]\Oranga TamarikiYouth Services"	yst_clean*yst_neet_risk2yst_ntr_risk_start_date:date
-[Ò\Oranga TamarikiYouth Services"	yst_clean*yst_neet_risk2yst_ntr_risk_end_date:date
-ZÚ\Oranga TamarikiYouth Services"	yst_clean*yst_neet_risk2yst_ntr_extract_date:date
-WÛ\Oranga TamarikiYouth Services"	yst_clean*yst_neet_risk2yst_ntr_file_date:date
-VÙ\Oranga TamarikiYouth Services"	yst_clean*yst_neet_risk2yst_ntr_rep_date:date
-dı\Oranga TamarikiYouth Services"	yst_clean*yst_neet_risk2yst_ntr_risk_score_mod_by_code:char
-Iˆ\Oranga TamarikiYouth Services"	yst_clean*
+Ø‡j	NZ Police!Recorded crime and investigations"	pol_clean*	nia_links2nia_links_meshblock_imputed_ind:varcharB<A flag to indicate whether or not the meshblock was imputed.
+Y·jStats NZLinkage and security tables"security*concordance2link_set_key:smallint
+O‚jStats NZLinkage and security tables"security*concordance2snz_uid:int
+U„jStats NZLinkage and security tables"security*concordance2snz_spine_uid:int
+S‰jStats NZLinkage and security tables"security*concordance2snz_ird_uid:int
+SÂjStats NZLinkage and security tables"security*concordance2snz_moe_uid:int
+SÊjStats NZLinkage and security tables"security*concordance2snz_dol_uid:int
+TÁjStats NZLinkage and security tables"security*concordance2snz_hlfs_uid:int
+SËjStats NZLinkage and security tables"security*concordance2snz_msd_uid:int
+UÈjStats NZLinkage and security tables"security*concordance2snz_sofie_uid:int
+SÍjStats NZLinkage and security tables"security*concordance2snz_jus_uid:int
+SÎjStats NZLinkage and security tables"security*concordance2snz_acc_uid:int
+SÏjStats NZLinkage and security tables"security*concordance2snz_moh_uid:int
+SÌjStats NZLinkage and security tables"security*concordance2snz_dia_uid:int
+SÓjStats NZLinkage and security tables"security*concordance2snz_cen_uid:int
+SÔjStats NZLinkage and security tables"security*concordance2snz_hes_uid:int
+SjStats NZLinkage and security tables"security*concordance2snz_acm_uid:int
+TÒjStats NZLinkage and security tables"security*concordance2snz_nzta_uid:int
+SÚjStats NZLinkage and security tables"security*concordance2snz_gss_uid:int
+TÛjStats NZLinkage and security tables"security*concordance2snz_otfs_uid:int
+UÙjStats NZLinkage and security tables"security*concordance2snz_piaac_uid:int
+SıjStats NZLinkage and security tables"security*concordance2snz_esp_uid:int
+UˆjStats NZLinkage and security tables"security*concordance2snz_nzcvs_uid:int
+`˜jStats NZLinkage and security tables"security*dia_cross_reference2from_snz_dia_uid:int
+^¯jStats NZLinkage and security tables"security*dia_cross_reference2to_snz_dia_uid:int
+g˘jStats NZLinkage and security tables"security*ibuldd_to_xref_ileed_ird_uid2ibuldd_ird_uid:int
+f˙jStats NZLinkage and security tables"security*ibuldd_to_xref_ileed_ird_uid2ileed_ird_uid:int
+`˚jStats NZLinkage and security tables"security*jus_cross_reference2from_snz_jus_uid:int
+^¸jStats NZLinkage and security tables"security*jus_cross_reference2to_snz_jus_uid:int
+c˝jStats NZLinkage and security tables"security*leed_to_xref_ileed_ird_uid2leed_ird_uid:int
+d˛jStats NZLinkage and security tables"security*leed_to_xref_ileed_ird_uid2ileed_ird_uid:int
+`ˇjStats NZLinkage and security tables"security*msd_cross_reference2from_snz_msd_uid:int
+^ÄkStats NZLinkage and security tables"security*msd_cross_reference2to_snz_msd_uid:int
+`ÅkStats NZLinkage and security tables"security*nsn_cross_reference2from_snz_moe_uid:int
+^ÇkStats NZLinkage and security tables"security*nsn_cross_reference2to_snz_moe_uid:int
+ZÉkStats NZLinkage and security tables"security*spine_population2snz_spine_uid:int
+XÑkStats NZLinkage and security tables"security*spine_population2snz_ird_uid:int
+XÖkStats NZLinkage and security tables"security*spine_population2snz_dia_uid:int
+XÜkStats NZLinkage and security tables"security*spine_population2snz_dol_uid:int
+TákIRDStudent loans and allowances"	sla_clean*ird_amt_by_trn_type2snz_uid:int
+XàkIRDStudent loans and allowances"	sla_clean*ird_amt_by_trn_type2snz_ird_uid:int
+eâkIRDStudent loans and allowances"	sla_clean*ird_amt_by_trn_type2ir_att_snz_unique_nbr:bigint
+cäkIRDStudent loans and allowances"	sla_clean*ird_amt_by_trn_type2ir_att_trn_month_date:date
+eãkIRDStudent loans and allowances"	sla_clean*ird_amt_by_trn_type2ir_att_trn_type_code:varchar
+dåkIRDStudent loans and allowances"	sla_clean*ird_amt_by_trn_type2ir_att_trn_type_amt:decimal
+bçkStats NZ)Survey of Families, Income and Employment"sofie_clean*amount_spells2snz_uid:int
+hékStats NZ)Survey of Families, Income and Employment"sofie_clean*amount_spells2snz_sofie_uid:int
+rèkStats NZ)Survey of Families, Income and Employment"sofie_clean*amount_spells2sofie_asp_spell_nbr:tinyint
+vêkStats NZ)Survey of Families, Income and Employment"sofie_clean*amount_spells2sofie_asp_spell_start_date:date
+tëkStats NZ)Survey of Families, Income and Employment"sofie_clean*amount_spells2sofie_asp_spell_end_date:date
+{íkStats NZ)Survey of Families, Income and Employment"sofie_clean*amount_spells2sofie_asp_ann_income_equiv_amt:float
+uìkStats NZ)Survey of Families, Income and Employment"sofie_clean*amount_spells2sofie_asp_income_miss_ind:char
+vîkStats NZ)Survey of Families, Income and Employment"sofie_clean*amount_spells2sofie_asp_spell_group_code:char
+uïkStats NZ)Survey of Families, Income and Employment"sofie_clean*amount_spells2sofie_asp_spell_type_code:char
+]ñkStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab2snz_uid:int
+cókStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab2snz_sofie_uid:int
+lòkStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab2sofie_alb_wave_nbr:tinyint
+zôkStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab2#sofie_alb_asset_liability_type_code:char
+~ökStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab2'sofie_alb_asset_liability_sub_type_code:char
+yõkStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab2"sofie_alb_has_asset_liability_code:char
+qúkStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab2sofie_alb_one_or_more_code:char
+uùkStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab2sofie_alb_asst_liab_cnt_nbr:tinyint
+vûkStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab2sofie_alb_asst_liab_cnt_nr_code:char
+tükStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab2sofie_alb_sole_owner_all_code:char
+q†kStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab2sofie_alb_how_grouped_code:char
+o°kStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab2sofie_alb_prop_incl_code:char
+u¢kStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab2sofie_alb_empl_contr_incl_code:char
+h£kStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab2sofie_wave_nbr:tinyint
+d§kStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab_detail2snz_uid:int
+j•kStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab_detail2snz_sofie_uid:int
+s¶kStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab_detail2sofie_ald_wave_nbr:tinyint
+ÅßkStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab_detail2#sofie_ald_asset_liability_type_code:char
+á®kStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab_detail2)sofie_ald_asset_liability_group_type_code:char
+|©kStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab_detail2sofie_ald_item_grouping_nbr:tinyint
+w™kStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab_detail2sofie_ald_one_or_all_code:char
+z´kStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab_detail2sofie_ald_value_details_code:char
+x¨kStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab_detail2sofie_ald_val_band_code:varchar
+t≠kStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab_detail2sofie_ald_std_val_amt:float
+{ÆkStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab_detail2sofie_ald_sole_owner_one_code:char
+{ØkStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab_detail2sofie_ald_other_owners_nbr:tinyint
+|∞kStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab_detail2sofie_ald_other_owners_nr_code:char
+~±kStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab_detail2sofie_ald_prop_valn_year_nbr:smallint
+~≤kStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab_detail2 sofie_ald_prop_valn_year_nr_code:char
+u≥kStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab_detail2sofie_ald_est_meth_code:char
+o¥kStats NZ)Survey of Families, Income and Employment"sofie_clean*ass_liab_detail2sofie_wave_nbr:tinyint
+XµkStats NZ)Survey of Families, Income and Employment"sofie_clean*dob2snz_uid:int
+^∂kStats NZ)Survey of Families, Income and Employment"sofie_clean*dob2snz_sofie_uid:int
+l∑kStats NZ)Survey of Families, Income and Employment"sofie_clean*dob2sofie_dob_snz_unique_nbr:bigint
+i∏kStats NZ)Survey of Families, Income and Employment"sofie_clean*dob2sofie_dob_birth_year_nbr:int
+jπkStats NZ)Survey of Families, Income and Employment"sofie_clean*dob2sofie_dob_birth_month_nbr:int
+k∫kStats NZ)Survey of Families, Income and Employment"sofie_clean*dob2sofie_dob_sex_snz_code:varchar
+fªkStats NZ)Survey of Families, Income and Employment"sofie_clean*family_reln_spell2snz_uid:int
+lºkStats NZ)Survey of Families, Income and Employment"sofie_clean*family_reln_spell2snz_sofie_uid:int
+uΩkStats NZ)Survey of Families, Income and Employment"sofie_clean*family_reln_spell2sofie_frs_wave_nbr:tinyint
+ÄækStats NZ)Survey of Families, Income and Employment"sofie_clean*family_reln_spell2 sofie_frs_relationship_type_code:char
+ÜøkStats NZ)Survey of Families, Income and Employment"sofie_clean*family_reln_spell2&sofie_frs_relationship_occurrence_code:char
+Ü¿kStats NZ)Survey of Families, Income and Employment"sofie_clean*family_reln_spell2&sofie_frs_relationship_spell_type_code:char
+É¡kStats NZ)Survey of Families, Income and Employment"sofie_clean*family_reln_spell2 sofie_frs_relationship_spell_nbr:tinyint
+~¬kStats NZ)Survey of Families, Income and Employment"sofie_clean*family_reln_spell2sofie_frs_not_hhld_member_code:char
+Å√kStats NZ)Survey of Families, Income and Employment"sofie_clean*family_reln_spell2!sofie_frs_family_spell_start_date:date
+ÑƒkStats NZ)Survey of Families, Income and Employment"sofie_clean*family_reln_spell2$sofie_frs_family_spell_start_nr_code:char
+≈kStats NZ)Survey of Families, Income and Employment"sofie_clean*family_reln_spell2sofie_frs_family_spell_end_date:date
+Ç∆kStats NZ)Survey of Families, Income and Employment"sofie_clean*family_reln_spell2"sofie_frs_family_spell_end_nr_code:char
+y«kStats NZ)Survey of Families, Income and Employment"sofie_clean*family_reln_spell2relationship_snz_sofie_uid:int
+é»kStats NZ)Survey of Families, Income and Employment"sofie_clean*family_reln_spell2.sofie_frs_primary_relationship_whole_time_code:char
+x…kStats NZ)Survey of Families, Income and Employment"sofie_clean*family_reln_spell2sofie_frs_had_child_code:char
+â kStats NZ)Survey of Families, Income and Employment"sofie_clean*family_reln_spell2)sofie_frs_secondary_child_whole_time_code:char
+zÀkStats NZ)Survey of Families, Income and Employment"sofie_clean*family_reln_spell2sofie_frs_had_partner_code:char
+ãÃkStats NZ)Survey of Families, Income and Employment"sofie_clean*family_reln_spell2+sofie_frs_secondary_partner_whole_time_code:char
+ÄÕkStats NZ)Survey of Families, Income and Employment"sofie_clean*family_reln_spell2 sofie_frs_living_with_start_date:date
+ÉŒkStats NZ)Survey of Families, Income and Employment"sofie_clean*family_reln_spell2#sofie_frs_living_with_start_nr_code:char
+ÜœkStats NZ)Survey of Families, Income and Employment"sofie_clean*family_reln_spell2&sofie_frs_still_with_relationship_code:char
+q–kStats NZ)Survey of Families, Income and Employment"sofie_clean*family_reln_spell2sofie_wave_nbr:tinyint
+`—kStats NZ)Survey of Families, Income and Employment"sofie_clean*flag_detail2snz_uid:int
+f“kStats NZ)Survey of Families, Income and Employment"sofie_clean*flag_detail2snz_sofie_uid:int
+o”kStats NZ)Survey of Families, Income and Employment"sofie_clean*flag_detail2sofie_fla_wave_nbr:tinyint
+z‘kStats NZ)Survey of Families, Income and Employment"sofie_clean*flag_detail2sofie_fla_time_line_spell_nbr:tinyint
+s’kStats NZ)Survey of Families, Income and Employment"sofie_clean*flag_detail2sofie_fla_spell_type_code:char
+w÷kStats NZ)Survey of Families, Income and Employment"sofie_clean*flag_detail2sofie_fla_sub_spell_type_code:char
+s◊kStats NZ)Survey of Families, Income and Employment"sofie_clean*flag_detail2sofie_fla_pay_rate_nbr:tinyint
+vÿkStats NZ)Survey of Families, Income and Employment"sofie_clean*flag_detail2sofie_fla_wave_inc_type_code:char
+zŸkStats NZ)Survey of Families, Income and Employment"sofie_clean*flag_detail2 sofie_fla_wave_inc_sub_type_code:char
+~⁄kStats NZ)Survey of Families, Income and Employment"sofie_clean*flag_detail2!sofie_fla_wave_inc_occurrence_nbr:tinyint
+y€kStats NZ)Survey of Families, Income and Employment"sofie_clean*flag_detail2sofie_fla_wave_inc_spell_nbr:tinyint
+x‹kStats NZ)Survey of Families, Income and Employment"sofie_clean*flag_detail2sofie_fla_source_table_text:varchar
+y›kStats NZ)Survey of Families, Income and Employment"sofie_clean*flag_detail2sofie_fla_source_column_text:varchar
+wﬁkStats NZ)Survey of Families, Income and Employment"sofie_clean*flag_detail2sofie_fla_missed_item_code:varchar
+kﬂkStats NZ)Survey of Families, Income and Employment"sofie_clean*flag_detail2sofie_wave_nbr:tinyint
+[‡kStats NZ)Survey of Families, Income and Employment"sofie_clean*health2snz_uid:int
+_·kStats NZ)Survey of Families, Income and Employment"sofie_clean*health2snz_dol_uid:int
+h‚kStats NZ)Survey of Families, Income and Employment"sofie_clean*health2lisnz_person_ref_nbr:int
+f„kStats NZ)Survey of Families, Income and Employment"sofie_clean*health2lisnz_health_code:char
+l‰kStats NZ)Survey of Families, Income and Employment"sofie_clean*health2lisnz_gp_visit_nbr_code:char
+mÂkStats NZ)Survey of Families, Income and Employment"sofie_clean*health2lisnz_gp_satisfactn_code:char
+hÊkStats NZ)Survey of Families, Income and Employment"sofie_clean*health2lisnz_gp_visit_code:char
+qÁkStats NZ)Survey of Families, Income and Employment"sofie_clean*health2lisnz_hospital_admitted_code:char
+tËkStats NZ)Survey of Families, Income and Employment"sofie_clean*health2lisnz_hospital_day_treated_code:char
+kÈkStats NZ)Survey of Families, Income and Employment"sofie_clean*health2lisnz_hospital_ae_code:char
+sÍkStats NZ)Survey of Families, Income and Employment"sofie_clean*health2lisnz_hospital_outpatient_code:char
+rÎkStats NZ)Survey of Families, Income and Employment"sofie_clean*health2lisnz_hospital_inpatient_code:char
+[ÏkStats NZ)Survey of Families, Income and Employment"sofie_clean*health2snz_uid:int
+aÌkStats NZ)Survey of Families, Income and Employment"sofie_clean*health2snz_sofie_uid:int
+jÓkStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_wave_nbr:tinyint
+nÔkStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_health_now_code:char
+pkStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_sick_quicker_code:char
+nÒkStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_as_healthy_code:char
+qÚkStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_expect_worsen_code:char
+tÛkStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_health_excellent_code:char
+nÙkStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_injury_had_code:char
+pıkStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_injury_multi_code:char
+oˆkStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_injury_type_code:char
+p˜kStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_injury_where_code:char
+o¯kStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_illness_had_code:char
+q˘kStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_pain_severity_code:char
+v˙kStats NZ)Survey of Families, Income and Employment"sofie_clean*health2!sofie_hlt_pain_interfere_deg_code:char
+v˚kStats NZ)Survey of Families, Income and Employment"sofie_clean*health2!sofie_hlt_physical_less_time_code:char
+v¸kStats NZ)Survey of Families, Income and Employment"sofie_clean*health2!sofie_hlt_physical_less_done_code:char
+t˝kStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_physical_limited_code:char
+w˛kStats NZ)Survey of Families, Income and Employment"sofie_clean*health2"sofie_hlt_physical_difficulty_code:char
+wˇkStats NZ)Survey of Families, Income and Employment"sofie_clean*health2"sofie_hlt_limit_vigorous_acty_code:char
+wÄlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2"sofie_hlt_limit_moderate_acty_code:char
+tÅlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_limit_lift_carry_code:char
+vÇlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2!sofie_hlt_limit_steps_oneset_code:char
+xÉlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2#sofie_hlt_limit_steps_multiset_code:char
+tÑlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_limit_bend_kneel_code:char
+sÖlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_limit_walk_100m_code:char
+sÜlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_limit_walk_500m_code:char
+rálStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_limit_walk_1km_code:char
+tàlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_limit_bathe_self_code:char
+tâlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_limit_dress_self_code:char
+tälStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_mental_less_time_code:char
+tãlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_mental_less_done_code:char
+wålStats NZ)Survey of Families, Income and Employment"sofie_clean*health2"sofie_hlt_mental_less_careful_code:char
+wçlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2"sofie_hlt_prob_interfere_freq_code:char
+vélStats NZ)Survey of Families, Income and Employment"sofie_clean*health2!sofie_hlt_prob_interfere_deg_code:char
+oèlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_felt_lively_code:char
+uêlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2 sofie_hlt_felt_very_nervous_code:char
+rëlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_felt_cheerless_code:char
+qílStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_felt_peaceful_code:char
+rìlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_felt_energetic_code:char
+tîlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_felt_downhearted_code:char
+qïlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_felt_worn_out_code:char
+nñlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_felt_happy_code:char
+nólStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_felt_tired_code:char
+uòlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2 sofie_hlt_felt_tired_no_rsn_code:char
+pôlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_felt_nervous_code:char
+xölStats NZ)Survey of Families, Income and Employment"sofie_clean*health2#sofie_hlt_felt_nervous_extreme_code:char
+qõlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_felt_hopeless_code:char
+púlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_felt_fidgety_code:char
+xùlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2#sofie_hlt_felt_fidgety_extreme_code:char
+pûlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_felt_depress_code:char
+xülStats NZ)Survey of Families, Income and Employment"sofie_clean*health2#sofie_hlt_felt_depress_extreme_code:char
+r†lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_felt_effortful_code:char
+r°lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_felt_worthless_code:char
+w¢lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2"sofie_hlt_felt_unable_control_code:char
+r£lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_felt_confident_code:char
+s§lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_felt_going_well_code:char
+x•lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2#sofie_hlt_felt_problem_extreme_code:char
+m¶lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_had_drink_code:char
+pßlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_days_drink_nbr:tinyint
+q®lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_days_drink_nr_code:char
+t©lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_drinks_per_day_nbr:tinyint
+u™lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2 sofie_hlt_drinks_per_day_nr_code:char
+u´lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_occ_many_drinks_nbr:tinyint
+v¨lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2!sofie_hlt_occ_many_drinks_nr_code:char
+s≠lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_drink_most_type_code:char
+sÆlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_drink_last_type_code:char
+nØlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_smokes_reg_code:char
+u∞lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2 sofie_hlt_cig_smoke_per_day_code:char
+r±lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_smoke_try_stop_code:char
+r≤lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_smoke_ever_reg_code:char
+t≥lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_smoke_quit_age_nbr:tinyint
+u¥lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2 sofie_hlt_smoke_quit_age_nr_code:char
+qµlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_has_hlth_prov_code:char
+v∂lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2!sofie_hlt_hlth_prov_new_prob_code:char
+v∑lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2!sofie_hlt_hlth_prov_same_day_code:char
+w∏lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2"sofie_hlt_hlth_prov_same_pers_code:char
+wπlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2"sofie_hlt_hlth_prov_cult_sens_code:char
+w∫lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2"sofie_hlt_hlth_prov_check_up_codde:char
+wªlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2"sofie_hlt_hlth_prov_ph_advice_code:char
+wºlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2"sofie_hlt_hlth_prov_know_best_code:char
+wΩlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2"sofie_hlt_hlth_prov_after_hrs_code:char
+wælStats NZ)Survey of Families, Income and Employment"sofie_clean*health2"sofie_hlt_hlth_prov_know_well_code:char
+wølStats NZ)Survey of Families, Income and Employment"sofie_clean*health2"sofie_hlt_hlth_prov_important_code:char
+o¿lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_defer_visit_code:char
+t¡lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_defer_visit_no_nbr:tinyint
+r¬lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_defer_visit_nr_code:char
+t√lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_not_collect_pres_code:char
+yƒlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2!sofie_hlt_not_collect_pres_no_nbr:tinyint
+w≈lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2"sofie_hlt_not_collect_pres_nr_code:char
+q∆lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_defer_dentist_code:char
+v«lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2!sofie_hlt_help_community_org_code:char
+t»lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_not_afford_shoes_code:char
+s…lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_use_food_grants_code:char
+t lStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_buy_cheaper_food_code:char
+pÀlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_no_fruit_veg_code:char
+vÃlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2!sofie_hlt_no_fruit_veg_often_code:char
+mÕlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_hlt_felt_cold_code:char
+fŒlStats NZ)Survey of Families, Income and Employment"sofie_clean*health2sofie_wave_nbr:tinyint
+eœlStats NZ)Survey of Families, Income and Employment"sofie_clean*health_prov_type2snz_uid:int
+k–lStats NZ)Survey of Families, Income and Employment"sofie_clean*health_prov_type2snz_sofie_uid:int
+t—lStats NZ)Survey of Families, Income and Employment"sofie_clean*health_prov_type2sofie_hpt_wave_nbr:tinyint
+~“lStats NZ)Survey of Families, Income and Employment"sofie_clean*health_prov_type2sofie_hpt_health_prov_type_code:char
+p”lStats NZ)Survey of Families, Income and Employment"sofie_clean*health_prov_type2sofie_wave_nbr:tinyint
+a‘lStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2snz_uid:int
+g’lStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2snz_sofie_uid:int
+y÷lStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_household_ref_nbr:varchar
+p◊lStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_wave_nbr:tinyint
+sÿlStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_he_status_code:char
+yŸlStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_hqi_resp_status_code:char
+~⁄lStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2#sofie_hhd_out_of_scope_members_code:char
+|€lStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2!sofie_hhd_related_members_yn_code:char
+t‹lStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_private_yn_code:char
+|›lStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2!sofie_hhd_dwelling_ownership_code:char
+|ﬁlStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2!sofie_hhd_hhld_component_two_code:char
+xﬂlStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_multi_dwelling_code:char
+~‡lStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2#sofie_hhd_body_corp_incl_rates_code:char
+}·lStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2"sofie_hhd_body_corp_incl_land_code:char
+~‚lStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2#sofie_hhd_body_corp_incl_water_code:char
+w„lStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_body_corp_pay_code:char
+u‰lStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_body_corp_amt:decimal
+sÂlStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_body_corp_code:char
+yÊlStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_std_body_corp_amt:decimal
+sÁlStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_rates_pay_code:char
+vËlStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_full_rates_amt:decimal
+tÈlStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_full_rates_code:char
+áÍlStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2)sofie_hhd_std_full_rates_amount_weeks_nbr:decimal
+vÎlStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_land_rates_amt:decimal
+tÏlStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_land_rates_code:char
+áÌlStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2)sofie_hhd_std_land_rates_amount_weeks_nbr:decimal
+qÓlStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_mge_pay_code:char
+tÔlStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_flexi_loan_code:char
+olStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_mge_amt:decimal
+mÒlStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_mge_code:char
+ÄÚlStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2"sofie_hhd_std_mge_amount_weeks_nbr:decimal
+rÛlStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_rent_pay_code:char
+xÙlStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_rent_incl_food_code:char
+pılStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_rent_amt:decimal
+nˆlStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_rent_code:char
+|˜lStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_std_amount_weeks_nbr:decimal
+z¯lStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_rates_incl_water_code:char
+w˘lStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_water_rates_amt:decimal
+u˙lStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_water_rates_code:char
+à˚lStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2*sofie_hhd_std_water_rates_amount_weeks_nbr:decimal
+x¸lStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_house_in_trust_code:char
+t˝lStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_bedrooms_nbr:tinyint
+u˛lStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_bedrooms_nr_code:char
+tˇlStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_vehicles_nbr:tinyint
+uÄmStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_vehicles_nr_code:char
+oÅmStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_phone_code:char
+nÇmStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_wash_code:char
+nÉmStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_dish_code:char
+oÑmStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_dryer_code:char
+qÖmStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_home_pc_code:char
+tÜmStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_television_code:char
+xámStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_pay_television_code:char
+màmStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_dvd_code:char
+tâmStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_new_people_code:char
+zämStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_np_when_moved_in_date:date
+}ãmStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2"sofie_hhd_np_when_moved_in_nr_code:char
+våmStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_major_region_code:char
+ÉçmStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2%sofie_hhd_deprivation_index_01_mb_nbr:tinyint
+ÉémStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2%sofie_hhd_deprivation_index_01_au_nbr:tinyint
+wèmStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_stratum_id_code:varchar
+jêmStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhd_psuid:char
+lëmStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_wave_nbr:tinyint
+pímStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_household2sofie_hhld_ref_nbr:varchar
+ZìmStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_id2snz_uid:int
+`îmStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_id2snz_sofie_uid:int
+hïmStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_id2sofie_id_wave_nbr:tinyint
+lñmStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_id2sofie_id_hhld_ref_nbr:varchar
+mómStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_id2sofie_id_psueudo_hhld_ind:char
+vòmStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_id2"sofie_id_start_intervw_period_date:date
+tômStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_id2 sofie_id_end_intervw_period_date:date
+römStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_id2sofie_id_start_ann_period_date:date
+põmStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_id2sofie_id_end_ann_period_date:date
+kúmStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_id2sofie_id_hhld_enum_date:date
+oùmStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_id2sofie_id_eq_new_resp_nbr:tinyint
+wûmStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_id2 sofie_id_weight_final_longit_nbr:decimal
+eümStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_id2sofie_wave_nbr:tinyint
+i†mStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_id2sofie_hhld_ref_nbr:varchar
+d°mStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_relationship2snz_uid:int
+j¢mStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_relationship2snz_sofie_uid:int
+s£mStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_relationship2sofie_hqr_wave_nbr:tinyint
+r§mStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_relationship2related_snz_sofie_uid:int
+y•mStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_relationship2sofie_hqr_relationship_code:char
+o¶mStats NZ)Survey of Families, Income and Employment"sofie_clean*hq_relationship2sofie_wave_nbr:tinyint
+bßmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2snz_uid:int
+h®mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2snz_sofie_uid:int
+q©mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_wave_nbr:tinyint
+|™mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_time_line_spell_nbr:tinyint
+u´mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_spell_type_code:char
+v¨mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_spell_start_date:date
+t≠mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_spell_end_date:date
+zÆmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_employer_status_code:char
+xØmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_occupation_code:varchar
+v∞mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_industry_code:varchar
+}±mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_std_hrs_per_week_nbr:decimal
+y≤mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_hrs_per_week_nbr:decimal
+z≥mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_hrs_per_week_nr_code:char
+~¥mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_hrs_per_fortnight_nbr:decimal
+µmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2#sofie_lbr_hrs_per_fortnight_nr_code:char
+x∂mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_hrs_per_day_nbr:decimal
+y∑mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_hrs_per_day_nr_code:char
+z∏mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_hrs_per_spell_nbr:decimal
+{πmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_hrs_per_spell_nr_code:char
+É∫mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2$sofie_lbr_std_gross_earnings_ann_amt:decimal
+sªmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_same_pay_code:char
+ÇºmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2#sofie_lbr_start_std_sub_pay_ann_amt:decimal
+|ΩmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2 sofie_lbr_start_pay_details_code:char
+}æmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_start_ann_salary_amt:decimal
+~ømStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2"sofie_lbr_start_ann_salary_nr_code:char
+|¿mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_start_usual_pay_amt:decimal
+}¡mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2!sofie_lbr_start_usual_pay_nr_code:char
+Å¬mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2%sofie_lbr_start_usual_pay_period_code:char
+|√mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_strt_usal_paywk_nbr:tinyint
+}ƒmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2!sofie_lbr_strt_usal_paywk_nr_code:char
+Ñ≈mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2(sofie_lbr_start_allowances_part_pay_code:char
+Ü∆mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2*sofie_lbr_start_allowances_hourly_pay_code:char
+â«mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2-sofie_lbr_start_allowances_including_pay_code:char
+Ñ»mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2%sofie_lbr_start_std_sub_allow_ann_amt:decimal
+}…mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_start_allowances_amt:decimal
+~ mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2"sofie_lbr_start_allowances_nr_code:char
+ÇÀmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2&sofie_lbr_start_allowances_period_code:char
+|ÃmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_strt_allwnce_wk_nbr:tinyint
+}ÕmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2!sofie_lbr_strt_allwnce_wk_nr_code:char
+ÄŒmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2!sofie_lbr_end_std_sub_pay_ann_amt:decimal
+zœmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_end_pay_details_code:char
+{–mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_end_ann_salary_amt:decimal
+|—mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2 sofie_lbr_end_ann_salary_nr_code:char
+z“mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_end_usual_pay_amt:decimal
+{”mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_end_usual_pay_nr_code:char
+‘mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2#sofie_lbr_end_usual_pay_period_code:char
+Ä’mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2!sofie_lbr_end_usual_pay_weeks_nbr:tinyint
+Å÷mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2%sofie_lbr_end_usual_pay_weeks_nr_code:char
+Ç◊mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2&sofie_lbr_end_allowances_part_pay_code:char
+ÑÿmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2(sofie_lbr_end_allowances_hourly_pay_code:char
+ÇŸmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2&sofie_lbr_end_allowances_incl_pay_code:char
+á⁄mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2(sofie_lbr_end_std_sub_allowances_ann_amt:decimal
+{€mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_end_allowances_amt:decimal
+|‹mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2 sofie_lbr_end_allowances_nr_code:char
+Ä›mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2$sofie_lbr_end_allowances_period_code:char
+ÅﬁmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2"sofie_lbr_end_allowances_weeks_nbr:tinyint
+ﬂmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2#sofie_lbr_end_allowances_weeks_code:char
+w‡mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_gross_earn_amt:decimal
+x·mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_gross_earn_nr_code:char
+~‚mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_gross_earn_approx_amt:decimal
+„mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2#sofie_lbr_gross_earn_approx_nr_code:char
+Ä‰mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2!sofie_lbr_avg_mnthly_earnings_amt:decimal
+ÅÂmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2%sofie_lbr_avg_mnthly_earnings_nr_code:char
+ÅÊmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2"sofie_lbr_last_mnthly_earnings_amt:decimal
+ÇÁmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2&sofie_lbr_last_mnthly_earnings_nr_code:char
+{ËmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_last_gross_pay_amt:decimal
+|ÈmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2 sofie_lbr_last_gross_pay_nr_code:char
+zÍmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_last_pay_period_code:char
+zÎmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_last_pay_days_nbr:tinyint
+{ÏmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_last_pay_days_nr_code:char
+yÌmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_last_pay_hrs_nbr:tinyint
+zÓmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_last_pay_hrs_nr_code:char
+ÅÔmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2"sofie_lbr_short_spell_earnings_amt:decimal
+ÇmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2&sofie_lbr_short_spell_earnings_nr_code:char
+}ÒmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2!sofie_lbr_received_extra_pay_code:char
+~ÚmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_std_extra_pay_ann_amt:decimal
+xÛmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_check_pay_chg_code:char
+tÙmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_when_chg1_date:date
+wımStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_when_chg1_nr_code:char
+vˆmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_why_chg1_code:varchar
+t˜mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_when_chg2_date:date
+w¯mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_when_chg2_nr_code:char
+v˘mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_why_chg2_code:varchar
+~˙mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2"sofie_lbr_received_redundancy_code:char
+w˚mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_redundancy_amt:decimal
+x¸mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_redundancy_nr_code:char
+}˝mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2!sofie_lbr_look_for_paid_work_code:char
+z˛mStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_employing_other_code:char
+vˇmStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_spell_contd_code:char
+yÄnStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_lbr_spell_coverage_code:char
+ÅÅnStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2"sofie_lbr_prev_time_line_spell_nbr:tinyint
+mÇnStats NZ)Survey of Families, Income and Employment"sofie_clean*labour_market2sofie_wave_nbr:tinyint
+mÉnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2snz_uid:int
+sÑnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2snz_sofie_uid:int
+|ÖnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2sofie_lon_wave_nbr:tinyint
+äÜnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2 sofie_lon_wgt_final_longit_1_nbr:decimal
+äánStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2 sofie_lon_wgt_final_longit_2_nbr:decimal
+äànStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2 sofie_lon_wgt_final_longit_3_nbr:decimal
+äânStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2 sofie_lon_wgt_final_longit_4_nbr:decimal
+äänStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2 sofie_lon_wgt_final_longit_5_nbr:decimal
+äãnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2 sofie_lon_wgt_final_longit_6_nbr:decimal
+äånStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2 sofie_lon_wgt_final_longit_7_nbr:decimal
+äçnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2 sofie_lon_wgt_final_longit_8_nbr:decimal
+äénStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2 sofie_lon_wgt_final_longit_9_nbr:decimal
+ãènStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_10_nbr:decimal
+ãênStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_11_nbr:decimal
+ãënStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_12_nbr:decimal
+ãínStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_13_nbr:decimal
+ãìnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_14_nbr:decimal
+ãînStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_15_nbr:decimal
+ãïnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_16_nbr:decimal
+ãñnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_17_nbr:decimal
+ãónStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_18_nbr:decimal
+ãònStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_19_nbr:decimal
+ãônStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_20_nbr:decimal
+ãönStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_21_nbr:decimal
+ãõnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_22_nbr:decimal
+ãúnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_23_nbr:decimal
+ãùnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_24_nbr:decimal
+ãûnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_25_nbr:decimal
+ãünStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_26_nbr:decimal
+ã†nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_27_nbr:decimal
+ã°nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_28_nbr:decimal
+ã¢nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_29_nbr:decimal
+ã£nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_30_nbr:decimal
+ã§nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_31_nbr:decimal
+ã•nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_32_nbr:decimal
+ã¶nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_33_nbr:decimal
+ãßnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_34_nbr:decimal
+ã®nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_35_nbr:decimal
+ã©nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_36_nbr:decimal
+ã™nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_37_nbr:decimal
+ã´nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_38_nbr:decimal
+ã¨nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_39_nbr:decimal
+ã≠nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_40_nbr:decimal
+ãÆnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_41_nbr:decimal
+ãØnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_42_nbr:decimal
+ã∞nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_43_nbr:decimal
+ã±nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_44_nbr:decimal
+ã≤nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_45_nbr:decimal
+ã≥nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_46_nbr:decimal
+ã¥nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_47_nbr:decimal
+ãµnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_48_nbr:decimal
+ã∂nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_49_nbr:decimal
+ã∑nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_50_nbr:decimal
+ã∏nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_51_nbr:decimal
+ãπnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_52_nbr:decimal
+ã∫nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_53_nbr:decimal
+ãªnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_54_nbr:decimal
+ãºnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_55_nbr:decimal
+ãΩnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_56_nbr:decimal
+ãænStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_57_nbr:decimal
+ãønStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_58_nbr:decimal
+ã¿nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_59_nbr:decimal
+ã¡nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_60_nbr:decimal
+ã¬nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_61_nbr:decimal
+ã√nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_62_nbr:decimal
+ãƒnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_63_nbr:decimal
+ã≈nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_64_nbr:decimal
+ã∆nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_65_nbr:decimal
+ã«nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_66_nbr:decimal
+ã»nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_67_nbr:decimal
+ã…nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_68_nbr:decimal
+ã nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_69_nbr:decimal
+ãÀnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_70_nbr:decimal
+ãÃnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_71_nbr:decimal
+ãÕnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_72_nbr:decimal
+ãŒnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_73_nbr:decimal
+ãœnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_74_nbr:decimal
+ã–nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_75_nbr:decimal
+ã—nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_76_nbr:decimal
+ã“nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_77_nbr:decimal
+ã”nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_78_nbr:decimal
+ã‘nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_79_nbr:decimal
+ã’nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_80_nbr:decimal
+ã÷nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_81_nbr:decimal
+ã◊nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_82_nbr:decimal
+ãÿnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_83_nbr:decimal
+ãŸnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_84_nbr:decimal
+ã⁄nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_85_nbr:decimal
+ã€nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_86_nbr:decimal
+ã‹nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_87_nbr:decimal
+ã›nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_88_nbr:decimal
+ãﬁnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_89_nbr:decimal
+ãﬂnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_90_nbr:decimal
+ã‡nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_91_nbr:decimal
+ã·nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_92_nbr:decimal
+ã‚nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_93_nbr:decimal
+ã„nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_94_nbr:decimal
+ã‰nStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_95_nbr:decimal
+ãÂnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_96_nbr:decimal
+ãÊnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_97_nbr:decimal
+ãÁnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_98_nbr:decimal
+ãËnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2!sofie_lon_wgt_final_longit_99_nbr:decimal
+åÈnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2"sofie_lon_wgt_final_longit_100_nbr:decimal
+xÍnStats NZ)Survey of Families, Income and Employment"sofie_clean*longititudional_rep_wgts2sofie_wave_nbr:tinyint
+hÎnStats NZ)Survey of Families, Income and Employment"sofie_clean*longitudinal_spells2snz_uid:int
+nÏnStats NZ)Survey of Families, Income and Employment"sofie_clean*longitudinal_spells2snz_sofie_uid:int
+|ÌnStats NZ)Survey of Families, Income and Employment"sofie_clean*longitudinal_spells2sofie_lsp_spell_group_code:char
+xÓnStats NZ)Survey of Families, Income and Employment"sofie_clean*longitudinal_spells2sofie_lsp_spell_nbr:tinyint
+|ÔnStats NZ)Survey of Families, Income and Employment"sofie_clean*longitudinal_spells2sofie_lsp_spell_start_date:date
+znStats NZ)Survey of Families, Income and Employment"sofie_clean*longitudinal_spells2sofie_lsp_spell_end_date:date
+uÒnStats NZ)Survey of Families, Income and Employment"sofie_clean*longitudinal_spells2sofie_lsp_type_code:char
+yÚnStats NZ)Survey of Families, Income and Employment"sofie_clean*longitudinal_spells2sofie_lsp_sub_type_code:char
+nÛnStats NZ)Survey of Families, Income and Employment"sofie_clean*lv_health_reln_occupation2snz_uid:int
+tÙnStats NZ)Survey of Families, Income and Employment"sofie_clean*lv_health_reln_occupation2snz_sofie_uid:int
+àınStats NZ)Survey of Families, Income and Employment"sofie_clean*lv_health_reln_occupation2 sofie_liv_relationship_type_code:char
+ˆnStats NZ)Survey of Families, Income and Employment"sofie_clean*lv_health_reln_occupation2sofie_liv_paid_job_code:char
+ä˜nStats NZ)Survey of Families, Income and Employment"sofie_clean*lv_health_reln_occupation2sofie_liv_occupation_given_text:varchar
+ä¯nStats NZ)Survey of Families, Income and Employment"sofie_clean*lv_health_reln_occupation2"sofie_liv_occupation_given_nr_code:char
+d˘nStats NZ)Survey of Families, Income and Employment"sofie_clean*lv_lm_info_item2snz_uid:int
+j˙nStats NZ)Survey of Families, Income and Employment"sofie_clean*lv_lm_info_item2snz_sofie_uid:int
+s˚nStats NZ)Survey of Families, Income and Employment"sofie_clean*lv_lm_info_item2sofie_inf_wave_nbr:tinyint
+~¸nStats NZ)Survey of Families, Income and Employment"sofie_clean*lv_lm_info_item2sofie_inf_time_line_spell_nbr:tinyint
+{˝nStats NZ)Survey of Families, Income and Employment"sofie_clean*lv_lm_info_item2sofie_inf_info_item_type_code:char
+v˛nStats NZ)Survey of Families, Income and Employment"sofie_clean*lv_lm_info_item2sofie_inf_info_item_code:char
+oˇnStats NZ)Survey of Families, Income and Employment"sofie_clean*lv_lm_info_item2sofie_wave_nbr:tinyint
+]ÄoStats NZ)Survey of Families, Income and Employment"sofie_clean*name_add2snz_uid:int
+cÅoStats NZ)Survey of Families, Income and Employment"sofie_clean*name_add2snz_sofie_uid:int
+lÇoStats NZ)Survey of Families, Income and Employment"sofie_clean*name_add2sofie_nam_wave_nbr:tinyint
+rÉoStats NZ)Survey of Families, Income and Employment"sofie_clean*name_add2sofie_name_snz_unique_nbr:bigint
+uÑoStats NZ)Survey of Families, Income and Employment"sofie_clean*name_add2sofie_nam_response_status_code:char
+wÖoStats NZ)Survey of Families, Income and Employment"sofie_clean*name_add2 sofie_nam_missed_waved_data_code:char
+yÜoStats NZ)Survey of Families, Income and Employment"sofie_clean*name_add2"sofie_nam_hhld_family_name_nr_code:char
+xáoStats NZ)Survey of Families, Income and Employment"sofie_clean*name_add2!sofie_nam_hhld_first_name_nr_code:char
+tàoStats NZ)Survey of Families, Income and Employment"sofie_clean*name_add2sofie_nam_family_name_nr_code:char
+sâoStats NZ)Survey of Families, Income and Employment"sofie_clean*name_add2sofie_nam_first_name_nr_code:char
+häoStats NZ)Survey of Families, Income and Employment"sofie_clean*name_add2sofie_wave_nbr:tinyint
+]ãoStats NZ)Survey of Families, Income and Employment"sofie_clean*pay_rate2snz_uid:int
+cåoStats NZ)Survey of Families, Income and Employment"sofie_clean*pay_rate2snz_sofie_uid:int
+lçoStats NZ)Survey of Families, Income and Employment"sofie_clean*pay_rate2sofie_pay_wave_nbr:tinyint
+wéoStats NZ)Survey of Families, Income and Employment"sofie_clean*pay_rate2sofie_pay_time_line_spell_nbr:tinyint
+tèoStats NZ)Survey of Families, Income and Employment"sofie_clean*pay_rate2sofie_pay_sub_spell_type_code:char
+pêoStats NZ)Survey of Families, Income and Employment"sofie_clean*pay_rate2sofie_pay_pay_rate_nbr:tinyint
+uëoStats NZ)Survey of Families, Income and Employment"sofie_clean*pay_rate2sofie_pay_hrly_pay_rate_amt:decimal
+víoStats NZ)Survey of Families, Income and Employment"sofie_clean*pay_rate2sofie_pay_hrly_pay_rate_nr_code:char
+sìoStats NZ)Survey of Families, Income and Employment"sofie_clean*pay_rate2sofie_pay_hrs_at_rate_nbr:decimal
+tîoStats NZ)Survey of Families, Income and Employment"sofie_clean*pay_rate2sofie_pay_hrs_at_rate_nr_code:char
+hïoStats NZ)Survey of Families, Income and Employment"sofie_clean*pay_rate2sofie_wave_nbr:tinyint
+añoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2snz_uid:int
+góoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2snz_sofie_uid:int
+lòoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_w1d_ind:char
+vôoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_first_wave_nbr:tinyint
+}öoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2"sofie_fix_out_of_scope_member_code:char
+õoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2$sofie_fix_out_of_scope_in_group_code:char
+uúoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_age_given_nbr:tinyint
+vùoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_age_given_nr_code:char
+xûoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_hq_age_given_nbr:tinyint
+yüoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_hq_age_given_nr_code:char
+u†oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_dob_imputed_code:char
+t°oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_sex_snz_code:varchar
+w¢oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_hq_sex_snz_code:varchar
+y£oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_pqhq_sex_snz_code:varchar
+s§oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_ethnic_code:varchar
+q•oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_born_nz_code:char
+y¶oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_born_in_country_code:char
+wßoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_arrival_month_code:char
+y®oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_arrival_year_nbr:smallint
+y©oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_arrival_year_nr_code:char
+{™oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2 sofie_fix_wave1_eligibility_code:char
+{´oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_is_school_qual_code:varchar
+|¨oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2!sofie_fix_school_leave_month_code:char
+~≠oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_school_leave_year_nbr:smallint
+~ÆoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2#sofie_fix_school_leave_year_nr_code:char
+xØoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_paid_work_ever_code:char
+z∞oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_age_start_work_nbr:tinyint
+{±oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2 sofie_fix_age_start_work_nr_code:char
+u≤oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_not_working_code:char
+}≥oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_years_out_of_work_nbr:tinyint
+~¥oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2#sofie_fix_years_out_of_work_nr_code:char
+tµoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_membership_code:char
+t∂oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_not_member_code:char
+u∑oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_join_method_code:char
+v∏oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_member_month_code:char
+xπoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_member_year_nbr:smallint
+x∫oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_member_year_nr_code:char
+wªoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_contributions_code:char
+nºoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_rate_code:char
+vΩoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_rate_other_nbr:decimal
+wæoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_rate_other_nr_code:char
+røoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_employer_code:char
+t¿oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_not_paying_code:char
+{¡oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_holiday_length_nbr:smallint
+u¬oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_asthma_type_code:char
+z√oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_asthma_ag_dgns_nbr:tinyint
+{ƒoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2 sofie_fix_asthma_ag_dgns_nr_code:char
+w≈oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_diabetes_type_code:char
+{∆oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_diabete_ag_dgns_nbr:tinyint
+{«oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2 sofie_fix_diabete_ag_dgns_nr_cde:char
+|»oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2!sofie_fix_heart_disease_type_code:char
+{…oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_hrt_dis_ag_dgns_nbr:tinyint
+| oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2!sofie_fix_hrt_dis_ag_dgns_nr_code:char
+vÀoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_high_bp_type_code:char
+{ÃoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_high_bp_ag_dgns_nbr:tinyint
+|ÕoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2!sofie_fix_high_bp_ag_dgns_nr_code:char
+xŒoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_high_chol_type_code:char
+{œoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_hi_chol_ag_dgns_nbr:tinyint
+|–oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2!sofie_fix_hi_chol_ag_dgns_nr_code:char
+w—oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_migraine_type_code:char
+{“oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_migrain_ag_dgns_nbr:tinyint
+|”oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2!sofie_fix_migrain_ag_dgns_nr_code:char
+u‘oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_stroke_type_code:char
+z’oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_stroke_ag_dgns_nbr:tinyint
+{÷oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2 sofie_fix_stroke_ag_dgns_nr_code:char
+o◊oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_psych_code:char
+qÿoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_fixed2sofie_fix_consent_code:char
+aŸoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2snz_uid:int
+g⁄oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2snz_sofie_uid:int
+p€oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_wave_nbr:tinyint
+y‹oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_pqi_resp_status_code:char
+t›oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_longit_resp_ind:char
+sﬁoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_le_status_code:char
+wﬂoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_le_history_code:varchar
+~‡oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2#sofie_wav_c_eligibility_status_code:char
+p·oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_osm_eq_code:char
+z‚oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_missed_wave_data_code:char
+~„oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2#sofie_wav_created_person_record_ind:char
+v‰oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_interview_yn_code:char
+nÂoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_adult_ind:char
+vÊoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_age_at_hed_nbr:tinyint
+ÉÁoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2%sofie_wav_pq_answering_person_ref_nbr:varchar
+yËoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_demog_ethnic_code:varchar
+{ÈoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2 sofie_wav_demog_ethnic_srce_code:char
+xÍoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_marital_status_code:char
+ÉÎoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2(sofie_wav_soc_marital_status_at_hed_code:char
+pÏoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_health_code:char
+vÌoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_family_std_2_code:char
+sÓoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_child_role_ind:char
+{ÔoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2 sofie_wav_dependency_status_code:char
+uoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_with_partner_ind:char
+|ÒoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2!sofie_wav_lived_with_partner_code:char
+tÚoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_parent_role_ind:char
+ÛoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2$sofie_wav_still_with_prev_child_code:char
+vÙoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_any_children_code:char
+zıoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_lived_with_child_code:char
+ÄˆoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2%sofie_wav_non_prev_wave_children_code:char
+~˜oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2#sofie_wav_lived_with_npw_child_code:char
+{¯oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2 sofie_wav_lived_with_parent_code:char
+Å˘oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2&sofie_wav_still_with_prev_sibling_code:char
+v˙oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_any_siblings_code:char
+|˚oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2!sofie_wav_lived_with_sibling_code:char
+Ä¸oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2%sofie_wav_lived_with_npw_sibling_code:char
+{˝oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2 sofie_wav_family_nucleus_id_code:char
+v˛oStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_child_role_nbr:tinyint
+{ˇoStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_child_dependent_nbr:tinyint
+}ÄpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_child_independent_nbr:tinyint
+~ÅpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2 sofie_wav_dependency_unknown_nbr:tinyint
+ÉÇpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2%sofie_wav_count_not_partner_child_nbr:tinyint
+vÉpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_tl_sufficient_ind:char
+xÑpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_lm_acty_at_hed_code:char
+ÖpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2!sofie_wav_weekly_hours_at_hed_nbr:decimal
+ÄÜpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2%sofie_wav_weekly_hours_at_hed_nr_code:char
+vápStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_paid_work_in_code:char
+xàpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_work_full_part_code:char
+xâpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_pers_inc_ann_amt:decimal
+zäpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_pers_inc_ann_miss_ind:char
+qãpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_band_est_ind:char
+yåpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_pers_inc_source_code:char
+}çpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2"sofie_wav_pers_inc_source_miss_ind:char
+}épStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_empl_earnings_ann_amt:decimal
+èpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2$sofie_wav_empl_earnings_ann_miss_ind:char
+~êpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2#sofie_wav_self_emp_earlier_rec_code:char
+~ëpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_self_emp_tax_year_nbr:smallint
+~ípStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2#sofie_wav_self_emp_tax_year_nr_code:char
+~ìpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2#sofie_wav_self_pwv_earlier_rec_code:char
+~îpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_self_pwv_tax_year_nbr:smallint
+~ïpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2#sofie_wav_self_pwv_tax_year_nr_code:char
+}ñpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_govt_transfer_ann_amt:decimal
+ópStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2$sofie_wav_govt_transfer_ann_miss_ind:char
+vòpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_received_acc_code:char
+ÄôpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2%sofie_wav_received_student_allow_code:char
+öpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2$sofie_wav_received_ird_lump_sum_code:char
+{õpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2 sofie_wav_received_nz_super_code:char
+xúpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_contd_nz_super_code:char
+}ùpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2"sofie_wav_nz_super_whole_time_code:char
+wûpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_stop_nz_super_date:date
+züpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_stop_nz_super_nr_code:char
+z†pStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_received_pension_code:char
+w°pStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_contd_pension_code:char
+|¢pStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2!sofie_wav_pension_whole_time_code:char
+v£pStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_stop_pension_date:date
+y§pStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_stop_pension_nr_code:char
+Ä•pStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2%sofie_wav_received_private_super_code:char
+y¶pStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_private_super_nbr:tinyint
+zßpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_private_super_nr_code:char
+w®pStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_fam_inc_ann_amt:decimal
+x©pStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_fam_inc_ann_nr_code:char
+Ç™pStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2'sofie_wav_family_trust_beneficiary_code:char
+Ä´pStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2%sofie_wav_will_trust_beneficiary_code:char
+{¨pStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2 sofie_wav_maori_asset_owner_code:char
+v≠pStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_gifted_trust_code:char
+|ÆpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2!sofie_wav_gifted_trust_since_code:char
+uØpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_trust_owned_code:char
+y∞pStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_trust_owned_now_code:char
+v±pStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_highest_qual_code:char
+z≤pStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_gained_any_quals_code:char
+t≥pStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_qual_other_code:char
+x¥pStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_qual_study_for_code:char
+wµpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_school_attend_code:char
+}∂pStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2"sofie_wav_gained_school_quals_code:char
+x∑pStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_is_school_qual_code:char
+u∏pStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_ethnic1_snz_code:char
+uπpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_ethnic2_snz_code:char
+u∫pStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_ethnic3_snz_code:char
+uªpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_ethnic4_snz_code:char
+wºpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_ethnic_grp1_snz_ind:bit
+wΩpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_ethnic_grp2_snz_ind:bit
+wæpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_ethnic_grp3_snz_ind:bit
+wøpStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_ethnic_grp4_snz_ind:bit
+w¿pStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_ethnic_grp5_snz_ind:bit
+w¡pStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wav_ethnic_grp6_snz_ind:bit
+l¬pStats NZ)Survey of Families, Income and Employment"sofie_clean*person_waves2sofie_wave_nbr:tinyint
+f√pStats NZ)Survey of Families, Income and Employment"sofie_clean*post_school_quals2snz_uid:int
+lƒpStats NZ)Survey of Families, Income and Employment"sofie_clean*post_school_quals2snz_sofie_uid:int
+u≈pStats NZ)Survey of Families, Income and Employment"sofie_clean*post_school_quals2sofie_qua_wave_nbr:tinyint
+Ä∆pStats NZ)Survey of Families, Income and Employment"sofie_clean*post_school_quals2sofie_qua_qual_occurrence_nbr:tinyint
+v«pStats NZ)Survey of Families, Income and Employment"sofie_clean*post_school_quals2sofie_qua_qual_code:varchar
+Ç»pStats NZ)Survey of Families, Income and Employment"sofie_clean*post_school_quals2sofie_qua_qual_gained_year_nbr:smallint
+Ç…pStats NZ)Survey of Families, Income and Employment"sofie_clean*post_school_quals2"sofie_qua_qual_gained_year_nr_code:char
+q pStats NZ)Survey of Families, Income and Employment"sofie_clean*post_school_quals2sofie_wave_nbr:tinyint
+fÀpStats NZ)Survey of Families, Income and Employment"sofie_clean*post_school_study2snz_uid:int
+lÃpStats NZ)Survey of Families, Income and Employment"sofie_clean*post_school_study2snz_sofie_uid:int
+uÕpStats NZ)Survey of Families, Income and Employment"sofie_clean*post_school_study2sofie_stu_wave_nbr:tinyint
+ÇŒpStats NZ)Survey of Families, Income and Employment"sofie_clean*post_school_study2sofie_stu_study_year_month_code:varchar
+~œpStats NZ)Survey of Families, Income and Employment"sofie_clean*post_school_study2sofie_stu_study_full_time_code:char
+q–pStats NZ)Survey of Families, Income and Employment"sofie_clean*post_school_study2sofie_wave_nbr:tinyint
+`—pStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2snz_uid:int
+f“pStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2snz_sofie_uid:int
+o”pStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_wave_nbr:tinyint
+v‘pStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_wave_inc_type_code:char
+z’pStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2 sofie_inc_wave_inc_sub_type_code:char
+~÷pStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2!sofie_inc_wave_inc_occurrence_nbr:tinyint
+y◊pStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_wave_inc_spell_nbr:tinyint
+tÿpStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_spell_start_date:date
+wŸpStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_spell_start_nr_code:char
+r⁄pStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_spell_end_date:date
+u€pStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_spell_end_nr_code:char
+x‹pStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_multi_sub_types_code:char
+y›pStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_sub_type_count_nbr:tinyint
+uﬁpStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_sub_types_code:varchar
+vﬂpStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_std_inc_ann_amt:decimal
+n‡pStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_inc_amt:decimal
+o·pStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_inc_nr_code:char
+r‚pStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_net_inc_amt:decimal
+s„pStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_net_inc_nr_code:char
+u‰pStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_inc_approx_amt:decimal
+vÂpStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_inc_approx_nr_code:char
+yÊpStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_net_inc_approx_amt:decimal
+zÁpStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2 sofie_inc_net_inc_approx_nr_code:char
+uËpStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_inc_band_set_code:char
+qÈpStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_inc_band_code:char
+tÍpStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_profit_loss_code:char
+sÎpStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_inc_period_code:char
+tÏpStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_inc_weeks_nbr:tinyint
+uÌpStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_inc_weeks_nr_code:char
+sÓpStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_nz_dollars_code:char
+nÔpStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_contd_code:char
+qpStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_received_code:char
+mÒpStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_stop_date:date
+pÚpStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_stop_nr_code:char
+sÛpStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_other_time_code:char
+sÙpStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_inc_whole_time_code:char
+kıpStats NZ)Survey of Families, Income and Employment"sofie_clean*wave_income2sofie_wave_nbr:tinyint
+HˆpIRDWorking for Families"	wff_clean*fam_adjustments2snz_uid:int
+V˜pIRDWorking for Families"	wff_clean*fam_adjustments2wff_snz_unique_nbr:bigint
+P¯pIRDWorking for Families"	wff_clean*fam_adjustments2adjustm_snz_uid:int
+L˘pIRDWorking for Families"	wff_clean*fam_adjustments2snz_ird_uid:int
+T˙pIRDWorking for Families"	wff_clean*fam_adjustments2adjustm_snz_ird_uid:int
+V˚pIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_rtn_prd_date:date
+V¸pIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_list_nbr:smallint
+\˝pIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_fam_assmnt_rsn_ind:char
+Y˛pIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_fb_payment_code:char
+aˇpIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_eligible_per_start_date:date
+`ÄqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_daily_rate_acm_adj_ind:char
+dÅqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_child_support_recvd_amt:decimal
+cÇqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_child_support_paid_amt:decimal
+bÉqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_maintenance_recvd_amt:decimal
+aÑqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_maintenance_paid_amt:decimal
+cÖqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_business_adj_recvd_amt:decimal
+bÜqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_business_adj_paid_amt:decimal
+cáqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_non_taxable_income_amt:decimal
+]àqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_pcc_arrives_nz_date:date
+]âqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_pcc_departs_nz_date:date
+TäqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_abated_ind:char
+_ãqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_total_fam_paid_amt:decimal
+dåqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_tot_fam_paid_by_msd_amt:decimal
+YçqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_partner_adj_ind:char
+[éqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_total_fstc_amt:decimal
+ZèqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_total_ftc_amt:decimal
+ZêqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_total_ctc_amt:decimal
+ZëqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_total_ptc_amt:decimal
+díqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_est_tot_salary_wage_amt:decimal
+aìqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_total_acc_income_amt:decimal
+cîqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_est_interest_divid_amt:decimal
+_ïqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_est_bus_income_amt:decimal
+eñqIRDWorking for Families"	wff_clean*fam_adjustments2 wff_adj_est_test_benefit_inc_amt:decimal
+cóqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_est_super_stud_alw_amt:decimal
+^òqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_total_inc_est_amt:decimal
+`ôqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_est_cs_received_amt:decimal
+\öqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_est_cs_paid_amt:decimal
+VõqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_applied_date:date
+UúqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_ceased_date:date
+XùqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_timestamp_date:date
+QûqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_ctc_ind:char
+VüqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_ctc_end_date:date
+b†qIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_msd_benefit_serv_code:varchar
+X°qIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_ann_iwp_amt:decimal
+]¢qIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_business_begin_date:date
+[£qIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_business_end_date:date
+Z§qIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_accident_code:varchar
+^•qIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_sq_maint_paid_amt:decimal
+_¶qIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_sq_maint_recvd_amt:decimal
+fßqIRDWorking for Families"	wff_clean*fam_adjustments2 wff_adj_tot_ftc_weeks_worked_nbr:smallint
+]®qIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_interest_rec_amt:decimal
+`©qIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_dividends_recvd_amt:decimal
+^™qIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_rental_income_amt:decimal
+\´qIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_royal_recvd_amt:decimal
+b¨qIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_est_trust_inc_rec_amt:decimal
+e≠qIRDWorking for Families"	wff_clean*fam_adjustments2 wff_adj_maori_auth_inc_recvd_amt:decimal
+aÆqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_tot_income_debit_amt:decimal
+bØqIRDWorking for Families"	wff_clean*fam_adjustments2wff_adj_tot_income_credit_amt:decimal
+e∞qIRDWorking for Families"	wff_clean*fam_adjustments2 wff_adj_fam_bstc_entitlement_amt:decimal
+E±qIRDWorking for Families"	wff_clean*fam_children2snz_uid:int
+S≤qIRDWorking for Families"	wff_clean*fam_children2wff_snz_unique_nbr:bigint
+K≥qIRDWorking for Families"	wff_clean*fam_children2child_snz_uid:int
+I¥qIRDWorking for Families"	wff_clean*fam_children2snz_ird_uid:int
+OµqIRDWorking for Families"	wff_clean*fam_children2child_snz_ird_uid:int
+S∂qIRDWorking for Families"	wff_clean*fam_children2wff_chi_list_nbr:smallint
+V∑qIRDWorking for Families"	wff_clean*fam_children2wff_chi_child_key_nbr:bigint
+Y∏qIRDWorking for Families"	wff_clean*fam_children2wff_chi_birth_month_nbr:tinyint
+YπqIRDWorking for Families"	wff_clean*fam_children2wff_chi_birth_year_nbr:smallint
+Q∫qIRDWorking for Families"	wff_clean*fam_children2wff_chi_start_date:date
+OªqIRDWorking for Families"	wff_clean*fam_children2wff_chi_end_date:date
+aºqIRDWorking for Families"	wff_clean*fam_children2wff_chi_days_share_custody_nbr:smallint
+SΩqIRDWorking for Families"	wff_clean*fam_children2wff_chi_deceased_ind:char
+\æqIRDWorking for Families"	wff_clean*fam_children2wff_chi_last_ptc_install_date:date
+SøqIRDWorking for Families"	wff_clean*fam_children2wff_chi_applied_date:date
+R¿qIRDWorking for Families"	wff_clean*fam_children2wff_chi_ceased_date:date
+U¡qIRDWorking for Families"	wff_clean*fam_children2wff_chi_timestamp_date:date
+N¬qIRDWorking for Families"	wff_clean*fam_children2wff_chi_fou_ind:char
+G√qIRDWorking for Families"	wff_clean*fam_daily_rate2snz_uid:int
+UƒqIRDWorking for Families"	wff_clean*fam_daily_rate2wff_snz_unique_nbr:bigint
+K≈qIRDWorking for Families"	wff_clean*fam_daily_rate2snz_ird_uid:int
+[∆qIRDWorking for Families"	wff_clean*fam_daily_rate2wff_fdr_return_period_date:date
+U«qIRDWorking for Families"	wff_clean*fam_daily_rate2wff_fdr_list_nbr:smallint
+a»qIRDWorking for Families"	wff_clean*fam_daily_rate2 wff_fdr_eligible_period_end_date:date
+_…qIRDWorking for Families"	wff_clean*fam_daily_rate2wff_fdr_daily_fstc_rate_amt:decimal
+^ qIRDWorking for Families"	wff_clean*fam_daily_rate2wff_fdr_daily_ftc_rate_amt:decimal
+^ÀqIRDWorking for Families"	wff_clean*fam_daily_rate2wff_fdr_daily_ctc_rate_amt:decimal
+^ÃqIRDWorking for Families"	wff_clean*fam_daily_rate2wff_fdr_daily_ptc_rate_amt:decimal
+[ÕqIRDWorking for Families"	wff_clean*fam_daily_rate2wff_fdr_change_reason_code:char
+UŒqIRDWorking for Families"	wff_clean*fam_daily_rate2wff_fdr_applied_date:date
+TœqIRDWorking for Families"	wff_clean*fam_daily_rate2wff_fdr_ceased_date:date
+W–qIRDWorking for Families"	wff_clean*fam_daily_rate2wff_fdr_timestamp_date:date
+^—qIRDWorking for Families"	wff_clean*fam_daily_rate2wff_fdr_daily_iwp_rate_amt:decimal
+_“qIRDWorking for Families"	wff_clean*fam_daily_rate2wff_fdr_daily_bstc_rate_amt:decimal
+F”qIRDWorking for Families"	wff_clean*fam_list_hist2snz_uid:int
+T‘qIRDWorking for Families"	wff_clean*fam_list_hist2wff_snz_unique_nbr:bigint
+J’qIRDWorking for Families"	wff_clean*fam_list_hist2snz_ird_uid:int
+[÷qIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_return_period_date:date
+U◊qIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_list_nbr:smallint
+PÿqIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_acc_ind:char
+WŸqIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_adjustment_ind:char
+T⁄qIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_benefit_ind:char
+P€qIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_ftc_ind:char
+R‹qIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_child_ind:char
+X›qIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_end_of_year_ind:char
+SﬁqIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_income_ind:char
+SﬂqIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_parent_ind:char
+U‡qIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_applied_date:date
+T·qIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_ceased_date:date
+W‚qIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_timestamp_date:date
+P„qIRDWorking for Families"	wff_clean*fam_list_hist2wff_hist_iwp_ind:char
+H‰qIRDWorking for Families"	wff_clean*fam_return_dtls2snz_uid:int
+VÂqIRDWorking for Families"	wff_clean*fam_return_dtls2wff_snz_unique_nbr:bigint
+PÊqIRDWorking for Families"	wff_clean*fam_return_dtls2partner_snz_uid:int
+LÁqIRDWorking for Families"	wff_clean*fam_return_dtls2snz_ird_uid:int
+TËqIRDWorking for Families"	wff_clean*fam_return_dtls2partner_snz_ird_uid:int
+WÈqIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_year_month_key:int
+\ÍqIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_return_period_date:date
+^ÎqIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_partner_started_date:date
+VÏqIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_children_ind:char
+eÌqIRDWorking for Families"	wff_clean*fam_return_dtls2 wff_frd_children_decease_tot_nbr:tinyint
+_ÓqIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_children_total_nbr:tinyint
+\ÔqIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_shared_custody_ind:char
+YqIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_fam_paid_amt:decimal
+_ÒqIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_fam_assessment_amt:decimal
+YÚqIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_fb_payment_code:char
+bÛqIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_child_support_rec_amt:decimal
+cÙqIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_child_support_paid_amt:decimal
+aıqIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_pcc_salary_wages_amt:decimal
+cˆqIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_partners_sal_wages_amt:decimal
+d˜qIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_student_allow_gross_amt:decimal
+b¯qIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_student_loan_paid_amt:decimal
+[˘qIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_winz_gross_amt:decimal
+Z˙qIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_winz_paid_amt:decimal
+Z˚qIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_acc_gross_amt:decimal
+^¸qIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_pension_gross_amt:decimal
+_˝qIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_unk_empr_gross_amt:decimal
+a˛qIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_fstc_entitlement_amt:decimal
+`ˇqIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_ptc_entitlement_amt:decimal
+`ÄrIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_ctc_entitlement_amt:decimal
+dÅrIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_total_family_income_amt:decimal
+`ÇrIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_ftc_entitlement_amt:decimal
+`ÉrIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_iwp_entitlement_amt:decimal
+\ÑrIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_final_dr_cr_amt:decimal
+VÖrIRDWorking for Families"	wff_clean*fam_return_dtls2wff_frd_updated_date:date
+eÜrIRDWorking for Families"	wff_clean*fam_return_dtls2 wff_frd_fam_bstc_entitlement_amt:decimal
+KárIRDWorking for Families"	wff_clean*fam_return_parents2snz_uid:int
+YàrIRDWorking for Families"	wff_clean*fam_return_parents2wff_snz_unique_nbr:bigint
+SârIRDWorking for Families"	wff_clean*fam_return_parents2partner_snz_uid:int
+OärIRDWorking for Families"	wff_clean*fam_return_parents2snz_ird_uid:int
+WãrIRDWorking for Families"	wff_clean*fam_return_parents2partner_snz_ird_uid:int
+ZårIRDWorking for Families"	wff_clean*fam_return_parents2wff_frp_year_month_key:int
+WçrIRDWorking for Families"	wff_clean*fam_return_parents2wff_frp_pcc_ird_nbr:int
+[érIRDWorking for Families"	wff_clean*fam_return_parents2wff_frp_partner_ird_nbr:int
+_èrIRDWorking for Families"	wff_clean*fam_return_parents2wff_frp_return_period_date:date
+WêrIRDWorking for Families"	wff_clean*fam_return_parents2wff_frp_start_date:date
+UërIRDWorking for Families"	wff_clean*fam_return_parents2wff_frp_end_date:date
+HírIRDWorking for Families"	wff_clean*fam_tax_credits2snz_uid:int
+VìrIRDWorking for Families"	wff_clean*fam_tax_credits2wff_snz_unique_nbr:bigint
+PîrIRDWorking for Families"	wff_clean*fam_tax_credits2partner_snz_uid:int
+LïrIRDWorking for Families"	wff_clean*fam_tax_credits2snz_ird_uid:int
+TñrIRDWorking for Families"	wff_clean*fam_tax_credits2partner_snz_ird_uid:int
+\órIRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_return_period_date:date
+VòrIRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_list_nbr:smallint
+TôrIRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_start_date:date
+RörIRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_end_date:date
+YõrIRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_itwc_start_date:date
+WúrIRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_itwc_end_date:date
+bùrIRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_pcc_hours_worked_nbr:smallint
+aûrIRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_pcc_weeks_worked_nbr:tinyint
+fürIRDWorking for Families"	wff_clean*fam_tax_credits2 wff_ftc_partner_hours_worked_nbr:smallint
+e†rIRDWorking for Families"	wff_clean*fam_tax_credits2 wff_ftc_partner_weeks_worked_nbr:tinyint
+c°rIRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_total_weeks_worked_nbr:tinyint
+V¢rIRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_applied_date:date
+U£rIRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_ceased_date:date
+X§rIRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_timestamp_date:date
+Q•rIRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_iwp_ind:char
+Q¶rIRDWorking for Families"	wff_clean*fam_tax_credits2wff_ftc_ftc_ind:char
+MßrIRDWorking for Families"	wff_clean*lvl_two_both_primary2snz_uid:int
+Q®rIRDWorking for Families"	wff_clean*lvl_two_both_primary2snz_ird_uid:int
+U©rIRDWorking for Families"	wff_clean*lvl_two_both_primary2partner_snz_uid:int
+Y™rIRDWorking for Families"	wff_clean*lvl_two_both_primary2snz_partner_ird_uid:int
+S´rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_date:date
+c¨rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_gross_earning_amt:decimal
+a≠rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_paye_deduct_amt:decimal
+hÆrIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_msd_fam_tax_credit_amt:decimal
+aØrIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_benefit_inc_amt:decimal
+_∞rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_other_inc_amt:decimal
+b±rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_lbr_mrkt_inc_amt:decimal
+Y≤rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_acc_amt:decimal
+^≥rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_pensions_amt:decimal
+g¥rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_student_allowance_amt:decimal
+YµrIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_ppl_amt:decimal
+Z∂rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_nz_earn_ind:char
+]∑rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_edit_check_ind:char
+h∏rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_ird_fam_tax_credit_amt:decimal
+ZπrIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_source_code:char
+a∫rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_partner_snz_swn_nbr:int
+[ªrIRDWorking for Families"	wff_clean*lvl_two_both_primary2snz_hybrid_ird_uid:bigint
+YºrIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_snz_swn_nbr:int
+aΩrIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_snz_partnership_uid:int
+^ærIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_benefit_code:varchar
+hørIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_on_behalf_of_bnft_code:varchar
+c¿rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_benefit_gross_amt:decimal
+b¡rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_benefit_nett_amt:decimal
+a¬rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_accomm_supp_amt:decimal
+d√rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_family_support_amt:decimal
+eƒrIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_special_benefit_amt:decimal
+Y≈rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_tas_amt:decimal
+d∆rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_all_other_supp_amt:decimal
+c«rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_non_oscar_hours_nbr:float
+_»rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_non_oscar_amt:decimal
+_…rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_oscar_hours_nbr:float
+[ rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_oscar_amt:decimal
+hÀrIRDWorking for Families"	wff_clean*lvl_two_both_primary2 wff_lbp_othr_childcare_hours_nbr:float
+dÃrIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_othr_childcare_amt:decimal
+hÕrIRDWorking for Families"	wff_clean*lvl_two_both_primary2 wff_lbp_child_lessthan_5_fte_nbr:float
+eŒrIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_child_5_to_12_fte_nbr:float
+`œrIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_child_13_fte_nbr:float
+f–rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_child_14_to_15_fte_nbr:float
+f—rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_child_16_to_18_fte_nbr:float
+`“rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_child_19_fte_nbr:float
+e”rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_child_out_rng_fte_nbr:float
+d‘rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_child_lessthan_5_count:int
+a’rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_child_5_to_12_count:int
+\÷rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_child_13_count:int
+b◊rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_child_14_to_15_count:int
+bÿrIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_child_16_to_18_count:int
+\ŸrIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_child_19_count:int
+a⁄rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_child_out_rng_count:int
+c€rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_non_oscar_child_count:int
+_‹rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_oscar_child_count:int
+c›rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_other_childcare_count:int
+`ﬁrIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_cancellation_date:date
+eﬂrIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_cancellation_type_code:char
+j‡rIRDWorking for Families"	wff_clean*lvl_two_both_primary2 wff_lbp_cancellation_reason_code:varchar
+d·rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_msd_total_cash_amt:decimal
+\‚rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_tax_year_date:date
+]„rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_ethnic_text:varchar
+`‰rIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_msd_children_nbr:float
+aÂrIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_ethnic_snz_code:varchar
+aÊrIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_ethnic_grp1_snz_ind:bit
+aÁrIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_ethnic_grp2_snz_ind:bit
+aËrIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_ethnic_grp3_snz_ind:bit
+aÈrIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_ethnic_grp4_snz_ind:bit
+aÍrIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_ethnic_grp5_snz_ind:bit
+aÎrIRDWorking for Families"	wff_clean*lvl_two_both_primary2wff_lbp_ethnic_grp6_snz_ind:bit
+?ÏrIRDWorking for Families"	wff_clean*spells2snz_uid:int
+GÌrIRDWorking for Families"	wff_clean*spells2partner_snz_uid:int
+CÓrIRDWorking for Families"	wff_clean*spells2snz_ird_uid:int
+KÔrIRDWorking for Families"	wff_clean*spells2snz_partner_ird_uid:int
+MrIRDWorking for Families"	wff_clean*spells2wff_spe_year_nbr:smallint
+QÒrIRDWorking for Families"	wff_clean*spells2wff_spe_spell_start_date:date
+OÚrIRDWorking for Families"	wff_clean*spells2wff_spe_spell_end_date:date
+NÛrIRDWorking for Families"	wff_clean*spells2wff_spe_spell_duration:int
+MÙrIRDWorking for Families"	wff_clean*spells2snz_hybrid_ird_uid:bigint
+YırIRDWorking for Families"	wff_clean*spells2wff_spe_fte_child_source_code:varchar
+ZˆrIRDWorking for Families"	wff_clean*spells2 wff_spe_child_lessthan_5_fte_nbr:float
+W˜rIRDWorking for Families"	wff_clean*spells2wff_spe_child_5_to_12_fte_nbr:float
+R¯rIRDWorking for Families"	wff_clean*spells2wff_spe_child_13_fte_nbr:float
+X˘rIRDWorking for Families"	wff_clean*spells2wff_spe_child_14_to_15_fte_nbr:float
+X˙rIRDWorking for Families"	wff_clean*spells2wff_spe_child_16_to_18_fte_nbr:float
+R˚rIRDWorking for Families"	wff_clean*spells2wff_spe_child_19_fte_nbr:float
+W¸rIRDWorking for Families"	wff_clean*spells2wff_spe_child_out_rng_fte_nbr:float
+U˝rIRDWorking for Families"	wff_clean*spells2wff_spe_child_total_fte_nbr:float
+Q˛rIRDWorking for Families"	wff_clean*spells2wff_spe_l_ethnic_text:varchar
+QˇrIRDWorking for Families"	wff_clean*spells2wff_spe_l_birth_month_nbr:int
+PÄsIRDWorking for Families"	wff_clean*spells2wff_spe_l_birth_year_nbr:int
+NÅsIRDWorking for Families"	wff_clean*spells2wff_spe_l_sex_code:varchar
+RÇsIRDWorking for Families"	wff_clean*spells2wff_spe_l_age_at_spell_end:int
+QÉsIRDWorking for Families"	wff_clean*spells2wff_spe_r_ethnic_text:varchar
+QÑsIRDWorking for Families"	wff_clean*spells2wff_spe_r_birth_month_nbr:int
+PÖsIRDWorking for Families"	wff_clean*spells2wff_spe_r_birth_year_nbr:int
+NÜsIRDWorking for Families"	wff_clean*spells2wff_spe_r_sex_code:varchar
+RásIRDWorking for Families"	wff_clean*spells2wff_spe_r_age_at_spell_end:int
+[àsIRDWorking for Families"	wff_clean*spells2wff_spe_l_ems_gross_earning_amt:decimal
+ZâsIRDWorking for Families"	wff_clean*spells2wff_spe_l_ems_lbr_mrkt_inc_amt:decimal
+YäsIRDWorking for Families"	wff_clean*spells2wff_spe_l_ems_paye_deduct_amt:decimal
+YãsIRDWorking for Families"	wff_clean*spells2wff_spe_l_ems_benefit_inc_amt:decimal
+VåsIRDWorking for Families"	wff_clean*spells2wff_spe_l_ems_othr_inc_amt:decimal
+\çsIRDWorking for Families"	wff_clean*spells2 wff_spe_l_ems_lst_actv_bnft_code:varchar
+[ésIRDWorking for Families"	wff_clean*spells2wff_spe_r_ems_gross_earning_amt:decimal
+ZèsIRDWorking for Families"	wff_clean*spells2wff_spe_r_ems_lbr_mrkt_inc_amt:decimal
+YêsIRDWorking for Families"	wff_clean*spells2wff_spe_r_ems_paye_deduct_amt:decimal
+YësIRDWorking for Families"	wff_clean*spells2wff_spe_r_ems_benefit_inc_amt:decimal
+VísIRDWorking for Families"	wff_clean*spells2wff_spe_r_ems_othr_inc_amt:decimal
+\ìsIRDWorking for Families"	wff_clean*spells2 wff_spe_r_ems_lst_actv_bnft_code:varchar
+YîsIRDWorking for Families"	wff_clean*spells2wff_spe_l_msd_accomm_supp_amt:decimal
+VïsIRDWorking for Families"	wff_clean*spells2wff_spe_l_msd_ftc_paid_amt:decimal
+XñsIRDWorking for Families"	wff_clean*spells2wff_spe_l_msd_bnft_gross_amt:decimal
+ZósIRDWorking for Families"	wff_clean*spells2wff_spe_l_msd_special_bnft_amt:decimal
+[òsIRDWorking for Families"	wff_clean*spells2wff_spe_l_msd_all_othr_supp_amt:decimal
+QôsIRDWorking for Families"	wff_clean*spells2wff_spe_l_msd_tas_amt:decimal
+WösIRDWorking for Families"	wff_clean*spells2wff_spe_l_msd_non_oscar_amt:decimal
+SõsIRDWorking for Families"	wff_clean*spells2wff_spe_l_msd_oscar_amt:decimal
+\úsIRDWorking for Families"	wff_clean*spells2 wff_spe_l_msd_othr_childcare_amt:decimal
+YùsIRDWorking for Families"	wff_clean*spells2wff_spe_r_msd_accomm_supp_amt:decimal
+VûsIRDWorking for Families"	wff_clean*spells2wff_spe_r_msd_ftc_paid_amt:decimal
+XüsIRDWorking for Families"	wff_clean*spells2wff_spe_r_msd_bnft_gross_amt:decimal
+Z†sIRDWorking for Families"	wff_clean*spells2wff_spe_r_msd_special_bnft_amt:decimal
+[°sIRDWorking for Families"	wff_clean*spells2wff_spe_r_msd_all_othr_supp_amt:decimal
+Q¢sIRDWorking for Families"	wff_clean*spells2wff_spe_r_msd_tas_amt:decimal
+W£sIRDWorking for Families"	wff_clean*spells2wff_spe_r_msd_non_oscar_amt:decimal
+S§sIRDWorking for Families"	wff_clean*spells2wff_spe_r_msd_oscar_amt:decimal
+\•sIRDWorking for Families"	wff_clean*spells2 wff_spe_r_msd_othr_childcare_amt:decimal
+W¶sIRDWorking for Families"	wff_clean*spells2wff_spe_l_gross_earning_amt:decimal
+\ßsIRDWorking for Families"	wff_clean*spells2 wff_spe_l_defn_gross_earning_amt:decimal
+Y®sIRDWorking for Families"	wff_clean*spells2 wff_spe_l_defn_grs_earn_src_code:char
+U©sIRDWorking for Families"	wff_clean*spells2wff_spe_l_ftc_entitle_amt:decimal
+U™sIRDWorking for Families"	wff_clean*spells2wff_spe_l_ctc_entitle_amt:decimal
+U´sIRDWorking for Families"	wff_clean*spells2wff_spe_l_ptc_entitle_amt:decimal
+V¨sIRDWorking for Families"	wff_clean*spells2wff_spe_l_mftc_entitle_amt:decimal
+V≠sIRDWorking for Families"	wff_clean*spells2wff_spe_l_iwtc_entitle_amt:decimal
+UÆsIRDWorking for Families"	wff_clean*spells2wff_spe_l_taxable_inc_amt:decimal
+TØsIRDWorking for Families"	wff_clean*spells2wff_spe_l_tax_on_inc_amt:decimal
+U∞sIRDWorking for Families"	wff_clean*spells2wff_spe_l_ttl_fam_inc_amt:decimal
+[±sIRDWorking for Families"	wff_clean*spells2wff_spe_l_ttl_fam_round_inc_amt:decimal
+U≤sIRDWorking for Families"	wff_clean*spells2wff_spe_l_filer_type_code:varchar
+[≥sIRDWorking for Families"	wff_clean*spells2wff_spe_l_wfftc_final_sq_up_amt:decimal
+[¥sIRDWorking for Families"	wff_clean*spells2wff_spe_l_ird_tax_cred_rcvd_amt:decimal
+\µsIRDWorking for Families"	wff_clean*spells2 wff_spe_l_child_support_rcvd_amt:decimal
+\∂sIRDWorking for Families"	wff_clean*spells2 wff_spe_l_child_support_paid_amt:decimal
+Z∑sIRDWorking for Families"	wff_clean*spells2wff_spe_l_maintenance_rcvd_amt:decimal
+Z∏sIRDWorking for Families"	wff_clean*spells2wff_spe_l_maintenance_paid_amt:decimal
+RπsIRDWorking for Families"	wff_clean*spells2wff_spe_l_ppl_paid_amt:decimal
+\∫sIRDWorking for Families"	wff_clean*spells2 wff_spe_l_wfftc_ov_und_paid_code:varchar
+WªsIRDWorking for Families"	wff_clean*spells2wff_spe_l_wfftc_assemnt_ind:varchar
+\ºsIRDWorking for Families"	wff_clean*spells2 wff_spe_l_eoy_wfftc_pay_src_code:varchar
+\ΩsIRDWorking for Families"	wff_clean*spells2 wff_spe_l_wfftc_assemnt_src_code:varchar
+[æsIRDWorking for Families"	wff_clean*spells2wff_spe_l_wfftc_ttl_entitle_amt:decimal
+WøsIRDWorking for Families"	wff_clean*spells2wff_spe_r_gross_earning_amt:decimal
+\¿sIRDWorking for Families"	wff_clean*spells2 wff_spe_r_defn_gross_earning_amt:decimal
+Y¡sIRDWorking for Families"	wff_clean*spells2 wff_spe_r_defn_grs_earn_src_code:char
+U¬sIRDWorking for Families"	wff_clean*spells2wff_spe_r_ftc_entitle_amt:decimal
+U√sIRDWorking for Families"	wff_clean*spells2wff_spe_r_ctc_entitle_amt:decimal
+UƒsIRDWorking for Families"	wff_clean*spells2wff_spe_r_ptc_entitle_amt:decimal
+V≈sIRDWorking for Families"	wff_clean*spells2wff_spe_r_mftc_entitle_amt:decimal
+V∆sIRDWorking for Families"	wff_clean*spells2wff_spe_r_iwtc_entitle_amt:decimal
+U«sIRDWorking for Families"	wff_clean*spells2wff_spe_r_taxable_inc_amt:decimal
+T»sIRDWorking for Families"	wff_clean*spells2wff_spe_r_tax_on_inc_amt:decimal
+U…sIRDWorking for Families"	wff_clean*spells2wff_spe_r_ttl_fam_inc_amt:decimal
+[ sIRDWorking for Families"	wff_clean*spells2wff_spe_r_ttl_fam_round_inc_amt:decimal
+UÀsIRDWorking for Families"	wff_clean*spells2wff_spe_r_filer_type_code:varchar
+[ÃsIRDWorking for Families"	wff_clean*spells2wff_spe_r_wfftc_final_sq_up_amt:decimal
+[ÕsIRDWorking for Families"	wff_clean*spells2wff_spe_r_ird_tax_cred_rcvd_amt:decimal
+\ŒsIRDWorking for Families"	wff_clean*spells2 wff_spe_r_child_support_rcvd_amt:decimal
+\œsIRDWorking for Families"	wff_clean*spells2 wff_spe_r_child_support_paid_amt:decimal
+Z–sIRDWorking for Families"	wff_clean*spells2wff_spe_r_maintenance_rcvd_amt:decimal
+Z—sIRDWorking for Families"	wff_clean*spells2wff_spe_r_maintenance_paid_amt:decimal
+R“sIRDWorking for Families"	wff_clean*spells2wff_spe_r_ppl_paid_amt:decimal
+\”sIRDWorking for Families"	wff_clean*spells2 wff_spe_r_wfftc_ov_und_paid_code:varchar
+W‘sIRDWorking for Families"	wff_clean*spells2wff_spe_r_wfftc_assemnt_ind:varchar
+\’sIRDWorking for Families"	wff_clean*spells2 wff_spe_r_eoy_wfftc_pay_src_code:varchar
+\÷sIRDWorking for Families"	wff_clean*spells2 wff_spe_r_wfftc_assemnt_src_code:varchar
+[◊sIRDWorking for Families"	wff_clean*spells2wff_spe_r_wfftc_ttl_entitle_amt:decimal
+TÿsIRDWorking for Families"	wff_clean*spells2wff_spe_l_denom_simple_nbr:float
+UŸsIRDWorking for Families"	wff_clean*spells2wff_spe_l_denom_complex_nbr:float
+T⁄sIRDWorking for Families"	wff_clean*spells2wff_spe_r_denom_simple_nbr:float
+U€sIRDWorking for Families"	wff_clean*spells2wff_spe_r_denom_complex_nbr:float
+X‹sIRDWorking for Families"	wff_clean*spells2wff_spe_l_simple_prrt_fctr_nbr:float
+Y›sIRDWorking for Families"	wff_clean*spells2wff_spe_l_complex_prrt_fctr_nbr:float
+XﬁsIRDWorking for Families"	wff_clean*spells2wff_spe_r_simple_prrt_fctr_nbr:float
+YﬂsIRDWorking for Families"	wff_clean*spells2wff_spe_r_complex_prrt_fctr_nbr:float
+U‡sIRDWorking for Families"	wff_clean*spells2wff_spe_l_ethnic_snz_code:varchar
+U·sIRDWorking for Families"	wff_clean*spells2wff_spe_l_ethnic_grp1_snz_ind:bit
+U‚sIRDWorking for Families"	wff_clean*spells2wff_spe_l_ethnic_grp2_snz_ind:bit
+U„sIRDWorking for Families"	wff_clean*spells2wff_spe_l_ethnic_grp3_snz_ind:bit
+U‰sIRDWorking for Families"	wff_clean*spells2wff_spe_l_ethnic_grp4_snz_ind:bit
+UÂsIRDWorking for Families"	wff_clean*spells2wff_spe_l_ethnic_grp5_snz_ind:bit
+UÊsIRDWorking for Families"	wff_clean*spells2wff_spe_l_ethnic_grp6_snz_ind:bit
+UÁsIRDWorking for Families"	wff_clean*spells2wff_spe_r_ethnic_snz_code:varchar
+UËsIRDWorking for Families"	wff_clean*spells2wff_spe_r_ethnic_grp1_snz_ind:bit
+UÈsIRDWorking for Families"	wff_clean*spells2wff_spe_r_ethnic_grp2_snz_ind:bit
+UÍsIRDWorking for Families"	wff_clean*spells2wff_spe_r_ethnic_grp3_snz_ind:bit
+UÎsIRDWorking for Families"	wff_clean*spells2wff_spe_r_ethnic_grp4_snz_ind:bit
+UÏsIRDWorking for Families"	wff_clean*spells2wff_spe_r_ethnic_grp5_snz_ind:bit
+UÌsIRDWorking for Families"	wff_clean*spells2wff_spe_r_ethnic_grp6_snz_ind:bit
+JÓsOranga TamarikiYouth Services"	yst_clean*yst_clients2snz_uid:int
+NÔsOranga TamarikiYouth Services"	yst_clean*yst_clients2snz_msd_uid:int
+_sOranga TamarikiYouth Services"	yst_clean*yst_clients2yst_cli_client_id_type_code:char
+ZÒsOranga TamarikiYouth Services"	yst_clean*yst_clients2yst_cli_birth_month_nbr:int
+YÚsOranga TamarikiYouth Services"	yst_clean*yst_clients2yst_cli_birth_year_nbr:int
+WÛsOranga TamarikiYouth Services"	yst_clean*yst_clients2yst_cli_sex_code:varchar
+XÙsOranga TamarikiYouth Services"	yst_clean*yst_clients2yst_cli_extract_date:date
+LısOranga TamarikiYouth Services"	yst_clean*yst_neet_risk2snz_uid:int
+PˆsOranga TamarikiYouth Services"	yst_clean*yst_neet_risk2snz_msd_uid:int
+_˜sOranga TamarikiYouth Services"	yst_clean*yst_neet_risk2yst_ntr_neet_risk_text:varchar
+]¯sOranga TamarikiYouth Services"	yst_clean*yst_neet_risk2yst_ntr_risk_start_date:date
+[˘sOranga TamarikiYouth Services"	yst_clean*yst_neet_risk2yst_ntr_risk_end_date:date
+Z˙sOranga TamarikiYouth Services"	yst_clean*yst_neet_risk2yst_ntr_extract_date:date
+W˚sOranga TamarikiYouth Services"	yst_clean*yst_neet_risk2yst_ntr_file_date:date
+V¸sOranga TamarikiYouth Services"	yst_clean*yst_neet_risk2yst_ntr_rep_date:date
+d˝sOranga TamarikiYouth Services"	yst_clean*yst_neet_risk2yst_ntr_risk_score_mod_by_code:char
+I˛sOranga TamarikiYouth Services"	yst_clean*
 yst_spells2snz_uid:int
-M˜\Oranga TamarikiYouth Services"	yst_clean*
+MˇsOranga TamarikiYouth Services"	yst_clean*
 yst_spells2snz_msd_uid:int
-^¯\Oranga TamarikiYouth Services"	yst_clean*
+^ÄtOranga TamarikiYouth Services"	yst_clean*
 yst_spells2yst_spl_client_id_type_code:char
-a˘\Oranga TamarikiYouth Services"	yst_clean*
+aÅtOranga TamarikiYouth Services"	yst_clean*
 yst_spells2yst_spl_programme_name_text:varchar
-\˙\Oranga TamarikiYouth Services"	yst_clean*
+\ÇtOranga TamarikiYouth Services"	yst_clean*
 yst_spells2yst_spl_programme_code:varchar
-`˚\Oranga TamarikiYouth Services"	yst_clean*
+`ÉtOranga TamarikiYouth Services"	yst_clean*
 yst_spells2yst_spl_provider_name_text:varchar
-c¸\Oranga TamarikiYouth Services"	yst_clean*
+cÑtOranga TamarikiYouth Services"	yst_clean*
 yst_spells2 yst_spl_participation_start_date:date
-a˝\Oranga TamarikiYouth Services"	yst_clean*
+aÖtOranga TamarikiYouth Services"	yst_clean*
 yst_spells2yst_spl_participation_end_date:date
-W˛\Oranga TamarikiYouth Services"	yst_clean*
+WÜtOranga TamarikiYouth Services"	yst_clean*
 yst_spells2yst_spl_extract_date:date
