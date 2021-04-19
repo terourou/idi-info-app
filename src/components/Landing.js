@@ -29,13 +29,13 @@ function Landing() {
       </Main>
 
       <Footer>
-        <p class="citation">
+        <p className="citation">
           Elliott, Milne, and Li (2021).{` `}
-          <emph>What's in the IDI?</emph>{` `}
+          <em>What's in the IDI?</em>{` `}
           A web app for searching IDI variable information.{` `}
           <a href="https://terourou.org/idisearch">https://terourou.org/idisearch</a>
         </p>
-        <p class="collab">
+        <p className="collab">
           A collaboration by <a href="https://terourou.org">Te Rourou Tātaritanga</a>, <a href="https://www.auckland.ac.nz/en/arts/our-research/research-institutes-centres-groups/compass.html">COMPASS</a>, Victoria University of Wellington, and The University of Auckland.
         </p>
       </Footer>
