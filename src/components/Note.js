@@ -1,14 +1,15 @@
-import PersonOutlineIcon from '@material-ui/icons/PersonOutline'
+// import PersonOutlineIcon from '@material-ui/icons/PersonOutline'
 import React from 'react'
 import styled from 'styled-components'
 import ReactMarkdown from 'react-markdown'
+import { Avatar } from '@material-ui/core'
 
-function Note({text, timestamp, author}) {
+function Note({text, timestamp, author, image}) {
   return (
     <Container>
       <Meta>
         <Author>
-          <PersonOutlineIcon />
+          <Avatar variant="square" src={ image } />
           {author ? author : "Anonymous"}
         </Author>
         <Timestamp>{new Date(timestamp?.toDate()).toDateString()}</Timestamp>
@@ -37,10 +38,12 @@ const Author = styled.div`
   flex: 1;
   font-weight: bold;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 
-  .MuiSvgIcon-root {
+  .MuiAvatar-root {
     margin-right: 5px;
+    height: 1.5em;
+    width: 1.5em;
   }
 `
 

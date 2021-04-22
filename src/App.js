@@ -40,7 +40,7 @@ function App() {
 
   const showInfo = () => {
     const el = document.getElementById("InstructionsContainer")
-    el.classList.add("visible")
+    if (el) el.classList.add("visible")
   }
 
   return (

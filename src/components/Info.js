@@ -4,12 +4,18 @@ import { useParams } from 'react-router'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import firebase from "firebase"
+import { Button } from "@material-ui/core"
 
-import db from "../firebase"
+import db, { auth, google_provider } from "../firebase"
 import Details from './Details'
 import Note from './Note'
 
+import { actionTypes } from '../reducer'
+import { useStateValue } from '../StateProvider'
+
 function Info({data}) {
+
+  const [{ user }, dispatch] = useStateValue()
 
   const [notes, setNotes] = useState([])
   const [info, setInfo] = useState({})
@@ -57,7 +63,7 @@ function Info({data}) {
 
   const addNewNote = (e) => {
     e.preventDefault()
-    if (newnote === "") return
+    if (newnote === "" || !user) return
 
     let key = url_params.table + "_" + url_params.variable
     db.collection('details')
@@ -65,12 +71,37 @@ function Info({data}) {
       .collection('notes')
       .add({
         value: newnote,
-        author: "Anonymous",
+        author: user.displayName,
+        email: user.email,
+        photo: user.photoURL,
         timestamp: firebase.firestore.FieldValue.serverTimestamp(),
       })
 
     setNewNote("")
   }
+
+  const signInGoogle = () => {
+    auth.signInWithPopup(google_provider)
+        .then(result => {
+            dispatch({
+                type: actionTypes.SET_USER,
+                user: result.user
+            })
+        })
+        .catch(error => alert(error.message))
+  }
+
+  // const signInFacebook = () => {
+  //   auth.signInWithPopup(fb_provider)
+  //       .then(result => {
+  //           dispatch({
+  //               type: actionTypes.SET_USER,
+  //               user: result.user
+  //           })
+  //       })
+  //       .catch(error => alert(error.message))
+  // }
+
 
   return (
     <Container>
@@ -83,23 +114,47 @@ function Info({data}) {
       </Main>
 
       <NotesContainer>
+        {notes.map(note => console.log(note))}
         {notes.map(note => (
           <Note key={note.id}
             text={note.data.value}
             timestamp={note.data.timestamp}
             author={note.data.author}
+            image={note.data.photo}
             />
         ))}
 
-        { info.key && false &&
-          <NewNote>
-            <InputContainer>
-              <textarea type="text" placeholder="Add note (Markdown formatting supported) ..." value={newnote}
-                onChange={e => setNewNote(e.target.value)} />
-              <button type="submit" onClick={addNewNote}>Add note</button>
-            </InputContainer>
-          </NewNote>
+        {
+          info.key && (
+
+            !user ? (
+              <SignIn>
+                <p>Please sign in to add notes.</p>
+                <Button type="submit" onClick={signInGoogle} size="small">
+                    Sign In with Google
+                </Button>
+                {/* <Button type="submit" onClick={signInFacebook} size="small">
+                    Sign In with Facebook
+                </Button> */}
+              </SignIn>
+            ) : (
+              info.key &&
+                <NewNote>
+                  <label>Signed in as { user.displayName } ({ user.email })</label>
+                  <InputContainer>
+                    <textarea type="text" placeholder="Add note (Markdown formatting supported) ..." value={newnote}
+                      onChange={e => setNewNote(e.target.value)} />
+                    <button type="submit" onClick={addNewNote}>Add</button>
+                  </InputContainer>
+                </NewNote>
+            )
+
+          )
         }
+
+
+
+
       </NotesContainer>
 
 
@@ -146,12 +201,41 @@ const NotesContainer = styled.div`
   /* border-top: solid 1px lightgray; */
   /* width: 100%; */
   padding: 1em;
+
 `
+
+const SignIn = styled.div`
+  margin-top: 1em;
+  padding: 1em;
+  border-top: solid 1px lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  button {
+    /* margin-top: 50px; */
+    text-transform: inherit !important;
+    background-color: #4285F4 !important;
+    color: white;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+`
+
 
 const NewNote = styled.div`
   border-top: solid 1px lightgray;
   padding: 0.5em;
+
+  label {
+    display: block;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin: 0 0 10px 10px;
+  }
 `
+
 
 const InputContainer = styled.div`
   display: flex;
@@ -159,6 +243,7 @@ const InputContainer = styled.div`
   border: solid 1px lightgray;
   border-radius: 10px;
   padding: 1em;
+
 
   textarea {
     flex: 1;
