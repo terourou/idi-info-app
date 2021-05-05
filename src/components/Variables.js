@@ -98,6 +98,12 @@ function Variables({data}) {
       Object.getOwnPropertyNames(data[0])
         .filter(v => reg.test(v))
         .map(v => v.replace("IDI", ""))
+        .map(v => ({
+          key: v,
+          val: v.substring(0, 4) + "-" +
+               v.substring(4, 6) + "-" +
+               v.substring(6, 8)
+        }))
     )
   }, [data])
 
@@ -161,8 +167,8 @@ function Variables({data}) {
           <Select id="refresh-filter" value={refresh}
             onChange={e => setRefresh(e.target.value)}
             >
-            {refreshes.map(a => (
-              <MenuItem key={a} value={a}>{a}</MenuItem>
+            {refreshes.map(r => (
+              <MenuItem key={r.key} value={r.key}>{r.val}</MenuItem>
             ))}
           </Select>
         </FormControl>
