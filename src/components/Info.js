@@ -19,6 +19,7 @@ function Info({data}) {
 
   const [notes, setNotes] = useState([])
   const [info, setInfo] = useState({})
+  const [refreshes, setRefreshes] = useState([])
   const [newnote, setNewNote] = useState("")
 
   let url_params = useParams()
@@ -60,6 +61,22 @@ function Info({data}) {
       unsubscribe()
     }
   }, [url_params, data])
+
+  useEffect(() => {
+    if (!info.key) return
+    const reg = RegExp("IDI[0-9]+")
+    setRefreshes(
+      Object.getOwnPropertyNames(info)
+        .filter(v => reg.test(v))
+        .map(v => v.replace("IDI", ""))
+        .map(v => ({
+          key: v,
+          val: v.substring(0, 4) + "-" +
+               v.substring(4, 6) + "-" +
+               v.substring(6, 8)
+        }))
+    )
+  }, [info])
 
   const addNewNote = (e) => {
     e.preventDefault()
@@ -110,7 +127,7 @@ function Info({data}) {
       </Header>
 
       <Main>
-        { info.key && <Details key={info.key} info={info} /> }
+        { info.key && <Details key={info.key} info={info} refreshes={refreshes} /> }
       </Main>
 
       <NotesContainer>

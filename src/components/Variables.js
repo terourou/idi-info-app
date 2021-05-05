@@ -45,6 +45,8 @@ const tableIcons = {
 function Variables({data}) {
 
   const history = useHistory()
+  const [refreshes, setRefreshes] = useState([])
+  const [refresh, setRefresh] = useState("")
 
   const [term, setTerm] = useState("")
   const [rows, setRows] = useState([])
@@ -59,6 +61,9 @@ function Variables({data}) {
 
     if (agency !== "")
       d = d.filter(row => row.agency === agency)
+
+    if (refresh !== "")
+      d = d.filter(row => row["IDI" + refresh] === "1")
 
     if (term.length) {
       const terms = term.toLowerCase()
@@ -81,10 +86,19 @@ function Variables({data}) {
 
     setRows(d)
 
-  }, [term, data, searchAgency, searchVariable, searchDescription, agency])
+  }, [term, data, searchAgency, searchVariable, searchDescription, agency, refresh])
 
   useEffect(() => {
+    if (data.length === 0) return
+
     setAgencies(data.map(d => d.agency).filter((v, i, a) => a.indexOf(v) === i))
+
+    const reg = RegExp("IDI[0-9]+")
+    setRefreshes(
+      Object.getOwnPropertyNames(data[0])
+        .filter(v => reg.test(v))
+        .map(v => v.replace("IDI", ""))
+    )
   }, [data])
 
   const columns = [
@@ -137,9 +151,22 @@ function Variables({data}) {
               <MenuItem key={a} value={a}>{a}</MenuItem>
             ))}
           </Select>
-
         </FormControl>
         <IconButton onClick={e => setAgency("")} >
+          <ClearIcon fontSize="small" />
+        </IconButton>
+
+        <FormControl>
+          <InputLabel id="refresh-filter-label">IDI Refresh</InputLabel>
+          <Select id="refresh-filter" value={refresh}
+            onChange={e => setRefresh(e.target.value)}
+            >
+            {refreshes.map(a => (
+              <MenuItem key={a} value={a}>{a}</MenuItem>
+            ))}
+          </Select>
+        </FormControl>
+        <IconButton onClick={e => setRefresh("")} >
           <ClearIcon fontSize="small" />
         </IconButton>
       </FilterOptions>
