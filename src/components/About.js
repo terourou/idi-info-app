@@ -7,29 +7,31 @@ function About() {
   const [stats, setStats] = useState([])
 
   useEffect(() => {
-    setStats(
-      [
-        {
-          "table": "IDI20210104",
-          "tables": 103,
-          "variables": "15034",
-        },
-        {
-          "table": "IDI20201004",
-          "tables": 102,
-          "variables": "14343",
-        },
-      ]
-    )
-    // readRemoteFile(
-    //   "/idistats.csv",
-    //   {
-    //     header: true,
-    //     complete: (results) => {
-    //       setStats(results.data)
-    //     }
-    //   }
+    // setStats(
+    //   [
+    //     {
+    //       "key": "IDI20210104",
+    //       "refresh": "2021-01-04",
+    //       "tables": 103,
+    //       "variables": "15034",
+    //     },
+    //     {
+    //       "key": "IDI20201004",
+    //       "refresh": "2020-10-04",
+    //       "tables": 102,
+    //       "variables": "14343",
+    //     },
+    //   ]
     // )
+    readRemoteFile(
+      "/idistats.csv",
+      {
+        header: true,
+        complete: (results) => {
+          setStats(results.data)
+        }
+      }
+    )
   }, [])
 
   return (
@@ -46,13 +48,20 @@ function About() {
 
       <p>Here are some basic statistics about the information in the IDI.</p>
 
-      <table>
-        <tr>
-          <th>Name</th>
-          <th>Number of Tables</th>
-          <th>Number of Variables</th>
-        </tr>
-      </table>
+      <Table>
+        <Row>
+          <Head>Name</Head>
+          <Head>Number of Tables</Head>
+          <Head>Number of Variables</Head>
+        </Row>
+        {stats.map(tab => (
+          <Row key={tab.table}>
+            <Cell>{tab.table}</Cell>
+            <Cell>{tab.tables}</Cell>
+            <Cell>{tab.variables}</Cell>
+          </Row>
+        ))}
+      </Table>
 
 
     </Container>
@@ -67,4 +76,20 @@ const Container = styled.div`
   h2 {
     margin-top: 2em;
   }
+`
+
+const Table = styled.div`
+  display: table;
+  margin: 1em 1em 2em;
+`
+const Row = styled.div`
+  display: table-row;
+`
+const Cell = styled.div`
+  display: table-cell;
+  padding: 0.2em 1em;
+`
+const Head = styled(Cell)`
+  font-weight: bold;
+  border-bottom: solid 1px black;
 `

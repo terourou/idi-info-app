@@ -119,3 +119,19 @@ write.csv(table_data, "../public/data.csv", quote = TRUE, row.names = FALSE)
 
 
 ## Write basic stats to file:
+files <- list.files("raw", "varlist.+\\.xlsx", full.names = TRUE)
+stats <- sapply(files,
+    function(f) {
+        d <- readxl::read_excel(f, progress = FALSE)
+        c(
+            gsub("varlist|\\.xlsx", "", basename(f)),
+            length(unique(d$TABLE_NAME)),
+            nrow(d)
+        )
+    }
+)
+
+stats <- t(stats)
+rownames(stats) <- NULL
+colnames(stats) <- c("table", "tables", "variables")
+write.csv(stats, "../public/idistats.csv", quote = FALSE, row.names = FALSE)
