@@ -116,3 +116,6 @@ table_data <- cbind(id = seq_len(nrow(table_data)), table_data)
 ## Write data to file:
 write.csv(table_data, "../public/data.csv", quote = TRUE, row.names = FALSE)
 # ididata$serialize("../public/data.pb")
+
+
+## Write basic stats to file:

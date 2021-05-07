@@ -7,6 +7,7 @@ import styled from 'styled-components';
 import Info from './components/Info';
 import Landing from './components/Landing';
 import Variables from './components/Variables';
+import About from './components/About';
 
 // var protobuf = require("protobufjs")
 
@@ -60,6 +61,9 @@ function App() {
           <Switch>
             <Route path="/:table/:variable">
               <Info data={data} />
+            </Route>
+            <Route path="/about">
+              <About />
             </Route>
             <Route path="/">
               <Landing />
