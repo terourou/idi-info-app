@@ -3,16 +3,27 @@ import React from 'react'
 import styled from 'styled-components'
 import ReactMarkdown from 'react-markdown'
 import { Avatar } from '@material-ui/core'
+import { DeleteOutlined } from '@material-ui/icons'
 
-function Note({text, timestamp, author, image}) {
+// import db, { auth, google_provider } from "../firebase"
+
+
+function Note({text, timestamp, author, image, canDelete, deleteNote, noteId}) {
+
+  const deleteThisNote = (e) => {
+    e.preventDefault()
+    deleteNote(noteId)
+  }
+
   return (
     <Container>
       <Meta>
         <Author>
           <Avatar variant="square" src={ image } />
-          {author ? author : "Anonymous"}
+          { author }
         </Author>
         <Timestamp>{new Date(timestamp?.toDate()).toDateString()}</Timestamp>
+        { canDelete && <a href="" onClick={deleteThisNote}><DeleteOutlined /></a> }
       </Meta>
 
       <Content><ReactMarkdown>{text}</ReactMarkdown></Content>

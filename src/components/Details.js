@@ -5,7 +5,6 @@ import ReactMarkdown from 'react-markdown'
 import { CheckOutlined, ClearOutlined } from '@material-ui/icons';
 
 function Details({ info, refreshes }) {
-  console.log(refreshes)
   return (
     <Container>
       <h1>{info.variable_name}</h1>

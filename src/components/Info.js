@@ -89,7 +89,7 @@ function Info({data}) {
       .add({
         value: newnote,
         author: user.displayName,
-        email: user.email,
+        userId: user.uid,
         photo: user.photoURL,
         timestamp: firebase.firestore.FieldValue.serverTimestamp(),
       })
@@ -97,13 +97,40 @@ function Info({data}) {
     setNewNote("")
   }
 
+  const deleteNote = (noteId) => {
+    let key = url_params.table + "_" + url_params.variable
+    db.collection('details')
+      .doc(key)
+      .collection('notes')
+      .doc(noteId)
+      .delete()
+      .then(() => {
+
+      }).catch((error) => {
+        console.log("Could not delete.")
+      })
+  }
+
   const signInGoogle = () => {
     auth.signInWithPopup(google_provider)
         .then(result => {
-            dispatch({
-                type: actionTypes.SET_USER,
-                user: result.user
-            })
+            // find out if user is admin
+            db.collection("users")
+              .doc(result.user.uid)
+              .get()
+              .then((doc) => {
+                const admin = doc.exists ? doc.data().admin : false;
+                dispatch({
+                  type: actionTypes.SET_USER,
+                  user: {
+                    ...result.user,
+                    isAdmin: admin,
+                    }
+                })
+              })
+              .catch((error) => {
+                console.log(error)
+              })
         })
         .catch(error => alert(error.message))
   }
@@ -119,6 +146,18 @@ function Info({data}) {
   //       .catch(error => alert(error.message))
   // }
 
+  const signOut = (e) => {
+    e.preventDefault()
+    auth.signOut()
+      .then(() => {
+        dispatch({
+          type: actionTypes.SET_USER,
+          user: null
+        })
+      }).catch((error) => {
+        console.log(error)
+      })
+  }
 
   return (
     <Container>
@@ -131,13 +170,15 @@ function Info({data}) {
       </Main>
 
       <NotesContainer>
-        {notes.map(note => console.log(note))}
         {notes.map(note => (
           <Note key={note.id}
             text={note.data.value}
             timestamp={note.data.timestamp}
-            author={note.data.author}
+            author={note.data.author + (user && note.data.userId === user.uid ? ' (you)' : '') }
             image={note.data.photo}
+            canDelete={user ? user.isAdmin : false}
+            deleteNote={deleteNote}
+            noteId={note.id}
             />
         ))}
 
@@ -157,7 +198,10 @@ function Info({data}) {
             ) : (
               info.key &&
                 <NewNote>
-                  <label>Signed in as { user.displayName } ({ user.email })</label>
+                  <label>
+                    Signed in as { user.displayName } ({ user.email }){` `}
+                    <a href="" onClick={signOut}>Sign out</a>
+                  </label>
                   <InputContainer>
                     <textarea type="text" placeholder="Add note (Markdown formatting supported) ..." value={newnote}
                       onChange={e => setNewNote(e.target.value)} />
