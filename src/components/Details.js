@@ -25,7 +25,7 @@ function Details({ info, refreshes }) {
       <p><strong>Schema:</strong> {info.schema}</p>
       <p><strong>Table:</strong> {info.table_name}</p>
       <p><strong>Variable name:</strong> {info.variable_name}</p>
-      <p><strong>Variable type:</strong> {info.variable_type}</p>
+      {info.variable_type && <p><strong>Variable type:</strong> {info.variable_type}</p>}
 
       <h4>Availability in IDI refreshes</h4>
       <RefreshInfo>

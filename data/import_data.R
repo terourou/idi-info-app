@@ -37,11 +37,11 @@ table_data <- dplyr::rename_with(
     table_data,
     function(x) gsub("ref", "IDI", x)
 )
-table_data$variable_type <- NA
 
 # replace NAs with 0
 na_to_zero <- function(x) ifelse(is.na(x), 0, x)
 table_data <- tibble::as_tibble(lapply(table_data, na_to_zero))
+
 
 # raw_data <- readLines(raw_file)
 
