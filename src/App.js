@@ -29,7 +29,8 @@ function App() {
               .filter(row => row.variable_name)
               .map(row => ({
                 ...row,
-                agency_collection: row.agency + " / " + row.collection,
+                // agency_collection: row.agency + " / " + row.collection,
+                agency_table: row.agency + " / " + row.table_name,
               }))
           )
         }

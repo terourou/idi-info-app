@@ -108,7 +108,8 @@ function Variables({data}) {
   }, [data])
 
   const columns = [
-    { field: "agency_collection", title: "Agency / Collection" },
+    // { field: "agency_collection", title: "Agency / Collection" },
+    { field: "agency_table", title: "Agency / Table" },
     // { field: "collection", title: "Collection" },
     // { field: "table_name", title: "Table name" },
     { field: "variable_name", title: "Variable name" },
