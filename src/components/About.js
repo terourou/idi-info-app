@@ -50,7 +50,7 @@ function About() {
 
       <Table>
         <Row>
-          <Head>Name</Head>
+          <Head>Collection</Head>
           <Head>Number of Tables</Head>
           <Head>Number of Variables</Head>
         </Row>

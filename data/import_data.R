@@ -22,6 +22,23 @@ if (length(table_data) > 1L) {
     }
 }
 
+# table_data <- dplyr::left_join(
+#     dplyr::rename(readr::read_csv("raw/refreshes.csv"), schema = table_schema, variable_name = column_name),
+#     dplyr::select(table_data, "schema", "table_name", "variable_name", "variable_type"),
+#     by = c("schema", "table_name", "variable_name")
+# )
+
+table_data <- dplyr::rename(
+    readr::read_csv("raw/refreshes.csv"),
+    schema = table_schema,
+    variable_name = column_name
+)
+table_data <- dplyr::rename_with(
+    table_data,
+    function(x) gsub("ref", "IDI", x)
+)
+table_data$variable_type <- NA
+
 # replace NAs with 0
 na_to_zero <- function(x) ifelse(is.na(x), 0, x)
 table_data <- tibble::as_tibble(lapply(table_data, na_to_zero))
@@ -46,8 +63,8 @@ table_data <- tibble::as_tibble(lapply(table_data, na_to_zero))
 # table_data <- do.call(rbind, table_data)
 
 ## Remove some unwanted tables:
-delete_tables <- c("trace_xe_action_map", "trace_xe_event_map", "data_link", "dedup_mapping")
-table_data <- table_data[!table_data$table_name %in% delete_tables, ]
+#delete_tables <- c("trace_xe_action_map", "trace_xe_event_map", "data_link", "dedup_mapping")
+#table_data <- table_data[!table_data$table_name %in% delete_tables, ]
 
 ## Additional data - will be merged with table_data
 data_collections <- read.csv("collection_info.csv")
@@ -119,7 +136,7 @@ write.csv(table_data, "../public/data.csv", quote = TRUE, row.names = FALSE)
 
 
 ## Write basic stats to file:
-files <- list.files("raw", "varlist.+\\.xlsx", full.names = TRUE)
+files <- list.files("raw", "varlist[^0-9].+\\.xlsx", full.names = TRUE)
 stats <- sapply(files,
     function(f) {
         d <- readxl::read_excel(f, progress = FALSE)
@@ -131,7 +148,24 @@ stats <- sapply(files,
     }
 )
 
-stats <- t(stats)
+refreshes <- names(table_data)[grepl("^IDI", names(table_data))]
+refresh_stats <- sapply(refreshes,
+    function(r) {
+        d <- table_data[table_data[[r]] == 1, ]
+        r <- paste(sep = "-",
+            substr(r, 4, 7),
+            substr(r, 8, 9),
+            substr(r, 10, 11)
+        )
+        c(
+            paste(r, "refresh"),
+            length(unique(d$table_name)),
+            nrow(d)
+        )
+    }
+)
+
+stats <- rbind(t(refresh_stats), t(stats))
 rownames(stats) <- NULL
 colnames(stats) <- c("table", "tables", "variables")
 write.csv(stats, "../public/idistats.csv", quote = FALSE, row.names = FALSE)
