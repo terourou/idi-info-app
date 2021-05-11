@@ -1,7 +1,5 @@
-import { ChevronLeft } from '@material-ui/icons'
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router'
-import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import firebase from "firebase"
 import { Button } from "@material-ui/core"
@@ -12,6 +10,7 @@ import Note from './Note'
 
 import { actionTypes } from '../reducer'
 import { useStateValue } from '../StateProvider'
+import BackButton from './BackButton'
 
 function Info({data}) {
 
@@ -85,6 +84,10 @@ function Info({data}) {
     let key = url_params.table + "_" + url_params.variable
     db.collection('details')
       .doc(key)
+      .set({enabled: true})
+      
+    db.collection('details')
+      .doc(key)
       .collection('notes')
       .add({
         value: newnote,
@@ -97,7 +100,7 @@ function Info({data}) {
     setNewNote("")
   }
 
-  const deleteNote = (noteId) => {
+  const deleteNote = (x, noteId) => {
     let key = url_params.table + "_" + url_params.variable
     db.collection('details')
       .doc(key)
@@ -161,9 +164,7 @@ function Info({data}) {
 
   return (
     <Container>
-      <Header>
-        <h4><Link to="/"><ChevronLeft fontSize="small" /> Back</Link></h4>
-      </Header>
+      <BackButton />
 
       <Main>
         { info.key && <Details key={info.key} info={info} refreshes={refreshes} /> }
@@ -238,21 +239,6 @@ const Container = styled.div`
     /* box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.2); */
     z-index: 10;
     /* margin: 10px; */
-  }
-`
-
-const Header = styled.div`
-  padding: 10px;
-  margin-bottom: 10px;
-  border-bottom: solid 1px lightgray;
-  h4 > a {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: black;
-  }
-  h4 > a:hover {
-    opacity: 0.8;
   }
 `
 

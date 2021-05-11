@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { readRemoteFile } from 'react-papaparse';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 import InfoOutlinedIcon from '@material-ui/icons/InfoOutlined'
 
 import styled from 'styled-components';
@@ -9,12 +9,17 @@ import Landing from './components/Landing';
 import Variables from './components/Variables';
 import About from './components/About';
 
+// import { actionTypes } from './reducer'
+import { useStateValue } from './StateProvider'
+import Admin from './components/Admin';
+
 // var protobuf = require("protobufjs")
 
 function App() {
 
   // const [first, setFirst] = useState(true)
   const [data, setData] = useState([])
+  const [{ user }] = useStateValue()
 
   useEffect(() => {
 
@@ -49,6 +54,13 @@ function App() {
     <Router>
       <Container>
         <LeftPanel>
+          <Navbar>
+            <nav>
+              <Link to="/">Home</Link>
+              <Link to="/about">About the IDI</Link>
+              { user && user.isAdmin && <Link to="/admin">Admin</Link> }
+            </nav>
+          </Navbar>
           <Header>
             <p>Filter variables by searching below. Use commas for 'AND' matching.</p>
             <InfoOutlinedIcon
@@ -65,6 +77,9 @@ function App() {
             </Route>
             <Route path="/about">
               <About />
+            </Route>
+            <Route path="/admin">
+              <Admin />
             </Route>
             <Route path="/">
               <Landing />
@@ -84,6 +99,30 @@ const Container = styled.div`
 
   @media (max-width: 800px) {
     flex-direction: column-reverse;
+  }
+`
+
+const Navbar = styled.div`
+
+  nav {
+    display: flex;
+    align-items: center;
+    margin: 0 1em;
+
+    > a {
+      display: inline-block;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-size: 0.8em;
+      text-transform: uppercase;
+      color: darkblue;
+      border-bottom: solid 1px darkblue;
+
+      &:hover {
+        opacity: 0.8;
+        background: rgba(0,0,0,0.05);
+      }
+    }
   }
 `
 

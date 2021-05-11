@@ -8,11 +8,11 @@ import { DeleteOutlined } from '@material-ui/icons'
 // import db, { auth, google_provider } from "../firebase"
 
 
-function Note({text, timestamp, author, image, canDelete, deleteNote, noteId}) {
+function Note({text, timestamp, author, image, canDelete, deleteNote, noteId, ckey}) {
 
   const deleteThisNote = (e) => {
     e.preventDefault()
-    deleteNote(noteId)
+    deleteNote(ckey, noteId)
   }
 
   return (
