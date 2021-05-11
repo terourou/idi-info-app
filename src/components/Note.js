@@ -23,7 +23,7 @@ function Note({text, timestamp, author, image, canDelete, deleteNote, noteId}) {
           { author }
         </Author>
         <Timestamp>{new Date(timestamp?.toDate()).toDateString()}</Timestamp>
-        { canDelete && <a href="" onClick={deleteThisNote}><DeleteOutlined /></a> }
+        { canDelete && <a href="." onClick={deleteThisNote}><DeleteOutlined /></a> }
       </Meta>
 
       <Content><ReactMarkdown>{text}</ReactMarkdown></Content>

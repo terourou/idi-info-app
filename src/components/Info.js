@@ -200,7 +200,7 @@ function Info({data}) {
                 <NewNote>
                   <label>
                     Signed in as { user.displayName } ({ user.email }){` `}
-                    <a href="" onClick={signOut}>Sign out</a>
+                    <a href="." onClick={signOut}>Sign out</a>
                   </label>
                   <InputContainer>
                     <textarea type="text" placeholder="Add note (Markdown formatting supported) ..." value={newnote}
