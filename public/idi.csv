@@ -1,4 +1,4 @@
-"id","schema","table_name","variable_name","IDI200120","IDI200720","IDI201020","IDI210420","collection","agency","description"
+"id","schema","table_name","variable_name","IDI20200120","IDI20200720","IDI20201020","IDI20210420","collection","agency","description"
 1,"acc_clean","claims","acc_cla_accident_calendar_year_nbr",1,1,1,1,"ACC Injury claims","ACC",NA
 2,"acc_clean","claims","acc_cla_accident_date",1,1,1,1,"ACC Injury claims","ACC",NA
 3,"acc_clean","claims","acc_cla_accident_in_NZ_ind",1,1,1,1,"ACC Injury claims","ACC",NA

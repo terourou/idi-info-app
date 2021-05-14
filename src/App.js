@@ -20,6 +20,21 @@ function App() {
   // const [first, setFirst] = useState(true)
   const [data, setData] = useState([])
   const [{ user, dbname }] = useStateValue()
+  const [possMatch, setPossMatch] = useState([])
+
+  useEffect(() => {
+    readRemoteFile(
+      `/possible_matches.csv`,
+      {
+        header: true,
+        complete: (results) => {
+          setPossMatch(
+            results.data
+          )
+        }
+      }
+    )
+  }, [])
 
   useEffect(() => {
     setData([])
@@ -72,7 +87,7 @@ function App() {
         <RightPanel>
           <Switch>
             <Route path="/:table/:variable">
-              <Info data={data} />
+              <Info data={data} matches={possMatch} />
             </Route>
             <Route path="/about">
               <About />

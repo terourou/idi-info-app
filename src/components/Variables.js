@@ -84,7 +84,6 @@ function Variables({data}) {
         // this is an AND search ... might need to allow for an OR search too
         .map((x) => "(?=.*" + x + ")")
         .join("")
-      console.log(terms)
 
       const reg = RegExp(terms)
 

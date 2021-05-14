@@ -122,6 +122,40 @@ table_data <- left_join(table_data, meta,
 )
 
 ## possible matches:
+matches <- yaml::read_yaml("raw/matches.yaml")
+
+# convert to pivot table ... ?
+matches <- lapply(matches,
+    function(match) {
+        lapply(match$vars,
+            function(vars) {
+                expand.grid(table = match$table, var = vars, stringsAsFactors = FALSE)
+            }
+        )
+    }
+)
+matches <- do.call(c, matches)
+
+matches <- lapply(matches,
+    function(match) {
+        match <- lapply(seq_len(nrow(match)),
+            function(i) {
+                mi <- match[i,]
+                row.names(mi) <- NULL
+                mmi <- match[-i, ]
+                row.names(mmi) <- NULL
+                colnames(mmi) <- c("alt_table", "alt_var")
+                m <- cbind(mi, mmi)
+                m$alt_table <- ifelse(m$alt_table == m$table, "", m$alt_table)
+                m$alt_var <- ifelse(m$alt_var == m$var, "", m$alt_var)
+                m
+            }
+        )
+        do.call(rbind, match)
+    }
+)
+matches <- do.call(rbind, matches)
+write.csv(matches, "../public/possible_matches.csv", quote = FALSE, row.names = FALSE)
 
 
 ## Add id column
@@ -144,6 +178,7 @@ table_data <- cbind(id = seq_len(nrow(table_data)), table_data)
 
 ## Write data to file:
 write.csv(table_data, "../public/idi.csv", quote = TRUE, row.names = FALSE)
+TABLE_DATA <- table_data
 # ididata$serialize("../public/data.pb")
 
 ## Do the same with adhoc ...
@@ -199,6 +234,7 @@ stats <- sapply(files,
     }
 )
 
+table_data <- TABLE_DATA
 refreshes <- names(table_data)[grepl("^IDI", names(table_data))]
 refresh_stats <- sapply(refreshes,
     function(r) {

@@ -1,4 +1,4 @@
-table_schema,table_name,column_name,ref200120,ref200720,ref201020,ref210420
+table_schema,table_name,column_name,ref20200120,ref20200720,ref20201020,ref20210420
 acc_clean,claims,acc_cla_ICD10_code,1,1,1,1
 acc_clean,claims,acc_cla_ICD9_code,1,1,1,1
 acc_clean,claims,acc_cla_accident_calendar_year_nbr,1,1,1,1

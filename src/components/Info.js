@@ -12,11 +12,12 @@ import { actionTypes } from '../reducer'
 import { useStateValue } from '../StateProvider'
 import BackButton from './BackButton'
 
-function Info({data}) {
+function Info({data, matches}) {
 
   const [{ user }, dispatch] = useStateValue()
 
   const [notes, setNotes] = useState([])
+  const [possMatches, setPossMatches] = useState({})
   const [info, setInfo] = useState({})
   const [refreshes, setRefreshes] = useState([])
   const [newnote, setNewNote] = useState("")
@@ -31,6 +32,27 @@ function Info({data}) {
         d => d.table_name === url_params.table &&
         d.variable_name === url_params.variable
       )
+
+    if (matches) {
+      const pmatch = matches
+        .filter(d =>
+          d.table === url_params.table &&
+          d.var === url_params.variable
+        )
+
+      setPossMatches(
+        {
+          "tables": pmatch
+            .map(m => m.alt_table)
+            .filter(m => m !== "")
+            .filter((v, i, a) => a.indexOf(v) === i),
+          "variables": pmatch
+            .map(m => m.alt_var)
+            .filter(m => m !== "")
+            .filter((v, i, a) => a.indexOf(v) === i),
+        }
+      )
+    }
 
     setInfo({})
     setNotes([])
@@ -59,7 +81,11 @@ function Info({data}) {
     return () => {
       unsubscribe()
     }
-  }, [url_params, data])
+  }, [url_params, data, matches])
+
+  // useEffect(() => {
+  //   console.log(possMatches)
+  // }, [possMatches])
 
   useEffect(() => {
     if (!info.key) return
@@ -85,7 +111,7 @@ function Info({data}) {
     db.collection('details')
       .doc(key)
       .set({enabled: true})
-      
+
     db.collection('details')
       .doc(key)
       .collection('notes')
@@ -138,17 +164,6 @@ function Info({data}) {
         .catch(error => alert(error.message))
   }
 
-  // const signInFacebook = () => {
-  //   auth.signInWithPopup(fb_provider)
-  //       .then(result => {
-  //           dispatch({
-  //               type: actionTypes.SET_USER,
-  //               user: result.user
-  //           })
-  //       })
-  //       .catch(error => alert(error.message))
-  // }
-
   const signOut = (e) => {
     e.preventDefault()
     auth.signOut()
@@ -167,7 +182,14 @@ function Info({data}) {
       <BackButton />
 
       <Main>
-        { info.key && <Details key={info.key} info={info} refreshes={refreshes} /> }
+        { info.key &&
+          <Details
+            key={info.key}
+            info={info}
+            refreshes={refreshes}
+            matches={possMatches}
+            />
+        }
       </Main>
 
       <NotesContainer>
