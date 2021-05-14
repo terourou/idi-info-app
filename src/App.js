@@ -19,12 +19,12 @@ function App() {
 
   // const [first, setFirst] = useState(true)
   const [data, setData] = useState([])
-  const [{ user }] = useStateValue()
+  const [{ user, dbname }] = useStateValue()
 
   useEffect(() => {
-
+    setData([])
     readRemoteFile(
-      "/data.csv",
+      `/${dbname}.csv`,
       {
         header: true,
         complete: (results) => {
@@ -43,7 +43,7 @@ function App() {
     )
 
     showInfo()
-  }, [])
+  }, [dbname])
 
   const showInfo = () => {
     const el = document.getElementById("InstructionsContainer")
@@ -62,7 +62,6 @@ function App() {
             </nav>
           </Navbar>
           <Header>
-            <p>Filter variables by searching below. Use commas for 'AND' matching.</p>
             <InfoOutlinedIcon
               onClick={() => showInfo()}
              />

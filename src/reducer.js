@@ -1,9 +1,11 @@
 export const initialState = {
     user: null,
+    dbname: "idi",
 }
 
 export const actionTypes = {
     SET_USER: "SET_USER",
+    SET_DATABASE: "SET_DATABASE",
 }
 
 const reducer = (state, action) => {
@@ -12,6 +14,12 @@ const reducer = (state, action) => {
             return {
                 ...state,
                 user: action.user,
+            }
+
+        case actionTypes.SET_DATABASE:
+            return {
+                ...state,
+                dbname: action.dbname,
             }
 
         default:

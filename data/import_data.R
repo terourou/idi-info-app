@@ -1,26 +1,26 @@
 # raw_file <- "IDI_vars.txt"
-files <- list.files("raw", "varlist[0-9]+\\.xlsx", full.names = TRUE)
+# files <- list.files("raw", "varlist[0-9]+\\.xlsx", full.names = TRUE)
 
-all_table_data <- lapply(files,
-    function(file) {
-        data <- readxl::read_excel(file, progress = FALSE)
-        data <- dplyr::select(data, TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, DATA_TYPE)
-        colnames(data) <- c("schema", "table_name", "variable_name", "variable_type")
-        data[[paste0("IDI", gsub(".+varlist|\\.xlsx", "", file))]] <- 1L
-        data
-    }
-)
+# all_table_data <- lapply(files,
+#     function(file) {
+#         data <- readxl::read_excel(file, progress = FALSE)
+#         data <- dplyr::select(data, TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, DATA_TYPE)
+#         colnames(data) <- c("schema", "table_name", "variable_name", "variable_type")
+#         data[[paste0("IDI", gsub(".+varlist|\\.xlsx", "", file))]] <- 1L
+#         data
+#     }
+# )
 
-table_data <- all_table_data[[1L]]
-if (length(table_data) > 1L) {
-    for (i in 2:length(all_table_data)) {
-        table_data <- dplyr::full_join(
-            table_data,
-            all_table_data[[i]],
-            by = c("schema", "table_name", "variable_name", "variable_type")
-        )
-    }
-}
+# table_data <- all_table_data[[1L]]
+# if (length(table_data) > 1L) {
+#     for (i in 2:length(all_table_data)) {
+#         table_data <- dplyr::full_join(
+#             table_data,
+#             all_table_data[[i]],
+#             by = c("schema", "table_name", "variable_name", "variable_type")
+#         )
+#     }
+# }
 
 # table_data <- dplyr::left_join(
 #     dplyr::rename(readr::read_csv("raw/refreshes.csv"), schema = table_schema, variable_name = column_name),
@@ -67,7 +67,10 @@ table_data <- tibble::as_tibble(lapply(table_data, na_to_zero))
 #table_data <- table_data[!table_data$table_name %in% delete_tables, ]
 
 ## Additional data - will be merged with table_data
-data_collections <- read.csv("collection_info.csv")
+
+data_collections <- readxl::read_excel("raw/schema_updated.xlsx")
+
+#data_collections <- read.csv("collection_info.csv")
 # data_rows <- apply(data_collections, 1,
 #     function(x) {
 #         if (!x["from"] %in% table_data$table_name) return(c(NA, NA))
@@ -80,7 +83,7 @@ data_collections <- read.csv("collection_info.csv")
 # )
 # data_collections[, c("from", "to")] <- t(data_rows)
 # data_collections <- data_collections[!is.na(data_collections$from), ]
-data_collections <- data_collections[, c("Data.collection", "Agency", "schema")]
+#data_collections <- data_collections[, c("Data.collection", "Agency", "schema")]
 colnames(data_collections) <- c("collection", "agency", "schema")
 
 table_data <- dplyr::left_join(
@@ -88,6 +91,12 @@ table_data <- dplyr::left_join(
     data_collections,
     by = "schema"
 )
+
+## WARNINGS ABOUT MISSING COLLECTION INFO
+zzz <- unique(dplyr::filter(table_data, is.na(agency))$schema)
+if (length(zzz)) {
+    warning("The following schema are missing: \n", paste(zzz, collapse = ", "))
+}
 
 # table_data <- do.call(
 #     rbind,
@@ -112,6 +121,9 @@ table_data <- left_join(table_data, meta,
     by = c("schema", "table_name", "variable_name")
 )
 
+## possible matches:
+
+
 ## Add id column
 table_data <- dplyr::arrange(table_data, agency, collection, table_name, variable_name)
 table_data <- cbind(id = seq_len(nrow(table_data)), table_data)
@@ -131,8 +143,47 @@ table_data <- cbind(id = seq_len(nrow(table_data)), table_data)
 # ididata <- new(IDI.VariableList, variables = vars)
 
 ## Write data to file:
-write.csv(table_data, "../public/data.csv", quote = TRUE, row.names = FALSE)
+write.csv(table_data, "../public/idi.csv", quote = TRUE, row.names = FALSE)
 # ididata$serialize("../public/data.pb")
+
+## Do the same with adhoc ...
+
+table_data <- dplyr::rename(
+    dplyr::select(
+        readr::read_csv("raw/varlistAdhoc.csv"),
+        "TABLE_SCHEMA", "TABLE_NAME", "COLUMN_NAME"
+    ),
+    schema = TABLE_SCHEMA,
+    table_name = TABLE_NAME,
+    variable_name = COLUMN_NAME
+)
+# table_data <- dplyr::rename_with(
+#     table_data,
+#     function(x) gsub("ref", "IDI", x)
+# )
+table_data <- tibble::as_tibble(lapply(table_data, na_to_zero))
+table_data <- dplyr::left_join(
+    table_data,
+    data_collections,
+    by = "schema"
+)
+
+## WARNINGS ABOUT MISSING COLLECTION INFO
+zzz <- unique(dplyr::filter(table_data, is.na(agency))$schema)
+if (length(zzz)) {
+    warning("The following schema are missing: \n", paste(zzz, collapse = ", "))
+}
+
+table_data <- left_join(table_data, meta,
+    by = c("schema", "table_name", "variable_name")
+)
+
+## Add id column
+table_data <- dplyr::arrange(table_data, agency, collection, table_name, variable_name)
+table_data <- cbind(id = seq_len(nrow(table_data)), table_data)
+
+write.csv(table_data, "../public/adhoc.csv", quote = TRUE, row.names = FALSE)
+
 
 
 ## Write basic stats to file:

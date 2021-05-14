@@ -3,6 +3,9 @@ import MaterialTable from 'material-table';
 import styled from 'styled-components'
 import { useHistory } from 'react-router'
 
+import { actionTypes } from '../reducer'
+import { useStateValue } from '../StateProvider'
+
 import AddBox from '@material-ui/icons/AddBox';
 import ArrowDownward from '@material-ui/icons/ArrowDownward';
 import Check from '@material-ui/icons/Check';
@@ -44,15 +47,17 @@ const tableIcons = {
 
 function Variables({data}) {
 
+  const [{dbname},dispatch] = useStateValue()
+
   const history = useHistory()
   const [refreshes, setRefreshes] = useState([])
   const [refresh, setRefresh] = useState("")
+  // const [database, setDatabase] = useState("idi")
 
   const [term, setTerm] = useState("")
   const [rows, setRows] = useState([])
   const [agencies, setAgencies] = useState([])
   const [agency, setAgency] = useState("")
-  const [searchAgency, setSearchAgency] = useState(false)
   const [searchVariable, setSearchVariable] = useState(true)
   const [searchDescription, setSearchDescription] = useState(false)
 
@@ -60,25 +65,31 @@ function Variables({data}) {
     let d = data
 
     if (agency !== "")
-      d = d.filter(row => row.agency === agency)
+      d = d.filter(row => row["agency"] === agency)
 
     if (refresh !== "")
       d = d.filter(row => row["IDI" + refresh] === "1")
 
     if (term.length) {
       const terms = term.toLowerCase()
-        .split(',')
+        .split('+')
         .map((x) => x.trim())
         .filter((x) => x.length)
+        .map((x) => (
+          x.split(",")
+            .map((y) => y.trim())
+            .filter((y) => y.length)
+            .join("|")
+        ))
         // this is an AND search ... might need to allow for an OR search too
         .map((x) => "(?=.*" + x + ")")
         .join("")
+      console.log(terms)
 
       const reg = RegExp(terms)
 
       d = d
         .filter(row => (
-          (searchAgency ? reg.test(row.agency.toLowerCase()) : false) ||
           (searchVariable ? reg.test(row.variable_name.toLowerCase()) : false) ||
           (searchDescription ? reg.test(row.description.toLowerCase()) : false)
         ))
@@ -86,7 +97,15 @@ function Variables({data}) {
 
     setRows(d)
 
-  }, [term, data, searchAgency, searchVariable, searchDescription, agency, refresh])
+  }, [term, data, searchVariable, searchDescription, agency, refresh])
+
+  const setDbname = (e) => {
+    e.preventDefault()
+    dispatch({
+      type: actionTypes.SET_DATABASE,
+      dbname: e.target.value,
+    })
+  }
 
   useEffect(() => {
     if (data.length === 0) return
@@ -142,9 +161,20 @@ function Variables({data}) {
           onChange={(e) => setTerm(e.target.value)}
           placeholder="Search ..."
          />
+        <FormControl>
+          <InputLabel id="data-select-label">Database</InputLabel>
+          <Select id="data-select" value={dbname}
+            onChange={setDbname}
+            >
+              <MenuItem key="idi" value="idi">IDI Refreshes</MenuItem>
+              <MenuItem key="adhoc" value="adhoc">Adhoc</MenuItem>
+            </Select>
+        </FormControl>
+           {/* <option value="refresh" selected>IDI Refreshes</option>
+           <option value="adhoc">Adhoc</option>
+         </select> */}
       </SearchContainer>
       <SearchOptions>
-        <FormControlLabel control={<Checkbox checked={searchAgency} onChange={e => setSearchAgency(!searchAgency)} />} label="Agency / Collection" />
         <FormControlLabel control={<Checkbox checked={searchVariable} onChange={e => setSearchVariable(!searchVariable)} />} label="Variable name" />
         <FormControlLabel control={<Checkbox checked={searchDescription} onChange={e => setSearchDescription(!searchDescription)} />} label="Description" />
       </SearchOptions>
@@ -222,6 +252,11 @@ const SearchContainer = styled.div`
   input:focus {
     outline: none;
   }
+
+  .MuiInput-root::before {
+    border: none;
+  }
+
 `
 
 const SearchOptions = styled.div`

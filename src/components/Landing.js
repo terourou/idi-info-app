@@ -16,7 +16,20 @@ function Landing() {
       </Header>
 
       <Main>
-        <p>Use the search box to look for variables in the IDI.</p>
+        <h4>Searching</h4>
+        <p>
+          Use the search box to look for variables in the IDI.
+          There are two databases: IDI refreshes containing routinely cleaned data, and Adhoc containing additional datasets.
+          You can switch between searching these two databases using the drop down on the right hand side of the search.
+        </p>
+        <p>To search for multiple terms, use <strong>commas</strong> for OR search, and <strong>plus</strong> for AND search.</p>
+        <p>
+          For example, searching "sex, gender" will show variables matching "sex" OR "gender".
+          Searching for "income + tax" will show variables matching both "income" AND "tax".
+          {/* Use brackets to combine AND/OR operations, e.g., "(sex, gender) + tax" would search for variables with "tax" AND one of "sex" OR "gender". */}
+        </p>
+
+        <h4>Exploring variables</h4>
         <p>Click on rows in the table to view additional information about each variable, including the schema and table names required for SQL queries.</p>
 
         <ButtonContainer>
