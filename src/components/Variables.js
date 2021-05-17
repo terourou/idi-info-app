@@ -1,4 +1,4 @@
-import React, { useState, useEffect, forwardRef } from 'react'
+import React, { useState, useEffect, forwardRef, useRef } from 'react'
 import MaterialTable from 'material-table';
 import styled from 'styled-components'
 import { useHistory } from 'react-router'
@@ -24,6 +24,7 @@ import ViewColumn from '@material-ui/icons/ViewColumn';
 import { SearchOutlined } from '@material-ui/icons';
 import ClearIcon from '@material-ui/icons/Clear';
 import { Checkbox, FormControlLabel, Select, MenuItem, InputLabel, FormControl, IconButton } from '@material-ui/core';
+import { CSVLink } from 'react-csv';
 
 const tableIcons = {
   Add: forwardRef((props, ref) => <AddBox {...props} ref={ref} />),
@@ -60,6 +61,9 @@ function Variables({data}) {
   const [agency, setAgency] = useState("")
   const [searchVariable, setSearchVariable] = useState(true)
   const [searchDescription, setSearchDescription] = useState(false)
+  const [downloadData, setDownloadData] = useState([])
+
+  const csvRef = useRef()
 
   useEffect(() => {
     let d = data
@@ -95,6 +99,17 @@ function Variables({data}) {
     }
 
     setRows(d)
+    setDownloadData(
+      term === "" ? [] :
+        d.map((r) => ({
+          agency: r.agency,
+          schema: r.schema,
+          table_name: r.table_name,
+          collection: r.collection,
+          variable_name: r.variable_name,
+          description: r.description,
+        }))
+    )
 
   }, [term, data, searchVariable, searchDescription, agency, refresh])
 
@@ -216,6 +231,17 @@ function Variables({data}) {
             />
         </DataContainer>
       </TableContainer>
+
+      <ExportContainer>
+        <CSVLink
+          data={downloadData}
+          filename="idi_variables.csv"
+          ref={csvRef}
+          className={downloadData.length > 0 ? '' : 'hidden'}
+          >
+          Export CSV
+        </CSVLink>
+      </ExportContainer>
     </Container>
   )
 }
@@ -279,4 +305,16 @@ const TableContainer = styled.div`
 
 const DataContainer = styled.div`
   flex: 1;
+`
+
+const ExportContainer = styled.div`
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 10px;
+
+  .hidden {
+    display: none;
+  }
 `
