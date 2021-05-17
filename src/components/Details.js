@@ -26,7 +26,7 @@ function Details({ info, refreshes, matches }) {
       <p><strong>Schema:</strong> {info.schema}</p>
       <p><strong>Table:</strong> {info.table_name}</p>
       { matches.tables.length > 0 &&
-        <p class="poss-matches"><em>Possibly in other tables: </em>
+        <p class="poss-matches"><em>Possibly in other tables in other refreshes: </em>
         { matches.tables.map(
           v => (
             <Link to={"/" + v + "/" + info.variable_name}>{v}</Link>
@@ -36,7 +36,7 @@ function Details({ info, refreshes, matches }) {
       }
       <p><strong>Variable name:</strong> {info.variable_name}</p>
       { matches.variables.length > 0 &&
-        <p class="poss-matches"><em>Possibly matching variables: </em>
+        <p class="poss-matches"><em>Possibly matching variables in other refreshes: </em>
         { matches.variables.map(
           v => (
             <Link to={"/" + info.table_name + "/" + v}>{v}</Link>
