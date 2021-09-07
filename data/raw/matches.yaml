@@ -1,0 +1,157 @@
+- table: census_dwelling_2018
+  vars:
+  - [cen_dwl_sector_of_llord_imp_flag, cen_dwl_sector_of_llord_impt_ind]
+  - [cen_dwl_wkly_rent_amnt_imp_flag, cen_dwl_wkly_rent_amt_impt_ind]
+  - [cen_ind_eth_output_level4, cen_ind_ethnic_concat]
+  - [cen_ind_language_concat, cen_ind_language_output_level3]
+  - [cen_ind_prtnsp_stat_rel_imp_ind, cen_ind_ptnrship_stus_rel_imp_fl]
+  - [cen_ind_religion_concat, cen_ind_religion_output_level3]
+
+- table: personal_detail
+  vars:
+  - [snz_sex_code, snz_sex_gender_code]
+  - [snz_sex_gender_source_code, snz_sex_source_code]
+
+- table: new_applications_household
+  vars:
+  - [hnz_nah_gender_snz_code, hnz_nah_sex_snz_code]
+
+- table: register_household_snapshot
+  vars:
+  - [hnz_rhs_gender_snz_code, hnz_rhs_sex_snz_code]
+
+- table: register_status_change_househld
+  vars:
+  - [msd_gender_snz_code, msd_sex_snz_code]
+
+- table: tenancy_household_snapshot
+  vars:
+  - [hnz_ths_gender_snz_code, hnz_ths_sex_snz_code]
+
+- table: transfer_applications_household
+  vars:
+  - [hnz_tah_gender_snz_code, hnz_tah_sex_snz_code]
+
+- table: msd_child_full
+  vars:
+  - [msd_snz_gender_code, msd_snz_sex_code]
+
+- table: msd_customer
+  vars:
+  - [msd_snz_gender_code, msd_snz_sex_code]
+
+- table: msd_customer_alias
+  vars:
+  - [msd_snz_gender_code, msd_snz_sex_code]
+
+- table: msd_swn
+  vars:
+  - [msd_swn_gender_snz_code, msd_swn_sex_snz_code]
+
+- table: [ird_income_adjustment, ird_income_adjustment_historic]
+  vars:
+  - ir_adj_deleted_ind
+  - ir_adj_income_status_ind
+  - ir_adj_income_type_ind
+  - ir_adj_non_resident_fs_inc_amt
+  - ir_adj_trust_dist_non_benfcy_amt
+
+- table: [ird_ir3, ird_ir3_historic]
+  vars:
+  - ir_ir3_estate_trust_income_amt
+  - ir_ir3_family_assist_entmnt_amt
+  - ir_ir3_gross_dividend_amt
+  - ir_ir3_gross_int_amt
+  - ir_ir3_gross_nz_super_amt
+  - ir_ir3_gross_salary_wages_amt
+  - ir_ir3_other_income_amt
+  - ir_ir3_overseas_income_amt
+  - ir_ir3_pship_income_amt
+  - ir_ir3_rent_income_amt
+  - ir_ir3_return_version_nbr
+  - ir_ir3_return_year_nbr
+  - ir_ir3_selfemp_income_amt
+  - ir_ir3_sholder_income_amt
+  - ir_ir3_sic_code
+  - ir_ir3_snz_unique_nbr
+  - ir_ir3_student_loan_liable_income_amt
+  - ir_ir3_tax_on_taxable_income_amt
+  - ir_ir3_taxable_income_amt
+  - ir_ir3_tot_expenses_amt
+  - ir_ir3_tot_rebate_amt
+  - ir_ir3_withholding_payment_amt
+  - snz_ird_uid
+  - snz_uid
+
+- table: [ird_loan_allowance_details, ird_loan_allowance_details_historic]
+  vars:
+  - ir_lai_nbr_of_years_nbr
+  - ir_lai_return_year_nbr
+  - ir_lai_snz_unique_nbr
+  - ir_lai_support_ind_nbr
+  - snz_ird_uid
+  - snz_uid
+
+- table: [ird_loan_financial, ird_loan_financial_historic]
+  vars:
+  - ir_fin_exemption_code
+  - ir_fin_int_free_wrtoff_amt
+  - ir_fin_period_xs_repmntbonus_amt
+  - ir_fin_reduced_lpi_amt
+  - ir_fin_study_status_code
+  - ir_fin_tot_capital_wrtoff_amt
+  - ir_fin_tot_capitalisation_amt
+  - ir_fin_tot_cred_debt_trn_amt
+  - ir_fin_tot_offset_credit_amt
+  - ir_fin_tot_offset_credit_voluntary_pmts_amt
+  - ir_fin_tot_overdue_repmnt_amt
+  - ir_fin_tot_payment_amt
+  - ir_fin_tot_penalty_amt
+  - ir_fin_tot_refund_amt
+  - ir_fin_tot_slbor_contributions_amt
+  - ir_fin_tot_slcir_deductions_amt
+  - ir_fin_tot_xs_repmnt_bonus_amt
+
+- table: [ird_loan_transfer, ird_loan_transfer_historic]
+  vars:
+  - ir_trn_ann_eligible_base_interest_amt
+  - ir_trn_ann_eligible_cpi_interest_amt
+  - ir_trn_ann_tot_eligible_interest_amt
+
+- table: [ird_non_resident, ird_non_resident_historic]
+  vars:
+  - ir_nrb_nrb_flag_code
+
+- table: [ird_post_code, ird_post_code_historic]
+  vars:
+  - ir_apc_address_status_code
+  - ir_apc_address_type_code
+  - ir_apc_applied_date
+  - ir_apc_end_date
+  - ir_apc_post_code
+  - ir_apc_region_code
+  - ir_apc_snz_unique_nbr
+  - ir_apc_ta_code
+  - snz_ird_uid
+  - snz_uid
+
+- table: [ird_pts, ird_pts_historic]
+  vars:
+  - ir_pts_expense_claim_amt
+  - ir_pts_family_assist_entmnt_amt
+  - ir_pts_gross_dividend_amt
+  - ir_pts_gross_interest_amt
+  - ir_pts_gross_nz_super_amt
+  - ir_pts_gross_salary_wages_amt
+  - ir_pts_return_year_nbr
+  - ir_pts_snz_unique_nbr
+  - ir_pts_student_loan_liable_income_amt
+  - ir_pts_tax_on_taxable_income_amt
+  - ir_pts_taxable_income_amt
+  - ir_pts_total_rebate_amt
+  - snz_ird_uid
+  - snz_uid
+
+- table: msd_borrowing
+  vars:
+  - [msd_sla_gender_snz_code, msd_sla_sex_snz_code]

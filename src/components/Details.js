@@ -3,8 +3,10 @@ import styled from 'styled-components'
 
 import ReactMarkdown from 'react-markdown'
 import { CheckOutlined, ClearOutlined } from '@material-ui/icons';
+import { Link } from 'react-router-dom';
 
-function Details({ info, refreshes }) {
+function Details({ info, refreshes, matches }) {
+  console.log(matches)
   return (
     <Container>
       <h1>{info.variable_name}</h1>
@@ -23,7 +25,25 @@ function Details({ info, refreshes }) {
 
       <p><strong>Schema:</strong> {info.schema}</p>
       <p><strong>Table:</strong> {info.table_name}</p>
+      { matches.tables.length > 0 &&
+        <p class="poss-matches"><em>Possibly in other tables in other refreshes: </em>
+        { matches.tables.map(
+          v => (
+            <Link to={"/" + v + "/" + info.variable_name}>{v}</Link>
+          ))
+        }
+        </p>
+      }
       <p><strong>Variable name:</strong> {info.variable_name}</p>
+      { matches.variables.length > 0 &&
+        <p class="poss-matches"><em>Possibly matching variables in other refreshes: </em>
+        { matches.variables.map(
+          v => (
+            <Link to={"/" + info.table_name + "/" + v}>{v}</Link>
+          ))
+        }
+        </p>
+      }
       {info.variable_type && <p><strong>Variable type:</strong> {info.variable_type}</p>}
 
       <h4>Availability in IDI refreshes</h4>
@@ -54,6 +74,14 @@ const Container = styled.div`
   }
   p {
     margin-bottom: 0.5em;
+  }
+
+  .poss-matches {
+    display: inline-block;
+    border-left: solid 4px #ffbcbc;
+    margin-left: 2px;
+    padding: 5px 20px 5px 10px;
+    background: #ffbcbc30;
   }
 `
 

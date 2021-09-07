@@ -19,12 +19,27 @@ function App() {
 
   // const [first, setFirst] = useState(true)
   const [data, setData] = useState([])
-  const [{ user }] = useStateValue()
+  const [{ user, dbname }] = useStateValue()
+  const [possMatch, setPossMatch] = useState([])
 
   useEffect(() => {
-
     readRemoteFile(
-      "/data.csv",
+      `/possible_matches.csv`,
+      {
+        header: true,
+        complete: (results) => {
+          setPossMatch(
+            results.data
+          )
+        }
+      }
+    )
+  }, [])
+
+  useEffect(() => {
+    setData([])
+    readRemoteFile(
+      `/${dbname}.csv`,
       {
         header: true,
         complete: (results) => {
@@ -43,7 +58,7 @@ function App() {
     )
 
     showInfo()
-  }, [])
+  }, [dbname])
 
   const showInfo = () => {
     const el = document.getElementById("InstructionsContainer")
@@ -62,7 +77,6 @@ function App() {
             </nav>
           </Navbar>
           <Header>
-            <p>Filter variables by searching below. Use commas for 'AND' matching.</p>
             <InfoOutlinedIcon
               onClick={() => showInfo()}
              />
@@ -73,7 +87,7 @@ function App() {
         <RightPanel>
           <Switch>
             <Route path="/:table/:variable">
-              <Info data={data} />
+              <Info data={data} matches={possMatch} />
             </Route>
             <Route path="/about">
               <About />

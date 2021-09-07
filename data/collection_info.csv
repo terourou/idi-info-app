@@ -1,32 +1,92 @@
-Data collection,Agency,schema,from,to
-ACC Injury claims,ACC,acc_clean,claims,medical_codes
-Business Register,Multiple agencies,br_clean,enterprise,pbn_employee_count
-Childrens' Action Plan,Oranga Tamariki,cap_clean,assessment_review,service_outcome
-Census,Stats NZ,cen_clean,census_absentee_2013,census_unocc_dwelling_2013
-Sentencing and remand,Corrections,cor_clean,offender_aliases_all,ov_periods
-Border movements,Customs,cus_clean,journey,
-"Child, Youth and Family",Oranga Tamariki,cyf_clean,cyf_abuse_details,cyf_to_date
-Core Data,Stats NZ,data,address_notification,snz_res_pop
-Tenancy Bond,MBIE,dbh_clean,bond_lodgement,
-"Births, Deaths, Marriages, and Civil unions",DIA,dia_clean,births,marriages
-Immigration,MBIE,dol_clean,application_points,student_edprovider
-General Social Survey,Stats NZ,gss_clean,gss_household,gss_supp_2014
-Household Economic Survey,Stats NZ,hes_clean,hes_address,hes_relationship
-Household Labour Force Survey,Stats NZ,hlfs_clean,data,relationship
-Social housing,Kainga Ora,hnz_clean,houses_snapshot,transfer_applications_household
-Tax and income,IRD,ir_clean,ird_addresses,ird_tax_registrations
-Longitudinal immigration Survey of New Zealand,Stats NZ,lisnz_clean,addr_lived_at,srce_ctry_acty
-Metadata describing fields in other tables,Stats NZ,metadata,address_notification_date_exclusion,postshop
-Education and Training data,MOE,moe_clean,completion,tec_it_learner
-Health data,MOH,moh_clean,b4sc,pub_fund_hosp_dischareg_event
-Court charges,MOJ,moj_clean,charges,matching
-Benefits,MSD,msd_clean,msd_child,ref_msd_district_concordance
-NZ Crime and Victims Survey,MOJ,nzcvs_clean,core,module
-Drivers licence and motor vehicle registers,NZTA,nzta_clean,dlr_conditions,motor_vehicle_register
-Family Start Intervention programme,Oranga Tamariki,otfs_clean,otfs_client_identities,otfs_member_departure
-Recorded crime and investigations,NZ Police,pol_clean,nia_links,pre_court_victimisation
-Linkage and security tables,Stats NZ,security,concordance,spine_population
-Student loans and allowances,IRD,sla_clean,ird_amt_by_trn_type,slm_moe
-"Survey of Families, Income and Employment",Stats NZ,sofie_clean,amount_spells,wave_income
-Working for Families,IRD,wff_clean,fam_adjustments,spells
-Youth Services,Oranga Tamariki,yst_clean,yst_clients,yst_spells
+Data collection,Agency,schema
+ACC Injury claims,ACC,acc_clean
+Auckland City Mission,Auckland City Mission,acm_clean
+Business Register,Multiple agencies,br_clean
+Childrens' Action Plan,Oranga Tamariki,cap_clean
+Census,Stats NZ,cen_clean
+Sentencing and remand,Corrections,cor_clean
+Border movements,Customs,cus_clean
+Child, Youth and Family,Oranga Tamariki,cyf_clean
+Core Data,Stats NZ,data
+Tenancy Bond,MBIE,dbh_clean
+Births, Deaths, Marriages, and Civil unions,DIA,dia_clean
+Immigration,MBIE,dol_clean
+Early Start Project,MSD,esp_clean
+Community Finance,MSD,fml_cfi
+General Social Survey,Stats NZ,gss_clean
+Household Economic Survey,Stats NZ,hes_clean
+Household Labour Force Survey,Stats NZ,hlfs_clean
+Social housing,Kainga Ora,hnz_clean
+Tax and income,IRD,ir_clean
+Longitudinal immigration Survey of New Zealand,Stats NZ,lisnz_clean
+Metadata describing fields in other tables,Stats NZ,metadata
+Education and Training data,MOE,moe_clean
+Health data,MOH,moh_clean
+Court charges,MOJ,moj_clean
+Migrant Survey,MBIE,ms_clean
+Benefits,MSD,msd_clean
+NZ Crime and Victims Survey,MOJ,nzcvs_clean
+Drivers licence and motor vehicle registers,NZTA,nzta_clean
+Family Start Intervention programme,Oranga Tamariki,otfs_clean
+Programme for the International Assessment of Adult Competencies,MOE,piaac_clean
+Recorded crime and investigations,NZ Police,pol_clean
+Linkage and security tables,Stats NZ,security
+Student loans and allowances,IRD,sla_clean
+Survey of Families, Income and Employment,Stats NZ,sofie_clean
+Working for Families,IRD,wff_clean
+Youth Services,Oranga Tamariki,yst_clean
+Social Investment Analytic Layer,Multiple agencies,clean_raw_SIAL
+Sentencing and remand,Corrections,clean_read_COR
+Border movements,Customs,clean_read_CUS
+Child, Youth and Family,Oranga Tamariki,clean_read_CYF
+Tenancy Bond,MBIE,clean_read_DBH_QV
+Debt,Multiple agencies,clean_read_DEBT
+Births, Deaths, Marriages, and Civil unions,DIA,clean_read_DIA
+Immigration,MBIE,clean_read_DOL
+Disability Survey,Stats NZ,clean_read_DS
+NZ Rugby Representatives,NZ Rugby,clean_read_FML_RUGBY_NZ
+NZ Sport Dataset,Sport NZ,clean_read_FML_SPORT_NZ
+General Social Survey,Stats NZ,clean_read_GSS
+Household Economic Survey,Stats NZ,clean_read_HES
+Household Labour Force Survey,Stats NZ,clean_read_HLFS
+Social housing,Kainga Ora,clean_read_HNZ
+Tax and income,IRD,clean_read_IR
+Tax and income,IRD,clean_read_IR_MONTHLY
+Tax and income,IRD,clean_read_IR_restrict
+Longitudinal Employee-Employer Database,IRD,clean_read_LEED
+Education and Training data,MOE,clean_read_MOE
+Before School Check,MOH,clean_read_MOH_B4SC
+Health Tracker,MOH,clean_read_MOH_Health_Tracker
+Covid,MOH,clean_read_MOH_cvd
+Homecare,MOH,clean_read_MOH_Homecare
+Maternity Dataset,MOH,clean_read_MOH_MATERNITY
+National Booking Reporting System,MOH,clean_read_MOH_NBRS
+National Immunisation Register,MOH,clean_read_MOH_NIR
+New Zealand Health Survey,MOH,clean_read_MOH_NZHS
+Pharmaceutical Collection,MOH,clean_read_MOH_PHARMACEUTICAL
+PHO Enrolment,MOH,clean_read_MOH_PHO_ENROLMENT
+Programme for the Integration of Mental Health Data (PRIMHD),MOH,clean_read_MOH_PRIMHD
+PRIMHD legal status,MOH,clean_read_MOH_PRIMHD_LS
+Disability Support Services,MOH,clean_read_MOH_SOCRATES
+Tuberculosis,MOH,clean_read_MOH_TB
+Court charges,MOJ,clean_read_MOJ
+Benefits,MSD,clean_read_MSD
+Community Finance,MSD,clean_read_MSD_CFI
+Covid Income Relief Payment,MSD,clean_read_MSD_CIRP
+Covid Wage Subsidy,MSD,clean_read_MSD_CWS
+Benefits,MSD,clean_read_MSD_MONTHLY
+Youth Services,MSD,clean_read_MSD_Youth_Services
+National Stroke Register,MOH,clean_read_NSR
+NZ Crime and Victims Survey,MOJ,clean_read_NZCVS
+Drivers licence and motor vehicle registers,NZTA,clean_read_NZTA
+Programme for the International Assessment of Adult Competencies,MOE,clean_read_PIAAC
+National Gang List,NZ Police,clean_read_POL_NGL
+Longitudinal Employee-Employer Database,Multiple agencies,clean_read_PROJ_DOL_LEED_MOE
+Enduring Relationships,Stats NZ,clean_read_RELATIONSHIP
+Student loans and allowances,IRD,clean_read_SLA
+Survey of Families, Income and Employment,Stats NZ,clean_read_SOFIE
+Te Kupenga,Stats NZ,clean_read_TK
+WiseGroup Health and Wellbeing Services,WiseGroup,clean_read_WISEGROUP
+Fast Match Load of NZ Rugby and He Poutama Rangatahi data,Multiple agencies,fml_adhoc_clean
+Enterprise and Kind-of-activity units,IRD,ir_ird_to_ent_and_kau_202103
+NNPAC and PRIMHD data,MOH,outage_fix
