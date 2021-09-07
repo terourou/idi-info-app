@@ -11,7 +11,7 @@ meta <-
     ) %>%
     bind_rows() %>%
     mutate(
-        stringr::str_match(`IDI Table Name`, "\\[(.+)\\]\\.\\[(.+)\\]")[,2:3] %>%
+        stringr::str_match(`IDI Table Name`, ".*\\[(.+)\\]\\.\\[(.+)\\]$")[,2:3] %>%
             magrittr::set_colnames(c("schema", "table_name")) %>%
             as_tibble(),
         variable_name = stringr::str_replace_all(`Field name`, "\\[?\\]?", "")
