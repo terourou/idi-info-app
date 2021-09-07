@@ -86,7 +86,7 @@ function Admin() {
                         user: {
                             ...result.user,
                             isAdmin: admin,
-                            }
+                        }
                     })
                 })
                 .catch((error) => {
@@ -99,10 +99,10 @@ function Admin() {
     return (
         <Container>
             <BackButton />
-            
+
             <Main>
                 <h1>Admin Page</h1>
-                
+
                 { user === null || !user.isAdmin ? (
                     <>
                         <p>Access denied</p>
