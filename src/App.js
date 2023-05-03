@@ -16,6 +16,12 @@ import Admin from './components/Admin';
 // var protobuf = require("protobufjs")
 
 function App() {
+  
+  return (
+    <div>
+      The IDI Search App has moved: <a href="https://idisearch.terourou.org">idisearch.terourou.org</a>.
+    </div>
+   )
 
   // const [first, setFirst] = useState(true)
   const [data, setData] = useState([])
